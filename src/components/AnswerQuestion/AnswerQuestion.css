@@ -1,0 +1,37 @@
+.user-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  gap: 1em;
+}
+
+.user-input-container input {
+  all: unset;
+  padding: 0.5em;
+  border: 1px solid var(--color-semi-black);
+  border-radius: 5px;
+  box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px inset;
+  background: rgba(242, 241, 238, 0.6);
+  cursor: text;
+  transition: 0.5s;
+}
+
+.user-input-container input:focus {
+  transform: scale(1.01);
+  border: 1px solid #000;
+}
+
+.check-answer-btn.correct {
+  margin-right: 1em;
+}
+
+.check-answer-btn.correct, .check-answer-btn.wrong {
+  color: #000;
+  outline: solid 3px #000;
+  outline-offset: -3px;
+
+}
+
+.check-answer-btn.correct:hover, .check-answer-btn.wrong:hover {
+  filter: brightness(1.1);
+}

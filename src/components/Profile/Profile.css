@@ -1,0 +1,8 @@
+.profile {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50px;
+    cursor: pointer;
+}

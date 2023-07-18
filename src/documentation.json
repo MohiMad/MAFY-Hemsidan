@@ -1,0 +1,75 @@
+{
+    "parameters": [
+        {
+            "name": "skin/:name",
+            "type": "string",
+            "description": "The name of the skin you want to retrieve data for.",
+            "isRequired": true
+        },
+        {
+            "name": "accessory/:name",
+            "type": "string",
+            "description": "The name of the accessory you want to retrieve data for.",
+            "isRequired": true
+        },
+        {
+            "name": "portrait/:series/:name",
+            "type": [
+                "string",
+                "string"
+            ],
+            "description": [
+                { 
+                    "name": ":series" ,
+                    "description": "The name of the series the portrait belongs to."
+                }, 
+                { 
+                    "name": ":name",
+                    "description": "The name of the character the portrait belongs to."
+                }
+            ],
+            "isRequired": true
+        },
+        {
+            "name": "aliases/:factor|\"portraits\"/:name",
+            "type": ["string", "string"],
+            "description": [
+                {
+                    "name": ":factor",
+                    "description": "The factor the character belongs to. Either Hunters or Survivors. If none provided the route returns all characters' aliases."
+                },
+                {
+                    "name": ":name",
+                    "description": "The name och character. Using one of its aliases is also valid."
+                }
+            ],
+            "isRequired": false
+        },
+        {
+            "name": "emote/:series|:name/:name",
+            "type": ["string", "string"],
+            "description": [
+                {
+                    "name": ":series | :name",
+                    "description": "Either the series the emote belongs to or the name of the skin if it doesn't have a series."
+                },
+                {
+                    "name": ":name",
+                    "description": "The name of the character you want to retrieve its series emote."
+                }
+            ],
+            "isRequired": true
+        },
+        {
+            "name": "character/:name",
+            "type":"string",
+            "description": [
+                {
+                    "name": ":name",
+                    "description": "The name of the character you want to retrieve data for."
+                }
+            ],
+            "isRequired": true
+        }
+    ]
+}

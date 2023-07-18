@@ -1,0 +1,10 @@
+.question-section-holder {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.question-holder {
+  margin: 1em 2em 1em 2em;
+  font-size: 1.25em;
+  font-family: "IBM Plex Sans", sans-serif !important;
+}

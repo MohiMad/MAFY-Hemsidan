@@ -1,0 +1,123 @@
+.panel-and-question-divider {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.questions-container {
+  min-width: 25vw;
+}
+
+.questions-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.questions-list:first-child {
+  border-top: 1px solid black;
+}
+
+.questions-container .questions-list a {
+  all: unset;
+  background: #f7f6f3;
+  border-bottom: 0.5px solid black;
+  border-right: 0.5px solid black;
+  cursor: pointer;
+  text-align: center;
+  padding: 1em 0;
+  transition: 0.5s;
+}
+
+.questions-container {
+  overflow-y: scroll;
+}
+
+.questions-container::-webkit-scrollbar,
+.questions-container::-webkit-scrollbar-track,
+.questions-container::-webkit-scrollbar-thumb {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.questions-container:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+  opacity: 1;
+}
+
+.questions-container::-webkit-scrollbar-track {
+  all: unset;
+  opacity: 0;
+}
+
+.questions-container::-webkit-scrollbar {
+  width: 0.25em;
+}
+
+.questions-container::-webkit-scrollbar-thumb {
+  background-color: var(--color-semi-black);
+  border-radius: 50px;
+}
+
+.questions-list a:hover {
+  font-weight: 700;
+  filter: brightness(0.9);
+}
+
+.questions-list a.active,
+.questions-list a.active[data-active] {
+  font-weight: 700;
+  filter: brightness(0.9);
+}
+
+.burger {
+  display: none;
+  width: 1.25em;
+  height: 5em;
+  position: absolute;
+  top: 1em;
+  left: 0;
+  z-index: 1;
+  border-radius: 0 25px 25px 0;
+  background: #000;
+  color: white;
+}
+
+.arrow {
+  transform: translateY(-25%) rotate(180deg);
+}
+
+.panel-and-question-divider.toggle .arrow {
+  transform: translateY(-25%) rotate(0deg);
+}
+
+.panel-and-question-divider.toggle .burger {
+  transition: .25s;
+  left: 25vw;
+  transform: translateX(-25%)
+}
+
+
+
+@media (max-width: 768px) {
+  .burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .questions-container {
+    position: absolute;
+    transform: translateX(-100%);
+  }
+
+  .panel-and-question-divider.toggle .questions-container {
+    transition: .25s;
+    position: relative;
+    transform: translateX(0);
+  }
+
+}

@@ -1,0 +1,104 @@
+.solution-holder {
+    width: 100%;
+    height: 20vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    gap: 1em;
+    border: 1px solid #000;
+    transition: all .5s;
+}
+
+.overlay {
+    cursor: pointer;
+    background: linear-gradient(320deg, rgba(217, 217, 217, 0.00) 0%,
+            rgba(217, 217, 217, 0.66) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    transition: all .5s;
+}
+
+.solution-header {
+    color: #000;
+    font-weight: 600;
+    z-index: 1;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.options-container {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    z-index: 5;
+
+}
+
+.share {
+    padding: .5em;
+    font-size: 1em;
+    background: #0000008d;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.share:hover {
+    transform: scale(1.05);
+}
+
+.solution-holder::after {
+    content: "Tryck för att expandera";
+    font-size: small;
+    height: 2em;
+    background: #ffffff63;
+    padding: .5em 1em;
+    color: black;
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    border-radius: 50px;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.solution-holder.expand {
+    height: 80vh !important;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.solution-holder.expand::after {
+    content: "";
+    display: none;
+}
+
+.solution-holder.expand .overlay {
+    background: none;
+}
+
+.solution-holder.expand .solution-header {
+    margin-left: .5em;
+    margin-top: .5em;
+    color: var(--color-semi-black);
+
+}
+
+@media (max-width: 429px) {
+    .solution-holder::after {
+        font-size: x-small;
+    }
+}

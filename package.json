@@ -1,0 +1,80 @@
+{
+  "name": "mafy",
+  "version": "1.0.6",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^1.4.0",
+    "babel-preset-env": "^1.7.0",
+    "concurrently": "^6.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "got": "^11.8.3",
+    "gsap": "^3.9.0",
+    "highlight.js": "^11.3.1",
+    "imgur": "^0.3.1",
+    "mongoose": "^7.3.2",
+    "node-html-parser": "^5.2.0",
+    "postcss-normalize": "^10.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer-hook": "^2.0.3",
+    "react-latex": "^2.0.0",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.4",
+    "regenerator-runtime": "^0.13.9",
+    "undici": "^5.22.1",
+    "web-vitals": "^1.1.2",
+    "webpack-cli": "^4.9.1"
+  },
+  "scripts": {
+    "start-client": "react-scripts --openssl-legacy-provider start",
+    "start": "npm run build && (cd backend && node .)",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "start-server": "cd backend && node .",
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll",
+    "eject": "react-scripts --openssl-legacy-provider eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js",
+      "testEnvironment": "jsdom"
+    }
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "",
+    "dotenv-cli": "^7.2.1",
+    "nodemon": "^3.0.1"
+  }
+}

@@ -1,0 +1,1602 @@
+[
+    {
+        "questionNum": "f2023-1",
+        "question": "En cirkelskiva kan snurra kring sin axel. Den påverkas av tre krafter enligt figuren. De två krafterna med belopp $F$ angriper på skivans periferi, och kraften med belopp $G$ på en punkt på halva skivans radie. Vinkeln $v$ är $30^{\\circ}$. Vad är $G$, om skivan är i jämvikt?\nA. 0\nB. $2 F$\nC. $4 F$\nD. $8 F$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2023-2",
+        "question": "En stege står lutad mot en vägg. Vinkeln mellan vägg och stege är $0<\\theta<90^{\\circ}$. Friktionen mellan stegen och väggen är noll, medan friktionskoefficienten mellan stegen och golvet är $\\mu$. Stegens massa är jämnt fördelad över dess längd. Vilket påstående är korrekt?\nA. För jämvikt krävs $\\mu \\geq \\frac{1}{2} \\tan \\theta$.\nB. För jämvikt krävs $\\mu \\geq \\tan \\theta$.\nC. Jämvikt råder oberoende av $\\theta$ och $\\mu$.\nD. Jämvikt råder inte för några $\\theta$ och $\\mu$; stegen glider ned.\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2023-3",
+        "question": "En rymdfarare åker från jorden med farten $0.6 c$, vänder och åker hem med samma fart. När hen återvänder har det gått 10 år på jorden. Hur lång tid har gått på rymdfararens klocka?\nA. 6 år\nB. 8 år\nC. 10 år\nD. 12.5 år\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2023-4",
+        "question": "En boll kastas rakt uppåt med farten $v$ från höjden $h$ över marken. Luftmotståndet är försumbart. Hur lång tid $T$ tar det innan bollen landar?\nA. $T=\\frac{v}{g}\\left(1+\\sqrt{1+\\frac{2 g h}{v^{2}}}\\right)$\nB. $T=\\frac{v}{g}\\left(1+\\sqrt{1-\\frac{2 g h}{v^{2}}}\\right)$\nC. $T=\\frac{v}{g}\\left(1-\\sqrt{1+\\frac{2 g h}{v^{2}}}\\right)$\nD. $T=\\frac{v}{g}\\left(1-\\sqrt{1-\\frac{2 g h}{v^{2}}}\\right)$\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2023-5",
+        "question": "Hur mycket mindre är den upplevda tyngdkraften vid jordens ekvator jämfört med om jorden inte hade roterat?\nA. $0 \\%$\nB. $0.003 \\%$\nC. $0.3 \\%$\nD. $7 \\%$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2023-6",
+        "question": "Vattens absorbtion av elektromagnetisk strålning är starkt frekvensberoende, relaterat bl.a. till vattenmolekylers kvantmekaniska vibrations- och rotationsspektrum. Det finns ett \"fönster\", där elektromagnetisk strålning i särskilt låg grad absorberas. Vid ungefär vilka våglängder händer det?\n\nA. Mellan 20 och $70 \\mathrm{~nm}$\n\nB. Mellan 200 och $700 \\mathrm{~nm}$\n\nC. Mellan 2 och $7 \\mu \\mathrm{m}$\n\nD. Mellan 20 och $70 \\mu \\mathrm{m}$ \n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2023-7",
+        "question": "Ett flygplan färdas genom luften med halva ljudhastigheten. Ett annat flygplan färdas med samma fart i motsatt riktning. De båda flygplanen avlägsnar sig från varandra. Ett ljud med frekvens $f$ sänds ut av det ena planet. Vilken frekvens hos ljudet uppfattas av en person eller mätapparat i det andra planet?\nA. $\\frac{1}{4} f$\nB. $\\frac{1}{3} f$\nC. $\\frac{1}{2} f$\nD. Inget ljud uppfattas, då planen avlägsnar sig från varandra med ljudhastigheten.\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2023-8",
+        "question": "Om jordens massa var dubbelt så stor som den nuvarande, solens massa hälften av den nuvarande, och jorden rörde sig på hälften så stort avstånd från solen som nu, hur lång skulle jordens omloppstid runt solen vara?\nA. 6 månader\nB. 9 månader\nC. 1 år\nD. 2 år\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2023-9",
+        "question": "Planeten Mars radie är ungefär 0.53 jordradier, och dess massa är ungefär 0.107 gånger jordens. Hur stor är tyngaccelerationen på Mars yta?\nA. $0.20 \\mathrm{~m} / \\mathrm{s}^{2}$\nB. $0.37 \\mathrm{~m} / \\mathrm{s}^{2}$\nC. $3.7 \\mathrm{~m} / \\mathrm{s}^{2}$\nD. $7.0 \\mathrm{~m} / \\mathrm{s}^{2}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2023-10",
+        "question": "Hur stor är den markerade strömmen $I$ i den ideala elektriska kretsen i figuren?\nA. $\\frac{U}{R}$\nB. $\\frac{U}{2 R}$\nC. $\\frac{2 U}{3 R}$\nD. Annat värde\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2023-11",
+        "question": "En boll släpps från vila i ett läge. En annan boll ges samtidigt en hastighet i ett annat läge. Hastigheten är sådan att de två bollarna kolliderar. Luftmotstånd försummas. Med vetskap om bollarnas ursprungslägen, vad kan man sluta sig till om den andra bollens utgångshastighet?\nA. Riktning, men inte fart\nB. Fart, men inte riktning\nC. Varken riktning eller fart\nD. Både riktning och fart \n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2023-12",
+        "question": "En ljusstråle passerar från luften till ett genomskinligt material (det skuggade området). Vinklarna i figuren är $\\alpha=45.0^{\\circ}, \\beta=30.0^{\\circ}$. Vad är brytningsindex för materialet?\nA. 1.22\nB. 1.41\nC. 1.50\nD. 2.00\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2023-13",
+        "question": "Hur stort är trycket $20 \\mathrm{~m}$ under havsytan?\nA. $1.0 \\times 10^{5} \\mathrm{~Pa}$\nB. $1.3 \\times 10^{5} \\mathrm{~Pa}$\nC. $2.0 \\times 10^{5} \\mathrm{~Pa}$\nD. $3.0 \\times 10^{5} \\mathrm{~Pa}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2023-14",
+        "question": "En bil A åker på en rak väg med den konstanta farten $10 \\mathrm{~m} / \\mathrm{s}$. En annan bil $\\mathbf{B}$ står stilla, men då den passeras av A börjar den accelerera med den konstanta accelerationen $4.0 \\mathrm{~m} / \\mathrm{s}^{2}$. Hur långt har bilarna därefter rört sig när $\\mathbf{A}$ blir omkörd av $\\mathbf{B}$ ?\n\n",
+        "answer": "$50 \\mathrm{~m}$"
+    },
+    {
+        "questionNum": "f2023-15",
+        "question": "Om man släpper ett föremål från en hög byggnad kommer det att landa en liten sträcka $d$ ifrån den punkt som befinner sig rakt under punkten den släpps från. Detta beror på jordens rotation. Antag att $d$ beror på vinkelhastigheten $\\Omega$ för jordens rotation, byggnadens höjd $h$ och tyngdaccelerationen. Man kan också argumentera för att beroendet på $\\Omega$ till god approximation är linjärt, så $d=c \\Omega g^{p} h^{q}$ för några konstanter $c, p$ och $q$. Bestäm $p$ och $q$.\n\n",
+        "answer": "$p=-\\frac{1}{2}, \\quad q=\\frac{3}{2}$"
+    },
+    {
+        "questionNum": "f2023-16",
+        "question": "En atomkärna av ett lätt grundämne har massan $m$. Två sådana kärnor kan genom en fusionsprocess slås samman till en tyngre atomkärna med massan $M$. Hur stor utvunnen fusionsenergi $E$ resulterar det i om en mol av det lättare ämnet fusioneras till en halv mol av det tyngre? Alla förluster försummas (vilket förstås är orealistiskt), och vi tar inte hänsyn till rörelseenergier före eller efter processen (också orealistiskt). \n\n",
+        "answer": "$\\frac{1}{2} N_A(2 m-M) c^2$"
+    },
+    {
+        "questionNum": "f2023-17",
+        "question": "En kropp med massan $m$ som har farten $v$ kolliderar fullständigt inelastiskt med en kropp med massan $x m$ som är i vila. Den sammanslagna kroppen roterar inte efter stöten. Hur stor del av rörelseenergin går förlorad i stöten?\n\n",
+        "answer": "$\\frac{x}{1 +x}$"
+    },
+    {
+        "questionNum": "f2023-18",
+        "question": "I en (idealiserad) elektrisk krets är två motstånd med resistanserna $r_{1}$ och $r_{2}$ parallellkopplade. De parallellkopplade motstånden seriekopplas sedan med ett motstånd med resistansen $R$, och ett batteri med spänning $U$ läggs över kretsen. Vilken effekt $P$ utvecklas i kretsen?\n\n",
+        "answer": "$\\quad U^2 /\\left(R+\\frac{r_1 r_2}{r_1+r_2}\\right)$"
+    },
+    {
+        "questionNum": "f2023-19",
+        "question": "En tyngd hänger i ett lätt snöre, som löper utan att glida i två trissor som är fria att rotera runt sina axlar, enligt figuren. Den större trissan har radien $R$ och den mindre radien $r$. Vilken kraft $F$ behövs för jämvikt?\n\n",
+        "answer": "$\\mathrm{Mg}$"
+    },
+    {
+        "questionNum": "f2023-20",
+        "question": "Två metallkulor med massorna $m$ och $2 m$ hänger i trådar, så att de precis nuddar varandra när de är i jämvikt, se figuren. Den lättare kulan lyfts upp så att tråden är horisontell och släpps därefter (I). Den pendlar då ned och träffar den tyngre kulan i en rak elastisk stöt (II). Hur högt når den tyngre kulan därefter i sin pendelrörelse (III)?\n\n(Kulornas radier är mycket mindre än trådarnas längd $a$.)\n",
+        "answer": "Före stöten har den lilla massans lägesenergi $m g h$ omvandlats till kinetisk energi, så dess fart $v$ bestäms av $\\frac{1}{2} m v^2=m g h$, dvs. $v=\\sqrt{2 g a}$. Under stöten bevaras såväl rörelsemängd som rörelseenergi. Detta innebär\n$$\n\\begin{gathered}\nv=v^{\\prime}+2 u, \\\\\nv^2=v^2+2 u^2,\n\\end{gathered}\n$$\ndär $v^{\\prime}$ är den lilla massans hastighet efter stöten och $u$ den stora massans hastighet (referensriktning åt höger i figuren). Eliminering av $v^{\\prime}$ ger sig $u=\\frac{2}{3} v$ (eller $u=0$, vilket svarar mot förhållandena före stöten). Efter stöten rör sig den större massan till höjden $h$, där $2 m g h=\\frac{1}{2} 2 m u^2$. Alltså är $h=\\frac{u^2}{2 g}=\\frac{2 v^2}{9 g}=\\frac{4}{9} a$."
+    },
+    {
+        "questionNum": "f2022-1",
+        "question": "En kropp i vila påverkas av tre horisontella krafter. En, $F_{1}$, är riktad åt öster, och har beloppet $100 \\mathrm{~N}$. Den andra, $F_{2}$, är riktad åt sydost, och den tredje, $F_{3}$, åt västnordväst. Vinkeln mellan $F_{1}$ och $F_{2}$ är alltså $45^{\\circ}$, och vinkeln mellan $F_{2}$ och $F_{3} 157.5^{\\circ}$. Hur stora är $F_{2}$ och $F_{3}$ till beloppet?\nA. $92 \\mathrm{~N}$ resp. $100 \\mathrm{~N}$\nB. $185 \\mathrm{~N}$ resp. $100 \\mathrm{~N}$\nC. $100 \\mathrm{~N}$ resp. $100 \\mathrm{~N}$\nD. $100 \\mathrm{~N}$ resp. $185 \\mathrm{~N}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2022-2",
+        "question": "En stege står lutad mot en vägg. Vinkeln mellan vägg och stege är $0<\\theta<90^{\\circ}$. Friktionen mellan stegen och golvet är noll, medan friktionskoefficienten mellan stegen och väggen är $\\mu$. Vilket påstående är korrekt?\nA. För jämvikt krävs $\\mu \\geq \\frac{1}{2} \\tan \\theta$.\nB. För jämvikt krävs $\\mu \\geq \\tan \\theta$.\nC. Jämvikt råder oberoende av $\\theta$.\nD. Stegen kan inte vara i jämvikt, utan glider ned. \n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2022-3",
+        "question": "En stav, som i sitt vilosystem har längden $L$, färdas med farten $v=0.8 c$ i sin längsriktning $(c$ är ljushastigheten). Hur lång är staven?\nA. $0.6 L$\nB. $0.8 L$\nC. $L$\nD. $1.25 L$\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2022-4",
+        "question": "En boll kastas från marknivå med utgångshastigheten $v_{0}$ i en riktning som är vinkelrät mot marken i en backe som lutar $45^{\\circ}$. Dess utgångshastighet har alltså lika stor vertikal som horisontell komponent. Vad är avståndet $s$ från utgångspunkten till den punkt där bollen landar? (Luftmotståndet är försumbart.)\nA. $s=\\frac{2 \\sqrt{2} v_{0}}{g}$\nB. $s=\\frac{2 \\sqrt{2} v_{0}}{g} \\mathrm{~m}$\nC. $s=\\frac{2 \\sqrt{2} v_{0}^{2}}{g}$\nD. $s=\\frac{2 \\sqrt{2} v_{0}^{2}}{g} \\mathrm{~m}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2022-5",
+        "question": "Hur stor är tyngdaccelerationen på ytan av solen?\nA. $28 g$\nB. $109 g$\nC. $3.1 \\times 10^{3} g$\nD. $3.3 \\times 10^{5} \\mathrm{~g}$\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2022-6",
+        "question": "Övergången mellan tillsånden $2 \\mathrm{p}$ och 1 s i väte kallas för Lyman- $\\alpha$-linjen. På grund av koppling mellan elektronens spinn och rörelsemängdsmoment delas 2 p-nivån upp i två tillstånd, $2 \\mathrm{p}_{3 / 2}$ och $2 \\mathrm{p}_{1 / 2}$. Våglängderna för det ljus som skickats ut vid övergång från dessa två tillstånd till 1stillståndet är $121.5668 \\mathrm{~nm}$ respektive $121.5674 \\mathrm{~nm}$. Hur stor är skillnaden i energi mellan tillstånden $2 \\mathrm{p}_{3 / 2}$ och $2 \\mathrm{p}_{1 / 2} ?$\nA. $5 \\times 10^{-10} \\mathrm{eV}$\nB. $5 \\times 10^{-5} \\mathrm{eV}$\nC. $5 \\mathrm{eV}$\nD. Kan ej avgöras utan information om energin för tillståndet 1s.\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2022-7",
+        "question": "En ljusstråle går genom två linser. I figuren är linserna markerade som vertikala streck. Den streckade linjen är den optiska axeln. Den heldragna linjen är ljusstrålen. Vilket av påståendena är riktigt?\nA. Båda linserna är positiva.\nB. Den vänstra linsen är positiv, den högra negativ.\nC. Den vänstra linsen är negativ, den högra positiv.\nD. Båda linserna är negativa. \n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2022-8",
+        "question": "Om jordens massa var dubbelt så stor som den nuvarande, solens massa den nuvarande, och jorden rörde sig på samma avstånd från solen som nu, hur lång skulle dess omloppstid vara?\nA. 6 månader\nB. 9 månader\nC. 1 år\nD. 2 år\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2022-9",
+        "question": "Om jordens massa var dubbelt så stor som den nuvarande, månens massa den nuvarande, och månen rörde sig på dubbla sitt nuvarande avstånd från jorden, hur lång skulle dess omloppstid vara?\nA. 2 veckor\nB. 3 veckor\nC. 1 månad\nD. 2 månader\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2022-10",
+        "question": "Hur stor är den markerade strömmen $I$ i den ideala elektriska kretsen i figuren?\nA. $\\frac{U}{3 R}$\nB. $\\frac{U}{2 R}$\nC. $\\frac{2 U}{3 R}$\nD. $\\frac{U}{R}$\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2022-11",
+        "question": "Två bollar släpps samtidigt (vid tiden $t_{0}$ ) från samma ställe. Den ena släpps från vila, medan den andra släpps med en horisontell hastighet $v_{0}$. De rör sig sedan under inverkan av tyngdkraften. Luftmotståndet kan försummas. Hur beror avståndet $s$ mellan de två bollarna på tiden?\nA. $s=v_{0} t+\\frac{g t^{2}}{2}$\nB. $s=v_{0}\\left(t-t_{0}\\right)+\\frac{g t^{2}}{2}$\nC. $s=v_{0}\\left(t-t_{0}\\right)+\\frac{g\\left(t-t_{0}\\right)^{2}}{2}$\nD. $s=v_{0}\\left(t-t_{0}\\right)$ \n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2022-12",
+        "question": "Sirenen på en ambulans växlar mellan två toner med frekvenserna $990 \\mathrm{~Hz}$ och $700 \\mathrm{~Hz}$. En person ser ambulansen avlägsna sig med hastigheten $108 \\mathrm{~km} / \\mathrm{h}$. Vilka frekvenser hör personen?\nA. $1077 \\mathrm{~Hz}$ och $787 \\mathrm{~Hz}$\nB. $1077 \\mathrm{~Hz}$ och $762 \\mathrm{~Hz}$\nC. $910 \\mathrm{~Hz}$ och $643 \\mathrm{~Hz}$\nD. $910 \\mathrm{~Hz}$ och $620 \\mathrm{~Hz}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2022-13",
+        "question": "En behållare innehåller en viss mängd gas, som har samma temperatur som omgivningen. Den komprimeras långsamt (så att den hela tiden kan betraktas som i termisk jämvikt med omgivningen) till halva sin ursprungliga volym. Hur stort blir trycket $p$ i gasen efter kompressionen, uttryckt i trycket $p_{0}$ före kompressionen?\nA. $p=\\frac{p_{0}}{2}$\nB. $p=p_{0}$\nC. $p=2 p_{0}$\nD. Kan ej avgöras utan ytterligare information\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2022-14",
+        "question": "En bil A åker på en rak väg med den konstanta farten $20.0 \\mathrm{~m} / \\mathrm{s}$. En annan bil $\\mathbf{B}$ färdas på samma väg med konstant fart $25.0 \\mathrm{~m} / \\mathrm{s}$. Vid ett visst tillfälle befinner sig $\\mathbf{B} 200 \\mathrm{~m}$ bakom A. Hur långt har $\\mathbf{A}$ därefter rört sig när den blir omkörd av $\\mathbf{B}$ ?\n\n",
+        "answer": "$800 \\mathrm{~m}$"
+    },
+    {
+        "questionNum": "f2022-15",
+        "question": "I ett väldefinierat fysikaliskt problem är de givna storheterna en effekt $P$, en sträcka $L$ samt tyngdaccelerationen $g$. Uppgiften är att bestämma en massa $M$. Svaret kommer att ha formen $M=c P^{\\alpha} L^{\\beta} g^{\\gamma}$, där $c, \\alpha, \\beta$ och $\\gamma$ är konstanter. Bestäm $\\alpha, \\beta$ och $\\gamma$.\n\n",
+        "answer": "$\\quad \\alpha=1, \\beta=-\\frac{1}{2}, \\gamma=-\\frac{3}{2}$"
+    },
+    {
+        "questionNum": "f2022-16",
+        "question": "En låda med massan $m$ har kvadratisk tvärsnitt. Massan är jämnt fördelad. Lådan är i jämvikt i läget i figuren. Hur stor är den horisontella kraften $F$ ?\n\n",
+        "answer": "$\\quad 8 \\times 10^4 \\mathrm{~Pa}$"
+    },
+    {
+        "questionNum": "f2022-17",
+        "question": "En behållare är öppen nedåt, och dess öppning är nedsänkt i vatten. Vattennivån inuti behållaren är $2 \\mathrm{~m}$ högre än utanför. Ovanför vattenytan inuti behållaren finns en innesluten luftficka. Utanför behållaren råder normalt lufttryck. Hur stort är lufttrycket i den inneslutna luften? Svaret skall anges i SI-enheter, med en signifikant siffra.\n\n",
+        "answer": "$\\quad v=-\\frac{u}{3}, w=\\frac{2 u}{3}$"
+    },
+    {
+        "questionNum": "f2022-18",
+        "question": "En kropp med massan $m$ har hastigheten $u>0$ i $x$-led. Den kolliderar med en kropp med massan $2 m$ som är i vila. Stöten är linjär (dvs. båda massornas hastigheter efter stöten är riktade i positiv eller negativ $x$-led) och elastisk. Kalla den mindre massans hastighet i $x$-led efter stöten för $v$ och den störres för $w$. Ange både $v$ och $w$. (Om en hastighet är riktad i negativ $x$-led skall svaret vara ett negativt tal.)\n\n",
+        "answer": "$x=1$"
+    },
+    {
+        "questionNum": "f2022-19",
+        "question": "Hur stort skall det positiva talet $x$ vara för att effekten i den idealiserade elektriska kretsen skall vara så stor som möjligt? Spänningen $U$ och resistansen $R$ är givna.\n\n",
+        "answer": "För att bestämma de två okända krafterna $F$ (uppåt, från stödet) och $S$ (uppåt, från snöret) behövs två ekvationer. Kraftjämvikt ger $F+S-m g=0$. Momentjämvikt kring masscentrum ger $S \\frac{L}{2}-F\\left(\\frac{1}{2}-\\alpha\\right) L=0$. Lösningen är"
+    },
+    {
+        "questionNum": "f2022-20",
+        "question": "En planka med massan $m$ och längden $L$ är upphängd i ett snöre i sin ena ändpunkt $\\mathbf{B}$, och vilar mot ett stöd $\\mathbf{C}$ på ett avstånd $\\alpha L$ från sin andra ändpunkt $\\mathbf{A}$, enligt figuren. Plankans massa är jämnt fördelad över dess längd. Bestäm kraften från stödet på plankan. Bestäm snörkraften. För vilka $\\alpha$ är situationen möjlig?\n",
+        "answer": "$$\n\\begin{aligned}\n& F=\\frac{1}{2(1-\\alpha)} m g, \\\\\n& S=\\frac{1-2 \\alpha}{2(1-\\alpha)} m g .\n\\end{aligned}\n$$\nKontroll: dimensionerna är rätt. Om $\\alpha=0$ blir $F=S=\\frac{1}{2} m g$. Om $\\alpha=\\frac{1}{2}$ blir $F=m g$, $S=0$. Båda resultaten bra. Varken $F$ eller $S$ kan vara mindre än 0 , vilket ger villkoret $\\alpha \\leq \\frac{1}{2}$"
+    },
+    {
+        "questionNum": "f2021-1",
+        "question": "Tre personer drar i varsitt rep. Repens ändar är sammanknutna med varandra och bildar vinklarna $90^{\\circ}, 120^{\\circ}$ och $150^{\\circ}$. Den person som drar hårdast i sitt rep drar med $100 \\mathrm{~N}$. Hur stora krafter drar de två andra personerna med?\nA. $50 \\mathrm{~N}$ och $50 \\mathrm{~N}$\nB. $87 \\mathrm{~N}$ och $13 \\mathrm{~N}$\nC. $87 \\mathrm{~N}$ och $50 \\mathrm{~N}$\nD. $87 \\mathrm{~N}$ och $87 \\mathrm{~N}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2021-2",
+        "question": "En mutter har radie $r$. Den skall lossas med en skiftnyckel, vars skaft har längden $d$. Om man drar (längst ut) i skiftnyckeln med en kraft $F$, hur stort vridande moment utövar skiftnyckeln på muttern (skiftnyckeln är stilla)?\nA. $F \\frac{r}{d}$\nB. $F \\frac{d}{r}$\nC. $\\mathrm{Fr}$\nD. $F d$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2021-3",
+        "question": "Enligt den speciella relativitetsteorin, vad erfar en observatör som har accelererats till en hastighet större än ljusets?\nA. Att det bildas en händelsehorisont bakom hen.\nB. Att tiden går baklänges.\nC. Att tiden står stilla.\nD. Situationen är omöjlig. Man kan inte accelereras till hastigheter över ljushastigheten.\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2021-4",
+        "question": "En boll med massan $m$ släpps från höjden $h$ och studsar mot golvet, så att den efter studsen åter når (så gott som) till höjden $h$. Vilken är den största kraften mellan bollen och golvet under studsen?\nA. $m g$\nB. $2 m g$\nC. $2 m g h$\nD. Kan ej avgöras utan ytterligare information\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2021-5",
+        "question": "Exoplaneten K2-18b upptäcktes 2015 med Keplerteleskopet. Den är i omlopp kring en röd dvärgstjärna, på endast 124 ljusårs avstånd från jorden. K2-18b har en radie c:a 2.6 gånger jordens och en massa c:a 8.6 jordmassor. Hur stor är gravitationsaccelerationen på ytan av K2-18b?\nA. $1.3 g$\nB. $3.3 g$\nC. $8.6 g$\nD. Kan ej avgöras utan ytterligare information\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2021-6",
+        "question": "En elektron har hastigheten $1.0 \\mathrm{~m} / \\mathrm{s}$. Hur stor är dess kvantmekaniska våglängd (de Broglievåglängd)?\nA. $0.7 \\AA$\nB. $0.7 \\mathrm{~nm}$\nC. $0.7 \\mu \\mathrm{m}$\nD. $0.7 \\mathrm{~mm}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2021-7",
+        "question": "En ljusstråle rör sig från ett material med lägre brytningsindex till ett med högre brytningsindex (det skuggade området). Vilken av bilderna bekriver ljusstrålens väg?\n\nA.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_d925e413e403477b9298g-2.jpg?height=203&width=228&top_left_y=1743&top_left_x=340)\n\nB.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_d925e413e403477b9298g-2.jpg?height=209&width=215&top_left_y=1740&top_left_x=635)\n\nC.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_d925e413e403477b9298g-2.jpg?height=211&width=249&top_left_y=1742&top_left_x=892)\n\nD.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_d925e413e403477b9298g-2.jpg?height=209&width=219&top_left_y=1740&top_left_x=1204)\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2021-8",
+        "question": "Planeten Venus bana runt solen har en radie som är ungefär 0.723 gånger radien för jordens bana. Ungefär hur lång är Venus omloppstid runt solen?\nA. 0.615 år\nB. 0.723 år\nC. 1.38 år\nD. Kan ej avgöras utan ytterligare information\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2021-9",
+        "question": "Laddningen i en (ideal) kondensator, då den utsätts för en elektrisk spänning $1 \\mathrm{~V}$, är 47 nC. Hur stor blir laddningen i kondensatorn då spänningen över den är $10 \\mathrm{~V}$ ?\nA. $47 \\mathrm{nC}$\nB. $0.47 \\mu \\mathrm{C}$\nC. $4.7 \\mathrm{nC}$\nD. $0.47 \\mathrm{nC}$ \n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2021-10",
+        "question": "Vilket av alternativen är störst?\nA. Antalet människor på jorden\nB. Antalet träd på jorden\nC. Antalet vätemolekyler i 1 mol vätgas\nD. Antalet vattenmolekyler i 1 l mjölk\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2021-11",
+        "question": "En boll släpps från vila från en punkt $\\mathbf{P}$ på en trädgren, $5 \\mathrm{~m}$ över marken. Precis samtidigt kastas en annan boll med utgångsfarten $v_{0}$ från en punkt belägen $1 \\mathrm{~m}$ över marken och på det horisontella avståndet $4 \\mathrm{~m}$ från den första bollen. I vilken riktning skall den andra bollen kastas för att träffa den första bollen? Luftmotståndet är försumbart.\nA. I riktning mot en punkt över $\\mathbf{P}$.\nB. I riktning mot $\\mathbf{P}$.\nC. I riktning mot en punkt under $\\mathbf{P}$\nD. Kan ej avgöras utan ytterligare information.\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2021-12",
+        "question": "Hur stor skall en elektrons fart vara för att dess totala energi skall vara 1.25 gånger så stor som dess viloenergi?\nA. $0.25 c$\nB. $0.5 c$\nC. $0.6 c$\nD. $0.8 c$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2021-13",
+        "question": "Stjärnorna i en dubbelstjärna har lika stor massa $m$ och roterar runt sitt gemensamma masscentrum på ett avstånd $R$ från varandra. Hur förhåller sig detta systems omloppstid $\\tau$ till omloppstiden $T$ för en stjärna med massan $\\epsilon m$ som roterar på avståndet $R$ kring en stjärna med massa $m / \\epsilon$, $\\epsilon<<1$ ?\nA. $\\tau<T$\nB. $\\tau=T$\nC. $\\tau>T$\nD. Kan ej avgöras utan ytterligare information\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2021-14",
+        "question": "En kropp rör sig längs $x$-axeln, och befinner sig vid tiden $t=0$ vid $x=x_{0}$. Sedan rör den sig fram till tiden $t=T$ med en hastighet som ges av $v=v_{0} \\frac{x}{x_{0}}$. Vad är $x$-koordinaten för kroppens läge vid tiden $t=T$ ?\n\n",
+        "answer": "$\\quad x(T)=x_0 e^{\\frac{v_0 T}{x_0}}$"
+    },
+    {
+        "questionNum": "f2021-15",
+        "question": "I energipolitiska diskussioner nämns ofta enheten kWh. Uttryck $1 \\mathrm{kWh}$ i SI-enheter. \n\n",
+        "answer": "$\\quad 1 \\mathrm{kWh}=6 \\mathrm{M}$"
+    },
+    {
+        "questionNum": "f2021-16",
+        "question": "En tung flyttkartong har kvadratiskt tvärsnitt och är full och jämnt packad med böcker. En människa försöker välta den genom att dra i horisontell riktning i överkanten enligt figuren. Hur stor behöver friktionskoefficienten $f$ mot golvet vara för att inte kartongen skall glida istället? (Man kan antaga att kartongen bara har kontakt med golvet i den nedre vänstra kanten enligt figuren.)\n\n",
+        "answer": "$\\quad f \\geq \\frac{1}{2}$"
+    },
+    {
+        "questionNum": "f2021-17",
+        "question": "En ballong med volymen $5 \\mathrm{dm}^{3}$ är fylld med helium (molvikt $4.0 \\mathrm{~g}$ ) i rumstemperatur. Trycket i ballongen är så gott som samma som lufttrycket utanför. Luften har en genomsnittlig molvikt på c:a 29 g. Hur stor vikt (inklusive sin egen vikt) kan ballongen bära? En signifikant siffra efterfrågas i svaret.\n\n",
+        "answer": "$5 \\mathrm{~g}$."
+    },
+    {
+        "questionNum": "f2021-18",
+        "question": "En kropp med massan $m$ kolliderar oelastiskt med annat kropp med samma massa. Före kollisionen har de två kropparna hastigheterna $v$ respektive 0 (i $x$-led). Efter kollisionen har den massa som från början var i vila hastigheten $\\frac{3}{4} v$ (i $x$-led). Hur stor andel av rörelseenergin har gått förlorad i kollisionen?\n\n",
+        "answer": "$\\frac{3}{8}$"
+    },
+    {
+        "questionNum": "f2021-19",
+        "question": "Genom att bilda ett dimensionslöst tal av naturkonstanterna $e=\\left|q_{e}\\right|, \\hbar, c$ och $\\epsilon_{0}$ kan man få ett mått på styrkan av den (kvant-)elektromagnetiska kraften, den s.k. finstrukturkonstanten. Bilda en sådan kombination som är proportionell mot $e^{2}$. (Det numeriska värdet efterfrågas inte.)\n\n",
+        "answer": "$\\frac{e^2}{\\epsilon_0 \\hbar c}$"
+    },
+    {
+        "questionNum": "f2021-20",
+        "question": "En (idealiserad) elektrisk krets är kopplad så att de sex punkterna $\\mathbf{A}, \\mathbf{B}, \\mathbf{C}, \\mathbf{D}, \\mathbf{E}$ och $\\mathbf{F}$ alla är förbundna med varandra med motstånd med resistansen $R$ (alltså inalles 15 motstånd). Hur stor är resistansen mellan två av punkterna?\n",
+        "answer": "De 6 punkterna kan ritas enligt figuren, där den sökta resistansen $R_{\\mathbf{A B}}$ är mellan $\\mathbf{A}$ och B. Förutom de resistanser som är utskrivna är alla punkter $\\mathbf{C}-\\mathbf{F}$ förbundna med varandra med resistansen $R$. Dessa kopplingar kan avlägsnas, då de förbinder punkter med samma potential, då en spänning läggs mellan $\\mathbf{A}$ och $\\mathbf{B}$. Därför fås den sökta resistansen genom parallellkoppling av ett motstånd med resistansen $R$ och fyra med resistansen $2 R$, alltså\n$$\nR_{\\mathrm{AB}}=\\frac{1}{\\frac{1}{R}+4 \\times \\frac{1}{2 R}}=\\frac{R}{3}\n$$"
+    },
+    {
+        "questionNum": "f2019-1",
+        "question": "En båt ligger stilla för ankar i en flod. Den påverkas av vattnet med en kraft $2.00 \\mathrm{kN}$, riktad söderut, och av vinden med en kraft $0.50 \\mathrm{kN}$, riktad västerut. Hur stor är den horisontella komponenten av kraften med vilken ankarlinan påverkar båten?\nA. $2.00 \\mathrm{kN}$\nB. $2.06 \\mathrm{kN}$\nC. $2.50 \\mathrm{kN}$\nD. $4.25 \\mathrm{kN}$\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2019-2",
+        "question": "Två barn (Barn 1 och Barn 2) sitter på var sin ände av en gungbräda, som är i jämvikt. Gungbrädans längd är $\\ell$ och Barn 1 sitter på avståndet $x \\ell$ från gungbrädans upphängningspunkt. Vad är kvoten $m_{1} / m_{2}$, där $m_{i}, i=1,2$, är vikten för Barn $i$ ?\nA. $x$\nB. $1-x$\nC. $\\frac{x}{1-x}$\nD. $\\frac{1-x}{x}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2019-3",
+        "question": "Vid vilket fart är en massiv partikels rörelseenergi $1 / 4$ av dess energi i vila?\nA. $\\frac{c}{\\sqrt{2}}$\nB. $\\frac{c}{2}$\nC. $\\frac{3 c}{5}$\nD. Det beror på vilken sorts partikel det rör sig om\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2019-4",
+        "question": "En kropp med massan $m$ är upphängd i en vertikal fjäder, vars andra ände sitter fast i taket. Den utför vertikala svängningar runt sitt jämviktsläge med amplituden $a$. Hur stor är den maximala kraften i fjädern?\nA. $m g$\nB. $m a$\nC. $m g a$\nD. Kan ej avgöras utan ytterligare information \n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2019-5",
+        "question": "Två kroppar har massorna $m$ respektive $M$. De rör sig från början med hastigheterna $v$ riktad i positiv $x$-led respektive $v$ riktad i negativ $x$-led. Massorna kolliderar sedan i en helt inelastisk stöt, dvs. de bildar efter kollisionen en ny kropp med massan $M+m$. Kollisionen är \"rak\", dvs. ingen rotation äger rum efter stöten. Hur stor andel av rörelseenergin går förlorad i stöten?\nA. $\\frac{1}{2}$\nB. $\\frac{|M-m|}{M+m}$\nC. $\\frac{4 m M}{(M+m)^{2}}$\nD. Kan ej avgöras utan ytterligare information\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2019-6",
+        "question": "En heliumatom har två elektroner. I vilka orbitaler är dessa (i heliumatomens grundtillstånd)?\nA. 1s och $1 \\mathrm{~s}$\nB. $1 \\mathrm{~s}$ och $2 \\mathrm{~s}$\nC. 1 s och $1 \\mathrm{p}$\nD. $1 \\mathrm{~s}$ och $2 \\mathrm{p}$\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2019-7",
+        "question": "Det mänskliga örat har en känslighet för tonhöjd som gör att man väl kan urskilja frekvensskillnader under $1 \\mathrm{~Hz}$ i frekvensområdet kring ettstrukna A, dvs. i närheten av 440 Hz. Antag att ett (tonsäkert) barn sjunger i denna tonhöjd medan det gungar i en normal gunga. Är det rimligt att en förälder som står stilla framför barnet observerar Dopplereffekten i barnets sång?\nA. Ja\nB. Nej\nC. Kan ej avgöras utan ytterligare information\nD. Frågan är felformulerad, det uppstår ingen Dopplereffekt\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2019-8",
+        "question": "Planeten Mars bana har en radie som är ungefär 1.5 gånger radien för jordens bana. Ungefär hur lång är Mars omloppstid runt solen?\nA. 0.7 år\nB. 1.5 år\nC. 1.9 år\nD. Kan ej avgöras utan ytterligare information\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2019-9",
+        "question": "Vilket av följande alternativ är en riktig definition av kapacitans hos en kondensator?\nA. Elektrisk laddning dividerad med elektrisk fältstyrka\nB. Spänning dividerad med elektrisk laddning\nC. Elektrisk fältstyrka dividerad med elektrisk laddning\nD. Inget av alternativen $\\mathrm{A}, \\mathrm{B}$ eller $\\mathrm{C}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2019-10",
+        "question": "Antalet stjärnor i det synliga universum har uppskattats till mellan $10^{22}$ och $10^{24}$. Vilket av nedanstående alternativ ger den bästa jämförelsen med detta antal?\nA. Antalet sandkorn i en tesked sand\nB. Antalet sandkorn i $1000 \\mathrm{~m}^{3}$ sand\nC. Antalet atomer i en tesked sand\nD. Antalet atomer i $1000 \\mathrm{~m}^{3}$ sand \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2019-11",
+        "question": "När man iakttager ett föremål genom ett förstoringsglas skall det betraktade föremålet placeras innanför linsens brännvidd. Vi betecknar brännvidden $f$, och föremålets avstånd från linsen $b$ (då skall man alltså ha $b<f$. Vilken blir förstoringsglasets förstoring, dvs. vilken är kvoten av storleken på den virtuella bilden och storleken på föremålet?\nA. $f$\nB. $\\frac{f}{b}$\nC. $1 /\\left(1-\\frac{b}{f}\\right)$\nD. Kan ej avgöras utan ytterligare information.\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2019-12",
+        "question": "Ett svart hål är inte helt \"svart\", utan strålar ut energi i form av s.k. Hawkingstrålning. Hawkingstrålningen är termisk strålning som svarar mot att ett svarta hål med massa $M$ har en temperatur $T$ som ges av\n\n$$\nk_{B} T=\\frac{\\hbar c^{3}}{8 \\pi G M}\n$$\n\nDetta är en kvantmekanisk effekt, som är helt försumbar för makroskopiska svarta hål. Låt oss likafullt betrakta Hawkingstrålningen från ett stort svart hål, det som finns i centrum av vintergatan. Dess massa är 4-5 millioner gånger solens massa, och dess radie c:a $2 \\times 10^{7} \\mathrm{~km}$. Vilken är den typiska ungefärliga våglängden för denna strålning? (Radien för ett svart hål är $R=\\frac{2 G M}{c^{2}}$.)\nA. I samma storleksordning som Plancklängden\nB. I samma storleksordning som mikrovågor\nC. I samma storleksordning som det svarta hålets radie\nD. I samma storleksordning som radien hos det synliga universum\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2019-13",
+        "question": "Man brukar säga att månen roterar runt jorden, och det stämmer ungefärligt eftersom jorden är mycket tyngre än månen. Ett mer precist påstående är att månen och jorden roterar runt sitt gemensamma masscentrum. Vad ligger detta?\nA. Inne i jorden\nB. Mellan jorden och månen, närmare jorden än månen\nC. Mellan jorden och månen, närmare månen än jorden\nD. Inne i månen \n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2019-14",
+        "question": "En kropp ligger stilla på ett sluttande plan med lutningen $30^{\\circ}$. Hur stor behöver den statiska friktionskoefficienten minst vara?\n\n",
+        "answer": "$1 / \\sqrt{3}$"
+    },
+    {
+        "questionNum": "f2019-15",
+        "question": "Hur stor volym behöver en ballong fylld med helium ha för att kunna lyfta 1 ton? (Helium har atommassa $4 \\mathrm{u}$, luft kan betraktas som en gas med molekylmassa c:a 29 u.)\n\n",
+        "answer": "$10^3 \\mathrm{~m}^3$"
+    },
+    {
+        "questionNum": "f2019-16",
+        "question": "Enheten för effekt, W (Watt), är inte en grundenhet i SI-systemet. Uttryck den i termer av grundenheterna meter (m), sekund (s), kilogram (kg) och Ampère (A).\n\n",
+        "answer": "$k g m^2 s^{-3}$"
+    },
+    {
+        "questionNum": "f2019-17",
+        "question": "En kropp med massan $m$ glider på ett horisontellt plan. Den sitter fast i en (idealiserad) fjäder med fjäderkonstant $k$, och friktionen mot planet beskrivs av friktionskoefficienten $\\mu$. Kroppen släpps från vila på avståndet $a$ från jämviktsläget (fjäderns ospända läge). Det får förutsättas att $k a>\\mu m g$, så att kroppen börjar röra sig då den släpps. Hur lång sträcka har kroppen rört sig då dess hastighet är 0 för första gången sedan den släppts?\n\n",
+        "answer": "$2 a\\left(1-\\frac{\\mu m g}{ka}\\right)$"
+    },
+    {
+        "questionNum": "f2019-18",
+        "question": "En idealiserad elektrisk krets bildas av de 12 kanterna på en kub. Vardera kant har resistansen $R$. Hur stor är resistansen mellan två motsatta hörn? \n\n",
+        "answer": "$\\quad \\frac{5}{6} R$"
+    },
+    {
+        "questionNum": "f2019-19",
+        "question": "En motorcykel accelererar med konstant acceleration från stillastående till farten $v_{0}=90 \\mathrm{~km} / \\mathrm{h}$ på en raksträcka under en tidsrymd $t_{0}$. Hastigheten från $t=0$ till $t=t_{0}$ ges av\n\n$$\nv(t)=v_{0}\\left(\\frac{t}{t_{0}}\\right)^{2}\n$$\n\nHur stor är motorcykelns medelhastighet under denna tid?\n\n",
+        "answer": "$30 \\mathrm{~km} / \\mathrm{h}$"
+    },
+    {
+        "questionNum": "f2019-20",
+        "question": "Vattenkraftverket Olidan i Trollhättan invigdes 1910 som det första storskaliga vattenkraftverket i Sverige, och är fortfarande i drift. Enligt ägarens, Vattenfalls, hemsida är fallhöjden $32 \\mathrm{~m}$, flödet $280 \\mathrm{~m}^{3} / \\mathrm{s}$ och den maximala levererade elektriska effekten $104 \\mathrm{MW}$. Kontrollera rimligheten i dessa uppgifter.\n",
+        "answer": "Beteckna fallhöjden $h=32 \\mathrm{~m}$, flödet $\\phi=280 \\mathrm{~m}^3 / \\mathrm{s}$ och vattnets densitet $\\rho \\approx 1000$ $\\mathrm{kg} / \\mathrm{m}^3$. Massflödet (massan som passerar per tidsenhet) blir $\\rho \\phi$. En massa $m$ som faller höjden $h$ får rörelseenergi $m g h$. Effekten, utan förluster, kan då fås som\n$$\nP=\\rho \\phi g h \\approx 1000 \\times 10 \\times 32 \\times 280 \\mathrm{~W} \\approx 90 \\mathrm{MW}\n$$\n(Dimensionskontroll: $\\mathrm{kg} \\mathrm{m}^{-3} \\times \\mathrm{m}^3 \\mathrm{~s}^{-1} \\times \\mathrm{m} \\mathrm{s}^{-2} \\times \\mathrm{m}=\\mathrm{kg} \\mathrm{m}^2 \\mathrm{~s}^{-3}=$ W.) Detta är mindre än den angivna effekten, men i samma storleksordning. Vattnet kan ha en hastighet när det går in i krafverket, som kan öka den maximala effekten. Man kan dock undra om den angivna siffran snarare är den maximala effekten före förluster än den faktiska producerade elektriska effekten?"
+    },
+    {
+        "questionNum": "f2018-1",
+        "question": "En sten kastas från markhöjd rakt uppåt med farten $v$. Efter hur lång tid landar den, om luftmotståndet är försumbart?\nA. $\\frac{2 v}{g}$\nB. $\\frac{2 v^{2}}{g}$\nC. $\\frac{v^{2}}{2 g}$\nD. $0.2 v \\mathrm{~s}$\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2018-2",
+        "question": "Tre rep är fästa i en kropp, och de påverkar den med krafterna $(10,20,50) \\mathrm{N},(-27,0,50) \\mathrm{N}$ och $(-13,-20,-60)$ N. Hur stor är den sammanlagda kraften från repen till beloppet?\nA. $10 \\mathrm{~N}$\nB. $50 \\mathrm{~N}$\nC. $70 \\mathrm{~N}$\nD. $160 \\mathrm{~N}$\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2018-3",
+        "question": "Två asteroider kolliderar i rymden. Vilket av påståendena stämmer alltid med vad som händer under kollisionen?\n\nA. Rörelseenergin är densamma före och efter kollisionen.\n\nB. Rörelsemängden efter kollisionen är mindre än före kollisionen.\n\nC. Rörelseenergin är större efter kollisionen än före kollisionen.\n\nD. Rörelsemängden är densamma före och efter kollisionen.\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2018-4",
+        "question": "En motorcykel med massan $200 \\mathrm{~kg}$ accelereras på en raksträcka från vila till farten $100 \\mathrm{~km} / \\mathrm{h}$ under tidsrymden $10 \\mathrm{~s}$. Hur stor är motorcykelns medelhastighet under denna tid?\nA. $10 \\mathrm{~km} / \\mathrm{h}$\nB. $50 \\mathrm{~km} / \\mathrm{h}$\nC. $100 \\mathrm{~km} / \\mathrm{h}$\nD. Kan ej avgöras \n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2018-5",
+        "question": "Bilden, som är hämtad från wikipedia, visar förenklat principen för en s.k. gravitationsslunga. En rymdfarkost kan utnyttja en planet till att öka sin fart. Detta har använts många gånger, t.ex. med Voyagersonderna, som vid sina passager nära solsystemets gasjättar ökade sina hastigheter så att de kunde lämna solsystemet. Av bilden kan det tyckas att processen skulle strida mot energiprincipen. Vilket av påståenden är korrekt? (Detaljerna i bilden, t.ex. banans form, skall inte tolkas bokstavligt.)\n\nA. Planetens hastighet minskar en aning. Rörelseenergi överförs från planeten till farkosten.\n\nB. Processen är omöjlig då den strider mot principen om energins bevarande.\n\nC. Energin behöver inte bevaras i denna typ av processer, så länge som rörelsemängden är bevarad.\n\nD. Inget av påståendena $\\mathrm{A}, \\mathrm{B}$ eller $\\mathrm{C}$.\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2018-6",
+        "question": "En kropp med massan $m$ är fäst $\\mathrm{i}$ en (idealiserad) fjäder med fjäderkonstant $k$. Den utför svängningar med amplituden $A$ och periodtiden $T$. Man vill bestämma fjäderkonstanten experimentellt genom att observera hur systemet beter sig. Vilket av uttrycken ger värdet på fjäderkonstanten?\nA. $k=4 \\pi^{2} \\frac{m}{A T^{2}}$\nB. $k=4 \\pi^{2} \\frac{m}{A T}$\nC. $k=4 \\pi^{2} \\frac{m}{T^{2}}$\nD. $k=4 \\pi^{2} \\frac{m}{T}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2018-7",
+        "question": "Avståndet mellan hopprepets ändar är c:a $2 \\mathrm{~m}$. Hur stor är våglängden för den stående våg som hopprepet bildar?\nA. c:a $4 \\mathrm{~m}$\nB. c:a $2 \\mathrm{~m}$\nC. c:a $1 \\mathrm{~m}$\nD. Kan ej avgöras\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2018-8",
+        "question": "Hur stor yta på jorden täcks av hav?\nA. $3.6 \\times 10^{4} \\mathrm{~km}^{2}$\nB. $3.6 \\times 10^{8} \\mathrm{~km}^{2}$\nC. $3.6 \\times 10^{12} \\mathrm{~km}^{2}$\nD. $3.6 \\times 10^{16} \\mathrm{~km}^{2}$ \n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2018-9",
+        "question": "Vilken av bilderna beskriver kvalitativt en möjlig bana för en himlakropp under inverkan av solens gravitationskraft? Den grå cirkelskivan representerar solen.\n\nA.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_3e4da607d7945839c36dg-3.jpg?height=329&width=666&top_left_y=658&top_left_x=341)\n\nC.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_3e4da607d7945839c36dg-3.jpg?height=388&width=625&top_left_y=988&top_left_x=356)\n\nB.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_3e4da607d7945839c36dg-3.jpg?height=448&width=449&top_left_y=541&top_left_x=1089)\n\nD.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_3e4da607d7945839c36dg-3.jpg?height=169&width=548&top_left_y=1206&top_left_x=1094)\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2018-10",
+        "question": "Man vill konstruera en ballong som skall kunna lyfta flera personer som passagerare. Ballongens volym skall vara $2000 \\mathrm{~m}^{3}$. Vilken av följande alternativa gaser ger störst lyftkraft? I samtliga fall håller gasen normalt atmosfärstryck.\nA. Vätgas, med temperaturen $20^{\\circ} \\mathrm{C}$\nB. Helium, med temperaturen $20^{\\circ} \\mathrm{C}$\nC. Varmluft, med temperaturen $100^{\\circ} \\mathrm{C}$\nD. Varmluft, med temperaturen $400 \\mathrm{~K}$\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2018-11",
+        "question": "En klassisk paradox i speciell relativitetsteori är den s.k. \"stavhopparparadoxen\". En människa (\"stavhopparen\") som bär en horisontell stav springer in i en lada. Staven är längre än ladan, så den skall inte få plats. Men staven förkortas på grund av längdkontraktionen, så om stavhopparen springer tillräckligt fort kommer staven att rymmas i ladan. Vilket av påståendena är riktigt?\n\nA. Längdkontraktionen är en optisk illusion, och staven får lika litet plats i rörelse som i vila.\n\nB. Från stavhopparens perspektiv kan hela staven inte rymmas samtidigt i ladan, men från ladans perspektiv kan den det.\n\nC. Staven längdkontraheras visserligen, men ladan längdkontraheras lika mycket, så staven får fortfarande inte plats.\n\nD. Inget av påståendena A, B eller C. \n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2018-12",
+        "question": "Vilket av följande påståenden är vetenskapligt väl underbyggt?\n\nA. Det finns liv på andra planeter än jorden.\n\nB. Den kosmiska mikrovågsbakgrunden härrör från en tid c:a 14 miljarder år sedan, då materien kombinerades till atomer.\n\nC. Universum är oändligt stort.\n\nD. Inget av påståendena A, B eller C.\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2018-13",
+        "question": "En elektron rör sig med farten $2.6 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$. Hur stor andel av dess totala energi är rörelseenergi?\nA. $27 \\%$\nB. $38 \\%$\nC. $50 \\%$\nD. $100 \\%$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2018-14",
+        "question": "En partikel med massan $m$ kan röra sig i en dimension. Den är i vila vid tiden $t=0$, och påverkas därefter av en tidsberoende kraft $F(t)=F_{0} e^{-\\alpha t}$, där $F_{0}$ och $\\alpha$ är konstanter. För stora tider närmar sig partikelns fart ett visst värde. Ange detta.\n\n",
+        "answer": "$\\frac{F_0}{m \\alpha}$"
+    },
+    {
+        "questionNum": "f2018-15",
+        "question": "Enheten för kraft, N (newton), är inte en grundenhet i SI-systemet. Uttryck den i termer av grundenheterna. (Grundenheterna i SI-systemet är: meter $(\\mathrm{m})$, sekund (s), kilogram (kg), ampère (A), kelvin (K), mol och candela $(\\mathrm{cd})$ ).\n\n",
+        "answer": "$1 \\mathrm{~N}=1 \\mathrm{~kg} \\mathrm{~m} / \\mathrm{s}^2$"
+    },
+    {
+        "questionNum": "f2018-16",
+        "question": "Bilden visar en kondensator till t.ex. en tvättmaskin. Om man lägger en likspänning på $10 \\mathrm{~V}$ över kondensatorn, kommer en viss laddning att samlas i den. Hur många elektroner svarar den laddningen mot? Svaret kan avrundas till närmaste tiopotens.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_3e4da607d7945839c36dg-4.jpg?height=393&width=243&top_left_y=1737&top_left_x=612)\n\n",
+        "answer": "$10^{15}$"
+    },
+    {
+        "questionNum": "f2018-17",
+        "question": "En partikel rör sig med konstant fart u på en cirkulär bana. Periodtiden för rörelsen är $\\tau$. Vad är beloppet av partikelns medelacceleration från tiden $t=0$ till tiden $t=\\frac{3}{2} \\tau$ ?\n\n",
+        "answer": "$\\frac{4 u}{3\\tau}$"
+    },
+    {
+        "questionNum": "f2018-18",
+        "question": "En kolatom och en kloratom kan bindas samman med en kovalent bindning. Atomerna kan vibrera som två massor sammanbundna med en liten fjäder. Vi kan approximera fjäderkonstanten till $k=500 \\mathrm{~N} / \\mathrm{m}$ och den effektiva massan till $1.5 \\times 10^{-26} \\mathrm{~kg}$. (Den effektiva massan definieras så att svängningarna blir likadan som för en partikel med denna massa, som svänger under inverkan av en fjäder med fjäderkonstant $k$ vars andra ände är fast.) Vad blir våglängden för ljus som utsändes vid en övergång mellan två närliggande vibrationstillstånd? Svaret kan avrundas till närmaste tiopotens.\n\n",
+        "answer": "$10^{-5} \\mathrm{~m}$"
+    },
+    {
+        "questionNum": "f2018-19",
+        "question": "Ett vattenfall har en höjd på $15 \\mathrm{~m}$. Vattenfödet i fallet är $2.0 \\mathrm{~m}^{3} / \\mathrm{s}$. Vilken är den största effekt som kan utvinnas av ett vattenkraftverk i fallet? (Det kan förutsättas att vattnets horisontella hastighet är densamma ovanför och nedanför fallet. Frågan gäller den maximala effekten, innan förluster är borträknade.)\n\n",
+        "answer": "$0 \\times 10^5 \\mathrm{~W}$"
+    },
+    {
+        "questionNum": "f2018-20",
+        "question": "Vad är resistansen mellan A och B i den idealiserade elektriska kretsen i figuren? Alla sex motstånden har resistansen $R$. Ledningarna mitt i figuren korsas, men berör inte varandra.\n",
+        "answer": "På grund av symmetrin kommer ingen spänning att ligga över det motstånd som ligger \"vertikalt\" i figuren. Det kan tas bort. Då har man kvar tre parallellkopplade motstånd med resistanserna $2 R, R$ och $2 R$. Den totala resistansen mellan $\\mathbf{A}$ och $\\mathbf{B}$ blir\n$$\nR_{\\mathrm{AB}}=\\frac{1}{\\frac{1}{2 R}+\\frac{1}{R}+\\frac{1}{2 R}}=\\frac{R}{2}\n$$"
+    },
+    {
+        "questionNum": "f2017-1",
+        "question": "En liten sten kastas från markhöjd snett uppåt med en fart $v$ i en riktning som bildar vinkeln $45^{\\circ}$ mot vertikalen. Marken är plan. Hur långt från utgångspunkten landar den, om luftmotståndet är försumbart?\nA. $\\frac{v}{2 g}$\nB. $\\frac{v}{g}$\nC. $\\frac{v^{2}}{2 g}$\nD. $\\frac{v^{2}}{g}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2017-2",
+        "question": "En tung sten med massan $M$ skall flyttas, och man börjar med att bända med ett spett enligt figuren. Spettet vilar på en fast punkt i $\\mathbf{P}$ och verkar med en vertikal kraft på stenen i $\\mathbf{Q}$. Om en person med massan $m$ lägger sin tyngd på spettet i dess ände $\\mathbf{A}$, hur stor måste $m$ vara för att rubba stenen?\nA. $m \\geq M$\nB. $m \\geq M \\frac{a}{b}$\nC. $m \\geq M_{\\frac{1}{a}-1}^{\\frac{1}{a}}$\nD. $m \\geq M \\frac{b}{a}$\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_45ea36ced10c8f61dbafg-1.jpg?height=474&width=873&top_left_y=1867&top_left_x=363)\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2017-3",
+        "question": "Antag att luftmotståndskraften på en kropp är proportionell mot dess fart genom luften, och i övrigt bara beror på kroppens form (inklusive dess storlek). En kropp som släpps från hög höjd kommer att accelereras nedåt, men dess nedåtriktade hastighet närmar sig så småningom en viss gränshastighet $v_{0}$. För olika kroppar med samma storlek och form, men olika massa $m$, vad gäller för gränshastigheten $v_{0}$ ?\nA. $v_{0}$ är proportionell mot $m$.\nB. $v_{0}$ är omvänt proportionell mot $m$.\nC. $v_{0}$ är oberoende av $m$.\nD. Inget av alternativen $\\mathrm{A}, \\mathrm{B}$ eller $\\mathrm{C}$.\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2017-4",
+        "question": "En bil med massan 1 ton accelereras på en raksträcka från vila till farten $10 \\mathrm{~m} / \\mathrm{s}$ under tidsrymden $5 \\mathrm{~s}$. Hur stor är medelkraften på bilen under accelerationen?\nA. $0.2 \\mathrm{kN}$\nB. $0.4 \\mathrm{kN}$\nC. $2 \\mathrm{kN}$\nD. $4 \\mathrm{kN}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2017-5",
+        "question": "Två likadana kroppar rör sig rakt mot varandra, den ena med hastigheten $u$ åt höger och den andra med hastigheten $v$ åt vänster $(u>v)$. De kolliderar och fastnar i varandra, på ett sådant sätt att den resulterande, dubbelt så tunga, kroppen inte roterar efter sammanslagningen. Vilken hastighet får den sammanslagna kroppen?\nA. $\\frac{u+v}{2}$ åt vänster\nB. $\\frac{u+v}{2}$ àt höger\nC. $\\frac{u-v}{2}$ åt vänster\nD. $\\frac{u-v}{2}$ åt höger\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2017-6",
+        "question": "En kropp med massan $m$ är fäst i en (idealiserad) fjäder med fjäderkonstant $k$. Den utför svängningar med amplituden $A$ och frekvensen $f$. Vilken av nedanstående förändringar av parametrarna leder till en svängningsfrekvens som är större än $f$ ?\nA. Massan dubbleras, fjäderkonstanten dubbleras\nB. Massan dubbleras, fjäderkonstanten halveras.\nC. Massan halveras, fjäderkonstanten dubbleras.\nD. Massan halveras, fjäderkonstanten halveras.\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2017-7",
+        "question": "Ett litet badrum har två mycket hårda väggar på motsatta sidor av rummet, på ett avstånd av $2.55 \\mathrm{~m}$. Dessa väggar reflekterar ljud så att ljudvågor har noder vid väggarna. För vilken av nedanstående ungefärliga frekvenser kan en stående våg uppträda mellan väggarna (\"resonans\")?\nA. $50 \\mathrm{~Hz}$\nB. $100 \\mathrm{~Hz}$\nC. $150 \\mathrm{~Hz}$\nD. $200 \\mathrm{~Hz}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2017-8",
+        "question": "Storleken på en väteatom är c:a $10^{-10} \\mathrm{~m}(1 \\AA)$. Detta kan betraktas som osäkerheten för läget för elektronen i väteatomen. Ungefär hur stor måste osäkerheten i elektronens hastighet minst vara?\nA. $1 \\mathrm{~m} / \\mathrm{s}$\nB. $10^{3} \\mathrm{~m} / \\mathrm{s}$\nC. $10^{6} \\mathrm{~m} / \\mathrm{s}$\nD. $10^{9} \\mathrm{~m} / \\mathrm{s}$ \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2017-9",
+        "question": "En behållare som rymmer 1.0 liter fylls med luft av rumstemperatur $\\left(20^{\\circ} \\mathrm{C}\\right)$ och normalt atmosfärstryck. Den komprimeras sedan till halva volymen, och kyls till $-53^{\\circ} \\mathrm{C}$. Vad är då trycket $\\mathrm{i}$ luften?\nA. $6.7 \\times 10^{4} \\mathrm{~Pa}$\nB. $7.5 \\times 10^{4} \\mathrm{~Pa}$\nC. $1.0 \\times 10^{5} \\mathrm{~Pa}$\nD. $1.5 \\times 10^{5} \\mathrm{~Pa}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2017-10",
+        "question": "Angående den så kallade tvillingparadoxen: Enligt den speciella relativitetsteorin uppstår tidsdilatation, så att en klocka som rör sig med farten $v$ \"går långsammare\" än en klocka i vila. Detta kan uttryckas som $\\Delta \\tau=\\sqrt{1-\\frac{v^{2}}{c^{2}}} \\Delta t$, där $\\Delta \\tau$ är tiden för klockan i rörelse och $\\Delta t$ för den i vila (i händelser som är samtidiga för klockan i vila).\n\nDet påstås ibland att detta leder till att en tvilling i ett tvillingpar som företar sig en lång rymdresa med hög hastighet och sedan återvänder till jorden vid återkomsten skulle vara yngre än sin tvilling som stannat hemma. Vilket av påståendena angående \"tvillingparadoxen\" är riktigt?\n\nA. Det stämmer att tvillingen som rest är yngre.\n\nB. Eftersom tidsdilatationen är ömsesidig, så kan man lika gärna argumentera för att den tvilling som stannar på jorden är yngre. Detta är en inkonsistens hos speciell relativitetsteori.\n\nC. Om man tar hänsyn till vad som händer när den rymdresande tvillingen vänder för att resa tillbaka, finner man att de i slutändan är lika gamla när hen kommer åter.\n\nD. Inget av ovanstående alternativ.\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2017-11",
+        "question": "Vilket av följande påståenden är vetenskapligt väl underbyggt?\n\nA. Det finns en andlig verklighet som vetenskapen aldrig kommer åt.\n\nB. Bortom den för oss synliga delen av universum finns ett otal regioner med olika naturlagar.\n\nC. Evolution, med uppkomst av olika arter, har bara ägt rum på jorden.\n\nD. Inget av påståendena $\\mathrm{A}, \\mathrm{B}$ eller $\\mathrm{C}$.\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2017-12",
+        "question": "Tryck anges ibland i den litet föråldrade enheten millimeter kvicksilver ( $\\mathrm{mmHg})$, det tryck som i jordgravitationen ges av en kvicksilverpelare med höjden $1 \\mathrm{~mm}$. Kvicksilver har densiteten $13.6 \\times 10^{3} \\mathrm{~kg} / \\mathrm{m}^{3}$. Vad är $1 \\mathrm{mmHg}$ i SI-enheter?\nA. $0.133 \\mathrm{~Pa}$\nB. $133 \\mathrm{~Pa}$\nC. $133 \\mathrm{kPa}$\nD. $133 \\mathrm{MPa}$\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2017-13",
+        "question": "En elektron accelereras från vila av ett statiskt elektriskt fält genom en potentialskillnad 0.51 MV. Vilken fart får elektronen?\nA. $3.0 \\times 10^{7} \\mathrm{~m} / \\mathrm{s}$\nB. $2.6 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$\nC. $3.0 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$\nD. $4.2 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$ \n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2017-14",
+        "question": "En komet är på väg in i solsystemet på en bana som kan approximeras med en parabel. Dess påverkan av solvinden och av damm i dess väg är försumbar. Rita i figuren alla krafter som påverkar kometen. (Storlekar och avstånd i figuren är inte skalenliga.)\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_45ea36ced10c8f61dbafg-4.jpg?height=522&width=968&top_left_y=704&top_left_x=364)\n\n",
+        "answer": "![](https://i.imgur.com/WEU4olk.png)"
+    },
+    {
+        "questionNum": "f2017-15",
+        "question": "Enheten för effekt, W (watt), är inte en grundenhet i SI-systemet. Uttryck den i termer av grundenheterna. (Grundenheterna i SI-systemet är: meter (m), sekund (s), kilogram (kg), ampère (A), kelvin (K), mol och candela $(\\mathrm{cd})$ ).\n\n",
+        "answer": "$\\mathrm{kg} \\mathrm{m}^2 \\mathrm{~s}^{-3}$"
+    },
+    {
+        "questionNum": "f2017-16",
+        "question": "Vatten strömmar genom ett rör med tvärsnittsarean $2.0 \\mathrm{dm}^{2}$ som bildar en 90 graders krök (se figuren). Vattnets fart in och ut ur rördelen är $5 \\mathrm{~cm} / \\mathrm{s}$, samma över hela tvärsnittsarean. Ange storlek och riktning för den yttre kraft som behövs för att hålla (den avbildade delen av) röret stilla.\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_45ea36ced10c8f61dbafg-4.jpg?height=588&width=666&top_left_y=1722&top_left_x=361)\n\n",
+        "answer": "$7 \\times 10^{-2} \\mathrm{~N}$"
+    },
+    {
+        "questionNum": "f2017-17",
+        "question": "En punktpartikel rör sig i rummet så att dess lägesvektor ges av\n\n$$\n(x(t), y(t), z(t))=\\left(f\\left(\\frac{t}{\\tau}\\right), g\\left(\\frac{2 t}{\\tau}\\right), h\\left(\\frac{3 t}{\\tau}\\right)\\right)\n$$\n\ndär $f, g$ och $h$ är tre periodiska funktioner med period 1, och $\\tau$ är en konstant. Vad är medelvärdet av hastighetsvektorn från tiden $t_{0}$ till tiden $t_{0}+\\tau$ ?\n\n",
+        "answer": "0"
+    },
+    {
+        "questionNum": "f2017-18",
+        "question": "En elektron som rör sig i $x y$-planet under inverkan av ett konstant magnetiskt fält i $z$-riktningen har kvantmekaniska energinivåer, så kallade Landau-nivåer, som ges av $E_{n}=\\left(n+\\frac{1}{2}\\right) \\hbar \\omega_{c}$, där $\\omega_{c}$ är cyklotronvinkelfrekvensen $\\omega_{c}=q B / m c$. Antag att en foton utsänds då elektronen övergår från nivån $n=1$ till nivån $n=0$. Vilken vinkelfrekvens har denna foton?\n\n",
+        "answer": "$\\omega$"
+    },
+    {
+        "questionNum": "f2017-19",
+        "question": "Vad är resistansen mellan $\\mathbf{A}$ och $\\mathbf{B}$ i den idealiserade elektriska kretsen i figuren?\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_45ea36ced10c8f61dbafg-5.jpg?height=352&width=877&top_left_y=1149&top_left_x=381)\n\n",
+        "answer": "$R$"
+    },
+    {
+        "questionNum": "f2017-20",
+        "question": "En kula med massan $m$ är fäst i ett lätt snöre med längden $\\ell$, vars andra ände sitter fast i en punkt O. Kulan rör sig i en vertikal cirkelbana under inverkan av gravitationen och kraften från snöret (luftmotståndet kan försummas). Dess hastighet är sådan att när den passerar sin högsta punkt (A) är kraften i snöret noll. Bestäm kulans acceleration, till storlek och riktning, i punkterna $\\mathbf{A}, \\mathbf{B}, \\mathbf{C}$ och D. Rita en tydlig figur med dessa accelerationer.\n\nimg\n",
+        "answer": "Kulan rör sig under inverkan av tyngkraften, som hela tiden är $m g$ riktad nedåt, samt snörkraften. Låt den senare vara $S$, riktad radiellt inåt. Tillsammans åstadkommer de kulans acceleration enligt $\\vec{F}=m \\vec{a}$.\n\nI den högsta punkten är $S=0$. Då ges hela accelerationen av tyngaccelerationen, dvs $g$ riktat nedåt. Eftersom detta är centripetalaccelerationen i punkt $\\mathbf{A}$, har man att $\\frac{v_A^2}{\\ell}=g$. För att finna kulans fart i andra punkter kan man använda energiprincipen, som ger att kulans fart $v$ då den befinner sig $\\Delta h$ lägre än punkten $\\mathbf{A}$ uppfyller\n$$\n\\frac{1}{2} m v^2=\\frac{1}{2} m v_A^2+m g \\Delta h\n$$\nDetta ger att $v_B^2=v_D^2=3 g \\ell$ och $v_C^2=5 g \\ell$. Centripetalaccelerationen är alltså $\\frac{v_B^2}{\\ell}=3 g$ i punkterna $\\mathbf{B}$ och $\\mathbf{D}$, och $\\frac{v_C^2}{\\ell}=5 g$ i punkten $\\mathbf{C}$.\n\nI figuren är kulans acceleration utritad i de fyra punkterna, och uppdelad i horisontella och vertikala komponenter.\n Kulan rör sig under inverkan av tyngkraften, som hela tiden är $m g$ riktad nedåt, samt snörkraften. Låt den senare vara $S$, riktad radiellt inåt. Tillsammans åstadkommer de kulans acceleration enligt $\\vec{F}=m \\vec{a}$.\n\nI den högsta punkten är $S=0$. Då ges hela accelerationen av tyngaccelerationen, dvs $g$ riktat nedåt. Eftersom detta är centripetalaccelerationen i punkt $\\mathbf{A}$, har man att $\\frac{v_A^2}{\\ell}=g$. För att finna kulans fart i andra punkter kan man använda energiprincipen, som ger att kulans fart $v$ då den befinner sig $\\Delta h$ lägre än punkten $\\mathbf{A}$ uppfyller\n$$\n\\frac{1}{2} m v^2=\\frac{1}{2} m v_A^2+m g \\Delta h\n$$\nDetta ger att $v_B^2=v_D^2=3 g \\ell$ och $v_C^2=5 g \\ell$. Centripetalaccelerationen är alltså $\\frac{v_B^2}{\\ell}=3 g$ i punkterna $\\mathbf{B}$ och $\\mathbf{D}$, och $\\frac{v_C^2}{\\ell}=5 g$ i punkten $\\mathbf{C}$.\n\nI figuren är kulans acceleration utritad i de fyra punkterna, och uppdelad i horisontella och vertikala komponenter.\n\n![](https://i.imgur.com/hLd40Ay.png)"
+    },
+    {
+        "questionNum": "f2016-1",
+        "question": "Två vikter faller i vacuum under inverkan av gravitationen. Den tyngre vikten, med massan $2 m$, befinner sig hela tiden rakt under den lättare, som har massan $m$. Vikterna är förbundna med ett snöre. Hur stor är kraften i snöret?\nA. 0\nB. $m g$\nC. $2 m g$\nD. Det kan inte avgöras med den givna informationen\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2016-2",
+        "question": "En rak balk med massan $500 \\mathrm{~kg}$ (jämnt fördelad längs dess längd) och längden $12.0 \\mathrm{~m}$ är upphängd i två vajrar, den ena vid balkens ena ändpunkt, den andra $8.0 \\mathrm{~m}$ därifrån. Hur stor blir kraften i den vajer som är fäst i balkens ändpunkt?\nA. $1.2 \\mathrm{kN}$\nB. $1.6 \\mathrm{kN}$\nC. $2.5 \\mathrm{kN}$\nD. $3.7 \\mathrm{kN}$\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_852faaab70080932c2ddg-1.jpg?height=377&width=796&top_left_y=1756&top_left_x=376)\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2016-3",
+        "question": "En proton och en $\\alpha$-partikel (en heliumkärna, med två protoner och två neutroner) accelereras båda från vila av en elektrisk spänning $5.0 \\mathrm{kV}$, och får då de kinetiska energierna $E_{p}$ respektive $E_{\\alpha}$. Hur förhåller sig dessa energier?\nA. $\\frac{E_{\\alpha}}{E_{p}}=\\frac{1}{4}$\nB. $\\frac{E_{\\alpha}}{E_{p}}=\\frac{1}{2}$\nC. $\\frac{E_{\\alpha}}{E_{p}}=2$\nD. $\\frac{E_{\\alpha}}{E_{p}}=4$ \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2016-4",
+        "question": "En boll släpps från vila, och faller därefter under inverkan av gravitationen (luftmotståndet är försumbart). Samtidigt som den första bollen släpps kastas en annan boll med farten $v_{0}$ från en punkt som befinner sig på ett horisontellt avstånd av $10 \\mathrm{~m}$ från den första bollen, och 5 m nedanför (se figuren). Vilken vinkel $\\theta$ skall den andra bollens utgångshastighet bilda med vertikalen för att den andra bollen skall träffa den första?\nA. $\\theta=45^{\\circ}$\nB. $\\theta=60^{\\circ}$\nC. $\\theta=90^{\\circ}$\nD. Det beror på $v_{0}$.\n\nimg\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2016-5",
+        "question": "Två likadana kroppar rör sig rakt mot varandra, den ena med hastigheten $v$ åt höger och den andra med hastigheten $2 v$ åt vänster. De kolliderar och fastnar i varandra, på ett sådant sätt att den resulterande, dubbelt så tunga, kroppen inte roterar efter sammanslagningen. Hur stor del av den rörelseenergi som de två kropparna hade innan de kolliderade går förlorad i stöten?\nA. $70 \\%$\nB. $80 \\%$\nC. $90 \\%$\nD. $100 \\%$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2016-6",
+        "question": "Energinivåerna för en elektron i en väteatom ges av $E_{n}=-\\frac{A}{n^{2}}$, där $A$ är en konstant och $n=1,2, \\ldots$ Joniseringsenergin för väte är $13.6 \\mathrm{eV}$. I vilket våglängdsområde befinner sig den elektromagnetiska strålning som sänds ut vid övergång från det andra exiterade tillståndet till grundtillståndet?\nA. Röntgenstrålning\nB. Ultraviolett ljus\nC. Infrarött ljus\nD. Mikrovågsstrålning\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2016-7",
+        "question": "En ljudkälla som sänder ut ett ton med frekvensen $220 \\mathrm{~Hz}$ närmar sig en stillastående (i förhållande till luften) lyssnare, passerar henne och avlägsnar sig sedan. Vilken fart skall ljudkällan ha för att den ton som lyssnaren hör när ljudkällan närmar sig skall ha en frekvens som är en faktor $k$ så stor som den hon hör när den avlägsar sig? ( $v_{s}$ betecknar ljudets hastighet i luft.)\nA. $k v_{s}$\nB. $(k-1) v_{s}$\nC. $\\frac{1}{k+1} v_{s}$\nD. $\\frac{k-1}{k+1} v_{s}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2016-8",
+        "question": "Om avståndet mellan jorden och solen vore dubbelt så stort som det är, hur lång skulle jordens omloppstid runt solen vara?\nA. $\\sqrt{2}$ år\nB. 2 år\nC. $2 \\sqrt{2}$ år\nD. 4 år \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2016-9",
+        "question": "Vilket av följande påståenden följer från den ideala gaslagen (ibland kallad \"allmänna gaslagen\")?\n\nA. Om volymen för en viss mängd av en gas halveras, måste trycket fördubblas.\n\nB. Om temperaturen i en viss mängd gas med konstant volym fördubblas, måste trycket fördubblas.\n\nC. Om temperaturen i en viss mängd gas med konstant volym fördubblas, måste trycket halveras.\n\nD. Inget av alternativen $\\mathrm{A}, \\mathrm{B}$ eller $\\mathrm{C}$.\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2016-10",
+        "question": "Vilken av de fyra elektriska kretsarna har lägst resistans mellan kontakterna till höger och vänster?\n\nA.\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_852faaab70080932c2ddg-3.jpg?height=377&width=537&top_left_y=917&top_left_x=354)\n\nC.\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_852faaab70080932c2ddg-3.jpg?height=232&width=602&top_left_y=912&top_left_x=1001)\n\nD.\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_852faaab70080932c2ddg-3.jpg?height=160&width=600&top_left_y=1136&top_left_x=1005)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2016-11",
+        "question": "Diamant har brytningsindex 2.42. En ljusstråle färdas inne i en diamant och träffar en gränsyta mot luft. Vilket av alternativen beskriver det villkor vinkeln $\\alpha\\left(0<\\alpha \\leq 90^{\\circ}\\right)$ i figuren skall uppfylla för att totalreflektion skall uppstå?\nA. $\\sin \\alpha<0.413$\nB. $\\sin \\alpha>0.413$\nC. $\\cos \\alpha<0.413$\nD. $\\cos \\alpha>0.413$\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_852faaab70080932c2ddg-3.jpg?height=431&width=951&top_left_y=1835&top_left_x=378)\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2016-12",
+        "question": "Andromedagalaxen befinner sig på ett avstånd av c:a 2.5 miljoner ljusår från jorden. Antag att galaxen strålar ut lika mycket ljus i alla riktningar, och att mycket litet ljus absorberas på vägen. Ungefär hur stor del av det ljus som Andromedagalaxen sänder ut når jorden?\nA. $10^{-96}$\nB. $10^{-64}$\nC. $10^{-32}$\nD. 1\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2016-13",
+        "question": "Om man antar att avståndet mellan Vintergatan och Andromedagalaxen är typiskt för närmsta granngalaxer, vilken uppskattning av antalet galaxer i det synliga universum skulle det leda till?\nA. $10^{11}$\nB. $10^{23}$\nC. $10^{35}$\nD. $\\infty$\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2016-14",
+        "question": "En kropp med massan $m$ glider i ett visst ögonblick med farten $v_{0}$ på ett plant underlag. Friktionskoefficienten mellan kropp och underlag är $\\mu$. Rita in samtliga krafter som verkar på kroppen (utom eventuellt luftmotstånd, som kan antagas försumbart), och ange deras storlek.\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_852faaab70080932c2ddg-4.jpg?height=768&width=1016&top_left_y=1192&top_left_x=380)\n\n",
+        "answer": "![](https://i.imgur.com/4S1RhT9.png)"
+    },
+    {
+        "questionNum": "f2016-15",
+        "question": "Enheten för elektrisk kapacitans, F (Farad), är inte en grundenhet i SI-systemet. Uttryck den i termer av grundenheterna meter $(\\mathrm{m})$, sekund (s), kilogram (kg) och Ampère (A).\n\n",
+        "answer": "$\\mathrm{A}^2 \\mathrm{~kg}^{-1} \\mathrm{~m}^{-2} \\mathrm{~s}^4$"
+    },
+    {
+        "questionNum": "f2016-16",
+        "question": "Flödet i en liten å är $0.5 \\mathrm{~m}^{3} / \\mathrm{s}$. Ett vattenfall i ån har höjden $1.5 \\mathrm{~m}$. Med en total verkningsgrad på $40 \\%$, vilket effekt kan ett litet vattenkraftverk, konstruerat i fallet, tillföra det lokala elnätet?\n\n",
+        "answer": "$3 \\mathrm{~kW}$"
+    },
+    {
+        "questionNum": "f2016-17",
+        "question": "En massa rör sig längs $x$-axeln under påverkan av en fjäderkraft, så att dess läge som funktion av tiden ges av $x(t)=A \\cos (\\omega t+\\alpha)$, där $A, \\omega$ och $\\alpha$ är konstanter. Vad blir $\\sqrt{<v^{2}>}$, dvs. roten ur tidsmedelvärdet av hastigheten i kvadrat, under ett helt antal perioder? \n\n",
+        "answer": "$\\quad \\sqrt{<v^2>}=\\frac{1}{\\sqrt{2}} A \\omega$"
+    },
+    {
+        "questionNum": "f2016-18",
+        "question": "Albert Einstein formulerade flera av sina tankeexperiment kring den speciella relativitetsteorin i termer av tåg, som tänktes röra sig med relativistiska hastigheter.\n\nEtt tåg är, när det står stilla vid en järnvägsstation, precis lika långt som en perrong vid stationen. Denna längd betecknas $\\ell$. Vi betecknar ändpunkterna på perrongen $\\mathbf{A}$ och $\\mathbf{B}$ enligt figuren, och tågets främre och bakre ändar $\\mathbf{A}^{\\prime}$ resp. B'. Låt nu istället tåget röra sig framåt och passera perrongen med farten $\\frac{4}{5} c$, där $c$ är ljushastigheten. Beräkna tidsskillnaden $\\Delta \\tau$, definierad som den tid som förflyter i tågets inertialsystem från det att $\\mathbf{A}^{\\prime}$ passerar $\\mathbf{B}$ till det att $\\mathbf{B}^{\\prime}$ passerar (Svaret skall uttryckas i termer av $\\ell$ och $c$.)\n\nimg\n\n",
+        "answer": "$\\quad \\Delta \\tau=\\frac{2 \\ell}{c}$"
+    },
+    {
+        "questionNum": "f2016-19",
+        "question": "Fyra likadana homogena tegelstenar med längden a staplas på varandra som i figuren (ingen av stenarna är alltså vriden i förhållande till de andra). Ange den teoretiska övre gränsen för \"överhänget\" $d$.\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_852faaab70080932c2ddg-5.jpg?height=348&width=325&top_left_y=1508&top_left_x=380)\n\n",
+        "answer": "$\\quad d \\leq \\frac{11}{12} a$"
+    },
+    {
+        "questionNum": "f2016-20",
+        "question": "En liten boll med massan $m$ har hastigheten $v$ åt höger. Den träffar en mycket tung kropp som är på väg åt vänster med hastigheten $u$. Bollen studsar elastiskt mot en yta på kroppen som bildar vinkeln $\\alpha$ med vertikalen. I vilken riktning rör sig bollen efter stöten, dvs. vad blir vinkeln $\\beta$ i figuren? Hur stor är bollens fart efter stöten? (Kroppen är så mycket tyngre än bollen att dess hastighetsförändring p.g.a. stöten kan försummas.)\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_852faaab70080932c2ddg-6.jpg?height=588&width=748&top_left_y=917&top_left_x=380)\n",
+        "answer": "En kortfattad lōsning:\nEn lāmplig strategi kan vara att behandla stōten i den tunga kroppens vilosystem, och sedan ōversātta till det system problemet ār formulerat i.\n\nI den tunga kroppens vilosystem kommer bollen med farten $u+v$ àt höger. Den mycket tunga kroppen pâverkas inte alls, utan ligger fortsatt stilla, medan bollen studsar enligt figuren nedan. Infalls- och reflektionsvinklarna blir lika; båda ār $\\alpha$. Bollen har farten $u+v$ även efter studsen. Dess horisontalkomponent är $(u+v) \\cos 2 \\alpha$ ät vänster och dess vertikalkomponent $(u+v) \\sin 2 \\alpha$ uppât.\n\nNu kan vi översätta tillbaka till det ursprungliga systemet. Dār har bollen efter stöten en hastighet med horisontalkomponent $u+(u+v) \\cos 2 \\alpha$ ât vänster, och vertikalkomponent $(u+v) \\sin 2 \\alpha$ uppât. Vinkeln $\\beta$ bestäms av kvoten av dessa:\n\nimg\n\n$$\n\\tan \\beta=\\frac{(u+v) \\sin 2 \\alpha}{u+(u+v) \\cos 2 \\alpha}=\\frac{\\sin 2 \\alpha}{\\frac{u}{u+v}+\\cos 2 \\alpha} .\n$$\nNågra kontroller är på sin plats:\nOm $u<<v$ blir $\\tan \\beta \\approx \\tan 2 \\alpha(\\beta \\approx 2 \\alpha)$.\nOm $\\alpha=0$ blir $\\tan \\beta=0(\\beta=0)$.\n$\\operatorname{Om} \\alpha=\\frac{\\pi}{2}$ är $\\tan \\beta=0(\\beta=\\pi)$.\n(En svårare kontroll: Om $u>>v$, så blir $\\tan \\beta \\approx \\frac{\\sin 2 \\alpha}{1+\\cos 2 \\alpha}=\\tan \\alpha$, och $\\beta \\approx \\alpha$.)"
+    },
+    {
+        "questionNum": "f2015-1",
+        "question": "En vikt med massan $m$ hålls i vila med hjälp av två lätta rep. Den påverkas också av tyngkraften. Repen är båda vertikala. Det ena (rep 1) är fäst i taket, det andra (rep 2) i golvet. Hur stor är spänningen i vardera repet?\nA. rep 1: $m g ;$ rep 2: 0\nB. rep 1: 0; rep 2: $m g$\nC. rep 1: $2 m g ;$ rep 2: $m g$\nD. Det kan inte avgöras med den givna informationen\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2015-2",
+        "question": "En bräda med vikten $10 \\mathrm{~kg}$ (jämnt fördelad längs dess längd) och längden $5.0 \\mathrm{~m}$ vilar på två stöd, det ena vid brädans ena ändpunkt (stöd 1), det andra $1.25 \\mathrm{~m}$ från den andra ändan (stöd 2). Om man kallar de vertikala krafterna på brädan från stöd 1 och stöd 2 för $F_{1}$ respektive $F_{2}$, hur stor är kvoten $F_{1} / F_{2}$ ?\nA. $1 / 2$\nB. $1 / 3$\nC. $1 / 4$\nD. Inget av alternativen A, B eller C\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2015-3",
+        "question": "I en gammal TV-apparat acceleras elektroner från vila av spänningen $16 \\mathrm{kV}$. Vilken fart får elektronerna?\nA. $7.3 \\times 10^{3} \\mathrm{~m} / \\mathrm{s}$\nB. $7.3 \\times 10^{7} \\mathrm{~m} / \\mathrm{s}$\nC. $7.3 \\times 10^{11} \\mathrm{~m} / \\mathrm{s}$\nD. Det beror på hur lång sträcka de accelereras \n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2015-4",
+        "question": "En kula fastsatt i ett snöre pendlar under inverkan av tyngdkraften. Vilket av alternativen beskriver bäst kulans acceleration i de fem lägena då den är på väg åt höger i figuren (de yttersta lägena är kulans vändlägen)?\n![](https://cdn.mathpix.com/cropped/2023_05_28_90171fd1675cb894eebag-2.jpg?height=894&width=1080&top_left_y=595&top_left_x=362)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2015-5",
+        "question": "En boll släpps från vila på höjden $h$ över ett golv. Varje gång bollen studsar mot golvet förlorar den en fjärdedel av den rörelseenergi den hade precis före studsen. Hur högt når bollen som högst då den har studsat mot golvet fyra gånger?\nA. Den lämnar inte golvet efter fjärde studsen\nB. $0.25 h$\nC. $0.32 h$\nD. $0.56 h$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2015-6",
+        "question": "Energinivåerna för en elektron $\\mathrm{i}$ en väteatom ges av $E_{n}=-\\frac{A}{n^{2}}$, där $A$ är en konstant och $n=1,2, \\ldots$ Joniseringsenergin för väte är $13.6 \\mathrm{eV}$. Vilken är våglängden för den elektromagnetiska strålning som sänds ut vid övergång från första exiterade tillståndet till grundtillståndet?\nA. $46 \\mathrm{~nm}$\nB. $91 \\mathrm{~nm}$\nC. $122 \\mathrm{~nm}$\nD. $182 \\mathrm{~nm}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2015-7",
+        "question": "En ljudkälla som sänder ut ett \"standard-A\" (440 Hz) närmar sig en stillastående (i förhållande till luften) lyssnare, passerar henne och avlägsnar sig sedan. Vilken fart skall ljudkällan ha för att den ton som lyssnaren hör när ljudkällan närmar sig skall vara en oktav högre än den hon hör när den avlägsar sig? (En oktav betyder en faktor 2 i frekvens; $v_{s}$ betecknar ljudets hastighet i luft.)\nA. $v_{s} / 4$\nB. $v_{s} / 3$\nC. $v_{s} / 2$\nD. $v_{s}$ \n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2015-8",
+        "question": "Om solens massa vore dubbelt så stor, hur lång skulle omloppstiden vara för en planet med jordens massa i jordens bana?\nA. $1 / 2$ år\nB. $1 / \\sqrt{2}$ år\nC. $\\sqrt{2}$ år\nD. 2 år\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2015-9",
+        "question": "Vilket av följande påståenden uttrycker Arkimedes princip?\n\nA. En kropp nedsänkt i en vätska tränger undan lika stor volym vätska som kroppen upptar.\n\nB. Massan för en kropp nedsänkt i en vätska minskar med massan för den undanträngda vätskan.\n\nC. En kropp nedsänkt i en vätska påverkas av en lyftkraft som är lika stor som tyngden av den undanträngda vätskan.\n\nD. Inget av alternativen $\\mathrm{A}, \\mathrm{B}$ eller $\\mathrm{C}$.\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2015-10",
+        "question": "Det statiska magnetfältet vid jordytan är c:a $50 \\mu \\mathrm{T}$. Hur stor är krökningsradien för banan för en elektron med farten $5 \\mathrm{~km} / \\mathrm{s}$ (en ganska typisk fart vid normala temperaturer) i jordens magnetfält?\nA. $1.8 \\mathrm{~mm}$\nB. $1.8 \\mathrm{~m}$\nC. $1.8 \\mathrm{~km}$\nD. Det beror på hur hastigheten är riktad i förhållande till magnetfältet.\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2015-11",
+        "question": "En tunn konvex lins undersöks i en optisk bänk. En skärm placeras på avståndet $\\ell$ från ett föremål. Då linsen placeras på ett lämpligt ställe mellan föremålet och skärmen erhålles på skärmen en skarp bild som är $N$ gånger så stor som föremålet. Hur stor är den undersökta linsens brännvidd $s ?$\nA. $s=\\frac{\\ell}{N+2+\\frac{1}{N}}$\nB. $s=\\frac{\\ell+1}{N}$\nC. $s=N \\ell$\nD. Kan ej avgöras utan ytterligare information.\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2015-12",
+        "question": "Hela mänsklighetens energiproduktion på ett år är c:a 15000 Mtoe (Million tonnes of oil equivalent), där 1 toe är 41.87 GJ. Hur stor del av jordens rotationsenergi motsvarar det ungefär?\nA. $10^{-25}$\nB. $10^{-17}$\nC. $10^{-9}$\nD. $10^{-1}$ \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2015-13",
+        "question": "Vilken av figurerna beskriver bäst månens bana relativt solen under loppet av ett år?\n![](https://cdn.mathpix.com/cropped/2023_05_28_90171fd1675cb894eebag-4.jpg?height=1208&width=1248&top_left_y=498&top_left_x=405)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2015-14",
+        "question": "En kropp glider med den konstanta farten $v_{0}$ på ett friktionsfritt underlag i ett lufttomt rum. Rita in samtliga krafter som verkar på kroppen.\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_90171fd1675cb894eebag-5.jpg?height=771&width=1016&top_left_y=637&top_left_x=380)\n\n",
+        "answer": "![](https://i.imgur.com/48TzsRg.png)"
+    },
+    {
+        "questionNum": "f2015-15",
+        "question": "Luften i en varmluftsballong har värmts till $100^{\\circ} \\mathrm{C}$, och har samma tryck som den omgivande luften. Ballongen är ungefär sfärisk, med en radie på $10 \\mathrm{~m}$. Hur stor vikt (inklusive ballongen och dess korg) kan ballongen lyfta? Svaret kan avrundas till närmsta tiopotens.\n\n",
+        "answer": "$10^3 \\mathrm{~kg}$"
+    },
+    {
+        "questionNum": "f2015-16",
+        "question": "Enheten för magnetisk fältstyrka, T (Tesla), är inte en grundenhet i SI-systemet. Uttryck den i termer av grundenheterna meter (m), sekund (s), kilogram (kg) och Ampère (A).\n\n",
+        "answer": "$\\mathrm{kg} \\mathrm{s}^{-2} \\mathrm{~A}^{-1}$"
+    },
+    {
+        "questionNum": "f2015-17",
+        "question": "Rotorn på ett vindkraftverk har blad med längden $40 \\mathrm{~m}$. Om det blåser $10 \\mathrm{~m} / \\mathrm{s}$, ange en grovt uppskattad övre gräns för effekten som kan fås från vindkraftverket, genom att beräkna rörelseenergin hos den volym luft som passerar rotorn varje sekund. Svaret kan anges på en tiopotens när.\n\n",
+        "answer": "$10^6$ eller $10^7 \\mathrm{~W}$."
+    },
+    {
+        "questionNum": "f2015-18",
+        "question": "En glödlampa utvecklar effekten $12 \\mathrm{~W}$ när den kopplas direkt till ett batteri med spänningen $6 \\mathrm{~V}$. En person har bara tillgång till ett batteri på $24 \\mathrm{~V}$, och försöker koppla in motstånd enligt figuren för att inte lampan skall gå sönder. Hur stor skall resistansen $R$ hos motstånden vara för att spänningen över lampan skall vara $6 \\mathrm{~V}$ ? \n\n![](https://cdn.mathpix.com/cropped/2023_05_28_90171fd1675cb894eebag-6.jpg?height=400&width=802&top_left_y=434&top_left_x=364)\n\n",
+        "answer": "$6 \\Omega$"
+    },
+    {
+        "questionNum": "f2015-19",
+        "question": "En boll kastas vid tiden $t=t_{0}$ vertikalt uppåt med farten $u$. Luftmotståndet kan försummas.\n\ni) Hur stor är bollens medelhastighet, till storlek och riktning, från tiden $t_{0}$ tills dess att bollen når sin högsta punkt?\n\nii) Hur stor är bollens medelhastighet, till storlek och riktning, från tiden $t_{0}$ tills dess att bollen kommer tillbaka till den höjd den kastades från?\n\n",
+        "answer": "i) $\\mathrm{u} / 2$, uppåt\nii) 0"
+    },
+    {
+        "questionNum": "f2015-20",
+        "question": "En boll kastas med utgångsfarten $v_{0}$ från markhöjd. Marken lutar med en vinkel $\\alpha$ jämfört med horisontalplanet. At vilket håll skall bollen kastas för att\n\ni) den skall vara så länge som möjligt i luften?\n\nii) den skall landa så långt som möjligt från utgångspunkten?\n\nLuftmotståndet kan försummas.\n",
+        "answer": "En kortfattad lösning:\nLât $x$ vara horisontell koordinat, som ökar nedát $\\mathrm{i}$ backen, och $y$ vertikal koordinat, och lát bollen starta från origo. Backen beskrivs av $y=-x \\tan \\alpha$.\n\nOm bollen kastas med en vinkel $\\beta$ mot vertikalen (nedalt i backens riktning), har den utgångshastigheten $\\left(v_0 \\sin \\beta, v_0 \\cos \\beta\\right)$, och dess bana blir\n$$\n\\begin{aligned}\n& x(t)=v_0 t \\sin \\beta, \\\\\n& y(t)=v_0 t \\cos \\beta-\\frac{1}{2} g t^2 .\n\\end{aligned}\n$$\nVar och när bollen landar fås genom att se efter när denna parabel skär linjen som beskriver backen (för $t>0$ ). Direkt insättning ger vid handen att tiden för nedslaget är\n$$\nt=\\frac{2 v_0}{g}(\\cos \\beta+\\tan \\alpha \\sin \\beta)\n$$\noch att $x$-koordinaten då är\n$$\nx=\\frac{2 v_0^2}{g} \\sin \\beta(\\cos \\beta+\\tan \\alpha \\sin \\beta) .\n$$\nOm tiden i luften skall maximeras, fås (efter derivering, och kontroll att det är ett maximum) $-\\sin \\beta+\\tan \\alpha \\cos \\beta=0$, dvs. $\\tan \\beta=\\tan \\alpha$. Tiden i luften maximeras då $\\beta=\\alpha$, dvs. dâ bollen kastas vinkelrätt mot marken.\nOm sträckan skall maximeras făs\n$$\n\\begin{aligned}\n0 & =\\sin \\beta(-\\sin \\beta+\\tan \\alpha \\cos \\beta)+\\cos \\beta(\\cos \\beta+\\tan \\alpha \\sin \\beta) \\\\\n& =\\cos 2 \\beta+\\tan \\alpha \\sin 2 \\beta .\n\\end{aligned}\n$$\nSträckan maximeras dá $\\cot 2 \\beta=-\\tan \\alpha$, dvs. då $\\beta=\\frac{\\pi}{4}+\\frac{\\alpha}{2}$. Detta är riktningen mittemellan vertikalen och backens riktning (nedåt).\nKontroll: Dả $\\alpha=0$ maximeras tiden dâ man kastar rakt upp, och sträckan dả $\\beta=\\frac{\\pi}{4}$."
+    },
+    {
+        "questionNum": "f2014-1",
+        "question": "En vikt med massan $m$ hålls i vila med hjälp av två lätta rep. Den påverkas också av tyngkraften. Repen bildar vinkeln $60^{\\circ}$ mot vertikalen. Hur stor är spänningen i vardera repet?\nA. $\\frac{1}{\\sqrt{3}} m g$\nB. $m g$\nC. $\\frac{2}{\\sqrt{3}} m g$\nD. $2 m g$\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-1.jpg?height=348&width=785&top_left_y=1445&top_left_x=361)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2014-2",
+        "question": "En gungbräda med vikten $10 \\mathrm{~kg}$ (jämnt fördelad längs dess längd) och längden $5.0 \\mathrm{~m}$ är upphängd i sin mittpunkt. Barnet $\\mathrm{X}$, som väger $40 \\mathrm{~kg}$, sitter $1.0 \\mathrm{~m}$ från ena änden. Barnet Y väger $60 \\mathrm{~kg}$. I vilken av punkterna A, B, C eller D skall $\\mathrm{Y}$ sitta för att gungbrädan skall vara i jämvikt?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-1.jpg?height=362&width=808&top_left_y=2052&top_left_x=378)\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2014-3",
+        "question": "En sträng på ett musikinstrument har en grundton med frekvensen $200 \\mathrm{~Hz}$. Strängen har en defekt som gör att frekensen för dess fjärde överton är $1 \\%$ för hög. Vilken frekvens har den svängning som uppstår när strängen klingar tillsammans med en annan sträng som har frekvensen $1000 \\mathrm{~Hz}$ ?\nA. $0.2 \\mathrm{~Hz}$\nB. $1 \\mathrm{~Hz}$\nC. $5 \\mathrm{~Hz}$\nD. $10 \\mathrm{~Hz}$\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2014-4",
+        "question": "Ett barn gungar på en gunga, och har en boll i handen. När gungan är vid sin högsta punkt släpper barnet bollen (utan att kasta iväg den). Vilket av alternativen A, B, C och D beskriver bäst bollens bana?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-2.jpg?height=371&width=622&top_left_y=951&top_left_x=500)\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2014-5",
+        "question": "Två bollar kastas upp samtidigt från jordytan med samma fart, det ena (boll X) med vinkeln $45^{\\circ}$ mot horisontalplanet, det andra (klot Y) med vinkeln $60^{\\circ}$ mot horisontalplanet. Vilket klot landar först (dvs. efter kortast tid)? Vilket klot landar längst från utgångspunkten? Luftmotståndet är försumbart. Vilket av följande påståenden är korrekt?\nA. Boll $\\mathrm{X}$ landar först och når längst.\nB. Boll Y landar först och når längst.\nC. Boll X landar först, boll $\\mathrm{Y}$ når längst.\nD. Boll Y landar först, boll X når längst.\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2014-6",
+        "question": "Figuren visar energinivåer för en väteatom. I vilken del av det elektromagnetiska spektrat ligger det ljus som sänds ut av en övergång från det andra exciterade tillståndet $(n=3)$ till grundtillståndet?\nA. lågfrekventa radiovågor\nB. infrarött ljus\nC. ultraviolett ljus\nD. röntgenstrålning \n\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-3.jpg?height=782&width=1177&top_left_y=440&top_left_x=311)\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2014-7",
+        "question": "Två ljudkällor $\\mathrm{A}$ och $\\mathrm{B}$ har vardera en utsträckning som är mycket mindre än våglängden $\\lambda$ för det ljud de sänder ut. De är i fas med varandra och befinner sig på avstånder $2 \\lambda$ från varandra. I figuren visas en ögonblicksbild då ljudvågen som kommer från vardera källan har ett maximum på de svarta cirklarna och ett minimum på de grå. En liten mikrofon sätts i punkten markerad C. Vad registrerar den?\n\nA. Ett ljud med samma frekvens och amplitud som sänds ut från var och en av källorna.\n\nB. Ett ljud med samma frekvens som sänds ut från var och en av källorna men dubbelt så stor amplitud.\n\nC. Ett ljud med samma amplitud som sänds ut från var och en av källorna men dubbelt så stor frekvens.\n\nD. I stort sett inget ljud alls.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-3.jpg?height=468&width=622&top_left_y=1933&top_left_x=297)\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2014-8",
+        "question": "Venus radie är ungefär 0.95 jordradier, och dess massa c:a 0.815 gånger jordens. Flykthastigheten från jorden (dvs. den hastighet en kropp behöver minst ges vid jordytan för att, luftmotståndet försummat, inte falla tillbaka till jorden) är $11.2 \\mathrm{~km} / \\mathrm{s}$. Hur stor är flykthastigheten från Venus?\nA. $8.67 \\mathrm{~km} / \\mathrm{s}$\nB. $9.13 \\mathrm{~km} / \\mathrm{s}$\nC. $9.60 \\mathrm{~km} / \\mathrm{s}$\nD. $10.4 \\mathrm{~km} / \\mathrm{s}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2014-9",
+        "question": "En homogen cirkulär cylindrisk kropp står på ett plant underlag. Låt $d$ beteckna det vertikala avståndet från cylinderns toppyta till en tänkt horisontell cirkelyta $S_{d}$ som skär kroppen. Hur beror trycket $p(d)$ på ytan $S_{d}$ av avståndet $d$ ? (Man får anta att den vertikala kraften fördelar sig jämnt över ytan.)\nA. $p(d)$ är oberoende av $d$.\nB. $p(d)$ är proportionellt $\\operatorname{mot} d$.\nC. $p(d)$ är proportionellt mot $d^{2}$.\nD. $p(d)$ är proportionellt $\\operatorname{mot} d^{3}$.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-4.jpg?height=277&width=343&top_left_y=895&top_left_x=959)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2014-10",
+        "question": "En elektron kommer med solvinden in i jordens magnetfält med en fart $400 \\mathrm{~km} / \\mathrm{s}$. Om styrkan på magnetfältet är $4.0 \\times 10^{-5} \\mathrm{~T}$, och det är vinkelrätt mot elektronens hastighet, vilken krökningsradie får elektronens bana?\nA. $6 \\mathrm{~nm}$\nB. $6 \\mathrm{~cm}$\nC. $6 \\mathrm{~km}$\nD. $6 \\times 10^{8} \\mathrm{~m}$\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2014-11",
+        "question": "En tunn konvex lins undersöks i en optisk bänk. En skärm placeras på avståndet 3.6 m från ett föremål. Då linsen placeras på ett lämpligt ställe mellan föremålet och skärmen erhålles på skärmen en skarp bild som är dubbelt så stor som föremålet. Hur stor är den undersökta linsens brännvidd?\nA. $80 \\mathrm{~cm}$\nB. $120 \\mathrm{~cm}$\nC. $180 \\mathrm{~cm}$\nD. Kan ej avgöras utan ytterligare information.\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2014-12",
+        "question": "Energin som frigörs från solen orsakas av kärnprocesser i solens inre, då väte omvandlas till helium. Man kan som en förenklad reaktionsmekanism tänka sig att två protoner och två neutroner bildar en heliumkärna. Varfr frigörs energi vid denna process?\n\nA. Heliumkärnan är tyngre än protoner och neutroner och därför frigörs potentiell energi när den faller in mot solens centrum.\n\nB. Massan hos heliumkärnan är mindre än den sammanlagda massan av protonerna och neutronerna och därför frigörs energi när heliumkärnan bildas.\n\nC. Vid kollisionerna mellan protonerna och neutronerna frigörs värmeenergi.\n\nD. Neutroner har större massa än protoner vilket gör att energi frigörs vid sammanslagningen.\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2014-13",
+        "question": "Enligt den sida på wikipedia som beskriver partikelacceleratorn LHC (Large Hadron Collider) accelereras protoner till en energi av $7 \\mathrm{TeV} \\approx 1.12 \\mu \\mathrm{J}$. Det anges också att protonerna då har en fart på ungefär 0.999999991c. På CERN:s egen websida har det å andra sidan uppgivits att protonerna får en fart på $0.9999 c$. Vilken fart har en proton med en energi på 7 TeV?\nA. $0.9 c$\nB. $0.9999 c$\nC. $0.999999991 c$\nD. $0.9999999999991 c$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2014-14",
+        "question": "Ett cykelhjul rullar utan att glida, och cykeln har hastigheten $v$ som visas i figuren. Rita in hastigheterna relativt marken för punkterna $\\mathrm{A}, \\mathrm{B}$ och $\\mathrm{C}$ på hjulets periferi.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-5.jpg?height=765&width=1016&top_left_y=1014&top_left_x=380)\n\n",
+        "answer": "![](https://i.imgur.com/i1jNeXc.png)"
+    },
+    {
+        "questionNum": "f2014-15",
+        "question": "En cylinder innehåller en viss mängd luft vid rumstemperatur, $20^{\\circ} \\mathrm{C}$. Den vänstra bilden visar kolvens läge då en kraft $F$ verkar på den. I den högra figuren innehåller cylindern samma mängd luft och samma kraft verkar. Vilken är då luftens temperatur?\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-5.jpg?height=232&width=1102&top_left_y=2014&top_left_x=380)\n\n",
+        "answer": "$313^{\\circ} \\mathrm{C}$"
+    },
+    {
+        "questionNum": "f2014-16",
+        "question": "Från de fundamentala konstanterna ljushastigheten $c$, Plancks konstant $h$ och Newtons gravitationskonstant $G$ kan man bilda en naturkonstant med dimension massa. Ange ett uttryck för den. \n\n",
+        "answer": "$\\sqrt{\\frac{h c}{G}}$"
+    },
+    {
+        "questionNum": "f2014-17",
+        "question": "Ett vattenkraftverk har en fallhöjd på $50 \\mathrm{~m}$. Vattenflödet är $500 \\mathrm{~m}^{3} / \\mathrm{s}$. Hur stor effekt ger kraftverket om verkningsgraden är $75 \\%$ ?\n\n",
+        "answer": "$19 \\mathrm{GW}$"
+    },
+    {
+        "questionNum": "f2014-18",
+        "question": "En glödlampa utvecklar effekten $12 \\mathrm{~W}$ när den kopplas till ett batteri med spänningen 6 V. En person har bara tillgång till ett batteri på $24 \\mathrm{~V}$, och försöker koppla in motstånd för att inte lampan skall gå sönder. Hur stor skall resistansen $R$ hos motståndet i figuren vara för att spänningen över lampan skall vara $6 \\mathrm{~V} ?$\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-6.jpg?height=371&width=603&top_left_y=854&top_left_x=378)\n\n",
+        "answer": "$9 \\Omega$"
+    },
+    {
+        "questionNum": "f2014-19",
+        "question": "En bil startar från stillastående och har sedan en konstant acceleration framåt med $1.0 \\mathrm{~m} / \\mathrm{s}^{2}$.\n\ni) Hur stor är bilens medelhastighet $\\bar{v}$ från början av accelerationen tills den har färdats $200 \\mathrm{~m}$ ?\n\nii) Hur stor är bilens hastighet $v_{0}$ då den färdats $200 \\mathrm{~m}$ ?\n\n",
+        "answer": "i) $10m/s$\nii) $20m/s$"
+    },
+    {
+        "questionNum": "f2014-20",
+        "question": "Två metallkulor, vardera med radien $a$ och massan $m$, är elektriskt laddade med samma laddning $q$. De befinner sig inne i ett vertikalt rör som ger den övre kulan möjlighet att röra sig i vertikal led, men fixerar kulorna i horisontell led. Den undre kulan är helt fixerad. (Rörets elektriska egenskaper skiljer sig försumbart från luftens, så det påverkar inte det elektriska fältet.)\n\ni) Hur stor behöver $q$ vara för att den övre kulan skall kunna \"sväva\" över den undre utan att vidröra den?\n\nii) Uppskatta (på en 10-potens när) hur stor laddningen behöver vara då kulorna är stålkulor med radien $1.0 \\mathrm{~cm}$ och massan $33 \\mathrm{~g}$.\n\nFör full poäng krävs\n\n- Motivering av metod och använda ekvationer, gärna också med figur(er);\n\n- Förenkling av resultatet så långt möjligt;\n\n- Kontroll av dimension och rimlighet hos resultatet.\n",
+        "answer": "Låt avståndet mellan kulornas centra vara $d$. Om man kan åstadkomma kraftjämvikt för den övre kulan mellan tyngdkraften och den elektrostatiska kraften för $d>2 a$ är villkoren i uppgiften uppfyllda.\nDen elektrostatiska repulsionskraften mellan kulorna är\n$$\nF_e=\\frac{q^2}{4 \\pi \\epsilon_0 d^2}\n$$\nJämvikt fås då $F_e=m g$. För laddningen ger det\n$$\nq=d \\sqrt{4 \\pi \\epsilon_0 m g}\n$$\noch villkoret $d>2 a$ ger\n$$\nq>4 a \\sqrt{\\pi \\epsilon_0 m g}\n$$\nsom är svaret på deluppgift $i$ ).\nDet är rimligt att det krävs större laddning för större avstånd, för större massa och för starkare tyngdkraft. Dimensionskontroll av högerledet ger, i termer av enheter:\n$$\n\\mathrm{m} \\sqrt{\\mathrm{C}^2 \\mathrm{~J}^{-1} \\mathrm{~m}^{-1} \\mathrm{kgms}^{-2}}=\\mathrm{Cm} \\sqrt{\\mathrm{kg}^{-1} \\mathrm{~m}^{-2} \\mathrm{~s}^2 \\mathrm{~kg} \\mathrm{~s}^{-2}}=\\mathrm{C}\n$$\nEn insättning av de numeriska värdena i deluppgift $i i$ ) ger vid handen att $q$ minst behöver vara c:a $10^{-7} \\mathrm{C}$."
+    },
+    {
+        "questionNum": "f2013-1",
+        "question": "En kropp påverkas av de tre krafter som visas i vänstra figuren. Vilken kraft i den högra bilden behöver läggas till för att jämvikt skall uppnås?\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-1.jpg?height=462&width=1308&top_left_y=1442&top_left_x=381)\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2013-2",
+        "question": "Ett besman (en balansvåg) används som på bilden nedan, hämtad ur Nordisk familjebok (1905). Antag att besmanets totala vikt är $2.0 \\mathrm{~kg}$ och att dess tyngdpunkt ligger $50 \\mathrm{~cm}$ till höger om punkten $\\mathbf{A}$. Om besmanet balanseras då avståndet $\\mathbf{A C}$ är $10 \\mathrm{~cm}$, hur stor är då det vägda föremålets vikt?\nA. $0.40 \\mathrm{~kg}$\nB. $0.50 \\mathrm{~kg}$\nC. $8.0 \\mathrm{~kg}$\nD. $10 \\mathrm{~kg}$ \n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-2.jpg?height=536&width=951&top_left_y=463&top_left_x=404)\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2013-3",
+        "question": "I ett experiment skall en energimängd uppmätas. Man har avgjort att de enda viktiga storheterna som möjligen kan påverka resultatet är två laddningar $q_{1}$ och $q_{2}$ och en sträcka $s$. Om experimentet upprepas med samma sträcka $s$, men dubbelt så stora värden på $q_{1}$ och $q_{2}$, hur stort blir den uppmätta energin jämfört med den i det ursprungliga experimentet?\nA. Hälften så stor.\nB. Dubbelt så stor.\nC. Fyra gånger så stor.\nD. Kan ej avgöras utan ytterligare information.\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2013-4",
+        "question": "En cylinder rullar utan att glida nedför en backe. Den släpps från höjden $h$. Vilken är dess fart då den kommit ned? Cylindern massa kan tänkas vara helt koncentrerad till radien $R$, som är cylinderns radie.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-2.jpg?height=563&width=1220&top_left_y=1626&top_left_x=378)\nA. $\\sqrt{g h}$\nB. $\\sqrt{2 g h}$\nC. $\\sqrt{2 g h} \\mathrm{~m} / \\mathrm{s}$\nD. $\\sqrt{\\frac{2 g h}{R}} \\mathrm{~m} / \\mathrm{s}$\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2013-5",
+        "question": "En person gungar på en gunga. I handen har hon en boll. Gungans största vinkelutslag från viloläget är $60^{\\circ}$, och det kan förutsättas att personen för tillfället gungar \"passivt\", dvs. varken tar fart eller bromsar gungan. I det ögonblick då gungans vinkelutslag är $30^{\\circ}$ och på väg uppåt släpper personen bollen utan att kasta den. Hur högt når bollen i sin bana, jämfört med hur högt den hade nått då gungan befann sig i sitt högsta läge, om personen hållit kvar den i handen?\nA. Högre än om den inte hade släppts\nB. Lika högt som om den inte hade släppts\nC. Lägre än om den inte hade släppts\nD. Det går inte att avgöra vilket av alternativen A-C som är riktigt utan ytterligare information\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2013-6",
+        "question": "En dörr är försedd med en stängningsanordning som dels ger ett återförande vridmoment som är proportionellt mot dörrens öppningsvinkel, dels ett bromsande vridmoment som är proportionellt mot dörrens vinkelhastighet. Dörrens släpps från vila i ett öppet läge. Vilka av graferna nedan kan beskriva dörrens utslagsvinkel (vertikal axel) som funktion av tiden (horisontell axel)? (Flera alternativ kan vara möjliga, dock minst ett.)\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-3.jpg?height=317&width=557&top_left_y=1104&top_left_x=310)\n\nB.\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-3.jpg?height=620&width=1172&top_left_y=1118&top_left_x=311)\n\n",
+        "answer": "A,B,C"
+    },
+    {
+        "questionNum": "f2013-7",
+        "question": "En cirkulär skiva roterar motsols med en vinkelhastighet som ökar linjärt med tiden, $\\omega=\\alpha t$. Vilken av bilderna kan illustrera accelerationen för två punkter på skivan vid en viss tidpunkt?\n\nA.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-3.jpg?height=289&width=300&top_left_y=1920&top_left_x=341)\n\nB.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-3.jpg?height=285&width=283&top_left_y=1925&top_left_x=721)\n\nC.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-3.jpg?height=283&width=288&top_left_y=1926&top_left_x=1067)\n\nD.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-3.jpg?height=283&width=266&top_left_y=1926&top_left_x=1452)\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2013-8",
+        "question": "Figuren visar energinivåer och övergångar i cesium. I vilken enhet är siffrorna längs diagrammets högra kant angivna?\nA. keV\nB. $\\mathrm{MHz}$\nC. $\\mathrm{GHz}$\nD. $\\mathrm{cm}^{-1}$\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-4.jpg?height=931&width=669&top_left_y=648&top_left_x=408)\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2013-9",
+        "question": "En cylinder kan rulla utan glidning på ett sluttande plan. Cylindern är inhomogen och har ett masscentrum som inte nödvändigtvis ligger på den geometriska symmetriaxeln. I ett visst läge, skissat i figuren, har den ett stabilt jämviktsläge. I vilken av punkterna A-D kan cylinderns masscentrum ligga?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-4.jpg?height=408&width=768&top_left_y=1915&top_left_x=381)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2013-10",
+        "question": "Vilka av följande påståenden är korrekta? (Flera alternativ kan vara möjliga, dock minst ett.)\n\nA. Keplers banbrytande arbete visade att jorden är rund.\n\nB. Kvantmekaniken, till skillnad från Newtons mekanik, tillåter att ett system befinner sig i mer än ett energitillstånd samtidigt.\n\nC. Tankeöverföring är ett experimentellt välbekräftat fenomen.\n\nD. Den kosmiska bakgrundsstrålningen härrör från den tid i universums utveckling då materien övergick från plasma till atomer.\n\n",
+        "answer": "B,D"
+    },
+    {
+        "questionNum": "f2013-11",
+        "question": "En burk med raka sidor hålls delvis nedsänkt i vatten med öppningen nedåt. Från början är vattenytan inne i burken i nivå med vattenytan utanför, och höjden av luftpelaren i burken är $h$ (första figuren). Sedan trycks burken långsamt ned i vattnet, så att dess övre begränsningsyta är i nivå med vattenytan (andra figuren). Hur hög är då luftpelaren i burken? Svaret, längden $x$, skall uttryckas i termer av $h$ samt (vid behov) det yttre lufttrycket $p_{0}$, vattnets densitet $\\rho$ och tyngdaccelerationen $g$. (Luften i burken får förutsättas ha samma temperatur som från början.)\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-5.jpg?height=390&width=894&top_left_y=1216&top_left_x=380)\nA. $x=\\frac{\\rho g}{2 p_{0}}\\left(\\sqrt{1+\\frac{4 p_{0} h}{\\rho g}}-1\\right)$\nB. $x=\\frac{\\rho g}{2 p_{0}}\\left(\\sqrt{1+\\frac{4 p_{0} h}{\\rho g}}+1\\right)$\nC. $x=\\frac{p_{0}}{2 \\rho g}\\left(\\sqrt{1+\\frac{4 \\rho g h}{p_{0}}}-1\\right)$\nD. $x=\\frac{p_{0}}{2 \\rho g}\\left(\\sqrt{1+\\frac{4 \\rho g h}{p_{0}}}+1\\right)$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2013-12",
+        "question": "Många kometer med långa omloppstider, t.ex. kometen Hale-Bopp, som var synlig från jorden 1995, härrör från det s.k. Oort-molnet, i solsystemets utkanter. Låt oss antaga att en komet är ungefärligen i vila då den befinner sig i Oort-molnet, 0.05 ljusår från solen. Vilken ungefärlig fart har den då den är nära jorden?\nA. c:a $0.4 \\mathrm{~km} / \\mathrm{s}$\nB. c:a $40 \\mathrm{~km} / \\mathrm{s}$\nC. c:a $4000 \\mathrm{~km} / \\mathrm{s}$\nD. Kan ej avgöras\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2013-13",
+        "question": "Den första linjära elektronacceleratorn för medicinskt bruk användes vid Hammersmith Hospital i London 1953. Den accelererade elektroner genom en potentialskillnad på 8 MV. Hur stor hastighet får en elektron som accelereras från vila av ett sådant elektriskt fält?\nA. $0.998 c$\nB. $0.98 c$\nC. $0.8 c$\nD. Det beror på vilken sorts elektroner som används \n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2013-14",
+        "question": "En rak och homogen pinne med massan $m$ trycks mot en vägg med hjälp av en kraft $\\mathbf{F}$. Pinnen är horisontell och vinkelrät mot väggen. Om friktionskoefficienten mellan pinnen och väggen är $\\mu$, hur stor måste den horisontella komposanten av $\\mathbf{F}$ minst vara för att inte pinnen skall falla ned?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-6.jpg?height=128&width=577&top_left_y=844&top_left_x=380)\n\n",
+        "answer": "$m g / 2 \\mu$"
+    },
+    {
+        "questionNum": "f2013-15",
+        "question": "En elektrisk krets bildas av kanterna på en kub, där varje kant har motståndet $R$. Hur stort är motståndet mellan två motsatta hörn i kuben?\n\n",
+        "answer": "$5 R / 6$"
+    },
+    {
+        "questionNum": "f2013-16",
+        "question": "En tunn konvex lins undersöks i en optisk bänk. En skärm placeras på avståndet $1.8 \\mathrm{~m}$ från ett föremål. Då linsen placeras på ett lämpligt ställe mellan föremålet och skärmen erhålles på skärmen en skarp bild som är dubbelt så stor som föremålet. Hur stor är den undersökta linsens brännvidd?\n\n",
+        "answer": "$40 \\mathrm{~cm}$"
+    },
+    {
+        "questionNum": "f2013-17",
+        "question": "Sveriges årliga elförbrukning är c:a 140 TWh. Om man tänker sig att denna energimängd skall produceras genom att omvandla massa till energi (t.ex. genom fission eller fusion), hur stor massa behöver omvandlas (utan hänsyn till förluster)?\n\n",
+        "answer": "5.6 kg (5 kg eller 6 kg godkänns)"
+    },
+    {
+        "questionNum": "f2013-18",
+        "question": "En rymdfarkost med vilolängden $100 \\mathrm{~m}$ färdas med farten $0.60 \\mathrm{c}$ genom ett hål $\\mathrm{i}$ en asteroid. Asteroidens diameter, dvs. hålets längd, är också $100 \\mathrm{~m}$. För en observatör i vila på asteroiden, hur långt in i asteroiden befinner sig rymdskeppets bakre ände exakt samtidigt som den främre änden kommer ut på asteroidens andra sida?\n\n",
+        "answer": "20m"
+    },
+    {
+        "questionNum": "f2013-19",
+        "question": "Grafen nedan visar hastigheten $v(x)$ som funktion av $x$-koordinaten för en partikel som rör sig längs en linje. Funktionen är $v(x)=k / x$, där $k$ är en konstant med värdet $k=0.25 \\mathrm{~m}^{2} / \\mathrm{s}$. Hur lång tid tar det för partikeln att komma från $x=1.0 \\mathrm{~m}$ till $x=2.0 \\mathrm{~m}$ ? \n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-7.jpg?height=574&width=919&top_left_y=433&top_left_x=363)\n\n",
+        "answer": "6.0s"
+    },
+    {
+        "questionNum": "f2013-20",
+        "question": "Detta problem handlar om en \"slänggunga\", en typ av åkattraktion som finns på många nöjesparker. De numeriska värdena som används här är hämtade från det s.k. Himmelskibet som finns på Tivoli i Köpenhamn (se bilden). Radien $R$ från centrum till de punkter där gungornas linor är fästade är $7.0 \\mathrm{~m}$, och gungorna hänger i linor med längden $\\ell=8.0 \\mathrm{~m}$. Linornas massa kan för enkelhets skull försummas. Anordningen som gungorna är förbundna med (\"stjärnan\") kan både rotera och röra sig i vertikal led. Här betraktar vi endast rotationsrörelsen. Antag att rotationen sker med konstant vinkelhastighet $\\omega$, och att gungorna har hunnit ställa in sig i sitt jämviktsläge, som beskrivs av den vinkel $\\alpha$ som linorna bildar med vertikalen.\n\n- Utan att sätta in numeriska värden, härled en ekvation som relaterar vinkeln $\\alpha$ till vinkelhastigheten $\\omega$ (och övriga relevanta storheter).\n\n- Med de numeriska värden som anges ovan, hur stor behöver rotationshastigheten vara (ange i varv/minut) för att linorna till gungorna skall bilda vinkeln $45^{\\circ}$ med vertikalen?\n\n- I specifikationen till Himmelskibet anges rotationshastigheten till 10 varv/minut. Blir vinkeln $\\alpha$ större eller mindre än $45^{\\circ}$ ?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-8.jpg?height=808&width=449&top_left_y=433&top_left_x=378)\n",
+        "answer": "Ett exempel på lösning:\nSe figuren för definition av längderna. Centrifugalkraften är\n$$\nF_c=m(R+\\ell \\sin \\alpha) \\omega^2\n$$\nFrån figuren syns att den också ges av\n$$\nF_c=m g \\tan \\alpha\n$$\nGenom att sätta de två uttrycken lika fås ett samband mellan vinkelhastigheten $\\omega$ och vinkeln $\\alpha$ :\n$$\n\\frac{\\omega^2}{g}(R+\\ell \\sin \\alpha)=\\tan \\alpha,\n$$\nsom om man vill kan lösas för $\\omega$ :\n$$\n\\omega=\\sqrt{\\frac{g \\tan \\alpha}{R+\\ell \\sin \\alpha}}\n$$\nMed de angivna värden är $\\tan \\alpha=1, \\sin \\alpha=\\frac{1}{\\sqrt{2}}$, och\n$$\n\\omega \\approx 88 \\mathrm{rad} / \\mathrm{s} \\approx 4 \\mathrm{varv} / \\mathrm{minut}\n$$\n(Svar mellan 5 och 5 , med riktiga räkningar i övrigt, accepteras.) Vinkeln blir större än $45^{\\circ}$ vid den angivna rotationshastigheten 10 varv/minut.\n\n![](https://i.imgur.com/AzSwyLa.png)"
+    },
+    {
+        "questionNum": "f2012-1",
+        "question": "En kropp påverkas av de tre krafter som visas i vänstra figuren. Vilken kraft i den högra bilden behöver läggas till för att jämvikt skall uppnås?\n![](https://cdn.mathpix.com/cropped/2023_05_29_5c6c5b9ed71651531df4g-1.jpg?height=460&width=1312&top_left_y=1449&top_left_x=377)\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2012-2",
+        "question": "En planka med längden $\\ell$ hålls på plats av två stöd, det ena vid plankans ena ände $(\\mathbf{A})$ och det andra ett avstånd $5 \\ell / 12$ från samma ände $(\\mathbf{B})$, och påverkas i övrigt bara av tyngdkraften. Plankan har massan $m$. Hur stor är den vertikala kraften på plankan från stödet i A ?\nA. $\\frac{m g}{12}$\nB. $\\frac{5 m g}{12}$\nC. $\\frac{12 m g}{5}$\nD. $\\frac{m g}{5}$ \n\nimg\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2012-3",
+        "question": "I ett experiment skall ett arbete uppmätas. Man har avgjort att de enda viktiga storheterna som möjligen kan påverka resultatet är ett vridande moment $M$, en tid $T$ och en vinkel $v$. Om experimentet upprepas med samma $M$ och $T$, men dubbelt så stort värde på $v$, hur stort blir det uppmätta arbete jämfört med det i det ursprungliga experimentet?\nA. Hälften så stort.\nB. Lika stort.\nC. Dubbelt så stort\nD. Kan ej avgöras utan ytterligare information.\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2012-4",
+        "question": "I ett experiment skall ett arbete uppmätas. Man har avgjort att de enda viktiga storheterna som möjligen kan påverka resultatet är ett vridande moment $M$, en tid $T$ och en vinkel $v$. Om experimentet upprepas med samma $T$ och $v$, men dubbelt så stort värde på $M$, hur stort blir det uppmätta arbete jämfört med det i det ursprungliga experimentet?\nA. Hälften så stort.\nB. Lika stort.\nC. Dubbelt så stort\nD. Kan ej avgöras utan ytterligare information.\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2012-5",
+        "question": "Bilden till vänster visar schematiskt en sprinkler för trädgårdsbruk, sedd uppifrån.\n![](https://cdn.mathpix.com/cropped/2023_05_29_5c6c5b9ed71651531df4g-2.jpg?height=430&width=1338&top_left_y=1218&top_left_x=310)\n\nMedan sprinklern roterar kommer vatten ut ur ändarna av de tre armarna med en konstant hastighet. Vilken av bildalternativen beskriver bäst den väg en vattendroppe färdas sedan den lämnat sprinklern (sett uppifrån)?\n\nA. img\nB. img\nC. img\nD. img\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2012-6",
+        "question": "Vågor på en vattenyta kommer från två källor, som är i fas med varandera och befinner sig fyra våglängder ifrån varandra. I figuren markerar cirklarna vågtopparna för vardera av de två utåtgående vågorna vid en viss tidpunkt. Vilken eller vilka av de markerade punkterna $\\mathbf{A}, \\mathbf{B}, \\mathbf{C}$ och D överensstämmer väl med läget för en nod, dvs. i vilken eller vilka av punkterna är amplituden för den sammanlagda vågen\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_5c6c5b9ed71651531df4g-3.jpg?height=620&width=813&top_left_y=918&top_left_x=907)\nständigt noll?\n\n",
+        "answer": "A,C"
+    },
+    {
+        "questionNum": "f2012-7",
+        "question": "Två bollar befinner sig ursprungligen på samma höjd. Den ena släpps utan begynnelsehastighet, medan den andra samtidigt ges en fart $v_{0} \\neq 0$ uppåt. Därefter rör sig bollarna endast under inverkan av tyngdkraften (luftmotståndet är försumbart). Hur förändras höjdskillnaden mellan bollarna med tiden?\nA. Den är konstant\nB. Den ökar linjärt med tiden\nC. Den ökar kvadratiskt med tiden\nD. Den ökar inledningsvis, men närmar sig ett konstant värde för stora tider\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2012-8",
+        "question": "Vilken är den ungefärliga våglängden för $\\gamma$-strålningen i den sista övergången från ${ }_{27} \\mathrm{Co}^{60}$ till ${ }_{28} \\mathrm{Ni}^{60}$ (nederst i bilden)?\nA. $10^{-15} \\mathrm{~m}$\nB. $10^{-12} \\mathrm{~m}$\nC. $10^{-9} \\mathrm{~m}$\nD. $10^{-6} \\mathrm{~m}$ \n\n![](https://cdn.mathpix.com/cropped/2023_05_29_5c6c5b9ed71651531df4g-4.jpg?height=531&width=643&top_left_y=471&top_left_x=338)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2012-9",
+        "question": "En kropp är sammansatt av två raka pinnar som är sammanfogade i rät vinkel. De har längderna $a$ och $b$ och massan per längdenhet är $\\varrho$ för båda. När kroppen balanserar på ett plant underlag enligt figuren, hur stor blir normalkraften mot underlaget i den högra kontaktpunkten?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_5c6c5b9ed71651531df4g-4.jpg?height=331&width=808&top_left_y=1245&top_left_x=453)\nA. $\\varrho g(a+b)$\nB. $\\frac{1}{2} \\varrho g \\frac{a+b}{\\sqrt{a^{2}+b^{2}}}$\nC. $\\varrho g(a+b) \\mathrm{N}$\nD. $\\frac{1}{2} \\varrho g \\frac{a^{3}+2 a^{2} b+b^{3}}{a^{2}+b^{2}}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2012-10",
+        "question": "Vilka av följande påståenden är korrekta?\n\nA. En elektron i en väteatom som befinner sig i sitt grundtillstånd följer en cirkulär bana.\n\nB. Dopplereffekten för ljudvågor i luft kan påvisas experimentellt, men är för liten för att uppfattas av ett mänskligt öra i vardagliga situationer.\n\nC. Nanoteknologi handlar om strukturer som typiskt är av samma storlek som en atomkärna eller mindre.\n\nD. Jordens ålder är ungefär en tredjedel av universums.\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2012-11",
+        "question": "Vilket av följande uttryck är ett dimensionslöst mått på styrkan hos den elektromagnetiska kraften? ( $e$ är elementarladdningen, dvs. minus elektronens laddning.)\nA. $\\frac{e^{2}}{2 \\epsilon_{0} c}$\nB. $\\frac{e}{2 \\epsilon_{0} c}$\nC. $\\frac{e^{2}}{2 \\epsilon_{0} h c}$\nD. $\\frac{e}{2 \\epsilon_{0} h c}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2012-12",
+        "question": "Jupiters avstånd till solen är drygt fem gånger så stort som jordens. Hur lång är Jupiters omloppstid runt solen (ett \"Jupiterår\")?\nA. c:a 0.2 år\nB. c:a 5 år\nC. c:a 12 år\nD. Kan ej avgöras utan ytterligare information \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2012-13",
+        "question": "Två radiofyrar befinner sig $\\mathrm{i}$ vila $\\mathrm{i}$ ett inertialsystem $S$, på avståndet $100 \\mathrm{~m}$ från varandra (mätt i $S$ ). Båda radiofyrarna utsänder en radiopuls varje mikrosekund, och de är synkroniserade i systemet $S$. En farkost avlägsnar sig från fyrarna med farten $v$ längs linjen mellan fyrarna. För vilken fart $v$ ser en observatör på farkosten ljuspulser från de två radiofyrarna anlända samtidigt?\nA. $v \\approx 1 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$\nB. $v \\approx 2 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$\nC. För alla värden på $v$.\nD. Inte för något värde på $v$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2012-14",
+        "question": "En kropp ligger stilla på ett lutande plan med lutningsvinkel $\\alpha$ enligt figuren. Hur stor måste friktionskoefficienten mellan kroppen och planet minst vara för att denna jämviktssituation skall vara möjlig?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_5c6c5b9ed71651531df4g-5.jpg?height=279&width=650&top_left_y=1168&top_left_x=312)\n\n",
+        "answer": "$\\tan \\alpha$"
+    },
+    {
+        "questionNum": "f2012-15",
+        "question": "En fritidsfiskare har fångat en torsk som väger $15 \\mathrm{~kg}$. Fisken lyfts hängande i fiskespöt, som då blir böjt som figuren visar. Fiskaren håller i spöt vid $\\mathbf{A}$ och $\\mathbf{B}$. Hur stora är de två krafterna $F_{A}$ och $F_{B}$, med vilka fiskaren påverkar spöet? (Spöet är $1.5 \\mathrm{~m}$ långt och mycket lättare än fisken.)\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_5c6c5b9ed71651531df4g-5.jpg?height=340&width=720&top_left_y=1640&top_left_x=308)\n\n",
+        "answer": "$74 \\mathrm{kN}$ resp. $88 \\mathrm{kN}$. (även $75 \\mathrm{kN}$ och $90 \\mathrm{kN}$, eller $750 \\mathrm{~N}$ och $900 \\mathrm{~N}$ accepteras.)"
+    },
+    {
+        "questionNum": "f2012-16",
+        "question": "En person står vid kanten av en sjö, med ögonen på 2.0 meters höjd över vattenytan, och tittar ned i sjön. På bottnen, som vi för enkelhets skull tänker oss som helt plan på 2.0 meters djup, ser hon en kräfta, när hon tittar ned med en vinkel $45^{\\circ}$. Kräftans skenbara horisontella avstånd från personen är då uppenbarligen $4.0 \\mathrm{~m}$, dvs. detta är det horisontella avståndet till den punkt där förlängningen av den ljusstråle som når personens ögon skär bottnen. Hur långt är det verkliga horisontella avståndet mellan personen och kräftan? Observera att den verkliga strålgången inte är utritad, och att det är kräftans skenbara läge, inte dess verkliga som är markerat i figuren. (Vattnets brytningsindex är c:a 4/3. Svar som avviker med högst 2 dm från det korrekta svaret accepteras.)\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_5c6c5b9ed71651531df4g-6.jpg?height=528&width=1062&top_left_y=884&top_left_x=311)\n\n",
+        "answer": "$3  m$"
+    },
+    {
+        "questionNum": "f2012-17",
+        "question": "En liten vagn löper med försumbar friktion och försumbart luftmotstånd på en skena. Den släpps från höjden $h$ och rullar sedan in i en cirkulär loop med radien $a$ enligt figuren. Hur stor måste höjden $h$ vara för att vagnen skall klara hela loopen, och alltså inte tappa kontakten med spåret någonstans på vägen genom loopen?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_5c6c5b9ed71651531df4g-6.jpg?height=537&width=1217&top_left_y=1662&top_left_x=311)\n\n",
+        "answer": "$h \\geq \\frac{5}{2} a$"
+    },
+    {
+        "questionNum": "f2012-18",
+        "question": "En stor varmluftsballong med volymen $5000 \\mathrm{~m}^{3}$ skall kunna lyfta en total massa (själva ballongen med korg och last) på $1000 \\mathrm{~kg}$. Den omgivande luften håller temperaturen $12^{\\circ} \\mathrm{C}$, och har densiteten $1.2 \\mathrm{~kg} / \\mathrm{m}^{3}$. Hur varm behöver luften i ballongen vara? \n\n",
+        "answer": "$\\text{~} 0^{\\circ} \\mathrm{C}$"
+    },
+    {
+        "questionNum": "f2012-19",
+        "question": "Vatten skall pumpas upp från en brunn till ett fritidshus. Höjden som vattnet skall lyftas är 20 m, och man vill kunna nå ett vattenflöde av maximalt $3.6 \\mathrm{~m}^{3} / \\mathrm{h}$. Den effektiva verkningsgraden, när man tar hänsyn till energiförluster såväl i pumpen som i rören vattnet flödar i, uppskattas till 40\\%. Hur hög effekt bör pumpen ha? (Det förutsätts att rörelseenergin hos vattnet helt kan försummas i sammanhanget.)\n\n",
+        "answer": "$5 \\mathrm{~kW}$"
+    },
+    {
+        "questionNum": "f2012-20",
+        "question": "En elektrisk krets består av två seriekopplade motstånd $\\mathrm{A}$ och $\\mathrm{B}$, varav det första har en given resistans $R_{A}$ och det andra en variabel resistans $R_{B}$, över vilka en konstant likspänning $U$ läggs. Hur skall resistansen $R_{B}$ väljas för att den effekt som utvecklas i motståndet B skall bli så stor som möjligt? (Alla komponenter får antas vara idealiserade.)\n",
+        "answer": "Ett exempel på lösning:\nStrategin är att först beräkna strömmen $I$ i kretsen, och därefter effekten som utvecklas i motståndet $\\mathrm{B}$ genom $P_B=R_B I^2$. Sedan söker man maximera denna effekt.\nStrömmen är $I=\\frac{U}{R_A+R_B}$, och effekten blir\n$$\nP_B=R_B I^2=\\frac{R_B U^2}{\\left(R_A+R_B\\right)^2}\n$$\nOm vi inför den dimensionslösa kvoten $x=R_B / R_A$, kan vi skriva\n$$\nP_B=\\frac{U^2}{R_A} \\frac{x}{(1+x)^2}\n$$\noch vi vill alltså maximera funktionen $f(x)=\\frac{x}{(1+x)^2}$. Detta kan göras genom att söka nollställen till derivatan $f^{\\prime}(x)=\\ldots=\\frac{1-x}{(1+x)^3}$. Det enda nollstället är då $x=1$. Eftersom $f(x)$ är noll i $x=0$ och då $x \\rightarrow \\infty$, och positiv däremellan, måste punkten $x=1$ vara ett maximum.\nDet sökta värdet på $R_B$ är alltså $R_B=R_A$.\nRiktigheten av dimensionen på svaret är uppenbar. En extra kontroll kan t.ex. fås genom att observera att $f(1)=\\frac{1}{4}$, så att $P_B=\\frac{U^2}{4 R_A}$ då $R_B=R_A$. Då motstånden är lika utvecklas lika stor effekt i motståndet $\\mathrm{A}$, och $P_B$ är mycket riktigt hälften så stor som den totala effekten i kretsen, $P=\\frac{U^2}{R_A+R_B}$."
+    },
+    {
+        "questionNum": "f2011-1",
+        "question": "En planka med längden $\\ell$ vilar på två stöd, det ena vid plankans ena ände (A) och det andra ett avstånd $2 \\ell / 5$ från den andra änden (B). Plankan har konstant massa per längdenhet. Hur stor stor är kvoten $F_{A} / F_{B}$, där $F_{A(B)}$ är den vertikala kraften på plankan från stödet i $\\mathrm{A}(\\mathrm{B})$ ?\nA. 5\nB. $\\frac{5}{2}$\nC. $\\frac{2}{5}$\nD. $\\frac{1}{5}$\n\nimg\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2011-2",
+        "question": "Man genomför ett fysikaliskt experiment där en längd $\\ell$ (storleken på en viss atom) skall mätas, och har listat ut att de enda storheterna och konstanterna som kan inverka på resultatet av mätningen är elektronmassan $m_{e}$, Plancks konstant $h$ och ljushastigheten $c$. Vilket av svarsalternativen kan beskriva ett rimligt uttryck för den uppmätta längden?\nA. $\\ell \\approx \\frac{12.8 h}{m_{e} c}$\nB. $\\ell \\approx \\frac{12.8 h m_{e}}{c}$\nC. $\\ell \\approx \\frac{12.8 m_{e}}{h c}$\nD. $\\ell \\approx \\frac{12.8 h c}{m_{e}}$\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2011-3",
+        "question": "Ljudet från sirenen på ett utryckningsfordon består av två alternerande toner med frekvenserna $700 \\mathrm{~Hz}$ och $990 \\mathrm{~Hz}$ (de bildar alltså ett s.k. tritonusintervall, en överstigande kvart). Fordonet rör sig rakt emot en person med farten $120 \\mathrm{~km} / \\mathrm{h}$. Vilka är frekvenserna hos de toner som denna person uppfattar från sirenen?\nA. $631 \\mathrm{~Hz}$ och $893 \\mathrm{~Hz}$\nB. $631 \\mathrm{~Hz}$ och $1098 \\mathrm{~Hz}$\nC. $776 \\mathrm{~Hz}$ och $1098 \\mathrm{~Hz}$\nD. $776 \\mathrm{~Hz}$ och $893 \\mathrm{~Hz}$ \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2011-4",
+        "question": "Ett enkelt teleskop innehåller två positiva linser med brännvidderna $90 \\mathrm{~cm}$ och $1.5 \\mathrm{~cm}$. Vilken förstoring ger teleskopet?\nA. 60\nB. 90\nC. 135\nD. 202\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_6c8df46059ee68867c1fg-2.jpg?height=397&width=948&top_left_y=601&top_left_x=311)\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2011-5",
+        "question": "En homogen cirkulär konisk kropp står på ett plant underlag. Låt $d$ beteckna det vertikala avståndet från konens spets till en tänkt horisontell cirkelyta $S_{d}$ som skär kroppen. Hur beror trycket $p(d)$ på ytan $S_{d}$ av avståndet $d$ ? (Man får anta att den vertikala kraften fördelar sig jämnt över ytan.)\n\nA. $p(d)$ är oberoende av $d$.\n\nB. $p(d)$ är proportionellt mot $d$.\n\nC. $p(d)$ är proportionellt mot $d^{2}$.\n\nD. $p(d)$ är proportionellt mot $d^{3}$.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_6c8df46059ee68867c1fg-2.jpg?height=286&width=257&top_left_y=1222&top_left_x=957)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2011-6",
+        "question": "En homogen cirkulär cylindrisk kropp står på ett plant underlag. Låt $d$ beteckna det vertikala avståndet från cylinderns toppyta till en tänkt horisontell cirkelyta $S_{d}$ som skär kroppen. Hur beror trycket $p(d)$ på ytan $S_{d}$ av avståndet $d$ ? (Man får anta att den vertikala kraften fördelar sig jämnt över ytan.)\n\nA. $p(d)$ är oberoende av $d$.\n\nB. $p(d)$ är proportionellt mot $d$.\n\nC. $p(d)$ är proportionellt $\\operatorname{mot} d^{2}$.\n\nD. $p(d)$ är proportionellt mot $d^{3}$.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_6c8df46059ee68867c1fg-2.jpg?height=277&width=343&top_left_y=1735&top_left_x=959)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2011-7",
+        "question": "En kropp vars densitet är högre än densiteten hos vatten släpps från vila strax under ytan av en sjö och får sjunka. Vilken av graferna illustrerar bäst kroppens avstånd $s$ från vattenytan som funktion av tiden $t$ ? \n\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_6c8df46059ee68867c1fg-3.jpg?height=808&width=1310&top_left_y=444&top_left_x=312)\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2011-8",
+        "question": "Vilka av följande påståenden är riktiga? Mer än ett alternativ kan väljas.\n\nA. I ett fusionskraftverk uttnyttjas energivinster som uppstår då lätta atomkärnor slås samman, medan fissionskraftverk använder vanliga kemiska reaktioner som inte ändrar de ingående elementens atomnummer.\n\nB. Det vanligaste grundämnet i universum är väte.\n\nC. Jordens ålder är c:a $4.5 \\times 10^{9}$ år, och livet på jorden uppstod för c:a $3.5 \\times 10^{9}$ år sedan.\n\nD. I kvantfysik tillåts ögonblicklig överföring av information på godtyckliga avstånd, s.k. teleportation.\n\n",
+        "answer": "B,C"
+    },
+    {
+        "questionNum": "f2011-9",
+        "question": "Angående \"tvillingparadoxen\" i speciell relativitetsteori. Ena halvan av ett tvillingpar företar en lång rymdresa i hög hastighet, som för henne till en fjärran planet och tillbaka, medan hennes syster stannar på jorden. Hur förhåller sig de två tvillingarnas åldrar då de återförenas?\n\nA. Den rymdresande tvillingen är äldre än den som stannat hemma.\n\nB. Den rymdresande tvillingen är yngre än den som stannat hemma.\n\nC. De är lika gamla.\n\nD. Mer information krävs för att svara på frågan.\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2011-10",
+        "question": "I en stor artikel i Svenska Dagbladet 11 februari 2011 om en simulerad Marsresa fanns en faktaruta, där bl.a. nedanstående information ingick. Vilken av de tre markerade uppgifterna är inkorrekt framställd? \n\nimg\n\nA - rost är inte oxiderat järn.\n\nB - jämförelsen är numeriskt inkorrekt.\n\nC - påståendet i sista meningen följer inte av de föregående.\n\n$\\mathrm{D}$ - inget av alternativen $\\mathrm{A}, \\mathrm{B}$ eller $\\mathrm{C}$.\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2011-11",
+        "question": "En vikt $\\mathrm{W}$ med massan $M$ lyfts med en anordning av rep och taljor enligt figuren. Massan hos rep och taljor kan försummas, liksom friktionkrafter. Om man drager i repet med en kraft $P$, med vilken kraft påverkar den nedre kroken vikten W?\nA. $\\frac{P}{4}$\nB. $4 P$\nC. $\\frac{P}{4}+M g$\nD. $4 P+M g$\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_6c8df46059ee68867c1fg-4.jpg?height=928&width=311&top_left_y=1375&top_left_x=336)\n\n(Figur ur O.J. Lodge, Elementary Mechanics, Including Hydrostatics and Pneumatics, rev. ed. $(1882) \\cdot)$ \n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2011-12",
+        "question": "Den tyske vetenskapsmannen och borgmästaren i Magdeburg, Otto von Guericke, genomförde år 1654 ett experiment för att demonstrera lufttryckets storlek (och den luftpump han hade uppfunnit). Två halvsfärer, med en diameter på $50 \\mathrm{~cm}$, fördes samman, och luften pumpades ut. Om vi för enkelhets skull tänker oss ett fullständigt vacuum inuti sfären, vilken ungefärlig kraft skulle behövas för att dra isär kloten? (På bilden ses de \"Magdeburgska halvkloten\", med sexton hästar som försöker skilja dem.)\nA. $20 \\mathrm{kN}$\nB. $40 \\mathrm{kN}$\nC. $80 \\mathrm{kN}$\nD. $160 \\mathrm{kN}$\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_6c8df46059ee68867c1fg-5.jpg?height=948&width=1193&top_left_y=805&top_left_x=314)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2011-13",
+        "question": "En matematisk pendel är en punktformig massa som hänger i ett viktlöst snöre och svänger (under inverkan av gravitationen). För en pendel, som med god noggrannhet kan beskrivas som en matematisk pendel med massa $1.0 \\mathrm{~kg}$, märker man att om man förlänger snöret med en faktor 4 fördubblas periodtiden för små svängningar. Hur stor var periodtiden innan snöret förlängdes?\nA. $0.32 \\mathrm{~s}$\nB. $0.64 \\mathrm{~s}$\nC. $2.0 \\mathrm{~s}$\nD. Ytterligare information krävs för att avgöra det. \n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2011-14",
+        "question": "Tre rep, numrerade 1-3, är sammanfogade i en punkt. Tre personer drar i var sitt av repen, så att repen är i vila. Vinklarna mellan repen framgår av figuren (observera att det är repens längder som illustreras, och inte storleken på krafterna). Ordna dragkrafterna i repen, som kallas $F_{1}, F_{2}$ respektive $F_{3}$, efter deras storlek (t.ex. \" $F_{1}<F_{2}<F_{3}$ \" eller \" $F_{1}=F_{3}<F_{2}$ \").\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_6c8df46059ee68867c1fg-6.jpg?height=766&width=1017&top_left_y=725&top_left_x=311)\n\n",
+        "answer": "$\\quad F_2<F_1<F_3$"
+    },
+    {
+        "questionNum": "f2011-15",
+        "question": "Vilken våglängd skall en foton ha för att dess energi skall vara lika stor som energin hos en proton i vila? (Svaret kan anges med en signifikant siffra.)\n\n",
+        "answer": "$\\quad 3 \\times 10^{-15} \\mathrm{~m}\\left(1 \\times 10^{-15} \\mathrm{~m}\\right)$."
+    },
+    {
+        "questionNum": "f2011-16",
+        "question": "En cykel rullar med konstant hastighet på en plan väg. Figuren föreställer cykelns framhjul, och cykelns rörelseriktning är åt höger i figuren. Rita ut de momentana hastigheterna och accelerationerna för punkterna $\\mathbf{P}$ och $\\mathbf{Q}$ på hjulet.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_6c8df46059ee68867c1fg-6.jpg?height=571&width=831&top_left_y=1833&top_left_x=310)\n\n",
+        "answer": "![](https://i.imgur.com/xBHNYr4.png)"
+    },
+    {
+        "questionNum": "f2011-17",
+        "question": "Ordna de tre talen $N_{1}, N_{2}$ och $N_{3}$, där $N_{1}$ är antalet molekyler i en m luft, $N_{2}$ antalet molekyler i en $\\mathrm{m}^{3}$ vatten, och $N_{3}$ antalet sandkorn i en $\\mathrm{m}^{3}$ sand, i storleksordning. Svaret kan ges på formen t.ex. \" $N_{1}<N_{2}<N_{3}$ \".\n\n",
+        "answer": "$N_3<N_1<N_2$"
+    },
+    {
+        "questionNum": "f2011-18",
+        "question": "(Hämtat från studentskrivning 2008 i Finland.) Det europeiska satellitbaserade positionssystemet Galileos första provsatellit (massa $600 \\mathrm{~kg}$ ) kretsar kring jorden i en cirkelbana, vars radie är $23200 \\mathrm{~km}$. Hur stor är satellitens fart? (Svaret kan anges med en signifikant siffra.)\n\n",
+        "answer": "$4 \\mathrm{~km} / \\mathrm{s}$"
+    },
+    {
+        "questionNum": "f2011-19",
+        "question": "Tolv likadana trådar, vardera med motståndet $1.0 \\Omega$, har kopplats samman så att de bildar en oktaeder (se figuren). Hur stort är motståndet mellan hörnen $\\mathbf{A}$ och $\\mathbf{B}$ ?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_6c8df46059ee68867c1fg-7.jpg?height=603&width=517&top_left_y=932&top_left_x=313)\n\n",
+        "answer": "$50 \\Omega$"
+    },
+    {
+        "questionNum": "f2011-20",
+        "question": "En boll kastas med utgångsfarten $20 \\mathrm{~m} / \\mathrm{s}$ från marknivån. Utgångshastigheten bildar vinkeln $60^{\\circ}$ med horisontalen. Om bollen kastas i en uppförsbacke, så att marknivån i den riktning bollen kastas bildar vinkeln $30^{\\circ}$ med horisontalen, hur långt bort landar bollen, mätt längs marken? Luftmotståndet kan försummas.\n",
+        "answer": "Förloppet kan åskådeliggöras som i figuren:\n\nimg\n\nVinklarna $\\alpha$ och $\\beta$ är enligt uppgiftstexten $\\pi / 6$ resp. $\\pi / 3$. Det kan vara fördelaktigt att inte sätta in värdena förrän i slutresultatet; det ger möjlighet att kontrollera rimlighet i beroendet av dem (detta krävs inte för full poäng). Den sökta storheten är $s$, längden av den del av linjen som ligger mellan origo och dess skärningspunkt med parabeln.\nEkvationen för marken (linjen) är\n$$\ny=x \\tan \\alpha\n$$\nMan kan också beskriva sträckan längs marken (när bollen landat) som $s=\\frac{x}{\\cos \\alpha}$. Bollens rörelse beskrivs av\n$$\n\\begin{aligned}\n& x=v_0 t \\cos \\beta, \\\\\n& y=v_0 t \\sin \\beta-\\frac{1}{2} g t^2 .\n\\end{aligned}\n$$\nDå bollen landar gäller både ekvationen för marken och för bollens bana, och man får:\n$$\nv_0 t \\sin \\beta-\\frac{1}{2} g t^2=v_0 t \\tan \\alpha \\cos \\beta\n$$\nLösningarna till denna kvadratiska ekvation är\n$$\n\\begin{aligned}\nt_0 & =0, \\\\\nt_1 & =\\frac{2 v_0}{g} \\cos \\beta(\\tan \\beta-\\tan \\alpha) .\n\\end{aligned}\n$$\nDen första lösningen svarar mot utgångsläget. Den andra ger\n$$\nx_1=x\\left(t_1\\right)=\\frac{2 v_0^2}{g} \\cos ^2 \\beta(\\tan \\beta-\\tan \\alpha) .\n$$"
+    },
+    {
+        "questionNum": "f2010-1",
+        "question": "En planka med längden $\\ell$ vilar på två stöd, det ena vid plankans ena ände $(\\mathrm{A})$ och det andra ett avstånd $\\ell / 3$ från den andra änden (B). Plankan har konstant massa per längdenhet. Hur stor stor är kvoten $F_{B} / F_{A}$, där $F_{A(B)}$ är den vertikala kraften på plankan från stödet i A(B)?\nA. $\\frac{1}{3}$\nB. $\\frac{1}{2}$\nC. 1\nD. 2\nE. 3\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_b4ca73f60e40d912e82ag-1.jpg?height=134&width=788&top_left_y=1492&top_left_x=377)\n\n",
+        "answer": "E"
+    },
+    {
+        "questionNum": "f2010-2",
+        "question": "En (idealiserad) elektrisk krets är konstruerad enligt bilden. Vilket av följande alternativ är korrekt svar på frågan \"Hur stor ström flyter genom motståndet överst i bilden\"?\nA. $\\frac{2 U}{3 R} \\mathrm{~A}$\nB. $\\frac{2}{3} \\frac{U}{1 \\mathrm{~V}} \\frac{1 \\Omega}{R} \\mathrm{~A}$\nC. $\\frac{U}{3 R} \\mathrm{~A}$\nD. $\\frac{U}{3 R}$\nE. Annat svar än alternativen A-D.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_b4ca73f60e40d912e82ag-1.jpg?height=337&width=668&top_left_y=1870&top_left_x=366)\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2010-3",
+        "question": "Ljudet från sirenen på ett utryckningsforden består av två alternerande toner med frekvenserna $700 \\mathrm{~Hz}$ och $990 \\mathrm{~Hz}$. Fordonet rör sig rakt ifrån en person med farten $105 \\mathrm{~km} / \\mathrm{h}$. Vilken är kvoten mellan den högre och den lägre frekvensen hos det ljud som denna person uppfattar från sirenen?\nA. 1.04\nB. 1.08\nC. 1.41\nD. 1.85\nE. 1.92 \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2010-4",
+        "question": "En kloss släpps från vila på ett sluttande plan. Friktionen är inte tillräckligt stor för att klossen skall ligga kvar, utan den börjar glida nedåt. Vilken av graferna beskriver bäst friktionskraften som funktion av tiden?\n\nimg\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2010-5",
+        "question": "Tonen $a^{1}$ brukar standardiseras till frekvensen $440 \\mathrm{~Hz}$. Tonen $e^{2}$ ligger en kvint över tonen $a^{1}$. En ren kvint karaktäriseras av att den högre tonens frekvens är en faktor $3 / 2$ högre än den lägre. På ett piano består däremot en kvint av 7 lika stora halvtonssteg, som alla har ett frekvensförhållande $2^{1 / 12}: 1$ mellan den högre och den lägre tonen. På ett piano är alltså tonen $e^{2}$ en faktor $2^{7 / 12} \\approx$ 1.4983 högre än $a^{1}$. Om tonerna $a^{1}$ och $e^{2}$ spelas samtidigt på ett piano upplevs \"svävningar\", dvs. periodiska variationer i ljudstyrka. Vilken frekvens har dessa svävningar?\nA. $0.24 \\mathrm{~Hz}$\nB. $0.37 \\mathrm{~Hz}$\nC. $1.5 \\mathrm{~Hz}$\nD. $220 \\mathrm{~Hz}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2010-6",
+        "question": "Nedanstående artikel återfanns i Ny Teknik 17 mars 2010. Uppgifter som antyder farkostens lastkapacitet har strukits över. Hur tung last kan en sådan farkost vara tänkt att lyfta, ungefär?\nA. $5 \\times 10^{5} \\mathrm{~kg}$\nB. $5 \\times 10^{8} \\mathrm{~kg}$\nC. $5 \\times 10^{11} \\mathrm{~kg}$\nD. $5 \\times 10^{14} \\mathrm{~kg}$ \n\nimg\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2010-7",
+        "question": "Vatten strömmar genom en avsmalnande slang. I slangens ena ände, där vattnet strömmar in, kommer det in 1.0 liter/s.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_b4ca73f60e40d912e82ag-3.jpg?height=153&width=997&top_left_y=2028&top_left_x=812)\n\nSlangen har där diametern $20 \\mathrm{~mm}$. I andra änden, där vattnet strömmar ut, är diametern 15 mm. Hur stort är flödet i denna ände?\nA. 0.56 liter/s\nB. 0.75 liter $/ \\mathrm{s}$\nC. 1.0 liter/s\nD. 1.3 liter $/ \\mathrm{s}$\nE. 1.8 liter $/ \\mathrm{s}$ \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2010-8",
+        "question": "Vilka av följande påståenden är riktiga? Mer än ett alternativ kan väljas.\n\nA. De reaktioner som svarar för förbränningen inne i solen är likadana som de som utnyttjas i ett kärnkraftverk.\n\nB. Proportionerna mellan olika grundämnen på jorden är ungefär desamma som i universum i stort.\n\nC. Det är vetenskapligt bevisat att uppkomsten av vissa komplicerade organ, t.ex. ögon, inte kan förklaras inom ramen för evolutionsteorin.\n\nD. Kvantmekaniken tillåter inte en godtyckligt noggrann kännedom om en partikels läge och hastighet samtidigt.\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2010-9",
+        "question": "Plutos radie är ungefär 0.18 jordradier, och dess massa c:a 0.0021 gånger jordens. Flykthastigheten från jorden (dvs. den hastighet en kropp behöver minst ges vid jordytan för att, luftmotståndet försummat, inte falla tillbaka till jorden) är $11.2 \\mathrm{~km} / \\mathrm{s}$. Hur stor är flykthastigheten från Pluto?\nA. $24 \\mathrm{~m} / \\mathrm{s}$\nB. $0.13 \\mathrm{~km} / \\mathrm{s}$\nC. $0.36 \\mathrm{~km} / \\mathrm{s}$\nD. $1.2 \\mathrm{~km} / \\mathrm{s}$\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2010-10",
+        "question": "En spann med vatten hissas upp ur en brunn med en anordning av rep och taljor enligt figuren. Spannen hänger i den nedre kroken och den övre kroken är fäst i en fast tvärslå över brunnen. Om massan hos spannen och vattnet tillsammans är $m$, och man drager i repet med en kraft $F$, hur stor blir spannens acceleration uppåt? Massan hos rep och taljor kan försummas, liksom friktionkrafter.\nA. $\\frac{F}{3 m}$\nB. $\\frac{3 F}{m}$\nC. $\\frac{F}{3 m}-g$\nD. $\\frac{3 F}{m}-g$\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_b4ca73f60e40d912e82ag-4.jpg?height=768&width=325&top_left_y=1278&top_left_x=1211)\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2010-11",
+        "question": "En kropp är formad som en lång cylinder med cirkulärt tvärsnitt. Kroppens medeldensitet är lägre än densiteten för vatten. Densiteten är konstant längs cylinderaxeln, men varierar på cirkeln, så att tyngdpunkten ( $\\mathbf{P})$ för kroppen inte ligger på cylinderns symmetriaxel $(\\mathbf{C})$ utan en liten bit därifrån. När kroppen läggs att flyta i vatten, hur kommer den att lägga sig?\nA. $\\mathbf{P}$ kommer att vara rakt under $\\mathbf{C}$\nB. $\\mathbf{P}$ kommer att vara rakt över $\\mathbf{C}$\nC. P kommer att vara på samma höjd som $\\mathbf{C}$\nD. Det går ej att avgöra \n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2010-12",
+        "question": "Angående längdkontraktionen i speciell relativitetsteori: En farkost färdas med farten $0.8 c$ genom en tunnel ( $c$ är ljusets fart). Farkostens vilolängd är $100 \\mathrm{~m}$, och tunnelns längd är $80 \\mathrm{~m}$ i tunnelns vilosystem. Vilket av följande påståenden är riktigt?\n\nA. I tunnelns system finns det inte någon tidpunkt då hela farkosten är inne i tunneln.\n\nB. Det finns inertialsystem i vilka farkostens bakända lämnar tunneln innan framändan åker in i tunneln.\n\nC. Kvoten mellan farkostens längd och tunnelns längd är densamma i alla inertialsystem.\n\nD. Inget av alternativen A-C.\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2010-13",
+        "question": "En matematisk pendel är en punktformig massa som hänger i ett viktlöst snöre och svänger (under inverkan av gravitationen). För en matematisk pendel märker man att om man förlänger snöret med $60 \\mathrm{~cm}$ fördubblas periodtiden för små svängningar. Hur stor var periodtiden innan snöret förlängdes?\nA. $0.90 \\mathrm{~s}$\nB. $1.8 \\mathrm{~s}$\nC. $3.6 \\mathrm{~s}$\nD. Ytterligare information krävs för att avgöra det.\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2010-14",
+        "question": "En boll kastas från marknivå med en hastighet som bildar vinkeln $45^{\\circ}$ med vertikalen, och landar en sträcka $L$ från utgångspunkten. Marken är helt horisontell, och luftmotståndet är försumbart litet. Hur stor var bollens utgångsfart?\n\n",
+        "answer": "$\\sqrt{g L}$"
+    },
+    {
+        "questionNum": "f2010-15",
+        "question": "Vilken våglängd skall en foton ha för att dess energi skall vara lika stor som energin hos en elektron i vila?\n\n",
+        "answer": "$4 \\times 10^{-12} \\mathrm{~m}$"
+    },
+    {
+        "questionNum": "f2010-16",
+        "question": "Man skall utföra ett fysikaliskt experiment, precis vilket låter vi vara osagt, men det är en fart som i slutändan skall mätas. Det bedöms att de enda relevanta storheterna som kan påverka mätresultatet är massan hos en kropp, $m$, storleken av en kraft, $F_{0}$, och längden av ett tidsintervall, $\\tau$. Ange, under dessa förutsättningar, mätresultatet uttryckt i de relevanta storheterna, sånär som på en dimensionslös multiplikativ faktor.\n\n",
+        "answer": "$F_0 \\tau / m$"
+    },
+    {
+        "questionNum": "f2010-17",
+        "question": "Vad är den typiska farten för en molekyl i luft vid rumstemperatur? (Svaret kan ges på en tiopotens när.)\n\n",
+        "answer": "$10^2 \\mathrm{~m} / \\mathrm{s}$ eller $10^3 \\mathrm{~m} / \\mathrm{s}$"
+    },
+    {
+        "questionNum": "f2010-18",
+        "question": "(Hämtat från studentskrivning 2008 i Finland.) Vattenkraftverket i Imatra har en elektrisk effekt på 170 MW. Beräkna kraftverkets verkningsgrad, då man vet att kraftverkets fallhöjd är 24 $\\mathrm{m}$ och att den vattenmängd som rinner genom kraftverket är $930 \\mathrm{~m}^{3} / \\mathrm{s}$.\n\n",
+        "answer": "$78 \\%$"
+    },
+    {
+        "questionNum": "f2010-19",
+        "question": "En ljusstråle rör sig i ett medium (plexiglas) med brytningsindex 1.5 och når gränsytan mot luft. Skissera de reflekterade och transmitterade strålarna för de olika infallsvinklarna i figuren! \n\nimg\n\n",
+        "answer": "![](https://i.imgur.com/iNoWGU0.png)"
+    },
+    {
+        "questionNum": "f2010-20",
+        "question": "Två barn sitter på var sin sida av en gungbräda. Det ena barnet (till vänster) väger $40 \\mathrm{~kg}$, och det andra (till höger) 20 kg. Båda sitter en meter från gungbrädans upphängning. Gungbrädan är mycket lättare\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_b4ca73f60e40d912e82ag-6.jpg?height=223&width=766&top_left_y=1139&top_left_x=999)\n\nän barnen, och dess upphängning sådan att den roterar kring upphängningspunkten med mycket liten (försumbar) friktion. En förälder håller från början i brädan och hindrar den från att tippa över åt det tyngre barnets sida. Sedan släpper föräldern gungbrädan. Hur stor är kraften på gungbrädan från upphängningsanordningen alldeles efter det att föräldern släppt taget? (Ledning: eftersom själva brädans massa approximeras med noll kan den anses vara i jämvikt.)\n",
+        "answer": "Vi frilägger de olika kropparna, och inför beteckningar för krafterna enligt figuren.\n\nimg\n\nDen sökta kraften är $F$. Kraft- och momentjämvikt för gungbrädan ger $G=H$ och $F=2 G$. Den tyngre kroppens acceleration nedåt kommer att vara lika stor som den lättare kroppens acceleration uppåt (eftersom de befinner sig på samma avstånd från upphängningspunkten). Vi kallar denna acceleration $a$. Då gäller alltså:\n$$\n\\left\\{\\begin{array}{c}\nm a=H-m g=\\frac{F}{2}-m g \\\\\nM a=M g-G=M g-\\frac{F}{2}\n\\end{array}\\right.\n$$\ndvs. $a=\\frac{F}{2 m}-g=g-\\frac{F}{2 M}$, varur kraften $F$ kan lösas:\n$$\nF=\\frac{4 m M g}{m+M} \\approx 52 \\mathrm{kN}\n$$\nSvaret bör kontrolleras m.a.p. dimension. Man kan också se vad som händer i något specialfall. Om en av kropparna har massan 0 blir kraften 0, vilket är naturligt - den andra kroppen är då $\\mathrm{i}$ fritt fall. Om kropparna har samma massa $m$ blir kraften $2 m g$ och accelerationen förstås 0 ."
+    },
+    {
+        "questionNum": "f2009-1",
+        "question": "En planka med längden $\\ell$ vilar på två stöd, det ena vid plankans ena ände $(\\mathrm{A})$ och det andra ett avstånd $\\ell / 3$ från den andra änden $(\\mathrm{B})$. Plankan har massan $m$. Hur stor är den vertikala kraften på plankan från stödet i B?\nA. $\\frac{m g \\ell}{2}$\nB. $\\frac{2 m g \\ell}{3}$\nC. $\\frac{3 m g \\ell}{4}$\nD. $\\frac{m g}{2}$\nE. $\\frac{3 m g}{4}$\n\nimg\n\n",
+        "answer": "E"
+    },
+    {
+        "questionNum": "f2009-2",
+        "question": "Hur stor är den totala effektutvecklingen i den idealiserade elektriska kretsen i figuren?\nA. $\\frac{U^{2}}{3 R}$\nB. $\\frac{4 U^{2}}{9 R^{2}}$\nC. $\\frac{U}{3 R}$\nD. $\\frac{U}{9 R^{2}}$\nE. Annat svar än alternativen A-D.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-1.jpg?height=347&width=656&top_left_y=1814&top_left_x=377)\n\n",
+        "answer": "E"
+    },
+    {
+        "questionNum": "f2009-3",
+        "question": "Ljudet från sirenen på ett utryckningsforden består av två alternerande toner med frekvenserna $700 \\mathrm{~Hz}$ och $990 \\mathrm{~Hz}$. Fordonet rör sig rakt ifrån en person med farten $90 \\mathrm{~km} / \\mathrm{h}$. Vilken är kvoten mellan den högre och den lägre frekvensen hos det ljud som denna person uppfattar från sirenen?\nA. 1.04\nB. 1.08\nC. 1.41\nD. 1.85\nE. 1.92 \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2009-4",
+        "question": "En kropp hänger i en fjäder, vars andra ände sitter fast i ett tak. Kroppen släpps från vila vid tiden $t=0$ i det läge där fjädern har sin naturliga längd och är vertikal. Vilken av graferna A, B, $\\mathrm{C}$ och D beskriver bäst dragkraften $F$ i fjädern som funktion av tiden $t$ under den efterföljande rörelsen?\n\nimg\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2009-5",
+        "question": "En boll A släpps från vila från en höjd $2.0 \\mathrm{~m}$ över golvet. Samtidigt som bollen A släpps skjuts en annan boll B iväg med utgångsfarten $v_{0}$ från det läge som visas i figuren. Vilken vinkel $\\alpha$ skall utgångshastigheten för boll $\\mathrm{B}$ bilda mot golvet för att boll $\\mathrm{A}$ och boll $\\mathrm{B}$ skall kollidera? Luftmotståndet är försumbart i sammanhanget.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-2.jpg?height=505&width=596&top_left_y=1501&top_left_x=1027)\nA. $60^{\\circ}$\nB. $45^{\\circ}$\nC. $30^{\\circ}$\nD. Det beror på hur stor $v_{0}$ är.\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2009-6",
+        "question": "Figuren visar en kombination av en positiv och en negativ lins. Brännvidden för den positiva linsen (P) är $10 \\mathrm{~cm}$, och för den negativa (N) $15 \\mathrm{~cm}$. Parallella ljusstrålar faller in från vänster. I vilken punkt på linjen L (linsernas symmetriaxel) fokuseras ljuset?\nA. $2.5 \\mathrm{~cm}$ till vänster om $\\mathrm{N}$\nB. $2.5 \\mathrm{~cm}$ till höger om $\\mathrm{N}$\nC. $5.0 \\mathrm{~cm}$ till höger om $\\mathrm{N}$\nD. $7.5 \\mathrm{~cm}$ till höger om $\\mathrm{N}$\nE. Ingenstans. \n\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-3.jpg?height=611&width=1011&top_left_y=431&top_left_x=545)\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2009-7",
+        "question": "Vågor på en vattenyta kommer från två källor, som är i fas med varandera och befinner sig fyra våglängder ifrån varandra. I figuren markerar cirklarna vågtopparna för vardera av de två utåtgående vågorna vid en viss tidpunkt. Vilken eller vilka av de markerade punkterna $A, \\ldots, \\mathrm{H}$ överensstämmer väl med läget för en nod, dvs. i vilken eller vilka av punkterna är amplituden för den sammanlagda vågen ständigt noll?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-3.jpg?height=611&width=811&top_left_y=1088&top_left_x=905)\n\n",
+        "answer": "B,D,E,F"
+    },
+    {
+        "questionNum": "f2009-8",
+        "question": "Axelbandet till en ryggsäck (som delades ut till deltagarna i en internationell fysikkonferens) fästs samman med ryggsäcken med en karbinhake som hakar fast i en ring (se vänstra figuren). Karbinhakens ring är fäst i ett tygband som leder upp till själva axelremmen, och ringen karbinhaken kopplas till är fäst i ett tygband som sitter fast i nedre delen av ryggsäcken. Anordningen är i ihopkopplat skick tänkt att se ut som i den mittersta figuren (märkt \"rätt\"). Under belastning vänder sig dock ringen så som i den följande figuren (märkt \"fel\"), vilket leder till olämplig belastning på bandet, och i längden kanske till att bandet eller dess infästning i ryggsäcken går sönder. Vilken eller vilka av utformningarna $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ och $\\mathrm{D}$ av den nedre ringen är bättre, i den mening att de inte leder till detta problem (mer än ett svar kan vara rätt)? (I samtliga fall skall bandet vara fäst runt den nedre sidan, vars bredd överensstämmer med bandets bredd, och karbinhaken i den övre.) \n\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-4.jpg?height=520&width=1534&top_left_y=431&top_left_x=312)\n\nB.\n\nD.\n\n",
+        "answer": "A,C"
+    },
+    {
+        "questionNum": "f2009-9",
+        "question": "Ungefär hur många molekyler (avrundat till en tiopotens) finns det i $1 \\mathrm{~m}^{3}$ luft (vid havsnivå och rumstemperatur)?\nA. $10^{15}$\nB. $10^{20}$\nC. $10^{25}$\nD. $10^{30}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2009-10",
+        "question": "Vatten strömmar genom en avsmalnande slang. I slangens ena ände, där vattnet strömmar in, kommer det in 1.0 liter/s.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-4.jpg?height=152&width=994&top_left_y=1232&top_left_x=814)\n\nSlangen har där diametern $20 \\mathrm{~mm}$. I andra änden, där vattnet strömmar ut, är diametern 15 mm. Hur stort är flödet i denna ände?\nA. 0.56 liter $/ \\mathrm{s}$\nB. 0.75 liter $/ \\mathrm{s}$\nC. 1.0 liter/s\nD. 1.3 liter $/ \\mathrm{s}$\nE. 1.8 liter $/ \\mathrm{s}$\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2009-11",
+        "question": "Genom att kombinera relevanta storheter för en himlakropp, såsom dess massa och radie, med naturkonstanter, såsom gravitationskonstanten och ljushastigheten, kan man bilda en dimensionslös storhet, proportionell mot kroppens massa, som utgör ett absolut mått på gravitationskraftens styrka vid himlakroppens yta. Ungefär hur stark är gravitationen på jordytan?\nA. $10^{-9}$\nB. $10^{-6}$\nC. $10^{-3}$\nD. 1\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2009-12",
+        "question": "Jordens massa är ungefär 81.3 gånger så stor som månens, och jordens radie ungefär 3.67 gånger så stor som månens. Flykthastigheten från jorden (dvs. den hastighet en kropp behöver minst ges vid jordytan för att, luftmotståndet försummat, inte falla tillbaka till jorden) är $11.2 \\mathrm{~km} / \\mathrm{s}$. Hur stor är flykthastigheten från månen?\nA. $0.138 \\mathrm{~km} / \\mathrm{s}$\nB. $0.504 \\mathrm{~km} / \\mathrm{s}$\nC. $2.38 \\mathrm{~km} / \\mathrm{s}$\nD. $3.05 \\mathrm{~km} / \\mathrm{s}$ \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2009-13",
+        "question": "På forskningsanläggningen CERN utanför Genève skall senare i år den nya partikelacceleratorn LHC (Large Hadron Collider) startas. Bilden nedan är ett klipp från CERN:s websida.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-5.jpg?height=1142&width=1493&top_left_y=551&top_left_x=310)\n\nI andra stycket (\"The fastest racetrack in the world...\") anges till vilken fart protonerna accelereras, och vilken deras energi då är. Siffran $7 \\mathrm{TeV}$ är rätt (den anger energin per proton). Stämmer uppgiften om farten, $v \\approx 0.9999 c$ (med detta antal signifikanta siffror)?\nA. Nej, farten är lägre än $0.9999 c$.\nB. Ja.\nC. Nej, farten är högre än $0.9999 c$. \n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2009-14",
+        "question": "En pendel, bestående av en kula som hänger i ett lätt snöre, svänger fram och tillbaka under påverkan av tyngdkraften (luftmotståndet kan försummas). Rita ut de krafter som verkar på kulan i lägena A och B, där kulan i A är på väg åt höger, och B är kulans högra vändläge. Förhållandena mellan krafternas belopp behöver inte framgå.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-6.jpg?height=482&width=305&top_left_y=730&top_left_x=904)\n\n",
+        "answer": "![](https://i.imgur.com/nmP5H5T.png)"
+    },
+    {
+        "questionNum": "f2009-15",
+        "question": "En behållare är utformad enligt figuren, som två öppna kommunicerande kärl. Båda delarna har kvadratiskt tvärsnitt, med sidan $1.0 \\mathrm{dm}$ hos den vänstra delen och $2.0 \\mathrm{dm}$ hos den högra. Från början innehåller behållaren endast vatten, och de två vattenytorna är då i jämnhöjd med varandra (vänstra bilden). Man häller sedan försiktigt i 1.0 liter olivolja, med densiteten $917 \\mathrm{~kg} / \\mathrm{m}^{3}$, i den vänstra delen av behållaren, och väntar tills den har lagt sig ovanpå vattnet (högra bilden). Vilken av ytorna, oljans övre yta till vänster eller vattnets till höger, är då högst? Hur stor är höjdskillnaden $h$ ? (Inga skalor eller avstånd kan läsas ur figuren.)\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-6.jpg?height=462&width=1378&top_left_y=1610&top_left_x=361)\n\n",
+        "answer": "(andra angreppspunkter accepteras)"
+    },
+    {
+        "questionNum": "f2009-16",
+        "question": "En kropp med massan $m$ faller i atmosfären under inverkan av tyngdkraften, och påverkas också av en luftmotståndskraft. Antag att luftmotståndskraften är proportionell mot farten $v \\mathrm{i}$ kvadrat, enligt uttrycket $\\left|\\vec{F}_{\\text {luft }}\\right|=\\frac{1}{2} C \\varrho A v^{2}$, där $A$ är kroppens tvärsnittsarea, $\\varrho$ är luftens densitet och $C$ är en dimensionlös formfaktor som beror på kroppens geometri (detta brukar vara en bra approximation för relativt stora hastigheter). När kroppen faller kommer hastigheten gradvis att närma sig en gränshastighet $v_{0}$. Uttryck $v_{0}$ i termer av övriga relevanta storheter! \n\n",
+        "answer": "oljan högst. $3 \\mathrm{~mm}$ ( $8 \\mathrm{~mm}$ godkänns. $9 \\mathrm{~mm}$ och $1 \\mathrm{~cm}$ ger 1 poäng)"
+    },
+    {
+        "questionNum": "f2009-17",
+        "question": "Norrsken uppstår när snabba laddade partiklar (t.ex. elektroner med hastigheter på c:a 350 $\\mathrm{km} / \\mathrm{s}$ ) i solvinden träffar jordens atmosfär. Låt styrkan på jordens magnetfält vara $50 \\mu \\mathrm{T}$. Beräkna den s.k. cyklotronfrekvensen, dvs. frekvensen för den cirkel- eller spiralrörelse en elektron har i detta magnetfält!\n\n",
+        "answer": "$v=\\sqrt{\\frac{2 m g}{C \\varrho A}}$"
+    },
+    {
+        "questionNum": "f2009-18",
+        "question": "Den kosmiska bakgrundstrålningen är elektromagnetisk strålning som har fyllt universum sedan den tid då dess temperatur blev tillräckligt låg för att neutrala atomer skulle bildas, och universum därmed blev genomskinligt för elektromagnetiska vågor. Den bär mycket information om universums tidiga utveckling. Temperaturen hos den kosmiska bakgrundstrålningen är nu c:a 2.7 K. Ungefär hur stor är den typiska våglängd som svarar mot denna temperatur? Det räcker att svara på en tiopotens när.\n\n",
+        "answer": "$4 \\mathrm{MHz}$ (5 MHz godkänns)"
+    },
+    {
+        "questionNum": "f2009-19",
+        "question": "En kropp med massan $5.0 \\mathrm{~kg}$ och farten $4.0 \\mathrm{~m} / \\mathrm{s}$ kolliderar med en kropp med massan $20 \\mathrm{~kg}$ som före kollisionen är i vila. Kollisionen är fullständigt inelastisk, dvs. kropparna rör sig därefter tillsammans som en enda kropp med massan 25 kg. Den är också \"rak\", dvs. den sammanslagna kroppen roterar inte efter kollisionen. Hur stor del av rörelseenergin går förlorad i kollisionen? \n\n",
+        "answer": "$1 \\mathrm{~mm}$ och $1 \\mathrm{~cm}$ ger full poäng"
+    },
+    {
+        "questionNum": "f2009-20",
+        "question": "Man vill mäta höjden på en byggnad genom att släppa en kula från taket och lyssna efter ljudet från dess nedslag i marken. Man mäter tiden $T$ från det kulan släpps från byggnadens tak till det att ljudet från nedslaget når upp till samma ställe som kulan släpptes från. Uttryck byggnadens höjd $h$ i termer av $T$, tyngdaccelerationen $g$ och ljudhastigheten $c$, då luftmotståndet på kulan är försumbart.\n",
+        "answer": "$80 \\%$\n Vi börjar med att beräkna tiden $t_1$ det tar för kulan att falla till marken och tiden $t_2$ det tar för ljudet att nå tillbaka upp.\n\nAtt falla en sträcka $h$ från vila med accelerationen $g$ (tyngdaccelerationen) tar tiden $t_1=\\sqrt{\\frac{2 h}{g}}$. För ljudet att färdas sträckan $h$ med konstant hastighet $c$ tar tiden $t_2=\\frac{h}{c}$.\n\nDen totala tiden från det att kulan släpps till det att ljudet av nedslaget hörs är alltså $T=t_1+t_2=$ $\\sqrt{\\frac{2 h}{g}}+\\frac{h}{c} . \\mathrm{Nu}$ är det $T$ som mäts och $h$ som söks, så vi behöver lösa detta samband för $h$ som funktion av $T$.\nFlytta termen $\\frac{h}{c}$ till vänsterledet och kvadrera, så erhålls $\\left(T-\\frac{h}{c}\\right)^2=\\frac{2 h}{g}$. Detta ger en andragradsekvation för $h$ som löses med standardmetod. Lösningen är\n$$\nh=c T\\left\\{1+\\frac{c}{g T} \\pm \\sqrt{\\left(1+\\frac{c}{g T}\\right)^2-1}\\right\\}\n$$\n(detta kan skrivas på några olika sätt). Plustecknet kan uteslutas eftersom $h<c T$, dvs. eftersom sträckan ljudet går på tiden $T$ måste vara större än $h$. Den \"felaktiga\" lösningen uppkom på grund av kvadreringen som gjordes på vägen; före kvadreringen var både vänster- och högerled positiva. Höjden är alltså\n$$\nh=c T\\left\\{1+\\frac{c}{g T}-\\sqrt{\\left(1+\\frac{c}{g T}\\right)^2-1}\\right\\}\n$$\nEn första kontroll av svaret är att det har korrekt dimension. En annan kontroll kan t.ex. vara vad som händer om $\\frac{c}{g T}$ är liten, dvs. om \"ljudhastigheten är låg\". Då närmar sig uttrycket $h \\approx c T$, vilket stämmer med att den mesta tiden går åt till att ljudet skall färdas."
+    },
+    {
+        "questionNum": "f2008-1",
+        "question": "Man försöker dra åt en mutter med en skiftnyckel. Muttern rör sig inte. De två krafterna till vänster i figuren visar de krafter som skiftnyckeln påverkar muttern med. Vilket av alternativen A, B, C och D kan vara den kraft som man trycker med handen på skiftnyckeln med?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-1.jpg?height=920&width=1056&top_left_y=1373&top_left_x=403)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2008-2",
+        "question": "En dörrstängare utövar ett moment $M=20 \\mathrm{Nm}$ med avseende på en axel genom dörrens gångjärn. Bilden visar dörren sedd uppifrån. Hur stor behöver kraften $F$ vara för att hålla dörren stilla?\nA. $24 \\mathrm{~N}$\nB. $28 \\mathrm{~N}$\nC. $33 \\mathrm{~N}$\nD. $47 \\mathrm{~N}$\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-2.jpg?height=605&width=805&top_left_y=680&top_left_x=380)\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2008-3",
+        "question": "Ljudet från en klarinett kommer från en stående våg i instrumentet. I ena änden av klarinetten har den stående vågen en buk, och i den andra änden en nod. Om klarinetten spelar en ettstruket B med frekvensen $466.2 \\mathrm{~Hz}$, vilken är frekvensen för den första övertonen?\nA. $233.1 \\mathrm{~Hz}$\nB. $310.8 \\mathrm{~Hz}$\nC. $699.3 \\mathrm{~Hz}$\nD. $932.4 \\mathrm{~Hz}$\nE. $1399 \\mathrm{~Hz}$\n\n",
+        "answer": "E"
+    },
+    {
+        "questionNum": "f2008-4",
+        "question": "Ett barn gungar på en gunga, och har en boll i handen. När gungan är vid sin högsta punkt släpper barnet bollen (utan att kasta iväg den). Vilket av alternativen A, B, C, D och E beskriver bäst bollens bana?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-2.jpg?height=377&width=622&top_left_y=1830&top_left_x=500)\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2008-5",
+        "question": "Två klot skjuts upp samtidigt från jordytan med samma fart, det ena (klot X) med vinkeln $40^{\\circ}$ mot vertikalen, det andra (klot Y) med vinkeln $60^{\\circ}$. Vilket klot som landar först (dvs. efter kortast tid)? Vilket klot landar längst från utskjutningspunkten? Luftmotståndet är \n\nförsumbart. Vilket av följande påståenden är korrekt?\nA. Klot X landar först och når längst.\nB. Klot Y landar först och når längst.\nC. Klot X landar först, klot Y når längst.\nD. Klot Y landar först, klot X når längst.\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2008-6",
+        "question": "Figuren nedan visar ett förenklat diagram över atomära energinivåer som är relevanta för en helium-neon-laser. Om lasern lyser med en effekt på $3 \\mathrm{~mW}$, ungefär hur många övergångar mellan kvanttillstånden $3 \\mathrm{~s}_{2}$ och $2 \\mathrm{p}_{4}$ i neon sker varje sekund?\nA. $10^{8}$\nB. $10^{16}$\nC. $10^{24}$\nD. $10^{32}$\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-3.jpg?height=911&width=183&top_left_y=1069&top_left_x=411)\n\n(b) He-Ne energy exchange collision\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-3.jpg?height=876&width=904&top_left_y=1130&top_left_x=607)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2008-7",
+        "question": "En person försöker stämma ett piano. Tonen a skall ha frekvensen $220 \\mathrm{~Hz}$. En av de tre strängarna som slås an då man trycker ned a-tangenten har dock sjunkit i tonhöjd. Personen dämpar bort en av de två riktigt stämda strängarna. Det ljud som kommer från de två klingande strängarna (en rätt stämd, en för låg) avbildas med hjälp av ett oscilloskop som det nedre diagrammet. För personen som lyssnar låter det som en ton med varierande styrka. \n\nVilken frekvens svänger den ostämda strängen med?\nA. $191 \\mathrm{~Hz}$\nB. $206 \\mathrm{~Hz}$\nC. $213 \\mathrm{~Hz}$\nD. $216 \\mathrm{~Hz}$\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-4.jpg?height=911&width=922&top_left_y=584&top_left_x=407)\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2008-8",
+        "question": "Ett järnstycke som skall smidas värms upp, och har vid ett visst tillfälle temperaturen c:a $1000{ }^{\\circ} \\mathrm{C}$. I vilken del av det elektromagnetiska spektrat ligger då den typiska strålningen från järnstycket?\nA. gammastrålning\nB. UV\nC. IR\nD. mikrovågor\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2008-9",
+        "question": "I Svenska Dagbladet kunde man den 22 mars i år läsa nedanstående notis. Om bumerangen skulle kastas, inte inne i rymdstationen, utan ute i rymden, vad skulle då hända?\nA. Den skulle fara iväg och sedan återvända till utgångspunkten.\nB. Den skulle fara iväg i en rak linje.\nC. Den skulle svänga, fast mindre än inne i rymdstationen.\nD. Den skulle inte röra sig alls. \n\nimg\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2008-10",
+        "question": "Vilka av följande gaser skulle kunna användas i ballonger utan att gasen värms? (Kriteriet är endast att man skall få någon lyftkraft om ballongens konstruktion är tillräckligt lätt, alla andra tekniska aspekter bortses från. Atmosfären består till c:a $80 \\%$ av kväve, $\\mathrm{N}_{2}$, och till c:a $20 \\%$ av syre, $\\mathrm{O}_{2}$. Flera alternativ kan vara rätt, och samtliga av dessa behöver isåfall markeras. Atomvikter: H: 1, He: 4, N: 14, O: 16, Ne: 20, Ar: 40.)\nA. Vätgas, $\\mathrm{H}_{2}$\nB. Helium, He\nC. Neon, Ne\nD. Argon, Ar\n\n",
+        "answer": "A,B,C"
+    },
+    {
+        "questionNum": "f2008-11",
+        "question": "Ett sandkorn har en diameter på ungefär $0.5 \\mathrm{~mm}$. Det består mest av grundämnena kisel och syre i form av kvarts, $\\mathrm{SiO}_{2}$. Kisel har atomvikt 28 och syre 16 . Kvarts har en densitet på c:a $2650 \\mathrm{~kg} / \\mathrm{m}^{3}$. Ungefär hur stor plats tar så många sandkorn som det finns atomer i varje sandkorn, grovt räknat?\nA. De ryms i ett dricksglas\nB. I storleksordningen en kubikkilometer\nC. Lika stor plats som månen\nD. Som en sfär med solsystemets radie\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2008-12",
+        "question": "När man skickar rymdsonder på upptäcktsfärd genom solsystemet är det vanligt att låter dem passera nära planeter, t.ex. Jupiter och Saturnus, för att öka sondernas hastigheter. Om en rymdsond har högre fart efter det att den passerat planeten än innan, varifrån kommer den extra rörelseenergin?\nA. Från planetens rörelseenergi.\nB. Från energin i planetens gravitationsfält.\nC. Energin är inte bevarad i denna process (den är inte elastisk) så frågan är inte korrekt formulerad.\n\nD. Sett från det system där planeten är i vila är sondens hastighet, och därmed dess rörelseenergi, samma före och efter passagen. Därför är de lika även i andra system, och sondens rörelseenergin har inte ökat utan är oförändrad.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-6.jpg?height=846&width=805&top_left_y=645&top_left_x=363)\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2008-13",
+        "question": "Myoner (partiklar med liknande egenskaper som elektroner fast tyngre, massan är $m \\approx 105.7$ $\\mathrm{MeV} / \\mathrm{c}^{2}$ ) bildas när kosmisk strålning träffar den övre atmosfären. Antag att myonerna bildas på höjden $15 \\mathrm{~km}$. Halveringstiden för myoner är $T_{1 / 2} \\approx 2.2 \\mu \\mathrm{s}$. Hur hög energi skall en myon minst ha för att den skall hinna vertikalt ned till jordytan på tiden $T_{1 / 2}$ ?\nA. $0.11 \\mathrm{GeV}$\nB. $0.21 \\mathrm{GeV}$\nC. $2.4 \\mathrm{GeV}$\nD. Den kan inte hinna ned.\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2008-14",
+        "question": "En cykel rullar med den konstanta farten $v$. Figuren förestller ett av cykelns hjul. Punkten P är i kontakt med marken. Pilen visar hastigheten som hjulets mittpunkt rör sig med. Rita ut hastigheterna för punkterna A och B på hjulets periferi (dessa skall vara i rätt skala i förhållande till mittpunktens hastighet). Rita ut accelerationerna för punkterna A och B (dessa skall vara i rätt skala i förhållande till varandra). \n\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-7.jpg?height=640&width=825&top_left_y=434&top_left_x=364)\n\n",
+        "answer": "![](https://i.imgur.com/6smwdKt.png)"
+    },
+    {
+        "questionNum": "f2008-15",
+        "question": "Ett rör, vars övre ände är försluten, hålls delvis nedsänkt i vatten, så att vattenytan inne $\\mathrm{i}$ röret är i samma nivå som utanför, enligt den vänstra figuren. Röret lyfts sedan till läget i den högra figuren. Hur stort är då lufttrycket inne i röret? (Längder förutom de angivna är inte nödvändigtvis i skala, och kan inte läsas av ur figurerna. Temperaturen hos den instängda luften kan ändras under processen.)\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-7.jpg?height=832&width=1324&top_left_y=1400&top_left_x=364)\n\n",
+        "answer": "$92 \\mathrm{kPa}$"
+    },
+    {
+        "questionNum": "f2008-16",
+        "question": "En kropp med massan $m$ faller i atmosfären under inverkan av tyngdkraften, och påverkas också av en luftmotståndskraft. Antag att luftmotståndskraften är proportionell mot farten $v$ i kvadrat, enligt uttrycket $\\left|F_{\\text {luft }}\\right|=\\frac{1}{2} C \\varrho A v^{2}$, där $A$ är kroppens tvärsnittsarea, $\\varrho$ är luftens densitet och $C$ är en dimensionlös formfaktor som beror på kroppens geometri (detta brukar vara en bra approximation för relativt stora hastigheter). När kroppen faller kommer den gradvis att närma sig gränshastigheten $v_{\\text {limit }}=\\sqrt{\\frac{2 m g}{C \\varrho A}}$. Med hjälp av de ingående parametrarna kan man bilda en sträcka (som t.ex. kan tolkas som den längdskala på vilken hastigheten närmar sig gränshastigheten exponentiellt). Hur stor är denna sträcka? Den exakta numeriska konstanten som multiplicerar kombinationen av parametrar efterfrågas ej.\n\n",
+        "answer": "$m /(C \\varrho A)$ (även $m /(\\varrho A)$ godkänns)"
+    },
+    {
+        "questionNum": "f2008-17",
+        "question": "En person cyklar $1000 \\mathrm{~m}$ med hastigheten $15.0 \\mathrm{~km} / \\mathrm{h}$, och sedan $1000 \\mathrm{~m}$ med hastigheten 30.0 $\\mathrm{km} / \\mathrm{h}$. Hur stor blir medelhastigheten?\n\n",
+        "answer": "$0 \\mathrm{~km} / \\mathrm{h}$"
+    },
+    {
+        "questionNum": "f2008-18",
+        "question": "I ett bildrör (t.ex. en TV-apparat) accelereras elektroner av ett elektriskt fält. Om den elektriska fältstyrkan är $100 \\mathrm{kV} / \\mathrm{m}$ och elektronerna färdas en sträcka $2 \\mathrm{dm}$ från vila, hur stor hastighet uppnår de?\n\n",
+        "answer": "$8 \\cdot 10^7 \\mathrm{~m} / \\mathrm{s}$"
+    },
+    {
+        "questionNum": "f2008-19",
+        "question": "Vatten strömmar med farten $0.75 \\mathrm{~m} / \\mathrm{s}$ genom ett U-format rör, vars tvärsnitt är cirkulärt med radien $10 \\mathrm{~mm}$. Hur stor skall kraften $F$ vara för att kompensera för vattnets kraft på röret?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-8.jpg?height=374&width=603&top_left_y=1406&top_left_x=378)\n\n",
+        "answer": "$35 \\mathrm{~N}$."
+    },
+    {
+        "questionNum": "f2008-20",
+        "question": "Tre glödlampor A, B och C är kopplade enligt schemat nedan. Lamporna lyder till god approximation Ohms lag, men bara upp till ett maximalt värde på strömmen genom lampan. Om strömmen överskrider detta värde går lampan sönder, och ingen ström kan flyta genom den. Detta värde är 3.0 A för lampa A, 1.8 A för lampa B och 0.8 A för lampa C. För lägre värden på strömmen genom lamporna har lampa A resistansen $3.0 \\Omega$, lampa $\\mathrm{B} 6.0 \\Omega$ och lampa C $6.0 \\Omega$. Vilken effekt utvecklas totalt i kretsen? \n",
+        "answer": "Sålänge lamporna inte överbelastas, är resistansen för $B$ och $C$ parallellkopplade $0 \\Omega$, och dessa i serie med A har resistansen $0 \\Omega$. Då skulle strömmen genom kretsen bli $12 / 0=0 \\mathrm{~A}$. I vardera motståndet $\\mathrm{B}$ och $\\mathrm{C}$ flyter 0 A. Lampa $\\mathrm{C}$ går alltså sönder. Därefter är resistansen för hela kretsen $0 \\Omega$, och strömmen blir 12/0=3 A. Båda motstånden A och $\\mathrm{B}$ håller. Effekten blir $\\mathrm{P}=\\mathrm{U}^2 / \\mathrm{R}=144 / 9=16 \\mathrm{~W}$"
+    },
+    {
+        "questionNum": "f2007-1",
+        "question": "En kropp påverkas av de tre krafter som visas i vänstra figuren. Vilken kraft av alternativen $A, B, \\ldots, H$ behöver läggas till för att jämvikt skall uppnås?\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-1.jpg?height=458&width=1310&top_left_y=1077&top_left_x=452)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2007-2",
+        "question": "En gungbräda med vikten $10 \\mathrm{~kg}$ (jämnt fördelad längs dess längd) och längden $5.0 \\mathrm{~m}$ är upphängd i sin mittpunkt. Barnet X, som väger $30 \\mathrm{~kg}$, sitter $1.0 \\mathrm{~m}$ från ena änden. Barnet Y väger $20 \\mathrm{~kg}$. I vilken av punkterna A, B, C, D eller E skall Y sitta för att gungbrädan skall vara i jämvikt?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-1.jpg?height=363&width=807&top_left_y=1838&top_left_x=453)\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2007-3",
+        "question": "En musiker spelar en ton med frekvensen $440.0 \\mathrm{~Hz}$ på en fiol. En åhörare står $50 \\mathrm{~m}$ bort och lyssnar. Båda står stilla, men en vind med farten $30 \\mathrm{~m} / \\mathrm{s}$ blåser i riktning från musikern mot åhöraren. Vilken frekvens har tonen åhöraren hör?\n\nA. $401.2 \\mathrm{~Hz}$ B. $440.0 \\mathrm{~Hz}$ C. $440.6 \\mathrm{~Hz}$ D. $478.8 \\mathrm{~Hz}$ E. $482.6 \\mathrm{~Hz}$\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2007-4",
+        "question": "Två likadana stålkulor är upphängda i lika långa trådar, så att de när de hänger i vila precis nuddar varandra. Den vänstra kulan släpps från vila i läget i figuren vid tiden $t=0$, och stöter mot den högra kulan vid tiden $t=T$. Vilken av graferna A, B, C, D eller E beskriver bäst hur kraften i den vänstra kulans tråd beror på tiden?\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-2.jpg?height=1288&width=1462&top_left_y=842&top_left_x=385)\n\n",
+        "answer": "A"
+    },
+    {
+        "questionNum": "f2007-5",
+        "question": "Två likadana bollar släpps samtidigt från vila från olika höjder (enligt figuren). Hur förändras höjdskillnaden mellan dem i den efterföljande rörelsen?\nA. Den minskar\nB. Den förblir densamma\nC. Den ökar\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-3.jpg?height=217&width=805&top_left_y=537&top_left_x=454)\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2007-6",
+        "question": "Strömmen $I$ flyter genom en rak ledare (ut ur pappret i figuren). Ledaren är oladdad. En positivt laddad partikel rör sig med hastigheten $\\mathbf{v}$ enligt figuren. Åt vilket håll är kraften på partikeln riktad?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-3.jpg?height=84&width=105&top_left_y=1189&top_left_x=457)\n\nSvarsalternativ:\n\nimg\n\n",
+        "answer": "D"
+    },
+    {
+        "questionNum": "f2007-7",
+        "question": "Vid ett interferensexperiment låter man laserljus med våglängden $543 \\mathrm{~nm}$ gå genom en dubbelspalt och mäter ett interferensmönster på en skärm. Ljuset kommer in rakt från vänster i figuren. Kurvan till höger visar den uppmätta intensiteten hos ljuset som träffar skärmen. Notera att figuren inte är skalenlig. Hur stort är avståndet $d$ mellan öppningarna i dubbelspalten?\nA. $0.27 \\mu \\mathrm{m}$\nB. $5.4 \\mu \\mathrm{m}$\nC. $0.54 \\mathrm{~mm}$\nD. $10 \\mathrm{~mm}$ \n\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-4.jpg?height=694&width=1011&top_left_y=331&top_left_x=449)\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2007-8",
+        "question": "Den tyske vetenskapsmannen Otto von Guericke uppfann vad som kom att kallas de magdeburgska halvkloten. Von Guericke konstruerade en vakuumpump, med vars hjälp han pumpade ut luften ur ett \"klot\" sammansatt av två halvsfärer av koppar med en diameter på drygt $30 \\mathrm{~cm}$. Sexton hästar, åtta för varje halvklot, misslyckades att sära på halvkloten. Ungefär hur stor kraft skulle krävas för att sära dem?\nA. $10 \\mathrm{~N}$\nB. $10^{4} \\mathrm{~N}$\nC. $10^{7} \\mathrm{~N}$\nD. $10^{10} \\mathrm{~N}$\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2007-9",
+        "question": "En projektil med massan $m$ skjuts med farten $v$ mot en asteroid med massan $M$ i vila, och fastnar i den. Vilken eller vilka konserveringslagar behöver användas för att bestämma deras gemensamma hastighet efter träffen?\n\nA. Energins bevarande, men inte rörelsemängdens bevarande\n\nB. Rörelsemängdens bevarande, men inte energins bevarande\n\nC. Både rörelsemängdens och energins bevarande\n\nD. Varken energins eller rörelsemängdens bevarande\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2007-10",
+        "question": "En kropp rör sig genom luften, och påverkas av en luftmotståndskraft vars storlek kan skrivas som $|\\mathbf{F}|=b v^{2}$, där $v$ är kroppens fart genom luften. Om konstanten $b$ uttrycks i SI-systemet, vilken eller vilka av enheterna A, B, C, D och E uttrycks den i?\nA. $\\mathrm{kg}$\nB. $\\mathrm{N}$\nC. $\\mathrm{kg} / \\mathrm{m}$\nD. $\\mathrm{kg} / \\mathrm{s}$\nE. Ns/m\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2007-11",
+        "question": "På jorden är dagens längd (den sammanhängande ljusa tiden på dygnet) i snitt 12 timmar. Ungefär hur lång är \"dagen\" på månen (bortsett från solförmörkelser)?\nA. 12 timmar\nB. 2 veckor\nC. 1 månad\nD. 6 månader\nE. 1 år \n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2007-12",
+        "question": "I natrium kan valenselektronen exciteras till tillståndet 3p, varifrån den faller tillbaka till tillståndet 3s under utsändande av en foton. Energiskillnaden mellan dessa tillstånd är $2.10 \\mathrm{eV}$. I vilken del av det elektromagnetiska spektrat ligger den strålning som sänds ut?\nA. radiovågor\nB. mikrovågor\nC. synligt ljus\nD. röntgenstrålning\nE. gammastrålning\n\n",
+        "answer": "C"
+    },
+    {
+        "questionNum": "f2007-13",
+        "question": "Samtidigt som du äter din morgonsmörgås sitter en varelse i Andromedagalaxen och gör detsamma. Vi kallar de två frukostarna för händelse X (på jorden) och händelse Y (i Andromedagalaxen). Med \"samtidigt\" menas samtidigt i ditt referenssystem. Om vi istället beskriver de två händelserna i ett annat referenssystem, det som hör till en rymdfarare som med mycket hög hastighet är på väg från Andromedagalaxen mot jorden, vilket av följande påståenden är korrekt?\n\nA. Händelse X och händelse Y är samtidiga\n\nB. Händelse $X$ äger rum före händelse $Y$\n\nC. Händelse Y äger rum före händelse $\\mathrm{X}$\n\nD. Frågan är inte väldefinierad, eftersom man inte kan definiera samtidighet för händelser som inte inträffar på samma plats i rummet.\n\n",
+        "answer": "B"
+    },
+    {
+        "questionNum": "f2007-14",
+        "question": "En kropp glider med konstant hastighet på ett friktionsfritt underlag. Rita ut alla krafter som verkar på kroppen!\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-5.jpg?height=255&width=612&top_left_y=1835&top_left_x=453)\n\n",
+        "answer": "![](https://i.imgur.com/iMJyrKn.png)"
+    },
+    {
+        "questionNum": "f2007-15",
+        "question": "En glödlampa utvecklar effekten $5.0 \\mathrm{~W}$ när den kopplas till ett batteri med spänningen $12 \\mathrm{~V}$. En person har bara tillgång till ett batteri på $24 \\mathrm{~V}$, och försöker koppla in motstånd för att inte lampan skall gå sönder. Hur stor skall resistansen $R$ hos motståndet i figuren vara för att spänningen över lampan skall vara $12 \\mathrm{~V}$ ?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-6.jpg?height=382&width=610&top_left_y=492&top_left_x=454)\n\n",
+        "answer": "$29 \\Omega(8 \\Omega)$"
+    },
+    {
+        "questionNum": "f2007-16",
+        "question": "En massa är fäst i en fjäder och kan glida utan friktion på ett horisontellt plan. Frekvensen för svängningarna är $f$. Hur stor är frekvensen om\n\ni) massan byts ut mot en dubbelt så stor massa?\n\nii) fjädern byts ut mot en med dubbelt så stor fjäderkonstant?\n\niii) både massan och fjäderkonstanten fördubblas?\n\niv) samma massa istället hänger i samma fjäder från ett tak?\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-6.jpg?height=490&width=1008&top_left_y=1262&top_left_x=450)\n\n",
+        "answer": "i) $f / \\sqrt{2}$\nii) $f \\sqrt{2}$\niii) $f$\niv) $f$"
+    },
+    {
+        "questionNum": "f2007-17",
+        "question": "En bil startar från vila och har sedan den konstanta accelerationen $2.0 \\mathrm{~m} / \\mathrm{s}^{2}$. Hur stor är bilens medelhastighet från det att den börjar accelerera till det att den har färdats $100 \\mathrm{~m} ?$\n\n",
+        "answer": "$10m/s$"
+    },
+    {
+        "questionNum": "f2007-18",
+        "question": "Parallella ljusstrålar faller in mot en konvex (\"positiv\") lins med brännvidden $50 \\mathrm{~cm}$. Ytterligare 25 cm bakom den finns en konkav (\"negativ\") lins med samma brännvidd. Skissera hur ljusstrålarna går! (Linserna kan ses som mycket smala, så man kan tänka att all brytning sker på de streckade linjerna.) \n\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-7.jpg?height=591&width=813&top_left_y=415&top_left_x=450)\n\n",
+        "answer": "![](https://i.imgur.com/ZQ7CFTK.png)"
+    },
+    {
+        "questionNum": "f2007-19",
+        "question": "En cylinder innehåller en viss mängd luft vid rumstemeratur, $20^{\\circ} \\mathrm{C}$. Den vänstra bilden visar kolvens läge då en kraft $F$ verkar på den. I den högra figuren innehåller cylindern samma mängd luft och samma kraft verkar. Vilken är då luftens temperatur?\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-7.jpg?height=230&width=1106&top_left_y=1258&top_left_x=450)\n\n",
+        "answer": "$313^{\\circ} \\mathrm{C} \\quad(586 \\mathrm{~K})$"
+    },
+    {
+        "questionNum": "f2007-20",
+        "question": "En homogen stav med kvadratiskt tvärsnitt ligger och flyter i vatten. Staven har densiteten $0.25 \\mathrm{~kg} / \\mathrm{dm}^{3}$. Hur djupt flyter staven under förutsättning att\n\ni) den har en sida parallell med vattenytan?\n\nii) den är roterad $45^{\\circ}$ i förhållande till fall i)?\n\n(Se figurerna för illustration av de två fallen.) Vilket kommer i praktiken att inträffa om man lägger staven i vatten? \n\n![](https://cdn.mathpix.com/cropped/2023_05_29_40b9ab07fdb5cd7ab10bg-8.jpg?height=500&width=1258&top_left_y=344&top_left_x=454)\n",
+        "answer": "iv)$f$\n $10 \\mathrm{~m} / \\mathrm{s}$\n img\n $313^{\\circ} \\mathrm{C}(586 K)$\n Kroppens densitet är $1 / 4$ av vattnets. Enligt Arkimedes princip är lyftkraften från vattnet lika med tyngden av det undanträngda vattnet, så $1 / 4$ av stavens volym kommer att ligga under vattenytan. De två fallen är avbildade i figuren. I båda fallen är $1 / 4$ av tvärsnittsarean under vattenytan.\nI fall i) räknar man ut $a^2 / 4=a d_1$ vilket ger $d_1=a / 4$.\nI fall ii) fås $a^2 / 4=d_2^2$ som ger $d_2=a / 2$.\nTyngdpunktens höjd över vattenytan är i fall i) $a / 4$ och i fall ii) $a\\left(\\frac{1}{\\sqrt{2}}-\\frac{1}{2}\\right)$. Tyngdpunkten befinner sig lägre i fall ii), som alltså är det som i praktiken kommer att inträffa.\n\n![](https://i.imgur.com/2Keo0o4.png)"
+    }
+]
