@@ -100,6 +100,10 @@ section#features .feature {
     border-radius: 15px;
 }
 
+.feature h3 {
+    text-align: center;
+}
+
 .feature p {
     text-align: center;
 }
@@ -130,4 +134,94 @@ section#features .feature {
 
 section#challenge {
     margin-top: 5em;
+}
+
+@media (max-width: 1200px) {
+    #features {
+        font-size: small;
+    }
+}
+
+
+@media (max-width: 1065px) {
+    h1 {
+        font-size: 2.5em !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em !important;
+    }
+
+    .part-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 7em;
+    }
+
+    .part-container a {
+        width: 40vw !important;
+        height: 30vw !important;
+    }
+
+    .or-hr {
+        width: 50%;
+        height: 1px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    .or-hr span {
+        padding: 0 1em;
+    }
+
+    #features {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 688px) {
+    h1 {
+        font-size: 1.5em !important;
+    }
+
+    h2 {
+        font-size: 1.5em !important;
+    }
+
+    #features {
+        font-size: xx-small;
+    }
+}
+
+@media (max-width: 617px) {
+    .part-container a {
+        width: 50vw !important;
+        height: 40vw !important;
+    }
+
+    #features {
+        flex-direction: column;
+        font-size: small;
+    }
+}
+
+@media (max-width: 617px) {
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    .feature:nth-child(2) {
+        transform: none !important;
+    }
+}
+
+@media (max-width: 448px) {
+    .part-container a {
+        width: 60vw !important;
+        height: 50vw !important;
+    }
 }

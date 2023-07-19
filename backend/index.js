@@ -6,7 +6,7 @@ const fileUpload = require('express-fileupload');
 const cors = require("cors");
 const path = require("path");
 const mongoose = require('mongoose');
-const session = require("express-session");
+const session = require("cookie-session");
 const cookieParser = require("cookie-parser");
 const {deserialize} = require('./src/Session.js');
 
