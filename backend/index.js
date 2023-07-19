@@ -6,7 +6,7 @@ const fileUpload = require('express-fileupload');
 const cors = require("cors");
 const path = require("path");
 const mongoose = require('mongoose');
-const session = require("cookie-session");
+const session = require("express-session");
 const cookieParser = require("cookie-parser");
 const {deserialize} = require('./src/Session.js');
 
@@ -33,8 +33,7 @@ app.use(session({
     saveUninitialized: false,
     cookie: {
         domain: process.env.domain,
-        expires: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
-        maxAge: 3600000 * 24 * 7,
+        maxAge: 3600000 * 24 * 7
     }
 }));
 
