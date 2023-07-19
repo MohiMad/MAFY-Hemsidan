@@ -40,7 +40,8 @@
   },
   "scripts": {
     "start-client": "react-scripts --openssl-legacy-provider start",
-    "start": "npm run build && (cd backend && node .)",
+    "start-all": "npm run build && (cd backend && node .)",
+    "start": "cd backend && node index.js",
     "build": "react-scripts --openssl-legacy-provider build",
     "start-server": "cd backend && node .",
     "test": "jest --coverage",
