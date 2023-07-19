@@ -4,6 +4,7 @@ const {sendMsg, getUser} = require("../../src/Utility");
 
 
 router.get("/", async (req, res) => {
+    console.log(req.user);
     const user = await getUser(req?.user?.ID);
 
     if(!user) return sendMsg(res, "No user found.", 400);

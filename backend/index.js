@@ -32,7 +32,6 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     cookie: {
-        domain: process.env.domain,
         maxAge: 3600000 * 24 * 7
     }
 }));
