@@ -9,7 +9,7 @@ const {encryptTokens, createUser} = require("../../src/Utility.js");
 router.get("/", async (req, res) => {
     const {code} = req.query;
 
-    if(req.user) return res.redirect('back');
+    if(req.user) return res.redirect(process.env.domain);
 
     if(code) {
         try {
@@ -26,7 +26,7 @@ router.get("/", async (req, res) => {
         }
     }
 
-    return res.redirect('back');
+    return res.redirect(process.env.domain);
 });
 
 module.exports = router;
