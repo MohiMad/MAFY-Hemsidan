@@ -2,22 +2,29 @@ import React from "react";
 import Latex from "react-latex";
 
 function FormattedLatex({children}) {
-    const formattedLatexExp = children.split(/\n/g);
-    console.log(formattedLatexExp);
+    const formattedLatexExp = children
+        .replace(/\$\$.*?\$\$/g, "\n$&\n")
+        .replace(/!\[\]\(.*?\)/ig, "")
+        .split(/\n/g);
 
+    const image = children.match(/!\[\]\(.*?\)/);
 
-    return (formattedLatexExp.map(x => {
-        const regexPattern = /(\$\$(.*?)\$\$)/g;
-        const matches = [...x.matchAll(regexPattern)];
-        const contents = matches.map(match => match[1]);
-        console.log(x.split(contents[0]));
-        return <>
-            <Latex displayMode={false}>{x}</Latex>
-            <br />
-        </>;
-    }
+    console.log(children);
 
-    ));
+    console.log(image);
+
+    return <>
+        {(formattedLatexExp.map(x => {
+
+            return <>
+                <Latex trust={true} strict={false} displayMode={false}>{x}</Latex>
+                <br />
+            </>;
+        }
+
+        ))}
+        {image?.length > 0 && <img className="img-in-question" alt="figur" src={image[0].replace(/!\[\]\(|\)/g, "")} />}
+    </>;
 }
 
 export default FormattedLatex;

@@ -26,23 +26,24 @@ function LandingPage(props) {
         <div className="feature">
           <FontAwesomeIcon icon={faFileCircleQuestion} />
           <h3>Interaktiva prov</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quo! Iure velit, voluptatibus, atque cumque natus facere quo ipsum porro nobis laudantium</p>
+          <p>Vår hemsida erbjuder en förbättrad provupplevelse genom våra interaktiva prov som ger dig omedelbar återkoppling på dina svar.</p>
         </div>
         <div className="feature">
           <FontAwesomeIcon icon={faQuestionCircle} />
           <h3>Se lösningsförslag</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quo! Iure velit, voluptatibus, atque cumque natus facere quo ipsum porro nobis laudantium</p>
+          <p>Utforska olika lösningsförslag från andra personer och inspireras av deras metoder att lösa en uppgift. Samtidigt har du möjligheten att dela med dig din innovativa lösning.</p>
 
         </div>
         <div className="feature">
           <FontAwesomeIcon icon={faRandom} />
           <h3>Kategoriserade frågor</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quo! Iure velit, voluptatibus, atque cumque natus facere quo ipsum porro nobis laudantium</p>
+          <p>Sortera frågorna från gamla prov utifrån vad du bedömer att du behöver öva på. Vi har kategoriserat frågorna åt dig utifrån år, del (A, B, eller C) och ämne som frågan berör.</p>
         </div>
       </section>
-      <section id="challenge">
+      {/* <section id="challenge">
         <h2>Så vad väntar du på?</h2>
-      </section>
+        <p>Ta steget mot dina drömmar och börja plugga till Matematik- och Fysik provet!</p>
+      </section> */}
     </div>
   );
 }

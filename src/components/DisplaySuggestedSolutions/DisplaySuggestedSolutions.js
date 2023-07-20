@@ -31,7 +31,7 @@ function DisplaySuggestedSolutions({questions, questionNum, shouldDisplaySeconda
         const uploadForm = document.getElementById("uploadForm");
         const formData = new FormData(uploadForm);
 
-        const res = await fetch(`http://localhost:3000/api/user/post/solution/image/${ questions[questionNum].questionNum }`, {
+        const res = await fetch(`/api/user/post/solution/image/${ questions[questionNum].questionNum }`, {
             method: 'POST',
             body: formData
         });;

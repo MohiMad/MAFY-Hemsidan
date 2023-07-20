@@ -9,8 +9,6 @@ function Navbar({pathName, user}) {
   // eslint-disable-next-line no-unused-vars
   const devLink = "https://discord.com/api/oauth2/authorize?client_id=1128229936012996639&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fapi%2Flogin%2Fdiscord&response_type=code&scope=identify";
 
-  console.log("user", user);
-
   return (
     <nav className="nav">
       <div className="logo-holder">

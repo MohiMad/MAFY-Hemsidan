@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from "react";
-import Latex from "react-latex";
 import "./OptionQuestion.css";
 import Utility from "../../Utility";
 import Button from "../Button/Button";
 import {useLocation} from "react-router-dom";
 import NextQuestionButton from "../NextQuestionButton";
+import FormattedLatex from "../FormattedLatex";
+
 
 function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons, isFysik}) {
   const location = useLocation();
@@ -83,7 +84,7 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons
 
   return (
     <>
-      <Latex displayMode={false}>{`${ questionAndOptions?.[0] }${ isFysik ? "" : ":" }`}</Latex>
+      <FormattedLatex>{`${ questionAndOptions?.[0] }${ isFysik ? "" : ":" }`}</FormattedLatex>
       <div className="option-holder">
         {questionAndOptions?.slice(1).map((option, i) => {
           const questionCharacter = Utility.getQuestionCharacterBasedOnNumber(i);
@@ -104,9 +105,8 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons
                 name={questionCharacter}
                 key={option}
               />
-              <Latex
-                displayMode={false}
-              >{`${ questionCharacter } ${ option }`}</Latex>
+              <FormattedLatex
+              >{`${ questionCharacter } ${ option }`}</FormattedLatex>
             </div>
           );
         })}

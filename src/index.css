@@ -68,3 +68,8 @@ hr {
     font-size: 1.25em;
   }
 }
+
+.img-in-question {
+  width: 50%;
+  height: auto;
+}

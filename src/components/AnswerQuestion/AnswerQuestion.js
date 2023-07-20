@@ -1,10 +1,10 @@
 import React, {useState, useEffect, useRef} from "react";
-import Latex from "react-latex";
 import Button from "../Button/Button";
 import NextQuestionButton from "../NextQuestionButton";
 import "./AnswerQuestion.css";
 import {useLocation} from "react-router-dom";
 import Utility from "../../Utility";
+import FormattedLatex from "../FormattedLatex";
 
 
 function AnswerQuestion({questions, questionNum, setShouldDisplaySecondayButtons}) {
@@ -63,13 +63,13 @@ function AnswerQuestion({questions, questionNum, setShouldDisplaySecondayButtons
 
   return (
     <>
-      <Latex displayMode={false}>{questions[questionNum].question}</Latex>
+      <FormattedLatex displayMode={false}>{questions[questionNum].question}</FormattedLatex>
       <div className="user-input-container">
         {
           (isCorrect !== "") && (
             <>
               <span>Rätt svar är: </span>
-              <Latex displayMode={false}>{questions[questionNum].answer}</Latex>
+              <FormattedLatex displayMode={false}>{questions[questionNum].answer}</FormattedLatex>
             </>
           )
         }

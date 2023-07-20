@@ -6,7 +6,6 @@ const axios = require("axios");
 const url = require("url");
 
 function createOAuth2SearchParams(code) {
-    console.log("domain?", domain);
     return new URLSearchParams({
         client_id: clientId,
         client_secret: clientSecret,
@@ -27,8 +26,6 @@ async function getOAuthData(code) {
             'Content-Type': 'application/x-www-form-urlencoded',
         }
     });
-
-    console.log("tokenResponseData", tokenResponseData);
 
     return tokenResponseData.body.json();
 }

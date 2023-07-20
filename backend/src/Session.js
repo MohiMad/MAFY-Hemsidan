@@ -4,7 +4,6 @@ const cookieParser = require("cookie-parser");
 
 module.exports = {
     serialize: async (req, user) => {
-        console.log("i run");
         req.session.user = user;
         req.user = user;
 
@@ -24,7 +23,6 @@ module.exports = {
 
         const {DISCORD_OAUTH2_SESSION_ID} = req.cookies;
         if(!DISCORD_OAUTH2_SESSION_ID) return next();
-        console.log("DISCORD_OAUTH2_SESSION_ID found");
 
         const sessionId = cookieParser
             .signedCookie(DISCORD_OAUTH2_SESSION_ID, process.env.SECRET)
@@ -34,7 +32,6 @@ module.exports = {
 
 
         if(!session) {
-            console.log("No session found");
             return next();
         }
 
