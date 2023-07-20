@@ -9,10 +9,6 @@ function FormattedLatex({children}) {
 
     const image = children.match(/!\[\]\(.*?\)/);
 
-    console.log(children);
-
-    console.log(image);
-
     return <>
         {(formattedLatexExp.map(x => {
 

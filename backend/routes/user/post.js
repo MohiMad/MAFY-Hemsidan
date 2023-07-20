@@ -26,7 +26,8 @@ router.post("/solution/image/:questionNum", async (req, res) => {
             return res.status(500).send(err);
         }
 
-        const urlObject = await imgur.uploadFile(uploadPath);
+        const urlObject = await imgur.uploadFile(uploadPath).catch(e => console.log("uhoh", e));
+        console.log(urlObject);
         fs.unlinkSync(uploadPath);
         const solutions = await Solution.findOne({questionNum: questionNum.toUpperCase()});
 
