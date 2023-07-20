@@ -13,6 +13,22 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons
   const [isAnswered, setIsAnswered] = useState(false);
   const questionAndOptions = questions[questionNum]?.question?.split(isFysik ? /\n\w\.\s/g : /\n\(\w\) /g);
 
+  const setToCorrect = (correctOptionOrOptions) => {
+    // if the option length is bigger than one char then its a multi-correct question
+    if(correctOptionOrOptions.length > 1) {
+      const correctOptions = correctOptionOrOptions.toLowerCase().split(",");
+      correctOptions.forEach(option => {
+        const correctOption = document.getElementById(`(${ option })`);
+        correctOption.classList.add("correct");
+      });
+      return;
+    }
+
+    const correctOption = document.getElementById(`(${ correctOptionOrOptions.toLowerCase() })`);
+
+    correctOption.classList.add("correct");
+  };
+
   const resetAll = () => {
     const allCheckboxes = document.querySelectorAll(".option input");
     setSelected("");
@@ -44,22 +60,20 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons
     e.stopPropagation();
 
     const chosenOption = document.getElementById(selected);
-    const correctOption = document.getElementById(`(${ questions[questionNum].answer.toLowerCase() })`);
     const questionAnchor = document.querySelector(`.questions-list a.active`);
 
     if(chosenOption) {
-      const isCorrect = selected === `(${ questions[questionNum].answer.toLowerCase() })`;
+      const isCorrect = questions[questionNum].answer.toLowerCase().includes(selected[1]);
 
       questions[questionNum].isCorrect = isCorrect;
 
       if(isCorrect) {
-        chosenOption.classList.add("correct");
+        setToCorrect(questions[questionNum].answer);
         questionAnchor.classList.add("correct");
         questionAnchor.classList.remove("wrong");
       } else {
         chosenOption.classList.add("wrong");
-        correctOption.classList.add("correct");
-
+        setToCorrect(questions[questionNum].answer.toLowerCase());
         questionAnchor.classList.add("wrong");
         questionAnchor.classList.remove("correct");
       }
@@ -68,7 +82,7 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons
     } else {
       const options = document.querySelectorAll(".option");
 
-      correctOption.classList.add("correct");
+      setToCorrect(questions[questionNum].answer.toLowerCase());
       options.forEach((x) =>
         x.classList.contains("correct") ? null : x.classList.add("wrong")
       );

@@ -1,5 +1,6 @@
 import React from "react";
 import Latex from "react-latex";
+import Utility from "../Utility";
 
 function FormattedLatex({children}) {
     const formattedLatexExp = children
@@ -10,10 +11,10 @@ function FormattedLatex({children}) {
     const image = children.match(/!\[\]\(.*?\)/);
 
     return <>
-        {(formattedLatexExp.map(x => {
+        {(formattedLatexExp.map((x, i) => {
 
             return <>
-                <Latex trust={true} strict={false} displayMode={false}>{x}</Latex>
+                <Latex key={Utility.uniqueKey(x.toString())} trust={true} strict={false} displayMode={false}>{x}</Latex>
                 <br />
             </>;
         }

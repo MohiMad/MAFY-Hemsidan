@@ -82,7 +82,7 @@ function DisplaySuggestedSolutions({questions, questionNum, shouldDisplaySeconda
                             <h3>Dela med oss din lösning!</h3>
                             <span>Ladda upp ditt lösningsförslag här!</span>
                             <div className="form-holder">
-                                <form action={(e) => e.preventDefault()} id='uploadForm' encType="multipart/form-data">
+                                <form action="" id='uploadForm' encType="multipart/form-data">
                                     <input id="sampleFile" hidden onChange={fileUploaded} type="file" name="sampleFile" accept="image/x-png,image/jpeg,image/png,image/jpg" />
                                     <label className="button" htmlFor="sampleFile">
                                         Välj bild

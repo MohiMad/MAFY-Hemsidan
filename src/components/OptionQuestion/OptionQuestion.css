@@ -48,6 +48,10 @@
   place-content: center;
 }
 
+.option img {
+  width: 25% !important;
+}
+
 input[type="radio"]::before {
   content: "";
   width: 15px;
