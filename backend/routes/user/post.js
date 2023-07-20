@@ -27,19 +27,18 @@ router.post("/solution/image/:questionNum", async (req, res) => {
         }
 
         const urlObject = await imgur.uploadFile(uploadPath).catch(e => console.log("uhoh", e));
-        console.log(urlObject);
         fs.unlinkSync(uploadPath);
         const solutions = await Solution.findOne({questionNum: questionNum.toUpperCase()});
 
         const userSolutionObj = {
             ID: user.ID,
-            solutionID: urlObject.data.id,
+            solutionID: urlObject?.data?.id || urlObject.id,
             uploadedAt: Date.now(),
-            solution: urlObject.data.link,
-            type: urlObject.data.type,
-            deletehash: urlObject.data.deletehash,
-            width: urlObject.data.width,
-            height: urlObject.data.height,
+            solution: urlObject?.data?.link || urlObject.link,
+            type: urlObject?.data?.type || urlObject.type,
+            deletehash: urlObject?.data?.deletehash || urlObject.deletehash,
+            width: urlObject?.data?.width || urlObject.width,
+            height: urlObject?.data?.height || urlObject.height,
         };
 
         let solutionsDoc;
