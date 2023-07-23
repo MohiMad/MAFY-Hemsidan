@@ -136,6 +136,10 @@ section#challenge {
     margin-top: 5em;
 }
 
+.main-container section:last-child {
+    margin-bottom: 10vw !important;
+}
+
 @media (max-width: 1200px) {
     #features {
         font-size: small;
@@ -151,7 +155,7 @@ section#challenge {
 
 
 @media (max-width: 768px) {
-    h1 {
+    .main-container h1 {
         font-size: 2em !important;
     }
 
@@ -182,7 +186,7 @@ section#challenge {
 }
 
 @media (max-width: 688px) {
-    h1 {
+    .main-container h1 {
         font-size: 1.5em !important;
     }
 

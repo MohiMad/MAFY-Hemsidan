@@ -1,6 +1,15 @@
 .question-section-holder {
   width: 100%;
   overflow-y: scroll;
+  margin-right: 1em;
+}
+
+.questions-section-holder::-webkit-scrollbar-thumb {
+  background-color: var(--color-semi-black) !important;
+}
+
+.questions-section-holder::-webkit-scrollbar {
+  width: 0.15em;
 }
 
 .question-holder {

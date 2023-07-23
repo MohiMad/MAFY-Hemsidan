@@ -200,7 +200,7 @@
     },
     {
         "questionNum": "2023-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{3}{5}+\\frac{1}{7}}{\\frac{1}{15}-1}\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{3}{5}+\\frac{1}{7}}{\\frac{1}{15}-1}$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$-\\frac{39}{49}$",
         "keywords": [
             "rationella uttryck"
@@ -246,7 +246,7 @@
     },
     {
         "questionNum": "2023-26",
-        "question": "Best\u00e4m alla reella tal, f\u00f6r vilka funktionen\n\n$$\nf(x)=\\ln \\left(\\frac{1}{x}-\\frac{1}{x-4}\\right)\n$$\n\n\u00e4r definierad. Ange det st\u00f6rsta heltalet i funktionens definitionsm\u00e4ngd.\n\n",
+        "question": "Best\u00e4m alla reella tal, f\u00f6r vilka funktionen\n$$f(x)=\\ln \\left(\\frac{1}{x}-\\frac{1}{x-4}\\right)$$\n\u00e4r definierad. Ange det st\u00f6rsta heltalet i funktionens definitionsm\u00e4ngd.\n\n",
         "answer": "3",
         "keywords": [
             "Logaritmfunktioner",
@@ -256,7 +256,7 @@
     },
     {
         "questionNum": "2023-27",
-        "question": "L\u00f6s ekvationen\n\n$$\n4^{\\sqrt{x}}-2^{\\sqrt{x}}=6\n$$\n\nAnge ekvationens minsta l\u00f6sning.\n\n",
+        "question": "L\u00f6s ekvationen\n$$4^{\\sqrt{x}}-2^{\\sqrt{x}}=6$$\nAnge ekvationens minsta l\u00f6sning.\n\n",
         "answer": "$\\left(\\log _2 3\\right)^2$",
         "keywords": [
             "potenser",
@@ -266,7 +266,7 @@
     },
     {
         "questionNum": "2023-28",
-        "question": "L\u00f6s olikheten\n\n$$\n4 \\sqrt{x^{2}+9}-x^{2} \\geq 4\n$$\n\nAnge antalet heltalsl\u00f6sningar till olikheten.\n\n",
+        "question": "L\u00f6s olikheten\n$$4 \\sqrt{x^{2}+9}-x^{2} \\geq 4$$\nAnge antalet heltalsl\u00f6sningar till olikheten.\n\n",
         "answer": "9",
         "keywords": [
             "potenser",
@@ -505,7 +505,7 @@
     },
     {
         "questionNum": "2022-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{16}{5}-\\frac{4}{3}}{\\frac{2}{15}+\\frac{3}{2}}\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{16}{5}-\\frac{4}{3}}{\\frac{2}{15}+\\frac{3}{2}}$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$\\frac{8}{7}$",
         "keywords": [
             "rationella uttryck"
@@ -543,7 +543,7 @@
     },
     {
         "questionNum": "2022-25",
-        "question": "Best\u00e4m och ange det minsta heltalet, f\u00f6r vilket funktionen\n\n$$\nf(x)=\\log _{x}\\left(2^{x}-1\\right)\n$$\n\n\u00e4r definierad.\n\n",
+        "question": "Best\u00e4m och ange det minsta heltalet, f\u00f6r vilket funktionen\n$$f(x)=\\log _{x}\\left(2^{x}-1\\right)$$\n\u00e4r definierad.\n\n",
         "answer": "2",
         "keywords": [
             "logaritmfunktioner",
@@ -553,7 +553,7 @@
     },
     {
         "questionNum": "2022-26",
-        "question": "L\u00f6s ekvationen\n\n$$\n\\ln \\left(e^{x}+1\\right)-\\ln \\left(e^{x}-1\\right)=x .\n$$\n\nAnge summan av ekvationens l\u00f6sningar.\n\n",
+        "question": "L\u00f6s ekvationen\n$$\\ln \\left(e^{x}+1\\right)-\\ln \\left(e^{x}-1\\right)=x .$$\nAnge summan av ekvationens l\u00f6sningar.\n\n",
         "answer": "$\\ln (1+\\sqrt{2})$",
         "keywords": [
             "logaritmfunktioner",
@@ -563,7 +563,7 @@
     },
     {
         "questionNum": "2022-27",
-        "question": "L\u00f6s ekvationen\n\n$$\n\\cos ^{2} x+\\cos 2 x=2\n$$\n\nAnge summan av ekvationens l\u00f6sningar i intervallet $[0,2 \\pi]$.\n\n",
+        "question": "L\u00f6s ekvationen\n$$\\cos ^{2} x+\\cos 2 x=2$$\nAnge summan av ekvationens l\u00f6sningar i intervallet $[0,2 \\pi]$.\n\n",
         "answer": "$ 3 \\pi$",
         "keywords": [
             "trigonometri",
@@ -603,7 +603,7 @@
     },
     {
         "questionNum": "2022-C",
-        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan.( $\\max 5 \\mathrm{p})$\nL\u00f6s olikheten\n$$\n\\frac{1}{\\sqrt{x-1}}-\\frac{1}{\\sqrt{x+1}}>\\sqrt{\\frac{2}{x}} .\n$$\n",
+        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan.( $\\max 5 \\mathrm{p})$\nL\u00f6s olikheten$$\\frac{1}{\\sqrt{x-1}}-\\frac{1}{\\sqrt{x+1}}>\\sqrt{\\frac{2}{x}} .$$",
         "answer": "Kvadratroten ur ett tal $a$ \u00e4r per definition det icke-negativa tal vars kvadrat \u00e4r lika med $a$. Ur definitionen f\u00f6ljer att $a \\geq 0$ och $\\sqrt{a} \\geq 0$.F\u00f6r att de tre kvadratr\u00f6ttern a som f\u00f6rekommer ska vara definierade kr\u00e4vs att $x-1 \\geq 0, x+1 \\geq 0, x \\geq 0$. F\u00f6r at ingen av n \u00e4mnarna ska vara lika med noll kr\u00e4vs att $x \\neq 1, x \\neq-1, x \\neq 0$. Definitionsm\u00e4ngden best\u0103r allts\u0103 av all a $x$ sad an a att $x>1$.Eftersom $0<\\sqrt{x-1}<\\sqrt{x+1}$ har vi att $\\frac{1}{\\sqrt{x-1}}-\\frac{1}{\\sqrt{x+1}}>0$ f\u00f6r alla $x$ i definitionsm\u00e4ngden. H\u00f6gerledet \u00e4r ocksa positivt f\u00f6r all a till \u0103tna $x$. Det betyder att vi kan kvadrera och vara s\u00e4kra paa att vi efter kvadrering f\u00e4r en olikhet ekvivalent med den givna. Kvadrering ger olikheten$$\\left(\\frac{1}{\\sqrt{x-1}}-\\frac{1}{\\sqrt{x+1}}\\right)^2=\\left(\\frac{\\sqrt{x+1}-\\sqrt{x-1}}{\\sqrt{x^2-1}}\\right)^2=\\frac{2 x-2 \\sqrt{x^2-1}}{x^2-1}>\\frac{2}{x} .$$Eftersom $x^2-1>0$ och $x>0$ kan vi f\u00f6rl\u00e4nga med bad a n \u00e4mn arn a och be$\\mathrm{h}$ \u00e5lla olikhetstecknet, vilket (efter f\u00f6rkortning med $2>0$ ) ger den ekvivalenta olikheten$$x\\left(x-\\sqrt{x^2-1}\\right)>x^2-1 .$$Enkel omskrivning leder till$$1>x \\sqrt{x^2-1} .$$Aterigen \u00e4r b\u1ea3da leden positiva, sa att kvadrering leder till den ekvivalenta olikheten$$x^4-x^2-1<0 .$$S\u00e4tt $t=x^2$. Andragradsfunktionen $f(t)=t^2-t-1$ antar negativa v\u00e4rden mellan sina nollst\u00e4llen, som \u00e4r $\\frac{1 \\pm \\sqrt{5}}{2}$. Eftersom $t=x^2>1$ kommer olikheten att g\u00e4lla f\u00f6r$$1<x^2<\\frac{1+\\sqrt{5}}{2}$$och eftersom $x>1$ f\u00e4r vi att den givna olikheten \u00e4r $\\mathrm{san} \\mathrm{n}$ om och endast om$$1<x<\\sqrt{\\frac{1+\\sqrt{5}}{2}}$$",
         "keywords": [
             "olikheter",
@@ -810,7 +810,7 @@
     },
     {
         "questionNum": "2021-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{3}{7}-\\frac{7}{12}}{\\frac{1}{12}+\\frac{2}{15}} .\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{3}{7}-\\frac{7}{12}}{\\frac{1}{12}+\\frac{2}{15}} .$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$-\\frac{5}{7}$",
         "keywords": [
             "rationella uttryck",
@@ -850,7 +850,7 @@
     },
     {
         "questionNum": "2021-25",
-        "question": "Best\u00e4m och ange det st\u00f6rsta heltalet, f\u00f6r vilket funktionen\n\n$$\nf(x)=\\ln \\left(\\frac{2}{3}-3^{x}\\right)\n$$\n\n\u00e4r definierad.\n\n",
+        "question": "Best\u00e4m och ange det st\u00f6rsta heltalet, f\u00f6r vilket funktionen\n$$f(x)=\\ln \\left(\\frac{2}{3}-3^{x}\\right)$$\n\u00e4r definierad.\n\n",
         "answer": "$-1$",
         "keywords": [
             "logaritmfunktioner",
@@ -870,7 +870,7 @@
     },
     {
         "questionNum": "2021-27",
-        "question": "L\u00f6s ekvationen\n\n$$\n3^{2 \\cos ^{2} x}+9^{\\cos 2 x}=4\n$$\n\nAnge ekvationens st\u00f6rsta l\u00f6sning i intervallet $[0,2 \\pi]$.\n\n",
+        "question": "L\u00f6s ekvationen\n$$3^{2 \\cos ^{2} x}+9^{\\cos 2 x}=4$$\nAnge ekvationens st\u00f6rsta l\u00f6sning i intervallet $[0,2 \\pi]$.\n\n",
         "answer": "$ \\frac{7 \\pi}{4}$",
         "keywords": [
             "potenser",
@@ -910,7 +910,7 @@
     },
     {
         "questionNum": "2021-C",
-        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan.(max $5 \\mathrm{p}).\\space$\n\nL\u00f6s ekvationen\n\n$$\n\\sqrt{x+\\sqrt{x^{2}-1}}=2-\\sqrt{x}\n$$\n",
+        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan.(max $5 \\mathrm{p}).\\space$\n\nL\u00f6s ekvationen\n$$\\sqrt{x+\\sqrt{x^{2}-1}}=2-\\sqrt{x}$$",
         "answer": "Kvadratroten ur ett tal $a$ \u00e4r per definition det icke-negativa tal vars kvadrat \u00e4r lika med $a$. Ur definitionen f\u00f6ljer att $a \\geq 0$ och $\\sqrt{a} \\geq 0$.Den givna ekvationens h\u00f6gerled \u00e4r allts \u00e5 definierat f\u00f6r$$x \\geq 0$$F\u00f6r att v\u00e4nsterledet ska vara definierat kr\u00e4vs att$$x^2-1 \\geq 0 \\quad \\text { och } \\quad x+\\sqrt{x^2-1} \\geq 0 .$$I och med att $\\sqrt{x^2-1} \\geq 0$ kommer b\u00e5da leden att vara definierade f\u00f6r alla $x$ som uppfyller $x^2-1 \\geq 0 \\Leftrightarrow|x| \\geq 1$, och $x \\geq 0$, det vill s\u00e4ga definitionsm\u00e4ngden best\u00e5r av alla $x$ som uppfyller$$x \\geq 1$$F\u00f6r $x \\geq 1$ g\u00e4ller att $\\sqrt{x} \\geq 1$, s\u00e5 att$$2-\\sqrt{x} \\leq 1$$med likhet om och endast om $x=1$. Samtidigt har vi att f\u00f6r $x \\geq 1$ g\u00e4ller $x+\\sqrt{x^2-1} \\geq x \\geq 1$, s\u00e5 att$$\\sqrt{x+\\sqrt{x^2-1}} \\geq 1$$\u00e4ven $h$ \u00e4r med likhet om och endast om $x=1$. Uttrycken i v\u00e4nsterledet och $\\mathrm{i}$ h\u00f6gerledet kan allts\u00e5 endast vara lika med varandra om b\u00e5da \u00e4r lika med 1 , vilket intr\u00e4ffar exakt d\u00e5 $x=1$.",
         "keywords": [
             "r\u00c3\u00b6tter",
@@ -1120,7 +1120,7 @@
     },
     {
         "questionNum": "2019-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{7}{9}-\\frac{5}{6}}{2-\\frac{19}{15}}\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{7}{9}-\\frac{5}{6}}{2-\\frac{19}{15}}$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$-\\frac{5}{66}$",
         "keywords": [
             "rationella uttryck"
@@ -1158,7 +1158,7 @@
     },
     {
         "questionNum": "2019-25",
-        "question": "L\u00f6s ekvationen\n\n$$\n\\ln (x+1)-\\ln (x-1)=\\ln x\n$$\n\nAnge ekvationens minsta l\u00f6sning.\n\n",
+        "question": "L\u00f6s ekvationen\n$$\\ln (x+1)-\\ln (x-1)=\\ln x$$\nAnge ekvationens minsta l\u00f6sning.\n\n",
         "answer": "$1+\\sqrt{2}$",
         "keywords": [
             "logaritmfunktioner",
@@ -1178,7 +1178,7 @@
     },
     {
         "questionNum": "2019-27",
-        "question": "L\u00f6s ekvationen\n\n$$\n\\sqrt{x}=\\sqrt{4-x}-2\n$$\n\nAnge ekvationens st\u00f6rsta l\u00f6sning.\n\n",
+        "question": "L\u00f6s ekvationen\n$$\\sqrt{x}=\\sqrt{4-x}-2$$\nAnge ekvationens st\u00f6rsta l\u00f6sning.\n\n",
         "answer": "0",
         "keywords": [
             "potenser",
@@ -1188,7 +1188,7 @@
     },
     {
         "questionNum": "2019-28",
-        "question": "L\u00f6s ekvationen\n\n$$\n\\sin x-\\cos x=\\frac{1+\\sqrt{3}}{2}\n$$\n\nAnge den st\u00f6rsta l\u00f6sningen i intervallet $[0,2 \\pi]$.\n\n",
+        "question": "L\u00f6s ekvationen\n$$\\sin x-\\cos x=\\frac{1+\\sqrt{3}}{2}$$\nAnge den st\u00f6rsta l\u00f6sningen i intervallet $[0,2 \\pi]$.\n\n",
         "answer": "$\\frac{5 \\pi}{6}$",
         "keywords": [
             "trigonometri",
@@ -1425,7 +1425,7 @@
     },
     {
         "questionNum": "2018-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{3}{16}+\\frac{2}{15}}{\\frac{1}{6}-\\frac{3}{7}}\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{3}{16}+\\frac{2}{15}}{\\frac{1}{6}-\\frac{3}{7}}$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$-\\frac{49}{40}$",
         "keywords": [
             "rationella uttryck",
@@ -1465,7 +1465,7 @@
     },
     {
         "questionNum": "2018-25",
-        "question": "L\u00f6s ekvationen\n\n$$\n\\frac{3^{x}+2^{x}}{3^{x}-2^{x}}=7\n$$\n\nAnge ekvationens st\u00f6rsta l\u00f6sning.\n\n",
+        "question": "L\u00f6s ekvationen\n$$\\frac{3^{x}+2^{x}}{3^{x}-2^{x}}=7$$\nAnge ekvationens st\u00f6rsta l\u00f6sning.\n\n",
         "answer": "$\\frac{2 \\ln 2-\\ln 3}{\\ln 3-\\ln 2}$",
         "keywords": [
             "potenser",
@@ -1485,7 +1485,7 @@
     },
     {
         "questionNum": "2018-27",
-        "question": "L\u00f6s ekvationen\n\n$$\n\\sin \\left(x+\\frac{\\pi}{3}\\right)-\\sin \\left(x-\\frac{\\pi}{3}\\right)=\\sin x\n$$\n\nAnge summan av de l\u00f6sningar som ligger $\\mathrm{i}$ intervallet $\\left[-\\frac{4 \\pi}{3}, 2 \\pi\\right]$.\n\n",
+        "question": "L\u00f6s ekvationen\n$$\\sin \\left(x+\\frac{\\pi}{3}\\right)-\\sin \\left(x-\\frac{\\pi}{3}\\right)=\\sin x$$\nAnge summan av de l\u00f6sningar som ligger $\\mathrm{i}$ intervallet $\\left[-\\frac{4 \\pi}{3}, 2 \\pi\\right]$.\n\n",
         "answer": "$ \\pi$",
         "keywords": [
             "trigonometri",
@@ -1515,7 +1515,7 @@
     },
     {
         "questionNum": "2018-30",
-        "question": "Cirklarna $k_{1}$ och $k_{2}$, med radier $R$ och $r$, tangerar varandra. Linjen $l$ tangerar cirklarna i punkterna $T_{1}$ och $T_{2}$, respektive, d\u00e4r $T_{1} \\neq T_{2}$. Best\u00e4m och ange l\u00e4ngden av str\u00e4ckan $T_{1} T_{2}$ (alla l\u00e4ngder anges i samma l\u00e4ngdenhet). \n\nC.Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan.(max 5p). \n\nGivet att $a \\geq 0$, finn alla reella l\u00f6sningar till ekvationen\n\n$$\nx^{2}+|x-a|-|x+a|=0 .\n$$\n",
+        "question": "Cirklarna $k_{1}$ och $k_{2}$, med radier $R$ och $r$, tangerar varandra. Linjen $l$ tangerar cirklarna i punkterna $T_{1}$ och $T_{2}$, respektive, d\u00e4r $T_{1} \\neq T_{2}$. Best\u00e4m och ange l\u00e4ngden av str\u00e4ckan $T_{1} T_{2}$ (alla l\u00e4ngder anges i samma l\u00e4ngdenhet). \n\nC.Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan.(max 5p). \n\nGivet att $a \\geq 0$, finn alla reella l\u00f6sningar till ekvationen\n$$x^{2}+|x-a|-|x+a|=0 .$$",
         "answer": "$2 \\sqrt{R r}$ (l.e.).",
         "keywords": [
             "cirkeltangenter",
@@ -1732,7 +1732,7 @@
     },
     {
         "questionNum": "2017-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{2}{7}+\\frac{1}{9}}{\\frac{2}{3}-\\frac{11}{14}} .\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{2}{7}+\\frac{1}{9}}{\\frac{2}{3}-\\frac{11}{14}} .$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$-\\frac{10}{3}$",
         "keywords": [
             "rationella uttryck",
@@ -1771,7 +1771,7 @@
     },
     {
         "questionNum": "2017-25",
-        "question": "L\u00f6s ekvationen\n\n$$\n\\sin x=\\cos 2 x\n$$\n\nAnge summan av de l\u00f6sningar som ligger i intervallet $[3 \\pi, 5 \\pi]$.\n\n",
+        "question": "L\u00f6s ekvationen\n$$\\sin x=\\cos 2 x$$\nAnge summan av de l\u00f6sningar som ligger i intervallet $[3 \\pi, 5 \\pi]$.\n\n",
         "answer": "$\\frac{25 \\pi}{2}$",
         "keywords": [
             "trigonometri",
@@ -1790,7 +1790,7 @@
     },
     {
         "questionNum": "2017-27",
-        "question": "L\u00f6s olikheten\n\n$$\n4^{x}+2^{x} \\geq 1\n$$\n\nAnge olikhetens minsta l\u00f6sning.\n\n",
+        "question": "L\u00f6s olikheten\n$$4^{x}+2^{x} \\geq 1$$\nAnge olikhetens minsta l\u00f6sning.\n\n",
         "answer": "$\\log _2 \\frac{\\sqrt{5}-1}{2}$",
         "keywords": [
             "potenser",
@@ -2039,7 +2039,7 @@
     },
     {
         "questionNum": "2016-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{2}{3}-\\frac{5}{12}}{\\frac{1}{8}+\\frac{2}{9}}\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{2}{3}-\\frac{5}{12}}{\\frac{1}{8}+\\frac{2}{9}}$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$ \\frac{18}{25}$",
         "keywords": [
             "rationella uttryck"
@@ -2076,7 +2076,7 @@
     },
     {
         "questionNum": "2016-25",
-        "question": "L\u00f6s ekvationen\n\n$$\n2(x-1)=\\sqrt{x^{2}+6 x+9}\n$$\n\nAnge ekvationens minsta l\u00f6sning.\n\n",
+        "question": "L\u00f6s ekvationen\n$$2(x-1)=\\sqrt{x^{2}+6 x+9}$$\nAnge ekvationens minsta l\u00f6sning.\n\n",
         "answer": "5",
         "keywords": [
             "potenser",
@@ -2096,7 +2096,7 @@
     },
     {
         "questionNum": "2016-27",
-        "question": "Givet att $a>1$, l\u00f6s olikheten\n\n$$\n\\frac{1}{x-1} \\geq \\frac{a}{x+1}\n$$\n\nAnge olikhetens st\u00f6rsta l\u00f6sning.\n\n",
+        "question": "Givet att $a>1$, l\u00f6s olikheten\n$$\\frac{1}{x-1} \\geq \\frac{a}{x+1}$$\nAnge olikhetens st\u00f6rsta l\u00f6sning.\n\n",
         "answer": "$\\frac{a+1}{a-1}$",
         "keywords": [
             "olikheter",
@@ -2136,7 +2136,7 @@
     },
     {
         "questionNum": "2016-C",
-        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}).\\space$\n\nL\u00f6s olikheten\n\n$$\n\\sqrt{2 x-1}-1 \\geq \\sqrt{x}\n$$\n",
+        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}).\\space$\n\nL\u00f6s olikheten\n$$\\sqrt{2 x-1}-1 \\geq \\sqrt{x}$$",
         "answer": "F\u00f6r att de tv\u00e2 rotuttrycken ska vara definierade kr\u00e4vs att $2 x-1 \\geq 0$, och $x \\geq 0$, vilket betyder att definitionsm\u00e4ngden ges av alla $x$ s\u00e5dana att $x \\geq \\frac{1}{2}$. F\u00f6r dessa $x$ \u00e4r den givna olikheten ekvivalent med olikheten$$\\sqrt{2 x-1} \\geq \\sqrt{x}+1 \\text {. }$$I den \u00e4r b\u00e5de v\u00e4nsterledet och h\u00f6gerledet icke-negativa, vilket betyder att vi kan kvadrera och f\u00e5 en olikhet, ekvivalent med den givna (det vill s\u00e4ga, det finns ingen risk att f\u1ea3 s\u1ea3 kallade falska r\u00f6tter). Kvadrering ger olikheten$$2 x-1 \\geq x+2 \\sqrt{x}+1,$$som i sin tur \u00e4r ekvivalent med$$x-2 \\geq 2 \\sqrt{x} .$$H\u00f6gerledet h\u00e4r \u00e4r alltid icke-negativt, vilket betyder att v\u00e4nsterledet ocks\u00e2 m\u00e5ste vara det, s\u00e5 att alla l\u00f6sningar m\u00e5ste uppfylla $x \\geq 2$. Notera att s\u00e5dana $x$ tillh\u00f6r definitionsm\u00e4ngden, eftersom $2>\\frac{1}{2}$. F\u00f6r $x \\geq 2$ kan vi \u00e5terigen kvadrera och vara s\u00e4kra p\u00e3 att f\u00e3 en olikhet, ekvivalent med den givna$$x^2-4 x+4 \\geq 4 x$$eller$$x^2-8 x+4 \\geq 0 \\text {. }$$Nollst\u00e4llena till andragradsfunktionen i v\u00e4nsterledet \u00e4r $4-2 \\sqrt{3}$ och $4+2 \\sqrt{3}$. V\u00e4nsterledet kan d\u0101 faktoriseras, och olikheten ovan antar formen$$(x-(4-2 \\sqrt{3}))(x-(4+2 \\sqrt{3})) \\geq 0,$$som \u00e4r sann om och endast om b\u00e5da faktorerna har samma tecken eller n\u00e5gon av dem \u00e4r lika med 0 , vilket intr\u00e4ffar f\u00f6r $x \\leq 4-2 \\sqrt{3}$, och f\u00f6r $x \\geq$ $4+2 \\sqrt{3}$. Men, den senaste olikheten var endast ekvivalent med den givna under f\u00f6ruts\u00e4ttningen att $x \\geq 2$. Eftersom $4-2 \\sqrt{3}<2$, och $4+2 \\sqrt{3}>2$, f\u0103r vi att l\u00f6sningarna till den givna olikheten \u00e4r alla $x$ som uppfyller $x \\geq 4+2 \\sqrt{3}$.",
         "keywords": [
             "r\u00c3\u00b6tter",
@@ -2345,7 +2345,7 @@
     },
     {
         "questionNum": "2015-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{1}{4}+\\frac{2}{7}}{\\frac{4}{9}-\\frac{7}{12}} .\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{1}{4}+\\frac{2}{7}}{\\frac{4}{9}-\\frac{7}{12}} .$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$-\\frac{27}{7}$",
         "keywords": [
             "rationella uttryck",
@@ -2385,7 +2385,7 @@
     },
     {
         "questionNum": "2015-25",
-        "question": "L\u00f6s olikheten\n\n$$\n\\sqrt{2-\\frac{1}{x}}<\\frac{1}{\\sqrt{x}} .\n$$\n\nAnge olikhetens minsta l\u00f6sning.\n\n",
+        "question": "L\u00f6s olikheten\n$$\\sqrt{2-\\frac{1}{x}}<\\frac{1}{\\sqrt{x}} .$$\nAnge olikhetens minsta l\u00f6sning.\n\n",
         "answer": "$\\frac{1}{2}$",
         "keywords": [
             "r\u00c3\u00b6tter",
@@ -2395,7 +2395,7 @@
     },
     {
         "questionNum": "2015-26",
-        "question": "L\u00f6s ekvationen\n\n$$\n2 \\ln \\left(e^{x}-1\\right)=\\ln 2+\\ln \\left(e^{x}+3\\right)\n$$\n\nAnge ekvationens st\u00f6rsta l\u00f6sning.\n\n",
+        "question": "L\u00f6s ekvationen\n$$2 \\ln \\left(e^{x}-1\\right)=\\ln 2+\\ln \\left(e^{x}+3\\right)$$\nAnge ekvationens st\u00f6rsta l\u00f6sning.\n\n",
         "answer": "$ \\ln 5$",
         "keywords": [
             "logaritmfunktioner",
@@ -2405,7 +2405,7 @@
     },
     {
         "questionNum": "2015-27",
-        "question": "Ange det minsta reella tal $a$ s\u00e5dant att ekvationen\n\n$$\nx|x-a|=3\n$$\n\nhar exakt en reell l\u00f6sning.\n\n",
+        "question": "Ange det minsta reella tal $a$ s\u00e5dant att ekvationen\n$$x|x-a|=3$$\nhar exakt en reell l\u00f6sning.\n\n",
         "answer": "det finns inget minsta tal med den egenskapen",
         "keywords": [
             "potenser",
@@ -2653,7 +2653,7 @@
     },
     {
         "questionNum": "2014-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{3}{14}-\\frac{5}{12}}{\\frac{1}{6}+\\frac{2}{15}} .\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{3}{14}-\\frac{5}{12}}{\\frac{1}{6}+\\frac{2}{15}} .$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$-\\frac{85}{126}$",
         "keywords": [
             "rationella uttryck",
@@ -2703,7 +2703,7 @@
     },
     {
         "questionNum": "2014-26",
-        "question": "L\u00f6s ekvationen\n\n$$\n\\sqrt{x^{2}+6 x+9}=1-\\sqrt{x+5}\n$$\n\nAnge den st\u00f6rsta (reella) l\u00f6sningen.\n\n",
+        "question": "L\u00f6s ekvationen\n$$\\sqrt{x^{2}+6 x+9}=1-\\sqrt{x+5}$$\nAnge den st\u00f6rsta (reella) l\u00f6sningen.\n\n",
         "answer": "Det finns inga reella l\u00f6sningar.",
         "keywords": [
             "potenser",
@@ -2713,7 +2713,7 @@
     },
     {
         "questionNum": "2014-27",
-        "question": "L\u00f6s ekvationen\n\n$$\n\\log _{x}(3-x)=\\log _{x^{2}}\\left(8-3 x-x^{2}\\right)\n$$\n\nAnge den st\u00f6rsta (reella) l\u00f6sningen.\n\n",
+        "question": "L\u00f6s ekvationen\n$$\\log _{x}(3-x)=\\log _{x^{2}}\\left(8-3 x-x^{2}\\right)$$\nAnge den st\u00f6rsta (reella) l\u00f6sningen.\n\n",
         "answer": "$ \\frac{1}{2}$",
         "keywords": [
             "logaritmfunktioner",
@@ -2753,7 +2753,7 @@
     },
     {
         "questionNum": "2014-C",
-        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max 5p). \n\nL\u00f6s olikheten\n\n$$\n\\frac{x-1}{x^{2}+4 x+4} \\leq \\frac{1}{x-1}\n$$\n",
+        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max 5p). \n\nL\u00f6s olikheten\n$$\\frac{x-1}{x^{2}+4 x+4} \\leq \\frac{1}{x-1}$$",
         "answer": "Vi b\u00f6rjar med att best\u00e4mma de $x$, f\u00f6r vilka de inblandade funktionerna \u00e4r definierade. Ingen av n\u00e4mnarna f\u00e5r bli 0 , vilket betyder att $x$ inte f\u00e5r vara lika med -2 eller 1 , det vill s\u00e4ga$$x \\neq-2, \\quad x \\neq 1$$Vi flyttar \u00f6ver alla termer till v\u00e4nsterledet f\u00f6r att kunna j\u00e4mf\u00f6ra med 0 , och skriver sedan om v\u00e4nsterledet s\u00e5 att vi hela tiden f\u00e5r ekvivalenta olikheter:$$\\begin{array}{rll}\\frac{x-1}{x^2+4 x+4} \\leq \\frac{1}{x-1} & \\Leftrightarrow & \\frac{x-1}{(x+2)^2}-\\frac{1}{x-1} \\leq 0 \\& \\Leftrightarrow & \\frac{(x-1)^2-(x+2)^2}{(x-1)(x+2)^2} \\leq 0 \\& \\Leftrightarrow \\quad \\frac{(x-1-x-2)(x-1+x+2)}{(x-1)(x+2)^2} \\leq 0 \\& \\Leftrightarrow \\quad \\frac{2 x+1}{(x-1)(x+2)^2} \\geq 0 .\\end{array}$$Eftersom $(x+2)^2>0$ (kom ih\u00e5g att $x \\neq-2$ ), \u00e4r den sista olikheten ekvivalent med olikheten$$\\frac{2 x+1}{x-1} \\geq 0 .$$Alla l\u00f6sningar ges av de till\u00e5tna $x$, f\u00f6r vilka t\u00e4ljaren \u00e4r lika med 0 , eller f\u00f6r vilka t\u00e4ljaren och n\u00e4mnaren har samma tecken. B\u00e5da \u00e4r negativa f\u00f6r alla $x$ s\u00e5dana att $-\\infty<x<-\\frac{1}{2}$, medan b\u00e5da \u00e4r positiva f\u00f6r alla $x$ s\u00e5dana att $1<x<\\infty$. Det betyder att den givna olikhetens l\u00f6sningar \u00e4r alla $x$ som antingen \u00e4r mindre \u00e4n eller lika med $-\\frac{1}{2}$, utom $x=-2$, eller \u00e4r st\u00f6rre \u00e4n 1 , det vill s\u00e4ga alla $x$ som uppfyller$$-\\infty<x<-2 \\quad \\text { eller } \\quad-2<x<-\\frac{1}{2} \\quad \\text { eller } \\quad 1<x<\\infty$$",
         "keywords": [
             "rationella uttryck",
@@ -2963,7 +2963,7 @@
     },
     {
         "questionNum": "2013-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{1}{6}-\\frac{3}{14}}{\\frac{1}{8}+\\frac{1}{12}} .\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{1}{6}-\\frac{3}{14}}{\\frac{1}{8}+\\frac{1}{12}} .$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$-\\frac{8}{35}$",
         "keywords": [
             "rationella uttryck",
@@ -3012,7 +3012,7 @@
     },
     {
         "questionNum": "2013-26",
-        "question": "F\u00f6r $x>0$, l\u00f6s ekvationen\n\n$$\nx^{1+\\sqrt{1+(2-x) \\sqrt{x^{2}+4 x+3}}}=x^{x} \\text {. }\n$$\n\nAnge den minsta (reella) l\u00f6sningen.\n\n",
+        "question": "F\u00f6r $x>0$, l\u00f6s ekvationen\n$$x^{1+\\sqrt{1+(2-x) \\sqrt{x^{2}+4 x+3}}}=x^{x} \\text {. }$$\nAnge den minsta (reella) l\u00f6sningen.\n\n",
         "answer": "1",
         "keywords": [
             "potenser",
@@ -3272,7 +3272,7 @@
     },
     {
         "questionNum": "2012-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{7}{8}-\\left(\\frac{1}{12}-\\frac{3}{8}\\right)}{\\frac{5}{6}+\\frac{1}{16}}\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{7}{8}-\\left(\\frac{1}{12}-\\frac{3}{8}\\right)}{\\frac{5}{6}+\\frac{1}{16}}$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$\\frac{56}{43}$",
         "keywords": [
             "rationella uttryck",
@@ -3581,7 +3581,7 @@
     },
     {
         "questionNum": "2011-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{11}{12}-\\frac{13}{16}}{\\frac{3}{4}+\\frac{1}{7}} .\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{11}{12}-\\frac{13}{16}}{\\frac{3}{4}+\\frac{1}{7}} .$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$ \\frac{7}{60}$",
         "keywords": [
             "rationella uttryck",
@@ -3591,7 +3591,7 @@
     },
     {
         "questionNum": "2011-22",
-        "question": "Ange det st\u00f6rsta reella tal $a$ s\u00e5dant att alla l\u00f6sningar till ekvationen\n\n$$\n3 x^{2}+a x-\\left(a^{2}-1\\right)=0\n$$\n\n\u00e4r reella och positiva.\n\n",
+        "question": "Ange det st\u00f6rsta reella tal $a$ s\u00e5dant att alla l\u00f6sningar till ekvationen\n$$3 x^{2}+a x-\\left(a^{2}-1\\right)=0$$\n\u00e4r reella och positiva.\n\n",
         "answer": "$-\\frac{2 \\sqrt{39}}{13}$",
         "keywords": [
             "potenser",
@@ -3681,7 +3681,7 @@
     },
     {
         "questionNum": "2011-C",
-        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}$ )\n\nFinn alla reella l\u00f6sningar till ekvationen\n\n$$\n\\left|x^{2}-2\\right| x||=1\n$$\n",
+        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}$ )\n\nFinn alla reella l\u00f6sningar till ekvationen\n$$\\left|x^{2}-2\\right| x||=1$$",
         "answer": "F\u00f6r $x \\geq 0$ har vi $|x|=x$, och $\\left|x^2-2\\right| x||=\\left|x^2-2 x\\right|=1$. F\u00f6r $x<0$ f\u00e5r vi ist\u00e4llet $|x|=-x$, och $\\left|x^2-2\\right| x||=\\left|x^2+2 x\\right|=1$. Alla l\u00f6sningar till den givna ekvationen kommer allts\u00e5 att ges av de icke-negativa l\u00f6sningarna till ekvationerna $x^2-2 x= \\pm 1$, och av de negativa l\u00f6sningarna till ekvationerna $x^2+2 x= \\pm 1$(i) $x^2-2 x=1$ har l\u00f6sningarna $1 \\pm \\sqrt{2}$, av vilka endast $1+\\sqrt{2}$ \u00e4r icke-negativ(ii) $x^2-2 x=-1$ har dubbelrot 1 , som \u00e4r icke-negativ(iii) $x^2+2 x=1$ har l\u00f6sningarna $-1 \\pm \\sqrt{2}$, av vilka endast $-1-\\sqrt{2}$ \u00e4r negativ(iv) $x^2+2 x=-1$ har dubbelrot -1 , som \u00e4r negativ.Den givna ekvationen har allts\u00e5 l\u00f6sningarna \\pm 1 och $\\pm(1+\\sqrt{2})$.",
         "keywords": [
             "absolutbelopp",
@@ -3890,7 +3890,7 @@
     },
     {
         "questionNum": "2010-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{1}{2}-\\frac{5}{9}}{\\frac{2}{7}+\\frac{1}{6}} .\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{1}{2}-\\frac{5}{9}}{\\frac{2}{7}+\\frac{1}{6}} .$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$-\\frac{7}{57}$",
         "keywords": [
             "rationella uttryck",
@@ -3990,7 +3990,7 @@
     },
     {
         "questionNum": "2010-C",
-        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}$ )\n\nFinn alla reella l\u00f6sningar till ekvationen\n\n$$\n\\sqrt{15 x+1}-2=\\sqrt{x^{2}-6 x+9}\n$$\n",
+        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}$ )\n\nFinn alla reella l\u00f6sningar till ekvationen\n$$\\sqrt{15 x+1}-2=\\sqrt{x^{2}-6 x+9}$$",
         "answer": "Rotuttrycket i v\u00e4nsterledet (v.l.) \u00e4r definierat f\u014dr $x \\geq-\\frac{1}{15}$. Uttrycket under rottecknet i h\u00f4gerledet (h.l.) kan skrivas om som $(x-3)^2$, och \u00e4r s\u1ea3ledes ickenegativt f\u014dr alla reella $x$. Kvadrering av en ekvation ger en ekvation ekvivalent med den givna f\u014drutsatt att v.l. och h.l. har samma tecken. Vi flyttar d\u00e4rf\u014dr \u014dver tv\u0103an fr\u1ea3n v.ll. till h.l.$$\\sqrt{15 x+1}=2+\\sqrt{x^2-6 x+9}$$Eftersom $\\sqrt{a^2}=|a|$ f\u014dr alla reella $a$, f\u0103r vi f\u014dr $x \\geq-\\frac{1}{15}$, efter kvadrering och en viss f\u014drenkling, den ekvivalenta ekvationen$$(x-3)^2+4|x-3|-15 x+3=0 .$$Vi kan inf\u014dra en ny variabel, $t=x-3$, vilket, f\u00f4r $t \\geq-\\frac{1}{15}-3=-\\frac{46}{15}$, ger en ekvation med $t$ som obekant, ekvivalent med den givna ekvationen med $x$ som obekant$$t^2+4|t|-15 t-42=0$$F\u014dr $t \\geq 0\\left(>-\\frac{46}{15}\\right)$ far vi$$t^2-11 t-42=0$$som har l\u014dsningarna$$t_1=\\frac{11-\\sqrt{121+168}}{2}=-3, \\quad t_2=\\frac{11+\\sqrt{121+168}}{2}=14 .$$Av dessa uppfyller endast $t_2$ kravet $t \\geq 0$.F\u014dr $0>t \\geq-\\frac{46}{15}$ far vi$$t^2-19 t-42=0$$som har l\u014dsningarna$$t_3=\\frac{19-\\sqrt{361+168}}{2}=\\frac{19-23}{2}=-2, \\quad t_4=\\frac{19+\\sqrt{529}}{2}=\\frac{19+23}{2}=21 .$$Av dessa u ppfyller endast $t_3$ kravet $0>t \\geq-\\frac{46}{15}$.F\u014dr den ursprungliga ekvationen f\u00e2r vi de tv\u0103 l\u014dsningarna $x=14+3=17$, och $x=-2+3=1$",
         "keywords": [
             "potenser",
@@ -4199,7 +4199,7 @@
     },
     {
         "questionNum": "2009-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{8}{7}-\\frac{3}{2}}{\\frac{1}{9}+\\frac{5}{6}}\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{8}{7}-\\frac{3}{2}}{\\frac{1}{9}+\\frac{5}{6}}$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$-\\frac{45}{119}$",
         "keywords": [
             "rationella uttryck",
@@ -4239,7 +4239,7 @@
     },
     {
         "questionNum": "2009-25",
-        "question": "Ange den minsta (reella) l\u00f6sningen till ekvationen\n\n$$\n\\sqrt{2 x+1}-\\frac{1}{\\sqrt{2 x+1}}=2\n$$\n\n",
+        "question": "Ange den minsta (reella) l\u00f6sningen till ekvationen\n$$\\sqrt{2 x+1}-\\frac{1}{\\sqrt{2 x+1}}=2$$\n",
         "answer": "$1+\\sqrt{2}$",
         "keywords": [
             "potenser",
@@ -4509,7 +4509,7 @@
     },
     {
         "questionNum": "2008-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{7}{3}-0,35}{3+\\frac{5}{6}}\n$$\n\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{7}{3}-0,35}{3+\\frac{5}{6}}$$\nAnge svaret p\u00e5 formen $\\frac{p}{q}$, d\u00e4r $p, q$ \u00e4r heltal och br\u00e5ket $\\frac{p}{q}$ \u00e4r maximalt f\u00f6rkortat.\n\n",
         "answer": "$\\frac{119}{230}$",
         "keywords": [
             "rationella uttryck",
@@ -4608,7 +4608,7 @@
     },
     {
         "questionNum": "2008-C",
-        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}$ )\n\nFinn alla (reella) l\u00f6sningar till ekvationssystemet\n\n$$\n\\left\\{\\begin{array}{l}\nx^{2}+x y=15 \\\ny^{2}+x y=3\n\\end{array} .\\right.\n$$\n",
+        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}$ )\n\nFinn alla (reella) l\u00f6sningar till ekvationssystemet\n$$\\left\\{\\begin{array}{l}\nx^{2}+x y=15 \\\ny^{2}+x y=3\n\\end{array} .\\right.$$",
         "answer": "Antag att $(x, y)$ l\u00f6ser ekvationssystemet.Addera den andra ekvationen till den f\u00f6rsta kvadreringsregeln ger att $(x+y)^2=18$, vilket \u00e4r ekvivalent med $|x+y|=3 \\sqrt{2}$.(i) $\\operatorname{Om} x+y \\geq 0$, s\u00e5 g\u00e4ller $x+y=3 \\sqrt{2}$. Den likheten ger tillsammans med den f\u00f6rsta ekvationen att $3 \\sqrt{2} \\cdot x=15$, s\u00e5 att $x=\\frac{5 \\sqrt{2}}{2}$. F\u00f6r $y$ f\u00e5r vi $y=3 \\sqrt{2}-\\frac{5 \\sqrt{2}}{2}=\\frac{\\sqrt{2}}{2}$.(ii) $\\mathrm{Om} x+y<0$, s\u00e5 g\u00e4ller $x+y=-3 \\sqrt{2}$. Den likheten ger tillsammans med den f\u00f6rsta ekvationen att $-3 \\sqrt{2} \\cdot x=15$, s\u00e5 att $x=-\\frac{5 \\sqrt{2}}{2}$, och $y=-3 \\sqrt{2}+\\frac{5 \\sqrt{2}}{2}=-\\frac{\\sqrt{2}}{2}$. (Ins\u00e4ttning visar att de tv\u00e5 talparen verkligen l\u00f6ser ekvationssystemet.)Svar:$$\\left\\{\\begin{array} { l } { x = \\frac { 5 \\sqrt { 2 } } { 2 } } \\{ y = \\frac { \\sqrt { 2 } } { 2 } }\\end{array} , \\quad \\text { och } \\quad \\left\\{\\begin{array}{l}x=-\\frac{5 \\sqrt{2}}{2} \\y=-\\frac{\\sqrt{2}}{2}\\end{array} .\\right.\\right.$$",
         "keywords": [
             "ekvationer",
@@ -4814,7 +4814,7 @@
     },
     {
         "questionNum": "2007-21",
-        "question": "Ber\u00e4kna\n\n$$\n\\frac{\\frac{4}{5}+\\frac{1}{6}}{2-\\frac{7}{10}}\n$$\n\n",
+        "question": "Ber\u00e4kna\n$$\\frac{\\frac{4}{5}+\\frac{1}{6}}{2-\\frac{7}{10}}$$\n",
         "answer": ". $\\frac{29}{39}$",
         "keywords": [
             "rationella uttryck",
@@ -4864,7 +4864,7 @@
     },
     {
         "questionNum": "2007-26",
-        "question": "Best\u00e4m summan av l\u00f6sningarna till ekvationen\n\n$$\n(x-1)\\left(x+\\frac{1}{2}\\right)\\left(x-\\frac{1}{3}\\right)\\left(x+\\frac{1}{4}\\right)=0\n$$\n\n",
+        "question": "Best\u00e4m summan av l\u00f6sningarna till ekvationen\n$$(x-1)\\left(x+\\frac{1}{2}\\right)\\left(x-\\frac{1}{3}\\right)\\left(x+\\frac{1}{4}\\right)=0$$\n",
         "answer": ". $\\frac{7}{12}$",
         "keywords": [
             "talf\u00c3\u00b6ljder",
@@ -4915,7 +4915,7 @@
     },
     {
         "questionNum": "2007-C",
-        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}$ )\n\nFinn alla (reella) l\u00f6sningar till ekvationen\n\n$$\n2 \\cos ^{2} x-\\sin x=1\n$$\n",
+        "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}$ )\n\nFinn alla (reella) l\u00f6sningar till ekvationen\n$$2 \\cos ^{2} x-\\sin x=1$$",
         "answer": "Med hj\u00e4lp av trigonometriska ettan kan ekvationen skrivas om till$$2\\left(1-\\sin ^{2} x\\right)-\\sin x=1$$S\u00e4tt $t=\\sin x$. Vi f\u00e5r d\u00e5 en andragradsekvation f\u00f6r $t$$$2 t^{2}+t-1=0$$som har l\u00f6sningarna $t_{1}=-1$ och $t_{2}=\\frac{1}{2}$. Det \u00e5terst\u00e5r nu att l\u00f6sa ekvationerna $\\sin x=-1$ och $\\sin x=\\frac{1}{2}$. Den f\u00f6rsta av dem har l\u00f6sningarna$$x_{n}=\\frac{3 \\pi}{2}+2 n \\pi, \\quad \\text { d\u00e4r } n \\text { \u00e4r ett godtyckligt heltal }$$medan den andra har l\u00f6sningarna$$x_{n}^{\\prime}=\\frac{\\pi}{6}+2 n \\pi \\quad \\text { samt } \\quad x_{n}^{\\prime \\prime}=\\left(\\pi-\\frac{\\pi}{6}\\right)+2 n \\pi, \\quad \\text { d\u00e4r } n \\text { \u00e4r ett godtyckligt heltal. }$$Den givna ekvationen har allts\u00e5 l\u00f6sningarna$$\\begin{aligned}& x_{n}=\\frac{3 \\pi}{2}+2 n \\pi, \\& x_{n}^{\\prime}=\\frac{\\pi}{6}+2 n \\pi, \\& x_{n}^{\\prime \\prime}=\\frac{5 \\pi}{6}+2 n \\pi,\\end{aligned}$$d\u00e4r $n$ \u00e4r ett godtyckligt heltal.Alternativ l\u00f6sning: Eftersom $2 \\cos ^{2} x-1=\\cos 2 x$, kan ekvationen skrivas om till$$\\cos 2 x=\\sin x=\\cos \\left(\\frac{\\pi}{2}-x\\right)$$L\u00f6sningarna \u00e4r d\u00e5 alla reella $x$ s\u00e5dana att$$2 x= \\pm\\left(\\frac{\\pi}{2}-x\\right)+2 k \\pi, \\quad \\text { d\u00e4r } k \\text { \u00e4r ett godtyckligt heltal. }$$Vid val av plustecken: F\u00f6r $k=3 n$ (d.v.s. $k$ delbart med 3) f\u00e5r vi l\u00f6sningsskaran $\\left\\{x_{n}^{\\prime}\\right\\}$ fr\u00e5n ovan, f\u00f6r $k=3 n+1$ ( $k$ ger rest 1 vid division med 3) f\u00e5r vi l\u00f6sningsskaran $\\left\\{x_{n}^{\\prime \\prime}\\right\\}$ och, slutligen, f\u00f6r $k=3 n+2$ ( $k$ ger rest 2 vid division med 3 ) f\u00e5r vi l\u00f6sningsskaran $\\left\\{x_{n}\\right\\}$.Vid val av minustecken: Vi f\u00e5r l\u00f6sningarna $\\left\\{-\\frac{\\pi}{2}+2 k \\pi\\right\\}$, vilket \u00e4r samma l\u00f6sningsskara som $\\left\\{\\frac{3 \\pi}{2}+2 n \\pi\\right\\}$",
         "keywords": [
             "trigonometri",

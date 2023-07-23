@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import {useLocation, Outlet} from "react-router-dom";
 
 function App({user}) {
@@ -17,6 +18,7 @@ function App({user}) {
     <>
       <Navbar pathName={pathName} user={user} />
       <Outlet />
+      <Footer />
     </>
   );
 }
