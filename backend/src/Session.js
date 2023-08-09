@@ -21,31 +21,35 @@ module.exports = {
     deserialize: async (req, res, next) => {
         if(!req.cookies) return next();
 
-        const {DISCORD_OAUTH2_SESSION_ID} = req.cookies;
-        if(!DISCORD_OAUTH2_SESSION_ID) return next();
-
         try {
+
+            const {DISCORD_OAUTH2_SESSION_ID} = req.cookies;
+            if(!DISCORD_OAUTH2_SESSION_ID) return next();
+
             const sessionId = cookieParser
                 .signedCookie(DISCORD_OAUTH2_SESSION_ID, process.env.SECRET)
                 .toString();
 
             const session = await Session.findOne({sessionID: sessionId});
 
-            if(session) {
-                const currentTime = new Date();
 
-                if(session.expiresAt >= currentTime) {
-                    const data = JSON.parse(session.data);
-                    req.user = data;
-                } else {
-                    // Session has expired, delete it
-                    await session.delete();
-                }
+            if(!session) {
+                return next();
+            }
+
+            const currentTime = new Date();
+
+            if(session.expiresAt < currentTime) {
+                await session.delete({}).catch(e => console.log(e));
+            } else {
+                const data = JSON.parse(session.data);
+                req.user = data;
             }
         } catch(error) {
-            console.error("Error during session deserialization:", error);
+            console.log("Error handling deserialization: ", error);
         }
 
         next();
     }
+
 };
