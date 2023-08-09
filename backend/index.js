@@ -12,9 +12,7 @@ const {deserialize} = require('./src/Session.js');
 
 mongoose.connect(process.env.DB_URI);
 
-
-// We need to later turn this to only respond to requests from our domain
-app.use(cors({orgin: "*"}));
+app.use(cors({orgin: process.env.domain}));
 app.use(fileUpload());
 
 app.set('views', path.join(__dirname, "..", "build"));
