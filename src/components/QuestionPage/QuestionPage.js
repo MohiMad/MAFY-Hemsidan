@@ -6,7 +6,7 @@ import "./QuestionPage.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faAngleLeft} from '@fortawesome/free-solid-svg-icons';
 
-function QuestionPage({year, isFysik}) {
+function QuestionPage({user, year, isFysik}) {
   const [questions, setQuestions] = useState(Utility.getYearQuestions(year, isFysik));
   const qContainerRef = useRef();
 
@@ -47,7 +47,7 @@ function QuestionPage({year, isFysik}) {
           ))}
         </div>
       </div>
-      <QuestionSection questions={questions} questionNum={questionNum} isFysik={isFysik} />
+      <QuestionSection user={user} questions={questions} questionNum={questionNum} isFysik={isFysik} />
     </div>
   );
 }

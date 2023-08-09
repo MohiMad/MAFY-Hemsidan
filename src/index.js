@@ -8,9 +8,12 @@ import MatematikFilter from "./routes/MatematikFilter/MatematikFilter";
 import PageNotFound from "./routes/PageNotFound";
 import MatematikFilterYear from "./routes/MatematikFilterYear/MatematikFilterYear";
 import MatematikYear from "./routes/MatematikYear/MatematikYear";
-import Login from "./routes/Login/Login";
 import FysikFilterYear from "./routes/FysikFilterYear/FysikFilterYear";
 import Utility from "./Utility";
+import FormulasSection from "./components/FormulasSection/FormulasSection";
+import AnkiPage from "./routes/AnkiPage/AnkiPage";
+import UserPolicyPage from "./routes/UserPolicyPage/UserPolicyPage";
+import ContactUsPage from "./routes/ContactUsPage/ContactUsPage";
 
 function RouterController() {
   const [user, setUser] = useState(false);
@@ -63,10 +66,12 @@ function RouterController() {
                 />
               </Route>
             </Route>
-
-
           </Route>
-          <Route path="login" element={<Login />} />
+          <Route path="formler" element={<FormulasSection />} />
+          <Route path="anki" element={<AnkiPage />} />
+          <Route path="användaravtal" element={<UserPolicyPage />} />
+          <Route path="kontakta-oss" element={<ContactUsPage />} />
+
           <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>

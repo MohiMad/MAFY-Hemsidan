@@ -64,7 +64,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-
 }
 
 .matte .img {
@@ -136,9 +135,6 @@ section#challenge {
     margin-top: 5em;
 }
 
-.main-container section:last-child {
-    margin-bottom: 10vw !important;
-}
 
 @media (max-width: 1200px) {
     #features {

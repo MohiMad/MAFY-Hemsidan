@@ -1,0 +1,35 @@
+#anki {
+    margin: 0 10%;
+    margin-bottom: 3em;
+}
+
+#anki .btn-container {
+    display: flex;
+    gap: 1em;
+}
+
+#anki .btn-container .btn {
+    font-size: larger;
+    padding: 15px 25px;
+}
+
+#anki .btn-container .pc-btn {
+    color: #fff;
+    background: #000;
+}
+
+#anki .btn-container .android-btn {
+    color: #fff;
+    background: #7BC35E;
+}
+
+#anki .btn-container .ios-btn {
+    color: #fff;
+    background: #19A2EE;
+}
+
+@media (max-width: 556px) {
+    #anki .btn-container {
+        flex-direction: column;
+    }
+}

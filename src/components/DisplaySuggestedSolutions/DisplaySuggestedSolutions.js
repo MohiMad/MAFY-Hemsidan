@@ -5,9 +5,10 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faX} from '@fortawesome/free-solid-svg-icons';
 import Utility from "../../Utility";
 import Solution from "../Solution/Solution";
+import LoginButton from "../LoginButton/LoginButton";
 
 
-function DisplaySuggestedSolutions({questions, questionNum, shouldDisplaySecondayButtons}) {
+function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplaySecondayButtons}) {
     const [solutions, setSolutions] = useState(false);
 
     useEffect(() => {
@@ -80,15 +81,24 @@ function DisplaySuggestedSolutions({questions, questionNum, shouldDisplaySeconda
                         <hr />
                         <div className="upload-solution-divider">
                             <h3>Dela med oss din lösning!</h3>
-                            <span>Ladda upp ditt lösningsförslag här!</span>
-                            <div className="form-holder">
-                                <form action="" id='uploadForm' encType="multipart/form-data">
-                                    <input id="sampleFile" hidden onChange={fileUploaded} type="file" name="sampleFile" accept="image/x-png,image/jpeg,image/png,image/jpg" />
-                                    <label className="button" htmlFor="sampleFile">
-                                        Välj bild
-                                    </label>
-                                </form>
-                            </div>
+                            <span>{user ? "Ladda upp ditt lösningsförslag här!" : "Du behöver vara inloggad för att kunna ladda upp lösningar."}</span>
+
+                            {
+                                user ? (
+                                    <div className="form-holder">
+                                        <form action="" id='uploadForm' encType="multipart/form-data">
+                                            <input id="sampleFile" hidden onChange={fileUploaded} type="file" name="sampleFile" accept="image/x-png,image/jpeg,image/png,image/jpg" />
+                                            <label className="button" htmlFor="sampleFile">
+                                                Välj bild
+                                            </label>
+                                        </form>
+                                    </div>
+                                ) : (
+                                    <div className="login-btn-holder">
+                                        <LoginButton />
+                                    </div>
+                                )
+                            }
                         </div>
                     </div>
                 </div>

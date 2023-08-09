@@ -22,6 +22,7 @@ function Footer() {
                 <h3>Vart vill du gå?</h3>
                 <NavLink onClick={toTop} to="/matematik/år">Plugga matte</NavLink>
                 <NavLink onClick={toTop} to="/fysik/år">Plugga fysik</NavLink>
+                <NavLink onClick={toTop} to="/formler">Våra formelsamlingar</NavLink>
             </div>
             <div className="col">
                 <h3>Få hjälp</h3>
@@ -39,7 +40,8 @@ function Footer() {
             </div>
         </div>
         <div className="copyright-notice">
-            © 2023 MAFY
+            <span>© 2023 MAFY - </span>
+            <NavLink onClick={toTop} to="/användaravtal">Användaravtal</NavLink>
         </div>
     </footer>;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 function PageNotFound(props) {
     return (
-        <h1>Sidan hittades ej.</h1>
+        <h1 style={{textAlign: "center"}}>Sidan hittades ej.</h1>
     );
 }
 

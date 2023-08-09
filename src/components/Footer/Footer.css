@@ -79,6 +79,10 @@
     border-top: 1px solid rgba(0, 0, 0, 0.399);
 }
 
+.copyright-notice a {
+    cursor: pointer;
+}
+
 @media (max-width: 738px) {
     #footer {
         height: auto !important;

@@ -16,10 +16,10 @@ function Question(props) {
   else return <DelCQuestion {...props} />;
 }
 
-function QuestionSection({questions, questionNum, isFysik}) {
+function QuestionSection({user, questions, questionNum, isFysik}) {
   const [shouldDisplaySecondayButtons, setShouldDisplaySecondayButtons] = useState(false);
 
-  const props = {questions, questionNum, shouldDisplaySecondayButtons, setShouldDisplaySecondayButtons, isFysik};
+  const props = {user, questions, questionNum, shouldDisplaySecondayButtons, setShouldDisplaySecondayButtons, isFysik};
 
   return (
     <div className="question-section-holder">

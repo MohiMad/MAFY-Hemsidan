@@ -3,6 +3,7 @@ import "./LandingPage.css";
 import {NavLink} from "react-router-dom";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFileCircleQuestion, faQuestionCircle, faRandom} from '@fortawesome/free-solid-svg-icons';
+import FormulasSection from "../../components/FormulasSection/FormulasSection";
 
 function LandingPage(props) {
   return (
@@ -40,6 +41,7 @@ function LandingPage(props) {
           <p>Sortera frågorna från gamla prov utifrån vad du bedömer att du behöver öva på. Vi har kategoriserat frågorna åt dig utifrån år, del (A, B, eller C) och ämne som frågan berör.</p>
         </div>
       </section>
+      <FormulasSection />
       {/* <section id="challenge">
         <h2>Så vad väntar du på?</h2>
         <p>Ta steget mot dina drömmar och börja plugga till Matematik- och Fysik provet!</p>

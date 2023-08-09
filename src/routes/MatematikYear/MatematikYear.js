@@ -3,7 +3,7 @@ import {useParams, useNavigate} from "react-router-dom";
 import Utility from "../../Utility";
 import QuestionPage from "../../components/QuestionPage/QuestionPage";
 
-function MatematikYear({isFysik}) {
+function MatematikYear({user, isFysik}) {
   const {year, qNum} = useParams();
   const navigate = useNavigate();
 
@@ -22,7 +22,7 @@ function MatematikYear({isFysik}) {
     }
   }, [year, navigate, qNum, isFysik]);
 
-  return <QuestionPage isFysik={isFysik} year={year} />;
+  return <QuestionPage user={user} isFysik={isFysik} year={year} />;
 }
 
 export default MatematikYear;

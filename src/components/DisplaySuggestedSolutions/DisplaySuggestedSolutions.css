@@ -80,6 +80,12 @@
     font-size: .75em;
 }
 
+
+.login-btn-holder {
+    margin-top: 1em;
+    font-size: medium;
+}
+
 @media (max-width: 768px) {
     .modal {
         width: 80vw;
