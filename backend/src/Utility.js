@@ -86,22 +86,20 @@ async function updateUser(user, {id, username, avatar, global_name, accessToken,
 }
 
 async function mergeData(data, user) {
-    let resultingData = data;
-
     if(user) {
         const userData = await getUser(user.ID);
 
-        resultingData = resultingData.map(q => {
+        return data.map(q => {
             const qNum = q.questionNum.toUpperCase();
             if(userData.correct.includes(qNum) || userData.wrong.includes(qNum)) {
-                q.isCorrect = userData.correct.includes(qNum);
+                return {...q, isCorrect: userData.correct.includes(qNum)};
             }
 
             return q;
         });
     }
 
-    return resultingData;
+    return data;
 }
 
 function return404Status(res) {

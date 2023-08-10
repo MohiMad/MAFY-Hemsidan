@@ -22,8 +22,8 @@ module.exports = {
         if(!req.cookies) return next();
 
         try {
-
             const {DISCORD_OAUTH2_SESSION_ID} = req.cookies;
+
             if(!DISCORD_OAUTH2_SESSION_ID) return next();
 
             const sessionId = cookieParser
