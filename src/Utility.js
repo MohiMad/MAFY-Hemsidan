@@ -85,6 +85,9 @@ const Utility = {
   },
   qNumWithinRange(qNum, isFysik) {
     return (Number(qNum) ? isFysik ? qNum >= 1 && qNum <= 20 : qNum >= 1 && qNum <= 30 : isFysik ? false : qNum.toUpperCase() === "C");
+  },
+  setDocumentTitleTo(document, title) {
+    document.title = title;
   }
 };
 

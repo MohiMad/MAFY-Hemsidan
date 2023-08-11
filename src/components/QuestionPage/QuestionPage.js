@@ -27,7 +27,6 @@ function QuestionPage({user, year, isFysik}) {
     if(qNum) setQuestionNum(qNum.toLowerCase() === "c" ? 30 : Number(qNum) - 1);
   }, [qNum, navigate]);
 
-
   return (
     <div ref={qContainerRef} className="panel-and-question-divider">
       <div className="burger" onClick={() => qContainerRef.current.classList.toggle("toggle")}>

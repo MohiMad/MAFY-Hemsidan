@@ -8,11 +8,15 @@ function App({user}) {
   const location = useLocation();
 
   useEffect(() => {
-    setPathName(decodeURIComponent(location.pathname)
+    const titleAndPathName = decodeURIComponent(location.pathname)
       .split(/\//g)
       .map(x => x.charAt(0).toUpperCase() + x.slice(1))
-      .join(" / "));
+      .join(" / ");
+    if(titleAndPathName.length > 5) {
+      setPathName(titleAndPathName);
+    }
   }, [location, setPathName]);
+
 
   return (
     <>

@@ -26,6 +26,7 @@ body {
   --color-yellow: #f7c136;
   --color-red: #f46d76de;
   --color-semi-black: rgba(0, 0, 0, 0.49);
+  --color-dark: #37383D;
 }
 
 ::-webkit-scrollbar {
@@ -127,3 +128,5 @@ a.hyperlink:active {
     font-size: 1.5em;
   }
 }
+
+/* @media (prefers-color-scheme: dark) {} */
