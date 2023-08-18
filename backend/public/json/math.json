@@ -1890,7 +1890,7 @@
     },
     {
         "questionNum": "2016-6",
-        "question": "Om $a \\boxplus b=a \\ln b-b \\ln a$ f\u00f6r alla positiva reella tal $a$ och $b$, s\u00e5 g\u00e4ller att\n\n(a) $a \\boxplus b=-(b \\boxplus a)$ (b) $1 \\boxplus b=b $ (c) $a \\boxplus b^{2}=2(a \\boxplus b)$ (d) inget av (a)-(c).\n\n",
+        "question": "Om $a \\boxplus b=a \\ln b-b \\ln a$ f\u00f6r alla positiva reella tal $a$ och $b$, s\u00e5 g\u00e4ller att\n(a) $a \\boxplus b=-(b \\boxplus a)$\n(b) $1 \\boxplus b=b $\n(c) $a \\boxplus b^{2}=2(a \\boxplus b)$\n(d) inget av (a)-(c).\n\n",
         "answer": "a",
         "keywords": [
             "potenser",
@@ -4906,7 +4906,7 @@
     {
         "questionNum": "2007-30",
         "question": "Ange antalet l\u00f6sningar till ekvationen $|(|x|-2)(3-|x|)|=4$. \n\n",
-        "answer": ". 4",
+        "answer": "4",
         "keywords": [
             "absolutbelopp",
             "ekvationer",

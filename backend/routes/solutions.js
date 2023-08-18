@@ -23,7 +23,7 @@ router.get("/delete/:questionNum", async (req, res) => {
     if(!user) return sendMsg(res, "No user found.", 400);
 
     const solutionDoc = await Solution.findOne({questionNum: questionNum.toUpperCase()});
-
+    // TODO: Gör klart det här. Och använd Image ID för att identifiera dokument som ska tas bort
 
 
 });
