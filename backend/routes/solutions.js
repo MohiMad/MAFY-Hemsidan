@@ -1,7 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const Solution = require("../models/Solution.model");
-const {getUser, sendMsg, correctQuestionNumberFormat, getUsersForSolutions} = require("../src/Utility");
+const {sendMsg, correctQuestionNumberFormat, getUsersForSolutions} = require("../src/Utility");
+const imgur = require("imgur");
 
 router.get("/:questionNum", async (req, res) => {
     const questionNum = req.params.questionNum;
@@ -16,16 +17,25 @@ router.get("/:questionNum", async (req, res) => {
     res.json(resSolutionsDoc);
 });
 
-router.get("/delete/:questionNum", async (req, res) => {
-    const questionNum = req.params.questionNum;
-    const user = await getUser(req?.user?.ID);
+router.post("/delete/:questionNum/:solutionID", async (req, res) => {
+    const {questionNum, solutionID} = req.params;
+    const userID = req?.user?.ID;
+
     if(!correctQuestionNumberFormat(questionNum)) return sendMsg(res, "Invalid question ID.", 400);
-    if(!user) return sendMsg(res, "No user found.", 400);
+    if(!userID) return sendMsg(res, "No user found.", 400);
 
     const solutionDoc = await Solution.findOne({questionNum: questionNum.toUpperCase()});
-    // TODO: Gör klart det här. Och använd Image ID för att identifiera dokument som ska tas bort
+    if(!solutionDoc) return sendMsg(res, "Not found.", 400);
 
+    const solutionInSolutionsArr = solutionDoc.solutions.find(x => x.solutionID === solutionID);
+    if(!solutionInSolutionsArr) return sendMsg(res, "Not found.", 400);
+    if(solutionInSolutionsArr.ID !== userID) return sendMsg(res, "Unauthorized.", 400);
 
+    await imgur.deleteImage(solutionInSolutionsArr.deletehash).catch(err => console.log(err));
+    solutionDoc.solutions = [...solutionDoc.solutions.filter(x => x.solutionID !== solutionID)];
+    await solutionDoc.save().catch(err => console.log(err));
+
+    sendMsg(res, "ok", 200);
 });
 
 module.exports = router;

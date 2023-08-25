@@ -55,7 +55,7 @@ async function createUser({id, username, avatar, global_name}, accessToken, refr
     const newUser = new User({
         ID: id,
         username: username,
-        name: global_name,
+        name: global_name || username,
         avatar: avatar,
         accessToken: accessToken,
         refreshToken: refreshToken,
@@ -75,7 +75,7 @@ async function getUser(id) {
 async function updateUser(user, {id, username, avatar, global_name, accessToken, refreshToken}) {
     user.ID = id;
     user.username = username;
-    user.name = global_name;
+    user.name = global_name || username;
     user.avatar = avatar;
     user.accessToken = accessToken;
     user.refreshToken = refreshToken;
@@ -119,7 +119,7 @@ async function getUsersForSolutions(solutionDoc) {
         const user = await getUser(solution.ID);
 
         if(user) {
-            solution.name = user.name;
+            solution.name = user.name || user.username;
             solution.avatar = user.avatar;
         } else {
             solution.name = "Borttagen användare";

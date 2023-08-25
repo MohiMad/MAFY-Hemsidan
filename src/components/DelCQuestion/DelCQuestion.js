@@ -4,13 +4,13 @@ import {useNavigate} from "react-router-dom";
 import FormattedLatex from "../FormattedLatex";
 
 
-function DelCQuestion({questions, questionNum, setShouldDisplaySecondayButtons}) {
+function DelCQuestion({questions, questionNum, setShouldDisplaySecondayButtons, isFysik}) {
     const navigate = useNavigate();
     const [isClicked, setIsClicked] = useState(false);
 
     const btnClicked = () => {
         if(isClicked) {
-            navigate("/matematik");
+            navigate(`/${ isFysik ? "fysik" : "matematik" }/år`);
             return;
         }
 

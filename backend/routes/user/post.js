@@ -5,7 +5,6 @@ const imgur = require("imgur");
 const fs = require("fs");
 const Solution = require("../../models/Solution.model");
 
-// TODO: Check if the file uploaded is typeof image
 router.post("/solution/image/:questionNum", async (req, res) => {
     if(!req.files) return sendMsg(res, "Inga filer hittades.", 400);
     if(!req.params.questionNum || !correctQuestionNumberFormat(req.params.questionNum)) return sendMsg(res, 400, "Frågan du försöker ladda upp lösningen till hittades ej.");

@@ -38,10 +38,11 @@
     right: 1em;
     bottom: 1em;
     z-index: 5;
-
+    display: flex;
+    gap: .5em;
 }
 
-.share {
+.icon-action {
     padding: .5em;
     font-size: 1em;
     background: #0000008d;
@@ -51,7 +52,12 @@
     transition: .5s;
 }
 
-.share:hover {
+.delete-solution {
+    background: #ff00008d !important;
+
+}
+
+.icon-action:hover {
     transform: scale(1.05);
 }
 

@@ -22,7 +22,7 @@ function RouterController() {
   useEffect(() => {
     (async () => {
       const userData = await Utility.getUserData();
-      // TODO: Remove mock and make it just return nothing.
+
       if(!userData || userData.code === 404) return;
 
       setUser(userData);
@@ -71,7 +71,6 @@ function RouterController() {
           <Route path="anki" element={<AnkiPage />} />
           <Route path="användaravtal" element={<UserPolicyPage />} />
           <Route path="kontakta-oss" element={<ContactUsPage />} />
-
           <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>

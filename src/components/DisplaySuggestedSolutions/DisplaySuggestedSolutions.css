@@ -12,14 +12,14 @@
     top: 0;
     left: 0;
     opacity: 0;
-    transform: scale(0);
+    transform: translateY(-25px);
     backdrop-filter: blur(2px);
     transition: .25s;
 }
 
 .popover.show {
     opacity: 1;
-    transform: scale(1);
+    transform: translateY(0px);
     z-index: 5;
 }
 

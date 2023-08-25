@@ -2,10 +2,10 @@ import math from "./assets/json/math.json";
 import physics from "./assets/json/physics.json";
 
 
-async function postData(url = "", data = {}) {
+async function postData(url = "", data) {
   try {
     // Default options are marked with *
-    const response = await fetch(url + "?" + new URLSearchParams(data), {
+    const response = await fetch(data ? (url + "?" + new URLSearchParams(data)) : url, {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
       mode: "cors", // no-cors, *cors, same-origin
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
@@ -88,7 +88,8 @@ const Utility = {
   },
   setDocumentTitleTo(document, title) {
     document.title = title;
-  }
+  },
+  postData
 };
 
 export default Utility;

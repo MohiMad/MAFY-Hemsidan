@@ -12,16 +12,16 @@ function App({user}) {
       .split(/\//g)
       .map(x => x.charAt(0).toUpperCase() + x.slice(1))
       .join(" / ");
-    if(titleAndPathName.length > 5) {
-      setPathName(titleAndPathName);
-    }
+
+    setPathName(titleAndPathName);
+
   }, [location, setPathName]);
 
 
   return (
     <>
       <Navbar pathName={pathName} user={user} />
-      <Outlet />
+      <Outlet setPathName={setPathName} />
       <Footer />
     </>
   );

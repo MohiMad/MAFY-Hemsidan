@@ -1,6 +1,7 @@
 .profile {
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
     width: 2.5em;
     height: 2.5em;
     border-radius: 50px;

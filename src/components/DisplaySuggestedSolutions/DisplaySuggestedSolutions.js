@@ -24,7 +24,6 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
     const showModal = (e) => {
         e.stopPropagation();
         document.querySelector(".popover").classList.toggle("show");
-
     };
 
     const fileUploaded = async (e) => {
@@ -73,8 +72,8 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
                         <FontAwesomeIcon onClick={showModal} className="x" icon={faX} />
                         <h3>Lösningsförslag från användare:</h3>
                         <div className="solutions-holder">
-                            {solutions ? (
-                                solutions.solutions.map(solution => (<Solution solution={solution} />)
+                            {(solutions?.solutions?.length > 0) ? (
+                                solutions.solutions.map(solution => (<Solution user={user} solutions={solutions} setSolutions={setSolutions} solution={solution} />)
                                 )
                             ) : (<span>Tyvärr... Här fanns det inga lösningsförslag.</span>)}
                         </div>
