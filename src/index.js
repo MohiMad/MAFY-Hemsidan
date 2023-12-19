@@ -14,6 +14,8 @@ import FormulasSection from "./components/FormulasSection/FormulasSection";
 import AnkiPage from "./routes/AnkiPage/AnkiPage";
 import UserPolicyPage from "./routes/UserPolicyPage/UserPolicyPage";
 import ContactUsPage from "./routes/ContactUsPage/ContactUsPage";
+// eslint-disable-next-line no-unused-vars
+import Statistik from "./routes/Statistik/Statistik";
 
 function RouterController() {
   const [user, setUser] = useState(false);
@@ -71,6 +73,7 @@ function RouterController() {
           <Route path="anki" element={<AnkiPage />} />
           <Route path="användaravtal" element={<UserPolicyPage />} />
           <Route path="kontakta-oss" element={<ContactUsPage />} />
+          {/* <Route path="statistik" element={<Statistik />} /> */}
           <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>

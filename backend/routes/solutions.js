@@ -30,8 +30,9 @@ router.post("/delete/:questionNum/:solutionID", async (req, res) => {
     const solutionInSolutionsArr = solutionDoc.solutions.find(x => x.solutionID === solutionID);
     if(!solutionInSolutionsArr) return sendMsg(res, "Not found.", 400);
     if(solutionInSolutionsArr.ID !== userID) return sendMsg(res, "Unauthorized.", 400);
-
-    await imgur.deleteImage(solutionInSolutionsArr.deletehash).catch(err => console.log(err));
+    if(solutionInSolutionsArr.deletehash) {
+        await imgur.deleteImage(solutionInSolutionsArr.deletehash).catch(err => console.log(err));
+    }
     solutionDoc.solutions = [...solutionDoc.solutions.filter(x => x.solutionID !== solutionID)];
     await solutionDoc.save().catch(err => console.log(err));
 

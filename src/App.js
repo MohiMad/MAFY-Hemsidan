@@ -17,7 +17,6 @@ function App({user}) {
 
   }, [location, setPathName]);
 
-
   return (
     <>
       <Navbar pathName={pathName} user={user} />

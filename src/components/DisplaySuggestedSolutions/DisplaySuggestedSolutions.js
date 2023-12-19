@@ -1,15 +1,31 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useCallback, useRef} from "react";
 import "./DisplaySuggestedSolutions.css";
 import Button from "../Button/Button";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faX} from '@fortawesome/free-solid-svg-icons';
+import {faX, faUpload} from '@fortawesome/free-solid-svg-icons';
 import Utility from "../../Utility";
 import Solution from "../Solution/Solution";
 import LoginButton from "../LoginButton/LoginButton";
+import Latex from "react-latex";
 
+const msg_obj = {
+    0: "",
+    1: {msg: "Din lösning har laddats upp!", color: "--color-green"},
+    2: {msg: "Lösningen gick inte att ladda upp. Försök igen", color: "--color-red"},
+    3: {msg: "Vänta medan vi laddar upp din lösning...", color: "--color-yellow"},
+    4: {msg: "Lösningen har tagits bort.", color: "--color-green"},
+    5: {msg: "Det gick inte att ta bort lösningen. Försök igen.", color: "--color-red"},
+    6: {msg: "Din lösning är för kort!", color: "--color-red"}
+};
+
+const original_latex = "Din kod i $\\LaTeX$ visas här...";
 
 function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplaySecondayButtons}) {
     const [solutions, setSolutions] = useState(false);
+    const [uploadStatus, setUploadStatus] = useState(0);
+    const textareaRef = useRef();
+    const [latexCode, setLatexCode] = useState(original_latex);
+
 
     useEffect(() => {
         async function fetchSolutions() {
@@ -26,36 +42,99 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
         document.querySelector(".popover").classList.toggle("show");
     };
 
-    const fileUploaded = async (e) => {
+    const handleDragOver = (e) => {
         e.preventDefault();
-        const uploadForm = document.getElementById("uploadForm");
-        const formData = new FormData(uploadForm);
+    };
 
-        const res = await fetch(`/api/user/post/solution/image/${ questions[questionNum].questionNum }`, {
-            method: 'POST',
-            body: formData
-        });;
+    const handleFileInput = useCallback(async (files) => {
+        setUploadStatus(3);
+        const formData = new FormData();
+        formData.append("sampleFile", files[0]);
 
-        if(res.ok) {
-            const reader = res.body.getReader();
-            let content = '';
+        try {
+            const res = await fetch(`/api/user/post/solution/image/${ questions[questionNum].questionNum }`, {
+                method: 'POST',
+                body: formData
+            });
 
-            // Read the stream until it is fully consumed
-            while(true) {
-                const {done, value} = await reader.read();
-
-                if(done) {
-                    // Stream fully consumed
-                    break;
-                }
-
-                // Convert the chunk (Uint8Array) to a string and append to the content
-                const chunk = new TextDecoder().decode(value);
-                content += chunk;
+            if(res.ok) {
+                const updatedSolutions = await res.json();
+                setSolutions(updatedSolutions);
+                setUploadStatus(1);
+                setTimeout(() => setUploadStatus(0), 3000);
+            } else {
+                throw new Error(msg_obj["2"]);
             }
+        } catch(error) {
+            setUploadStatus(2);
+        }
+    }, [questionNum, questions]);
 
-            const data = JSON.parse(content);
-            setSolutions(data);
+    const handleDrop = (e) => {
+        e.preventDefault();
+        const files = e.dataTransfer.files;
+        if(files.length && files[0].type.match('image.*')) {
+            handleFileInput(files);
+        }
+    };
+
+
+
+    useEffect(() => {
+        const handlePaste = (e) => {
+            if(e.clipboardData && e.clipboardData.files.length > 0) {
+                const files = e.clipboardData.files;
+                if(files[0].type.match('image.*')) {
+                    handleFileInput(files);
+                }
+            }
+        };
+        window.addEventListener('paste', handlePaste);
+        return () => window.removeEventListener('paste', handlePaste);
+    }, [handleFileInput]);
+
+    const textareaContentChange = (e) => {
+        const textarea = e.target;
+        const latexDisplay = document.querySelector('.latex-display');
+
+        textarea.style.height = 'auto';
+        latexDisplay.style.height = 'auto';
+
+        const newHeight = `${ textarea.scrollHeight }px`;
+        textarea.style.height = newHeight;
+        latexDisplay.style.height = newHeight;
+
+        setLatexCode(textarea.value);
+    };
+
+
+    const latexUpload = async () => {
+        if(latexCode.toString() === original_latex || latexCode.toString().length < 20) {
+            setUploadStatus(6);
+            setTimeout(() => setUploadStatus(0), 3000);
+        }
+
+        setUploadStatus(3);
+        const formData = new FormData();
+        formData.append("latex", latexCode.toString());
+
+        try {
+            const res = await fetch(`/api/user/post/solution/latex/${ questions[questionNum].questionNum }`, {
+                method: 'POST',
+                body: formData
+            });
+
+            if(res.ok) {
+                const updatedSolutions = await res.json();
+                setSolutions(updatedSolutions);
+                setUploadStatus(1);
+                setLatexCode(original_latex);
+                setTimeout(() => setUploadStatus(0), 3000);
+            } else {
+                throw new Error(msg_obj["2"]);
+            }
+        } catch(error) {
+            setUploadStatus(2);
         }
     };
 
@@ -63,6 +142,7 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
         shouldDisplaySecondayButtons &&
         (
             <>
+                {uploadStatus !== 0 && <div className="upload-status" style={{background: `var(${ msg_obj[uploadStatus].color })`}}>{msg_obj[uploadStatus].msg}</div>}
                 <Button
                     className="show-solutions-btn"
                     onClick={showModal}
@@ -73,25 +153,40 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
                         <h3>Lösningsförslag från användare:</h3>
                         <div className="solutions-holder">
                             {(solutions?.solutions?.length > 0) ? (
-                                solutions.solutions.map(solution => (<Solution user={user} solutions={solutions} setSolutions={setSolutions} solution={solution} />)
+                                solutions.solutions.map(solution => (<Solution user={user} solutions={solutions} setSolutions={setSolutions} solution={solution} setUploadStatus={setUploadStatus} />)
                                 )
                             ) : (<span>Tyvärr... Här fanns det inga lösningsförslag.</span>)}
                         </div>
                         <hr />
                         <div className="upload-solution-divider">
                             <h3>Dela med oss din lösning!</h3>
-                            <span>{user ? "Ladda upp ditt lösningsförslag här!" : "Du behöver vara inloggad för att kunna ladda upp lösningar."}</span>
+                            <span>{(user) ? "Ladda upp ditt lösningsförslag här. OBS: Det dröjer en bit innan bilden laddas upp!" : "Du behöver vara inloggad för att kunna ladda upp lösningar."}</span>
 
                             {
-                                user ? (
-                                    <div className="form-holder">
-                                        <form action="" id='uploadForm' encType="multipart/form-data">
-                                            <input id="sampleFile" hidden onChange={fileUploaded} type="file" name="sampleFile" accept="image/x-png,image/jpeg,image/png,image/jpg" />
-                                            <label className="button" htmlFor="sampleFile">
-                                                Välj bild
-                                            </label>
-                                        </form>
-                                    </div>
+                                (user || true) ? (
+                                    <>
+                                        <div className="form-holder" onDragOver={handleDragOver} onDrop={handleDrop}>
+                                            <form action="" id='uploadForm' encType="multipart/form-data">
+                                                <label className="image-label-btn" htmlFor="sampleFile">
+                                                </label>
+                                                <input id="sampleFile" hidden onChange={(e) => handleFileInput(e.target.files)} type="file" name="sampleFile" accept="image/x-png,image/jpeg,image/png,image/jpg" />
+                                                <FontAwesomeIcon className="fa-upload-form-icon" icon={faUpload} />
+                                                <span>Dra, ladda upp eller klistra in bild här</span>
+                                            </form>
+                                        </div>
+                                        <hr />
+                                        <div className="column">
+                                        </div>
+                                        <h3>Alternativt: Ladda upp lösning i LaTeX</h3>
+                                        <div className="latex-upload-container">
+                                            <textarea ref={textareaRef} onChange={textareaContentChange} placeholder="Din kod i $\LaTeX$ visas här..." name="latex" id="latexcode">
+                                            </textarea>
+                                            <div className="latex-display">
+                                                <Latex displayMode={false}>{latexCode}</Latex>
+                                            </div>
+                                        </div>
+                                        <Button onClick={latexUpload} className="latex-upload-btn">Ladda upp LaTeX lösning</Button>
+                                    </>
                                 ) : (
                                     <div className="login-btn-holder">
                                         <LoginButton />
