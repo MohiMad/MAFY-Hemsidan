@@ -1,7 +1,7 @@
 [
     {
         "questionNum": "f2023-1",
-        "question": "En cirkelskiva kan snurra kring sin axel. Den p\u00e5verkas av tre krafter enligt figuren. De tv\u00e5 krafterna med belopp $F$ angriper p\u00e5 skivans periferi, och kraften med belopp $G$ p\u00e5 en punkt p\u00e5 halva skivans radie. Vinkeln $v$ \u00e4r $30^{\\circ}$. Vad \u00e4r $G$, om skivan \u00e4r i j\u00e4mvikt?\nA. 0\nB. $2 F$\nC. $4 F$\nD. $8 F$",
+        "question": "En cirkelskiva kan snurra kring sin axel. Den p\u00e5verkas av tre krafter enligt figuren. De tv\u00e5 krafterna med belopp $F$ angriper p\u00e5 skivans periferi, och kraften med belopp $G$ p\u00e5 en punkt p\u00e5 halva skivans radie. Vinkeln $v$ \u00e4r $30^{\\circ}$. Vad \u00e4r $G$, om skivan \u00e4r i j\u00e4mvikt?\n\n![](https://i.imgur.com/kuvSihV.png)\n\nA. 0\nB. $2 F$\nC. $4 F$\nD. $8 F$",
         "answer": "D",
         "keywords": [
             "mekanik",
@@ -90,7 +90,7 @@
     },
     {
         "questionNum": "f2023-10",
-        "question": "Hur stor \u00e4r den markerade str\u00f6mmen $I$ i den ideala elektriska kretsen i figuren?\nA. $\\frac{U}{R}$\nB. $\\frac{U}{2 R}$\nC. $\\frac{2 U}{3 R}$\nD. Annat v\u00e4rde",
+        "question": "Hur stor \u00e4r den markerade str\u00f6mmen $I$ i den ideala elektriska kretsen i figuren?\n\n![](https://i.imgur.com/sUh27rb.png)\n\nA. $\\frac{U}{R}$\nB. $\\frac{U}{2 R}$\nC. $\\frac{2 U}{3 R}$\nD. Annat v\u00e4rde",
         "answer": "D",
         "keywords": [
             "elektricitet",
@@ -110,7 +110,7 @@
     },
     {
         "questionNum": "f2023-12",
-        "question": "En ljusstr\u00e5le passerar fr\u00e5n luften till ett genomskinligt material (det skuggade omr\u00e5det). Vinklarna i figuren \u00e4r $\\alpha=45.0^{\\circ}, \\beta=30.0^{\\circ}$. Vad \u00e4r brytningsindex f\u00f6r materialet?\nA. 1.22\nB. 1.41\nC. 1.50\nD. 2.00",
+        "question": "En ljusstr\u00e5le passerar fr\u00e5n luften till ett genomskinligt material (det skuggade omr\u00e5det). Vinklarna i figuren \u00e4r $\\alpha=45.0^{\\circ}, \\beta=30.0^{\\circ}$. Vad \u00e4r brytningsindex f\u00f6r materialet?\n\n![](https://i.imgur.com/T0XtQLE.png)\n\nA. 1.22\nB. 1.41\nC. 1.50\nD. 2.00",
         "answer": "B",
         "keywords": [
             "ljusbrytning",
@@ -180,7 +180,7 @@
     },
     {
         "questionNum": "f2023-19",
-        "question": "En tyngd h\u00e4nger i ett l\u00e4tt sn\u00f6re, som l\u00f6per utan att glida i tv\u00e5 trissor som \u00e4r fria att rotera runt sina axlar, enligt figuren. Den st\u00f6rre trissan har radien $R$ och den mindre radien $r$. Vilken kraft $F$ beh\u00f6vs f\u00f6r j\u00e4mvikt?",
+        "question": "En tyngd h\u00e4nger i ett l\u00e4tt sn\u00f6re, som l\u00f6per utan att glida i tv\u00e5 trissor som \u00e4r fria att rotera runt sina axlar, enligt figuren. Den st\u00f6rre trissan har radien $R$ och den mindre radien $r$. Vilken kraft $F$ beh\u00f6vs f\u00f6r j\u00e4mvikt?\n\n![](https://i.imgur.com/7KWWxZ5.png)",
         "answer": "$\\mathrm{Mg}$",
         "keywords": [
             "mekanik",
@@ -190,7 +190,7 @@
     },
     {
         "questionNum": "f2023-20",
-        "question": "Tv\u00e5 metallkulor med massorna $m$ och $2 m$ h\u00e4nger i tr\u00e5dar, s\u00e5 att de precis nuddar varandra n\u00e4r de \u00e4r i j\u00e4mvikt, se figuren. Den l\u00e4ttare kulan lyfts upp s\u00e5 att tr\u00e5den \u00e4r horisontell och sl\u00e4pps d\u00e4refter (I). Den pendlar d\u00e5 ned och tr\u00e4ffar den tyngre kulan i en rak elastisk st\u00f6t (II). Hur h\u00f6gt n\u00e5r den tyngre kulan d\u00e4refter i sin pendelr\u00f6relse (III)?\n\n(Kulornas radier \u00e4r mycket mindre \u00e4n tr\u00e5darnas l\u00e4ngd $a$.)\n",
+        "question": "Tv\u00e5 metallkulor med massorna $m$ och $2 m$ h\u00e4nger i tr\u00e5dar, s\u00e5 att de precis nuddar varandra n\u00e4r de \u00e4r i j\u00e4mvikt, se figuren. Den l\u00e4ttare kulan lyfts upp s\u00e5 att tr\u00e5den \u00e4r horisontell och sl\u00e4pps d\u00e4refter (I). Den pendlar d\u00e5 ned och tr\u00e4ffar den tyngre kulan i en rak elastisk st\u00f6t (II). Hur h\u00f6gt n\u00e5r den tyngre kulan d\u00e4refter i sin pendelr\u00f6relse (III)?\n\n(Kulornas radier \u00e4r mycket mindre \u00e4n tr\u00e5darnas l\u00e4ngd $a$.)\n\n![](https://i.imgur.com/d0dIEin.png)\n",
         "answer": "F\u00f6re st\u00f6ten har den lilla massans l\u00e4gesenergi $m g h$ omvandlats till kinetisk energi, s\u00e5 dess fart $v$ best\u00e4ms av $\\frac{1}{2} m v^2=m g h$, dvs. $v=\\sqrt{2 g a}$. Under st\u00f6ten bevaras s\u00e5v\u00e4l r\u00f6relsem\u00e4ngd som r\u00f6relseenergi. Detta inneb\u00e4r\n$$\n\\begin{gathered}\nv=v^{\\prime}+2 u, \\\\\nv^2=v^2+2 u^2,\n\\end{gathered}\n$$\nd\u00e4r $v^{\\prime}$ \u00e4r den lilla massans hastighet efter st\u00f6ten och $u$ den stora massans hastighet (referensriktning \u00e5t h\u00f6ger i figuren). Eliminering av $v^{\\prime}$ ger sig $u=\\frac{2}{3} v$ (eller $u=0$, vilket svarar mot f\u00f6rh\u00e5llandena f\u00f6re st\u00f6ten). Efter st\u00f6ten r\u00f6r sig den st\u00f6rre massan till h\u00f6jden $h$, d\u00e4r $2 m g h=\\frac{1}{2} 2 m u^2$. Allts\u00e5 \u00e4r $h=\\frac{u^2}{2 g}=\\frac{2 v^2}{9 g}=\\frac{4}{9} a$.",
         "keywords": [
             "mekanik",

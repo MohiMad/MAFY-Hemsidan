@@ -1,182 +1,3263 @@
 [
     {
-        "questionNum": "2022-1",
+        "questionNum": "2015-17",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-7231b3c8-44da-4da6-b1e0-afca0146183d"
+            "/trad/mafy-2015-uppgift-17/"
         ]
     },
     {
-        "questionNum": "2022-2",
+        "questionNum": "2015-13",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-22f3511e-7f56-463c-bbac-afca014930e1"
+            "/trad/mafy-2015-uppgift-13/"
         ]
     },
     {
-        "questionNum": "2022-3",
+        "questionNum": "2014-29",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-1c5a7bfb-c2dd-4dbb-b4e1-afd100b54986"
+            "/trad/mafy-2014-uppgift-29-1/"
         ]
     },
     {
-        "questionNum": "2022-4",
+        "questionNum": "2014-20",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-f750347c-b8a2-420d-b33d-afd100b85ca6"
+            "/trad/mafy-2014-uppgift-20-2/"
         ]
     },
     {
-        "questionNum": "2022-5",
+        "questionNum": "2014-7",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-771b6742-4447-4cd3-866b-afd100badc3f"
+            "/trad/mafy-2014-uppgift-7/"
         ]
     },
     {
-        "questionNum": "2022-6",
+        "questionNum": "2013-30",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-02f78f38-2703-41ac-a145-afd100daad12"
+            "/trad/mafy-2013-uppgift-30/"
         ]
     },
     {
-        "questionNum": "2022-7",
+        "questionNum": "2013-29",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-d0e072c9-8919-4798-88a8-afd100ec6ff5"
+            "/trad/mafy-2013-uppgift-29/"
         ]
     },
     {
-        "questionNum": "2022-8",
+        "questionNum": "2023-6",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-a2929832-d895-41e3-a80f-afd100fdb5f6"
+            "/trad/trigonometriska-uppgift-6-2023/"
         ]
     },
     {
-        "questionNum": "2022-9",
+        "questionNum": "2017-26",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-c8215d60-9174-46c6-b57b-afd20102b812"
+            "/trad/mattedelen-2017-uppgift-26/"
         ]
     },
     {
-        "questionNum": "2022-10",
+        "questionNum": "2023-9",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-a08f14bc-227f-4a5c-aac8-afd20107ae0a"
+            "/trad/mafy-2023-uppgift-9/"
         ]
     },
     {
-        "questionNum": "2022-11",
+        "questionNum": "2018-28",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-6aa27df4-04d9-4e80-a2ba-afd20130fc20"
+            "/trad/mafy-2018-uppgift-28-2/"
         ]
     },
     {
-        "questionNum": "2022-12",
+        "questionNum": "2018-22",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-d40c5b56-01ee-4e0f-808c-afd300fba5f6"
+            "/trad/mafy-2018-uppgift-22-1/"
         ]
     },
     {
-        "questionNum": "2022-13",
+        "questionNum": "2011-30",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-05c5152b-d38a-4be5-a6f2-afd300fc4d83"
+            "/trad/mafy-2011-uppgift-30/"
         ]
     },
     {
-        "questionNum": "2022-14",
+        "questionNum": "2011-9",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-95ee0ba9-87cb-4f7d-8397-afd300fce720"
+            "/trad/mafy-2011-uppgift-9-2/"
         ]
     },
     {
-        "questionNum": "2022-15",
+        "questionNum": "2012-22",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-b4c54284-98d3-4183-b76f-afd300fd7e03"
+            "/trad/mafy-2012-uppgift-22/"
         ]
     },
     {
-        "questionNum": "2022-16",
+        "questionNum": "2013-22",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-02d41399-d358-4167-b17f-afd50133c2e5"
+            "/trad/mafy-2013-uppgift-22/"
         ]
     },
     {
-        "questionNum": "2022-17",
+        "questionNum": "2013-27",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-eb2da813-5205-48e1-8e9f-afd6014f7b64"
+            "/trad/mafy-2013-uppgift-27-1/"
         ]
     },
     {
-        "questionNum": "2022-18",
+        "questionNum": "2013-1",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-8ca6cb7f-dd00-4c01-98c5-afd60154598f"
+            "/trad/mafy-2013-uppgift-1-11/"
+        ]
+    },
+    {
+        "questionNum": "2015-2",
+        "links": [
+            "/trad/mafy-2015-uppgift-2-7/"
+        ]
+    },
+    {
+        "questionNum": "2015-10",
+        "links": [
+            "/trad/mafy-2015-uppgift-10/"
+        ]
+    },
+    {
+        "questionNum": "2017-10",
+        "links": [
+            "/trad/mafy-2017-uppgift-10/"
         ]
     },
     {
         "questionNum": "2022-19",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-0c78396b-72e5-4de3-b963-afd800c09895"
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-0c78396b-72e5-4de3-b963-afd800c09895",
+            "/trad/mafy-2022-uppgift-19-2/"
+        ]
+    },
+    {
+        "questionNum": "2017-25",
+        "links": [
+            "/trad/mafy-2017-upg-25-matematik/"
+        ]
+    },
+    {
+        "questionNum": "2008-23",
+        "links": [
+            "/trad/mafy-2008-uppgift-23/"
+        ]
+    },
+    {
+        "questionNum": "2023-10",
+        "links": [
+            "/trad/mafy-2023-uppgift-10/"
+        ]
+    },
+    {
+        "questionNum": "2011-19",
+        "links": [
+            "/trad/mafy-2011-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "2023-8",
+        "links": [
+            "/trad/mafy-2023-8/"
+        ]
+    },
+    {
+        "questionNum": "2023-8",
+        "links": [
+            "/trad/mafy-2023-uppgift-8-1/"
+        ]
+    },
+    {
+        "questionNum": "2023-20",
+        "links": [
+            "/trad/mafy-2023-uppgift-20/"
+        ]
+    },
+    {
+        "questionNum": "2023-22",
+        "links": [
+            "/trad/mafy-2023-uppgift-22/"
+        ]
+    },
+    {
+        "questionNum": "2018-18",
+        "links": [
+            "/trad/mafy-2018-uppgift-18-6/"
+        ]
+    },
+    {
+        "questionNum": "2023-30",
+        "links": [
+            "/trad/mafy-2023-uppgift-30/"
+        ]
+    },
+    {
+        "questionNum": "2017-14",
+        "links": [
+            "/trad/mafy-2017-uppgift-14/"
         ]
     },
     {
         "questionNum": "2022-20",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-544e88e2-7800-46a8-8809-afd80142073d"
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-544e88e2-7800-46a8-8809-afd80142073d",
+            "/trad/mafy-2022-uppgift-20/"
         ]
     },
     {
-        "questionNum": "2022-21",
+        "questionNum": "2010-26",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-2db33f86-c1ad-432b-b4f3-afda013a7e47"
+            "/trad/mafy-2010-fraga-26-1/"
+        ]
+    },
+    {
+        "questionNum": "2018-6",
+        "links": [
+            "/trad/mafy-2018-fraga-6/"
+        ]
+    },
+    {
+        "questionNum": "2010-25",
+        "links": [
+            "/trad/mafy-2010-fraga-25/"
+        ]
+    },
+    {
+        "questionNum": "2014-10",
+        "links": [
+            "/trad/mafy-2014-uppgift-10/"
+        ]
+    },
+    {
+        "questionNum": "2021-27",
+        "links": [
+            "/trad/mattefysikprovet-mattedelen-2021-uppgift-27/"
+        ]
+    },
+    {
+        "questionNum": "2016-27",
+        "links": [
+            "/trad/mafy-2016-fraga-27/"
+        ]
+    },
+    {
+        "questionNum": "2019-29",
+        "links": [
+            "/trad/mafy-2019-uppgift-29/"
+        ]
+    },
+    {
+        "questionNum": "2014-16",
+        "links": [
+            "/trad/mafy-2014-uppgift-16/"
+        ]
+    },
+    {
+        "questionNum": "2019-30",
+        "links": [
+            "/trad/mafy-2019-uppgift-30-3/"
+        ]
+    },
+    {
+        "questionNum": "2016-29",
+        "links": [
+            "/trad/mafy-2016-uppgift-29-1/"
+        ]
+    },
+    {
+        "questionNum": "2022-3",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-1c5a7bfb-c2dd-4dbb-b4e1-afd100b54986",
+            "/trad/mafy-2022-uppgift-3-4/"
+        ]
+    },
+    {
+        "questionNum": "2012-18",
+        "links": [
+            "/trad/mafy-2012-uppgift-18-2/"
+        ]
+    },
+    {
+        "questionNum": "2012-18",
+        "links": [
+            "/trad/mafy-2012-uppgift-18-1/"
+        ]
+    },
+    {
+        "questionNum": "2019-29",
+        "links": [
+            "/trad/mafy-2019-fraga-29/"
+        ]
+    },
+    {
+        "questionNum": "2018-3",
+        "links": [
+            "/trad/mafy-2018-fraga-3-2/"
+        ]
+    },
+    {
+        "questionNum": "2022-10",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-a08f14bc-227f-4a5c-aac8-afd20107ae0a",
+            "/trad/mafy-2022-fraga-10-1/"
+        ]
+    },
+    {
+        "questionNum": "2016-8",
+        "links": [
+            "/trad/mafy-2016-uppgift-8/"
+        ]
+    },
+    {
+        "questionNum": "2016-20",
+        "links": [
+            "/trad/mafy-2016-uppgift-20-1/"
+        ]
+    },
+    {
+        "questionNum": "2016-30",
+        "links": [
+            "/trad/mafy-2016-uppgift-30-1/"
+        ]
+    },
+    {
+        "questionNum": "2012-7",
+        "links": [
+            "/trad/mafy-2012-fraga-7/"
+        ]
+    },
+    {
+        "questionNum": "2016-22",
+        "links": [
+            "/trad/mafy-2016-uppgift-22-2/"
+        ]
+    },
+    {
+        "questionNum": "2016-18",
+        "links": [
+            "/trad/2016-uppgift-18/"
+        ]
+    },
+    {
+        "questionNum": "2022-14",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-95ee0ba9-87cb-4f7d-8397-afd300fce720",
+            "/trad/mafy-2022-fraga-14-15/"
+        ]
+    },
+    {
+        "questionNum": "2019-14",
+        "links": [
+            "/trad/mafy-2019-upg-14/"
+        ]
+    },
+    {
+        "questionNum": "2022-18",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-8ca6cb7f-dd00-4c01-98c5-afd60154598f",
+            "/trad/mafy-2022-uppgift-18-1/"
+        ]
+    },
+    {
+        "questionNum": "2017-7",
+        "links": [
+            "/trad/mafy-2017-uppgift-7-1/"
+        ]
+    },
+    {
+        "questionNum": "2015-28",
+        "links": [
+            "/trad/mafy-2015-uppgift-28-geometri/"
+        ]
+    },
+    {
+        "questionNum": "2017-27",
+        "links": [
+            "/trad/mafy-2017-uppgift-27-1/"
         ]
     },
     {
         "questionNum": "2022-22",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-8f009856-f5de-4bef-a94b-afda013b2c46"
-        ]
-    },
-    {
-        "questionNum": "2022-23",
-        "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-d712f26e-6c9a-4c1d-b262-afda013e931a"
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-8f009856-f5de-4bef-a94b-afda013b2c46",
+            "/trad/mafy-2022-uppgift-22/"
         ]
     },
     {
         "questionNum": "2022-24",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-e66b1844-960f-4047-bdd8-afdb014185e4"
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-e66b1844-960f-4047-bdd8-afdb014185e4",
+            "/trad/mafy-2022-uppgift-24/"
         ]
     },
     {
-        "questionNum": "2022-25",
+        "questionNum": "2018-13",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-1d8c57b8-8a67-4fc6-89cf-afde01110a00"
+            "/trad/mafy-2018-fraga-13/"
         ]
     },
     {
-        "questionNum": "2022-26",
+        "questionNum": "2021-26",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-d462d852-bfd5-407c-9ddb-afde0118e550"
+            "/trad/mafy-2021-uppgift-26/"
         ]
     },
     {
-        "questionNum": "2022-27",
+        "questionNum": "2016-22",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-538804e1-8f9c-4bef-a029-afde0123d7b8"
+            "/trad/mafysprovet-2016-22/"
         ]
     },
     {
-        "questionNum": "2022-28",
+        "questionNum": "2013-22",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-1961ad65-1e31-4f01-9159-afde0126650d"
-        ]
-    },
-    {
-        "questionNum": "2022-29",
-        "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-aafc347b-e16d-428d-aa0e-afde014f1a6c"
+            "/trad/mafysprovet-2013-22/"
         ]
     },
     {
         "questionNum": "2022-30",
         "links": [
-            "https://www.pluggakuten.se/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-59834e36-1500-4eb8-b93d-afde01597158"
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-59834e36-1500-4eb8-b93d-afde01597158",
+            "/trad/mafy-2022-uppgift-30-1/"
+        ]
+    },
+    {
+        "questionNum": "2022-29",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-aafc347b-e16d-428d-aa0e-afde014f1a6c",
+            "/trad/mafy-2022-uppgift-29-1/"
+        ]
+    },
+    {
+        "questionNum": "2009-13",
+        "links": [
+            "/trad/mafy-2009-uppgift-13/"
+        ]
+    },
+    {
+        "questionNum": "2021-11",
+        "links": [
+            "/trad/mafy-2021-uppgift-11-matte/"
+        ]
+    },
+    {
+        "questionNum": "2021-5",
+        "links": [
+            "/trad/mafy-2021-uppgift-5/"
+        ]
+    },
+    {
+        "questionNum": "2022-8",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-a2929832-d895-41e3-a80f-afd100fdb5f6",
+            "/trad/mafy-2022-uppgift-8-2/"
+        ]
+    },
+    {
+        "questionNum": "2022-9",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-c8215d60-9174-46c6-b57b-afd20102b812",
+            "/trad/mafy-2022-uppgift-9-1/"
+        ]
+    },
+    {
+        "questionNum": "2022-3",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-1c5a7bfb-c2dd-4dbb-b4e1-afd100b54986",
+            "/trad/mafy-2022-fraga-3/"
+        ]
+    },
+    {
+        "questionNum": "2019-28",
+        "links": [
+            "/trad/mafy-2019-uppgift-28/"
+        ]
+    },
+    {
+        "questionNum": "2022-9",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-c8215d60-9174-46c6-b57b-afd20102b812",
+            "/trad/mafy-2022-fraga-9/"
+        ]
+    },
+    {
+        "questionNum": "2021-6",
+        "links": [
+            "/trad/mafy-2021-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "2019-2",
+        "links": [
+            "/trad/mafy-2019-uppgift-2-5/"
+        ]
+    },
+    {
+        "questionNum": "2018-30",
+        "links": [
+            "/trad/mafy-2018-fraga-30-c/"
+        ]
+    },
+    {
+        "questionNum": "2021-9",
+        "links": [
+            "/trad/mafy-2021-uppgift-9-2/"
+        ]
+    },
+    {
+        "questionNum": "2016-5",
+        "links": [
+            "/trad/mafy-2016-uppgift-5/"
+        ]
+    },
+    {
+        "questionNum": "2009-25",
+        "links": [
+            "/trad/mafy-2009-uppgift-25/"
+        ]
+    },
+    {
+        "questionNum": "2009-14",
+        "links": [
+            "/trad/mafy-2009-uppgift-14/"
+        ]
+    },
+    {
+        "questionNum": "2016-2",
+        "links": [
+            "/trad/mafy-2016-2/"
+        ]
+    },
+    {
+        "questionNum": "2021-30",
+        "links": [
+            "/trad/mafy-2021-fraga-30/"
+        ]
+    },
+    {
+        "questionNum": "2010-26",
+        "links": [
+            "/trad/mafy-2010-uppgift-26/"
+        ]
+    },
+    {
+        "questionNum": "2012-15",
+        "links": [
+            "/trad/mafy-2012-fraga-15/"
+        ]
+    },
+    {
+        "questionNum": "2014-25",
+        "links": [
+            "/trad/mafy-2014-fraga-25/"
+        ]
+    },
+    {
+        "questionNum": "2022-29",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-aafc347b-e16d-428d-aa0e-afde014f1a6c",
+            "/trad/mafy-2022-uppgift-29/"
+        ]
+    },
+    {
+        "questionNum": "2012-15",
+        "links": [
+            "/trad/mafy-2012-uppgift-15/"
+        ]
+    },
+    {
+        "questionNum": "2012-14",
+        "links": [
+            "/trad/mafy-2012-uppgift-14/"
+        ]
+    },
+    {
+        "questionNum": "2017-6",
+        "links": [
+            "/trad/mafy-2017-uppgift-6-1/"
+        ]
+    },
+    {
+        "questionNum": "2014-1",
+        "links": [
+            "/trad/mafy-2014-19-1/"
+        ]
+    },
+    {
+        "questionNum": "2022-15",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-b4c54284-98d3-4183-b76f-afd300fd7e03",
+            "/trad/trigonometri-uppgift-15-fran-2022/"
+        ]
+    },
+    {
+        "questionNum": "2014-1",
+        "links": [
+            "/trad/2014-6-1/"
+        ]
+    },
+    {
+        "questionNum": "2014-4",
+        "links": [
+            "/trad/2014-4/"
+        ]
+    },
+    {
+        "questionNum": "2010-20",
+        "links": [
+            "/trad/mafy-2010-20/"
+        ]
+    },
+    {
+        "questionNum": "2022-29",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-aafc347b-e16d-428d-aa0e-afde014f1a6c",
+            "/trad/mafy-2022-fraga-29/"
+        ]
+    },
+    {
+        "questionNum": "2016-9",
+        "links": [
+            "/trad/mafy-2016-uppgift-9/"
+        ]
+    },
+    {
+        "questionNum": "2022-6",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-02f78f38-2703-41ac-a145-afd100daad12",
+            "/trad/mafy-2022-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "2022-10",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-a08f14bc-227f-4a5c-aac8-afd20107ae0a",
+            "/trad/mafy-2022-uppgift-10/"
+        ]
+    },
+    {
+        "questionNum": "2022-7",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-d0e072c9-8919-4798-88a8-afd100ec6ff5",
+            "/trad/mafy-2022-uppgift-7/"
+        ]
+    },
+    {
+        "questionNum": "2022-17",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-eb2da813-5205-48e1-8e9f-afd6014f7b64",
+            "/trad/mafy-2022-uppgift-17/"
+        ]
+    },
+    {
+        "questionNum": "2022-14",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-95ee0ba9-87cb-4f7d-8397-afd300fce720",
+            "/trad/mafy-2022-uppgift-14/"
+        ]
+    },
+    {
+        "questionNum": "2022-25",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-1d8c57b8-8a67-4fc6-89cf-afde01110a00",
+            "/trad/mafy-2022-uppgift-25/"
+        ]
+    },
+    {
+        "questionNum": "2022-30",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-59834e36-1500-4eb8-b93d-afde01597158",
+            "/trad/mafy-2022-uppgift-30/"
+        ]
+    },
+    {
+        "questionNum": "2022-27",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-538804e1-8f9c-4bef-a029-afde0123d7b8",
+            "/trad/mafy-2022-uppgift-27/"
+        ]
+    },
+    {
+        "questionNum": "2022-26",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-d462d852-bfd5-407c-9ddb-afde0118e550",
+            "/trad/mafy-2022-uppgift-26/"
+        ]
+    },
+    {
+        "questionNum": "2022-10",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-a08f14bc-227f-4a5c-aac8-afd20107ae0a",
+            "/trad/mafy-2022-fraga-10/"
+        ]
+    },
+    {
+        "questionNum": "2009-2",
+        "links": [
+            "/trad/mafy-2009-uppgift-2-1/"
+        ]
+    },
+    {
+        "questionNum": "2010-30",
+        "links": [
+            "/trad/mafy-2010-fraga-30/"
+        ]
+    },
+    {
+        "questionNum": "2014-29",
+        "links": [
+            "/trad/mafy-2014-fraga-29/"
+        ]
+    },
+    {
+        "questionNum": "2009-26",
+        "links": [
+            "/trad/mafy-2009-uppgift-26-1/"
+        ]
+    },
+    {
+        "questionNum": "2014-27",
+        "links": [
+            "/trad/mafy-2014-fraga-27/"
+        ]
+    },
+    {
+        "questionNum": "2012-27",
+        "links": [
+            "/trad/mafy-2012-fraga-27/"
+        ]
+    },
+    {
+        "questionNum": "2009-26",
+        "links": [
+            "/trad/mafy-2009-uppgift-26/"
+        ]
+    },
+    {
+        "questionNum": "2009-4",
+        "links": [
+            "/trad/mafy-2009-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "2018-30",
+        "links": [
+            "/trad/mafy-2018-fraga-30/"
+        ]
+    },
+    {
+        "questionNum": "2008-13",
+        "links": [
+            "/trad/mafy-2008-fraga-13/"
+        ]
+    },
+    {
+        "questionNum": "2016-29",
+        "links": [
+            "/trad/2016-q29/"
+        ]
+    },
+    {
+        "questionNum": "2012-11",
+        "links": [
+            "/trad/mafy-2012-fraga-11-1/"
+        ]
+    },
+    {
+        "questionNum": "2012-29",
+        "links": [
+            "/trad/mafy-2012-uppgift-29/"
+        ]
+    },
+    {
+        "questionNum": "2018-19",
+        "links": [
+            "/trad/mafy-2018-fraga-19/"
+        ]
+    },
+    {
+        "questionNum": "2017-3",
+        "links": [
+            "/trad/mafy-2017-fraga-3/"
+        ]
+    },
+    {
+        "questionNum": "2017-26",
+        "links": [
+            "/trad/mafy-2017-uppgift-26-forenkling/"
+        ]
+    },
+    {
+        "questionNum": "2017-27",
+        "links": [
+            "/trad/mafy-2017-uppgift-27/"
+        ]
+    },
+    {
+        "questionNum": "2017-16",
+        "links": [
+            "/trad/mafy-2017-uppgift-16-1/"
+        ]
+    },
+    {
+        "questionNum": "2017-22",
+        "links": [
+            "/trad/mafy-2017-uppgift-22/"
+        ]
+    },
+    {
+        "questionNum": "2015-30",
+        "links": [
+            "/trad/mafy-2015-uppgift-30-2/"
+        ]
+    },
+    {
+        "questionNum": "2011-2",
+        "links": [
+            "/trad/mafy-2011-uppgift-2-3/"
+        ]
+    },
+    {
+        "questionNum": "2011-7",
+        "links": [
+            "/trad/mafy-2011-uppgift-7-8/"
+        ]
+    },
+    {
+        "questionNum": "2018-18",
+        "links": [
+            "/trad/mafy-2018-uppgift-18-3/"
+        ]
+    },
+    {
+        "questionNum": "2018-17",
+        "links": [
+            "/trad/mafy-2018-uppgift-17-2/"
+        ]
+    },
+    {
+        "questionNum": "2012-2",
+        "links": [
+            "/trad/mafy-2012-fraga-2-1/"
+        ]
+    },
+    {
+        "questionNum": "2015-27",
+        "links": [
+            "/trad/mafy-2015-uppgift-27-1/"
+        ]
+    },
+    {
+        "questionNum": "2016-24",
+        "links": [
+            "/trad/mafy-2016-uppg-24/"
+        ]
+    },
+    {
+        "questionNum": "2013-4",
+        "links": [
+            "/trad/mafy-2013-uppgift-4-respektive-3/"
+        ]
+    },
+    {
+        "questionNum": "2015-2",
+        "links": [
+            "/trad/mafy-2015-uppgift-2-4/"
+        ]
+    },
+    {
+        "questionNum": "2015-3",
+        "links": [
+            "/trad/mafy-2015-uppgift-3-2/"
+        ]
+    },
+    {
+        "questionNum": "2012-18",
+        "links": [
+            "/trad/mafy-2012-uppgift-18/"
+        ]
+    },
+    {
+        "questionNum": "2012-4",
+        "links": [
+            "/trad/mafy-2012-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "2012-7",
+        "links": [
+            "/trad/mafy-2012-uppgift-7/"
+        ]
+    },
+    {
+        "questionNum": "2011-22",
+        "links": [
+            "/trad/mafy-2011-fraga-22/"
+        ]
+    },
+    {
+        "questionNum": "2010-11",
+        "links": [
+            "/trad/mafy-2010-fraga-11/"
+        ]
+    },
+    {
+        "questionNum": "2009-10",
+        "links": [
+            "/trad/mafy-2009-10/"
+        ]
+    },
+    {
+        "questionNum": "2008-11",
+        "links": [
+            "/trad/mafy-2008-fraga-11/"
+        ]
+    },
+    {
+        "questionNum": "2012-16",
+        "links": [
+            "/trad/mafy-2012-fraga-16/"
+        ]
+    },
+    {
+        "questionNum": "2016-5",
+        "links": [
+            "/trad/mafy-2016-fraga-5/"
+        ]
+    },
+    {
+        "questionNum": "2013-27",
+        "links": [
+            "/trad/mafy-2013-uppgift-27/"
+        ]
+    },
+    {
+        "questionNum": "2013-12",
+        "links": [
+            "/trad/mafy-2013-uppgift-12/"
+        ]
+    },
+    {
+        "questionNum": "2010-29",
+        "links": [
+            "/trad/mafy-2010-29/"
+        ]
+    },
+    {
+        "questionNum": "2007-13",
+        "links": [
+            "/trad/mafy-2007-upg-13/"
+        ]
+    },
+    {
+        "questionNum": "2013-27",
+        "links": [
+            "/trad/mafy-uppgift-2013-uppgift-27/"
+        ]
+    },
+    {
+        "questionNum": "2015-4",
+        "links": [
+            "/trad/mafy-2015-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "2011-7",
+        "links": [
+            "/trad/mafy-2011-fraga-7/"
+        ]
+    },
+    {
+        "questionNum": "2021-6",
+        "links": [
+            "/trad/konstig-symbol-pa-mafy-fraga-6-2021/"
+        ]
+    },
+    {
+        "questionNum": "2012-7",
+        "links": [
+            "/trad/inttenta-2012-uppgift-7-geometrisk-summa/"
+        ]
+    },
+    {
+        "questionNum": "2019-19",
+        "links": [
+            "/trad/dugga-2019-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "2019-23",
+        "links": [
+            "/trad/2019-mafy-uppgift-23/"
+        ]
+    },
+    {
+        "questionNum": "2011-2",
+        "links": [
+            "/trad/mafy-2011-uppgift-2-2/"
+        ]
+    },
+    {
+        "questionNum": "2016-27",
+        "links": [
+            "/trad/mafy-2016-uppgift-27/"
+        ]
+    },
+    {
+        "questionNum": "2012-13",
+        "links": [
+            "/trad/mafy-2012-uppgift-13/"
+        ]
+    },
+    {
+        "questionNum": "2016-19",
+        "links": [
+            "/trad/mafy-2016-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "2014-19",
+        "links": [
+            "/trad/mafy-2014-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "2014-6",
+        "links": [
+            "/trad/mafy-2014-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "2014-20",
+        "links": [
+            "/trad/mafy-2014-uppgift-20/"
+        ]
+    },
+    {
+        "questionNum": "2019-16",
+        "links": [
+            "/trad/mafy-2019-q16/"
+        ]
+    },
+    {
+        "questionNum": "2017-17",
+        "links": [
+            "/trad/mafy-2017-uppgift-17/"
+        ]
+    },
+    {
+        "questionNum": "2017-8",
+        "links": [
+            "/trad/mafy-2017-uppgift-8-1/"
+        ]
+    },
+    {
+        "questionNum": "2018-20",
+        "links": [
+            "/trad/dugga-2018-uppgift-20/"
+        ]
+    },
+    {
+        "questionNum": "2019-8",
+        "links": [
+            "/trad/dugga-2019-uppgift-8/"
+        ]
+    },
+    {
+        "questionNum": "2014-4",
+        "links": [
+            "/trad/2014-fraga-4/"
+        ]
+    },
+    {
+        "questionNum": "2019-30",
+        "links": [
+            "/trad/mafy-2019-uppgift-30-2/"
+        ]
+    },
+    {
+        "questionNum": "2021-9",
+        "links": [
+            "/trad/mafy-2021-uppgift-9/"
+        ]
+    },
+    {
+        "questionNum": "2011-19",
+        "links": [
+            "/trad/matematikprovet-2011-fraga-19/"
+        ]
+    },
+    {
+        "questionNum": "2008-9",
+        "links": [
+            "/trad/mafy-2008-fraga-9/"
+        ]
+    },
+    {
+        "questionNum": "2018-18",
+        "links": [
+            "/trad/mafy-2018-uppgift-18-2/"
+        ]
+    },
+    {
+        "questionNum": "2018-20",
+        "links": [
+            "/trad/mafy-2018-uppgift-20-1/"
+        ]
+    },
+    {
+        "questionNum": "2018-6",
+        "links": [
+            "/trad/2018-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "2016-9",
+        "links": [
+            "/trad/dugga-2016-uppgift-9/"
+        ]
+    },
+    {
+        "questionNum": "2015-1",
+        "links": [
+            "/trad/mafy-2015-uppgift-1-5/"
+        ]
+    },
+    {
+        "questionNum": "2014-29",
+        "links": [
+            "/trad/mafy-2014-uppgift-29/"
+        ]
+    },
+    {
+        "questionNum": "2014-27",
+        "links": [
+            "/trad/mafy-2014-uppgift-27-1/"
+        ]
+    },
+    {
+        "questionNum": "2011-13",
+        "links": [
+            "/trad/matematik-provet-2011-fraga-13/"
+        ]
+    },
+    {
+        "questionNum": "2011-27",
+        "links": [
+            "/trad/mafy-2011-fraga-27/"
+        ]
+    },
+    {
+        "questionNum": "2007-6",
+        "links": [
+            "/trad/mafy-2007-upg-6/"
+        ]
+    },
+    {
+        "questionNum": "2015-5",
+        "links": [
+            "/trad/dugga-chalmers-2015-uppgift-5/"
+        ]
+    },
+    {
+        "questionNum": "2015-30",
+        "links": [
+            "/trad/mafy-2015-uppgift-30-1/"
+        ]
+    },
+    {
+        "questionNum": "2010-26",
+        "links": [
+            "/trad/mafy-2010-fraga-26/"
+        ]
+    },
+    {
+        "questionNum": "2016-30",
+        "links": [
+            "/trad/mafy-2016-uppgift-30/"
+        ]
+    },
+    {
+        "questionNum": "2016-22",
+        "links": [
+            "/trad/mafy-2016-uppgift-22-1/"
+        ]
+    },
+    {
+        "questionNum": "2016-7",
+        "links": [
+            "/trad/mafy-2016-uppgift-7-1/"
+        ]
+    },
+    {
+        "questionNum": "2016-4",
+        "links": [
+            "/trad/mafy-2016-uppgift-4-1/"
+        ]
+    },
+    {
+        "questionNum": "2017-29",
+        "links": [
+            "/trad/mafy-uppgift-29-2017/"
+        ]
+    },
+    {
+        "questionNum": "2015-27",
+        "links": [
+            "/trad/mafy-2015-uppgift-27/"
+        ]
+    },
+    {
+        "questionNum": "2014-5",
+        "links": [
+            "/trad/mafy-2014-uppgift-5/"
+        ]
+    },
+    {
+        "questionNum": "2011-29",
+        "links": [
+            "/trad/mafy-2011-uppgift-29/"
+        ]
+    },
+    {
+        "questionNum": "2014-1",
+        "links": [
+            "/trad/mafy-2014-uppgift-1-1/"
+        ]
+    },
+    {
+        "questionNum": "2011-9",
+        "links": [
+            "/trad/mafy-2011-uppgift-9/"
+        ]
+    },
+    {
+        "questionNum": "2017-7",
+        "links": [
+            "/trad/mafy-2017-uppgift-7/"
+        ]
+    },
+    {
+        "questionNum": "2019-30",
+        "links": [
+            "/trad/mafy-2019-uppgift-30-1/"
+        ]
+    },
+    {
+        "questionNum": "2017-4",
+        "links": [
+            "/trad/mafy-2017-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "2021-16",
+        "links": [
+            "/trad/mafy-2021-uppgift-16/"
+        ]
+    },
+    {
+        "questionNum": "2019-26",
+        "links": [
+            "/trad/mafy-2019-uppgift-26-2/"
+        ]
+    },
+    {
+        "questionNum": "2019-22",
+        "links": [
+            "/trad/mafy-2019-uppgift-22/"
+        ]
+    },
+    {
+        "questionNum": "2019-19",
+        "links": [
+            "/trad/mafy-2019-uppgift-19-1/"
+        ]
+    },
+    {
+        "questionNum": "2019-6",
+        "links": [
+            "/trad/mafy-2019-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "2012-11",
+        "links": [
+            "/trad/mafy-2012-fraga-11/"
+        ]
+    },
+    {
+        "questionNum": "2010-29",
+        "links": [
+            "/trad/mafy-2010-uppgift-29/"
+        ]
+    },
+    {
+        "questionNum": "2021-1",
+        "links": [
+            "/trad/mafy-2021-uppg-1/"
+        ]
+    },
+    {
+        "questionNum": "2010-28",
+        "links": [
+            "/trad/mafy-2010-uppgift-28/"
+        ]
+    },
+    {
+        "questionNum": "2015-13",
+        "links": [
+            "/trad/mafy-2015-fraga-13/"
+        ]
+    },
+    {
+        "questionNum": "2010-25",
+        "links": [
+            "/trad/mafy-2010-uppgift-25/"
+        ]
+    },
+    {
+        "questionNum": "2009-27",
+        "links": [
+            "/trad/matematik-provet-2009-fraga-27/"
+        ]
+    },
+    {
+        "questionNum": "2010-2",
+        "links": [
+            "/trad/mafy-2010-uppgift-2/"
+        ]
+    },
+    {
+        "questionNum": "2009-28",
+        "links": [
+            "/trad/mafy-2009-uppgift-28/"
+        ]
+    },
+    {
+        "questionNum": "2009-11",
+        "links": [
+            "/trad/mafy-2009-uppgift-11/"
+        ]
+    },
+    {
+        "questionNum": "2008-28",
+        "links": [
+            "/trad/mafy-2008-uppgift-28/"
+        ]
+    },
+    {
+        "questionNum": "2008-18",
+        "links": [
+            "/trad/mafy-2008-uppgift-18/"
+        ]
+    },
+    {
+        "questionNum": "2018-27",
+        "links": [
+            "/trad/mafy-2018-uppgift-27/"
+        ]
+    },
+    {
+        "questionNum": "2008-17",
+        "links": [
+            "/trad/mafy-2008-uppgift-17/"
+        ]
+    },
+    {
+        "questionNum": "2021-29",
+        "links": [
+            "/trad/mafy-2021-uppgift-29-1/"
+        ]
+    },
+    {
+        "questionNum": "2008-6",
+        "links": [
+            "/trad/mafy-2008-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "2008-3",
+        "links": [
+            "/trad/mafy-2008-uppgift-3/"
+        ]
+    },
+    {
+        "questionNum": "2021-27",
+        "links": [
+            "/trad/mafy-2021-uppgift-27/"
+        ]
+    },
+    {
+        "questionNum": "2007-29",
+        "links": [
+            "/trad/mafy-2007-uppgift-29/"
+        ]
+    },
+    {
+        "questionNum": "2021-22",
+        "links": [
+            "/trad/mafy-2021-uppgift-22/"
+        ]
+    },
+    {
+        "questionNum": "2021-27",
+        "links": [
+            "/trad/mafy-2021-uppgift-27-1/"
+        ]
+    },
+    {
+        "questionNum": "2021-15",
+        "links": [
+            "/trad/mafy-2021-uppgift-15/"
+        ]
+    },
+    {
+        "questionNum": "2021-18",
+        "links": [
+            "/trad/mafy-2021-uppgift-18/"
+        ]
+    },
+    {
+        "questionNum": "2007-20",
+        "links": [
+            "/trad/mafy-2007-uppgift-20/"
+        ]
+    },
+    {
+        "questionNum": "2021-29",
+        "links": [
+            "/trad/mafy-2021-uppgift-29/"
+        ]
+    },
+    {
+        "questionNum": "2013-16",
+        "links": [
+            "/trad/mafy-2013-uppgift-16/"
+        ]
+    },
+    {
+        "questionNum": "2013-18",
+        "links": [
+            "/trad/mafy-2013-uppgift-18/"
+        ]
+    },
+    {
+        "questionNum": "2013-14",
+        "links": [
+            "/trad/mafy-2013-uppgift-14/"
+        ]
+    },
+    {
+        "questionNum": "2013-6",
+        "links": [
+            "/trad/mafy-2013-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "2013-1",
+        "links": [
+            "/trad/mafy-2013-uppgift-1-1/"
+        ]
+    },
+    {
+        "questionNum": "2014-27",
+        "links": [
+            "/trad/mafy-2014-uppgift-27/"
+        ]
+    },
+    {
+        "questionNum": "2014-4",
+        "links": [
+            "/trad/mafy-2014-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "2015-27",
+        "links": [
+            "/trad/2015-uppgift-27-absolutbelopp-med-tva-variabler/"
+        ]
+    },
+    {
+        "questionNum": "2015-29",
+        "links": [
+            "/trad/mafy-2015-uppgift-29/"
+        ]
+    },
+    {
+        "questionNum": "2015-19",
+        "links": [
+            "/trad/mafy-2015-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "2015-15",
+        "links": [
+            "/trad/mafy-2015-uppgift-15/"
+        ]
+    },
+    {
+        "questionNum": "2015-14",
+        "links": [
+            "/trad/mafy-2015-uppgift-14/"
+        ]
+    },
+    {
+        "questionNum": "2015-12",
+        "links": [
+            "/trad/mafy-2015-uppgift-12/"
+        ]
+    },
+    {
+        "questionNum": "2015-9",
+        "links": [
+            "/trad/mafy-2015-uppgift-9/"
+        ]
+    },
+    {
+        "questionNum": "2015-1",
+        "links": [
+            "/trad/mafy-2015-uppgift-1/"
+        ]
+    },
+    {
+        "questionNum": "2016-29",
+        "links": [
+            "/trad/mafy-2016-uppgift-29/"
+        ]
+    },
+    {
+        "questionNum": "2018-28",
+        "links": [
+            "/trad/mafy-2018-uppgift-28-1/"
+        ]
+    },
+    {
+        "questionNum": "2016-17",
+        "links": [
+            "/trad/mafy-2016-uppgift-17/"
+        ]
+    },
+    {
+        "questionNum": "2016-12",
+        "links": [
+            "/trad/mafy-2016-uppgift-12/"
+        ]
+    },
+    {
+        "questionNum": "2016-7",
+        "links": [
+            "/trad/mafy-2016-uppgift-7/"
+        ]
+    },
+    {
+        "questionNum": "2016-6",
+        "links": [
+            "/trad/mafy-2016-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "2016-3",
+        "links": [
+            "/trad/mafy-2016-uppgift-3/"
+        ]
+    },
+    {
+        "questionNum": "2017-3",
+        "links": [
+            "/trad/mafy-2017-uppgift-3/"
+        ]
+    },
+    {
+        "questionNum": "2017-6",
+        "links": [
+            "/trad/mafy-2017-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "2019-24",
+        "links": [
+            "/trad/mafy-fraga-2019-24/"
+        ]
+    },
+    {
+        "questionNum": "2015-26",
+        "links": [
+            "/trad/2015-q26/"
+        ]
+    },
+    {
+        "questionNum": "2019-3",
+        "links": [
+            "/trad/mafy-2019-matematikdelen-uppgift-3/"
+        ]
+    },
+    {
+        "questionNum": "2018-1",
+        "links": [
+            "/trad/mafy-2018-matematikdelen-uppgift-1-tips/"
+        ]
+    },
+    {
+        "questionNum": "2018-27",
+        "links": [
+            "/trad/2018-q27-trigonometrisk-ekvation-tan-x/"
+        ]
+    },
+    {
+        "questionNum": "2018-22",
+        "links": [
+            "/trad/2018-q22-2-a-gradare-med-villkor/"
+        ]
+    },
+    {
+        "questionNum": "2012-23",
+        "links": [
+            "/trad/mafy-2012-fraga-23/"
+        ]
+    },
+    {
+        "questionNum": "2019-25",
+        "links": [
+            "/trad/2019-q25/"
+        ]
+    },
+    {
+        "questionNum": "2019-29",
+        "links": [
+            "/trad/2019-q29-area-triangel/"
+        ]
+    },
+    {
+        "questionNum": "2019-28",
+        "links": [
+            "/trad/2019-q28-2/"
+        ]
+    },
+    {
+        "questionNum": "2019-28",
+        "links": [
+            "/trad/2019-q28/"
+        ]
+    },
+    {
+        "questionNum": "2019-27",
+        "links": [
+            "/trad/2019-q27/"
+        ]
+    },
+    {
+        "questionNum": "2015-10",
+        "links": [
+            "/trad/2015-q10/"
+        ]
+    },
+    {
+        "questionNum": "2019-26",
+        "links": [
+            "/trad/2019-q26/"
+        ]
+    },
+    {
+        "questionNum": "2019-24",
+        "links": [
+            "/trad/2019-q24/"
+        ]
+    },
+    {
+        "questionNum": "2013-3",
+        "links": [
+            "/trad/2013-uppgift-3/"
+        ]
+    },
+    {
+        "questionNum": "2019-22",
+        "links": [
+            "/trad/2019-fraga-22/"
+        ]
+    },
+    {
+        "questionNum": "2019-28",
+        "links": [
+            "/trad/2019-q28-trigonometrisk-ekvation-cos-x-sin-x/"
+        ]
+    },
+    {
+        "questionNum": "2019-22",
+        "links": [
+            "/trad/2019-q22-2-a-gradare-med-villkor/"
+        ]
+    },
+    {
+        "questionNum": "2015-29",
+        "links": [
+            "/trad/mafy-prov-2015-upg-29/"
+        ]
+    },
+    {
+        "questionNum": "2015-3",
+        "links": [
+            "/trad/mafy-2015-fraga-3/"
+        ]
+    },
+    {
+        "questionNum": "2015-20",
+        "links": [
+            "/trad/mafy-prov-2015-upg-20/"
+        ]
+    },
+    {
+        "questionNum": "2019-17",
+        "links": [
+            "/trad/2019-fraga-17/"
+        ]
+    },
+    {
+        "questionNum": "2016-30",
+        "links": [
+            "/trad/matte-fysik-2016-upg-30/"
+        ]
+    },
+    {
+        "questionNum": "2014-22",
+        "links": [
+            "/trad/2014-q22-2-a-gradare-med-villkor-positiv-negativ-rot/"
+        ]
+    },
+    {
+        "questionNum": "2016-22",
+        "links": [
+            "/trad/2016-q22-2-a-gradare-med-villkor/"
+        ]
+    },
+    {
+        "questionNum": "2017-21",
+        "links": [
+            "/trad/mafy-2017-uppgift-21/"
+        ]
+    },
+    {
+        "questionNum": "2017-9",
+        "links": [
+            "/trad/2017-q9-geometrisk-summa/"
+        ]
+    },
+    {
+        "questionNum": "2017-25",
+        "links": [
+            "/trad/2017-q25/"
+        ]
+    },
+    {
+        "questionNum": "2016-28",
+        "links": [
+            "/trad/2016-upg-28/"
+        ]
+    },
+    {
+        "questionNum": "2015-4",
+        "links": [
+            "/trad/2015-q4-olikhet-endast-variabler/"
+        ]
+    },
+    {
+        "questionNum": "2016-29",
+        "links": [
+            "/trad/mafy-prov-2016-upg-29/"
+        ]
+    },
+    {
+        "questionNum": "2016-30",
+        "links": [
+            "/trad/2016-q30-bisektris/"
+        ]
+    },
+    {
+        "questionNum": "2016-23",
+        "links": [
+            "/trad/mafy-2016-uppgift-23/"
+        ]
+    },
+    {
+        "questionNum": "2018-30",
+        "links": [
+            "/trad/matte-fysik-2018-upg-30/"
+        ]
+    },
+    {
+        "questionNum": "2017-26",
+        "links": [
+            "/trad/2017-q26/"
+        ]
+    },
+    {
+        "questionNum": "2019-29",
+        "links": [
+            "/trad/mafy-prov-2019-upg-29/"
+        ]
+    },
+    {
+        "questionNum": "2018-29",
+        "links": [
+            "/trad/mafy-prov-2018-upg-29/"
+        ]
+    },
+    {
+        "questionNum": "2016-27",
+        "links": [
+            "/trad/2016-q27-olikhet-tva-variabler/"
+        ]
+    },
+    {
+        "questionNum": "2015-2",
+        "links": [
+            "/trad/2015-q2-konjugat/"
+        ]
+    },
+    {
+        "questionNum": "2019-30",
+        "links": [
+            "/trad/matte-fysik-2019-upg-30/"
+        ]
+    },
+    {
+        "questionNum": "2012-9",
+        "links": [
+            "/trad/mafy-2012-uppgift-9/"
+        ]
+    },
+    {
+        "questionNum": "2016-25",
+        "links": [
+            "/trad/2016-q25-falska-rotter-rotuttryck/"
+        ]
+    },
+    {
+        "questionNum": "2016-1",
+        "links": [
+            "/trad/2016-q1-forenkling/"
+        ]
+    },
+    {
+        "questionNum": "2017-30",
+        "links": [
+            "/trad/mafy-prov-2017-upg-30/"
+        ]
+    },
+    {
+        "questionNum": "2017-30",
+        "links": [
+            "/trad/matte-fysik-2017-upg-30/"
+        ]
+    },
+    {
+        "questionNum": "2015-12",
+        "links": [
+            "/trad/2015-q12-definitionsmangd-ln-absolutbelopp/"
+        ]
+    },
+    {
+        "questionNum": "2015-1",
+        "links": [
+            "/trad/2015-q1-forenkling/"
+        ]
+    },
+    {
+        "questionNum": "2017-13",
+        "links": [
+            "/trad/mafy-prov-2017-upg-13/"
+        ]
+    },
+    {
+        "questionNum": "2014-27",
+        "links": [
+            "/trad/2014-q27-ekvation-olika-log-bas/"
+        ]
+    },
+    {
+        "questionNum": "2014-2",
+        "links": [
+            "/trad/2014-q2-forlangning-med-konjugat/"
+        ]
+    },
+    {
+        "questionNum": "2014-1",
+        "links": [
+            "/trad/2014-q1-forenkling/"
+        ]
+    },
+    {
+        "questionNum": "2019-15",
+        "links": [
+            "/trad/2019-q15/"
+        ]
+    },
+    {
+        "questionNum": "2007-28",
+        "links": [
+            "/trad/2007-q28-area-triangel/"
+        ]
+    },
+    {
+        "questionNum": "2013-27",
+        "links": [
+            "/trad/2013-q27-absolutbelopp/"
+        ]
+    },
+    {
+        "questionNum": "2007-29",
+        "links": [
+            "/trad/2007-q29-sidlangd-romb/"
+        ]
+    },
+    {
+        "questionNum": "2007-17",
+        "links": [
+            "/trad/2007-q17-likhet-mellan-hojdlangder-och-sidor-i-triangel/"
+        ]
+    },
+    {
+        "questionNum": "2007-20",
+        "links": [
+            "/trad/2007-q20-villkor-for-en-ratvinklig-triangel/"
+        ]
+    },
+    {
+        "questionNum": "2018-22",
+        "links": [
+            "/trad/mafy-2018-fraga-22-andragradsekvation-med-reella-losningar/"
+        ]
+    },
+    {
+        "questionNum": "2019-6",
+        "links": [
+            "/trad/2019-q6/"
+        ]
+    },
+    {
+        "questionNum": "2015-25",
+        "links": [
+            "/trad/2015-fraga-25-olikhet/"
+        ]
+    },
+    {
+        "questionNum": "2013-20",
+        "links": [
+            "/trad/2013-q20-trigonometriska-identiteter/"
+        ]
+    },
+    {
+        "questionNum": "2013-25",
+        "links": [
+            "/trad/2013-q25-exponentialekvation-med-basen-e/"
+        ]
+    },
+    {
+        "questionNum": "2013-18",
+        "links": [
+            "/trad/2013-q18-randvinkelsatsen/"
+        ]
+    },
+    {
+        "questionNum": "2013-22",
+        "links": [
+            "/trad/2013-q22-bestam-a-sa-att-2-a-gradare-har-2-positiva-losningar/"
+        ]
+    },
+    {
+        "questionNum": "2013-13",
+        "links": [
+            "/trad/2013-q13-enhetscirkel/"
+        ]
+    },
+    {
+        "questionNum": "2012-2",
+        "links": [
+            "/trad/mafy-2012-uppgift-2-forenkling-av-rotter/"
+        ]
+    },
+    {
+        "questionNum": "2012-14",
+        "links": [
+            "/trad/mafy-2012-q14-tan-x-2/"
+        ]
+    },
+    {
+        "questionNum": "2012-7",
+        "links": [
+            "/trad/mafy-2012-q7-losning-till-2-a-gradare/"
+        ]
+    },
+    {
+        "questionNum": "2014-22",
+        "links": [
+            "/trad/2014-uppgift-22/"
+        ]
+    },
+    {
+        "questionNum": "2011-20",
+        "links": [
+            "/trad/mafy-2011-uppgift-20/"
+        ]
+    },
+    {
+        "questionNum": "2011-20",
+        "links": [
+            "/trad/2011-q20-inskriven-cirkel-i-triangel/"
+        ]
+    },
+    {
+        "questionNum": "2011-9",
+        "links": [
+            "/trad/2011-q9-exponentialfunktion-antal-losningar/"
+        ]
+    },
+    {
+        "questionNum": "2011-4",
+        "links": [
+            "/trad/2011-q4-olikhet-antal-losningar/"
+        ]
+    },
+    {
+        "questionNum": "2011-3",
+        "links": [
+            "/trad/2011-q3-forenkling-omskrivning/"
+        ]
+    },
+    {
+        "questionNum": "2011-2",
+        "links": [
+            "/trad/2011-q2-absolutbelopp-rakneregler/"
+        ]
+    },
+    {
+        "questionNum": "2011-1",
+        "links": [
+            "/trad/2011-q1-likhet/"
+        ]
+    },
+    {
+        "questionNum": "2009-18",
+        "links": [
+            "/trad/2009-q18-geometri-trianglar-bisektrissatsen/"
+        ]
+    },
+    {
+        "questionNum": "2009-20",
+        "links": [
+            "/trad/2009-q20-bisektris/"
+        ]
+    },
+    {
+        "questionNum": "2009-16",
+        "links": [
+            "/trad/2009-q16-absolutbelopp-ekvation/"
+        ]
+    },
+    {
+        "questionNum": "2009-10",
+        "links": [
+            "/trad/2009-q10-ln-ekvation/"
+        ]
+    },
+    {
+        "questionNum": "2009-15",
+        "links": [
+            "/trad/2009-q15-forenkling/"
+        ]
+    },
+    {
+        "questionNum": "2009-12",
+        "links": [
+            "/trad/2009-q12-trigonometriska-funktioner-tan-v-7/"
+        ]
+    },
+    {
+        "questionNum": "2009-5",
+        "links": [
+            "/trad/2009-q5-olikheter/"
+        ]
+    },
+    {
+        "questionNum": "2017-23",
+        "links": [
+            "/trad/mafy-prov-2017-upg-23-1/"
+        ]
+    },
+    {
+        "questionNum": "2022-1",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-7231b3c8-44da-4da6-b1e0-afca0146183d"
+        ]
+    },
+    {
+        "questionNum": "2022-2",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-22f3511e-7f56-463c-bbac-afca014930e1"
+        ]
+    },
+    {
+        "questionNum": "2022-4",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-f750347c-b8a2-420d-b33d-afd100b85ca6"
+        ]
+    },
+    {
+        "questionNum": "2022-5",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-771b6742-4447-4cd3-866b-afd100badc3f"
+        ]
+    },
+    {
+        "questionNum": "2022-11",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-6aa27df4-04d9-4e80-a2ba-afd20130fc20"
+        ]
+    },
+    {
+        "questionNum": "2022-12",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-d40c5b56-01ee-4e0f-808c-afd300fba5f6"
+        ]
+    },
+    {
+        "questionNum": "2022-13",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-05c5152b-d38a-4be5-a6f2-afd300fc4d83"
+        ]
+    },
+    {
+        "questionNum": "2022-16",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-02d41399-d358-4167-b17f-afd50133c2e5"
+        ]
+    },
+    {
+        "questionNum": "2022-21",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-2db33f86-c1ad-432b-b4f3-afda013a7e47"
+        ]
+    },
+    {
+        "questionNum": "2022-23",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-d712f26e-6c9a-4c1d-b262-afda013e931a"
+        ]
+    },
+    {
+        "questionNum": "2022-28",
+        "links": [
+            "/trad/matematik-och-fysikprovet-2022-losningsforslag/?order=all#post-1961ad65-1e31-4f01-9159-afde0126650d"
+        ]
+    },
+    {
+        "questionNum": "f2023-5",
+        "links": [
+            "/trad/mafy-2023-uppgift-5/"
+        ]
+    },
+    {
+        "questionNum": "f2023-2",
+        "links": [
+            "/trad/mafy-2023-uppgift-2-2/"
+        ]
+    },
+    {
+        "questionNum": "f2017-12",
+        "links": [
+            "/trad/mafy-2017-uppgift-12/"
+        ]
+    },
+    {
+        "questionNum": "f2017-13",
+        "links": [
+            "/trad/mafy-2017-uppgift-13/"
+        ]
+    },
+    {
+        "questionNum": "f2008-3",
+        "links": [
+            "/trad/mafy-2008-uppgift-3-1/"
+        ]
+    },
+    {
+        "questionNum": "f2022-2",
+        "links": [
+            "/trad/mafy-2022-uppgift-2-4/"
+        ]
+    },
+    {
+        "questionNum": "f2023-1",
+        "links": [
+            "/trad/mafy-2023-uppgift-1-4/"
+        ]
+    },
+    {
+        "questionNum": "f2008-1",
+        "links": [
+            "/trad/mafy-2008-uppgift-1-4/"
+        ]
+    },
+    {
+        "questionNum": "f2008-13",
+        "links": [
+            "/trad/mafy-2008-uppgift-13/"
+        ]
+    },
+    {
+        "questionNum": "f2023-19",
+        "links": [
+            "/trad/mafy-2023-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "f2023-11",
+        "links": [
+            "/trad/mafy-2023-uppgift-11/"
+        ]
+    },
+    {
+        "questionNum": "f2023-6",
+        "links": [
+            "/trad/mafy-2023-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "f2023-8",
+        "links": [
+            "/trad/mafy-2023-uppgift-8/"
+        ]
+    },
+    {
+        "questionNum": "f2023-1",
+        "links": [
+            "/trad/mafy-2023-uppgift-1/"
+        ]
+    },
+    {
+        "questionNum": "f2017-13",
+        "links": [
+            "/trad/mafy-2017-upg-13/"
+        ]
+    },
+    {
+        "questionNum": "f2022-19",
+        "links": [
+            "/trad/mafy-2022-uppgift-19-1/"
+        ]
+    },
+    {
+        "questionNum": "f2021-20",
+        "links": [
+            "/trad/mafy-2021-fraga-20/"
+        ]
+    },
+    {
+        "questionNum": "f2016-5",
+        "links": [
+            "/trad/mafy-2016-fraga-5-1/"
+        ]
+    },
+    {
+        "questionNum": "f2008-19",
+        "links": [
+            "/trad/fysikprov-2008-fraga-19/"
+        ]
+    },
+    {
+        "questionNum": "f2017-17",
+        "links": [
+            "/trad/mafy-2017-upg-17-fysik/"
+        ]
+    },
+    {
+        "questionNum": "f2017-18",
+        "links": [
+            "/trad/mafy-2017-upg-18-fysik/"
+        ]
+    },
+    {
+        "questionNum": "f2021-11",
+        "links": [
+            "/trad/mafy-2021-uppgift-11-1/"
+        ]
+    },
+    {
+        "questionNum": "f2021-17",
+        "links": [
+            "/trad/mafy-2021-uppgift-17-2/"
+        ]
+    },
+    {
+        "questionNum": "f2017-8",
+        "links": [
+            "/trad/mafy-2017-upg-8-fysik/"
+        ]
+    },
+    {
+        "questionNum": "f2017-7",
+        "links": [
+            "/trad/mafy-2017-upg-7-fysik/"
+        ]
+    },
+    {
+        "questionNum": "f2018-14",
+        "links": [
+            "/trad/mafy-2018-fraga-14-1/"
+        ]
+    },
+    {
+        "questionNum": "f2016-16",
+        "links": [
+            "/trad/mafy-2016-uppgift-16-1/"
+        ]
+    },
+    {
+        "questionNum": "f2022-16",
+        "links": [
+            "/trad/mafy-2022-fraga-16/"
+        ]
+    },
+    {
+        "questionNum": "f2021-16",
+        "links": [
+            "/trad/mafys-uppgift-16-2021/"
+        ]
+    },
+    {
+        "questionNum": "f2021-18",
+        "links": [
+            "/trad/mafy-2021-uppgift-18-1/"
+        ]
+    },
+    {
+        "questionNum": "f2021-19",
+        "links": [
+            "/trad/mafy-2021-uppgift-19-1/"
+        ]
+    },
+    {
+        "questionNum": "f2018-13",
+        "links": [
+            "/trad/mafy-2018-upg-13/"
+        ]
+    },
+    {
+        "questionNum": "f2021-16",
+        "links": [
+            "/trad/mafy-2021-uppgift-16-2/"
+        ]
+    },
+    {
+        "questionNum": "f2016-4",
+        "links": [
+            "/trad/mafy-2016-uppgift-4-2/"
+        ]
+    },
+    {
+        "questionNum": "f2022-6",
+        "links": [
+            "/trad/mafy-2022-uppgift-6-2/"
+        ]
+    },
+    {
+        "questionNum": "f2021-10",
+        "links": [
+            "/trad/mafy-2021-uppgift-10/"
+        ]
+    },
+    {
+        "questionNum": "f2012-16",
+        "links": [
+            "/trad/mafy-2012-fraga-16-1/"
+        ]
+    },
+    {
+        "questionNum": "f2012-9",
+        "links": [
+            "/trad/2012-fraga-9/"
+        ]
+    },
+    {
+        "questionNum": "f2019-12",
+        "links": [
+            "/trad/mafy-2019-upg-12-fysik/"
+        ]
+    },
+    {
+        "questionNum": "f2021-7",
+        "links": [
+            "/trad/mafy-2021-uppgift-7/"
+        ]
+    },
+    {
+        "questionNum": "f2018-14",
+        "links": [
+            "/trad/mafy-2018-fraga-14/"
+        ]
+    },
+    {
+        "questionNum": "f2018-10",
+        "links": [
+            "/trad/mafy-2018-fraga-10/"
+        ]
+    },
+    {
+        "questionNum": "f2021-14",
+        "links": [
+            "/trad/mafy-2021-uppgift-14/"
+        ]
+    },
+    {
+        "questionNum": "f2022-19",
+        "links": [
+            "/trad/mafy-2022-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "f2021-4",
+        "links": [
+            "/trad/mafy-2021-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "f2021-16",
+        "links": [
+            "/trad/mafy-2021-16/"
+        ]
+    },
+    {
+        "questionNum": "f2021-14",
+        "links": [
+            "/trad/2021-fraga-14/"
+        ]
+    },
+    {
+        "questionNum": "f2022-18",
+        "links": [
+            "/trad/mafy-2022-uppgift-18/"
+        ]
+    },
+    {
+        "questionNum": "f2022-10",
+        "links": [
+            "/trad/mafy-2022-uppgift-10-1/"
+        ]
+    },
+    {
+        "questionNum": "f2022-17",
+        "links": [
+            "/trad/mafy-2022-uppgift-17-1/"
+        ]
+    },
+    {
+        "questionNum": "f2016-14",
+        "links": [
+            "/trad/mafy-2016-fraga-14/"
+        ]
+    },
+    {
+        "questionNum": "f2009-17",
+        "links": [
+            "/trad/mafy-2009-fraga-17/"
+        ]
+    },
+    {
+        "questionNum": "f2021-14",
+        "links": [
+            "/trad/mafy-2021-upg-14-fysik/"
+        ]
+    },
+    {
+        "questionNum": "f2015-11",
+        "links": [
+            "/trad/mafy-2015-uppgift-11/"
+        ]
+    },
+    {
+        "questionNum": "f2019-19",
+        "links": [
+            "/trad/mafy-2019-uppgift-19-2/"
+        ]
+    },
+    {
+        "questionNum": "f2022-3",
+        "links": [
+            "/trad/mafy-2022-uppgift-3-fysik/"
+        ]
+    },
+    {
+        "questionNum": "f2022-8",
+        "links": [
+            "/trad/mafy-2022-uppgift-8-1/"
+        ]
+    },
+    {
+        "questionNum": "f2022-9",
+        "links": [
+            "/trad/mafy-2022-uppgift-9/"
+        ]
+    },
+    {
+        "questionNum": "f2021-8",
+        "links": [
+            "/trad/mafy-2021-uppgift-8-1/"
+        ]
+    },
+    {
+        "questionNum": "f2022-8",
+        "links": [
+            "/trad/mafy-2022-uppgift-8/"
+        ]
+    },
+    {
+        "questionNum": "f2019-8",
+        "links": [
+            "/trad/mafy-2019-uppgift-8-1/"
+        ]
+    },
+    {
+        "questionNum": "f2021-2",
+        "links": [
+            "/trad/mafy-2021-uppgift-2-5/"
+        ]
+    },
+    {
+        "questionNum": "f2021-8",
+        "links": [
+            "/trad/mafy-2021-uppgift-8/"
+        ]
+    },
+    {
+        "questionNum": "f2022-12",
+        "links": [
+            "/trad/mafy-2022-uppgift-12/"
+        ]
+    },
+    {
+        "questionNum": "f2018-1",
+        "links": [
+            "/trad/mafy-2018-uppgift-1-12/"
+        ]
+    },
+    {
+        "questionNum": "f2018-3",
+        "links": [
+            "/trad/mafy-2018-uppgift-3/"
+        ]
+    },
+    {
+        "questionNum": "f2013-11",
+        "links": [
+            "/trad/mafy-2013-uppgift-11-1/"
+        ]
+    },
+    {
+        "questionNum": "f2014-3",
+        "links": [
+            "/trad/mafy-2014-uppgift-3/"
+        ]
+    },
+    {
+        "questionNum": "f2011-11",
+        "links": [
+            "/trad/mafy-2011-uppgift-11/"
+        ]
+    },
+    {
+        "questionNum": "f2013-11",
+        "links": [
+            "/trad/mafy-2013-uppgift-11/"
+        ]
+    },
+    {
+        "questionNum": "f2017-20",
+        "links": [
+            "/trad/mafy-fysik-2017-uppgift-20/"
+        ]
+    },
+    {
+        "questionNum": "f2022-13",
+        "links": [
+            "/trad/mafy-2022-uppgift-13/"
+        ]
+    },
+    {
+        "questionNum": "f2022-15",
+        "links": [
+            "/trad/mafy-2022-uppgift-15/"
+        ]
+    },
+    {
+        "questionNum": "f2022-6",
+        "links": [
+            "/trad/mafy-2022-uppgift-6-1/"
+        ]
+    },
+    {
+        "questionNum": "f2022-16",
+        "links": [
+            "/trad/mafy-2022-uppgift-16/"
+        ]
+    },
+    {
+        "questionNum": "f2021-13",
+        "links": [
+            "/trad/omloppstid-uppgift-13-2021/"
+        ]
+    },
+    {
+        "questionNum": "f2022-4",
+        "links": [
+            "/trad/mafy-2022-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "f2022-17",
+        "links": [
+            "/trad/mafy-uppgift-17-2022/"
+        ]
+    },
+    {
+        "questionNum": "f2022-5",
+        "links": [
+            "/trad/mafy-2022-uppgift-5/"
+        ]
+    },
+    {
+        "questionNum": "f2022-11",
+        "links": [
+            "/trad/mafy-2022-uppgift-11/"
+        ]
+    },
+    {
+        "questionNum": "f2009-6",
+        "links": [
+            "/trad/mafy-2009-fraga-6/"
+        ]
+    },
+    {
+        "questionNum": "f2022-1",
+        "links": [
+            "/trad/mafy-2022-uppgift-1-1/"
+        ]
+    },
+    {
+        "questionNum": "f2022-7",
+        "links": [
+            "/trad/mafy-2022-fraga-7/"
+        ]
+    },
+    {
+        "questionNum": "f2010-4",
+        "links": [
+            "/trad/mafy-2010-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "f2010-2",
+        "links": [
+            "/trad/mafy-2010-uppgift-2-4/"
+        ]
+    },
+    {
+        "questionNum": "f2019-12",
+        "links": [
+            "/trad/mafy-2019-fraga-12/"
+        ]
+    },
+    {
+        "questionNum": "f2019-3",
+        "links": [
+            "/trad/mafy-2019-uppgift-3-4/"
+        ]
+    },
+    {
+        "questionNum": "f2016-19",
+        "links": [
+            "/trad/prov-2016-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "f2017-3",
+        "links": [
+            "/trad/mafy-2017-uppgift-3-1/"
+        ]
+    },
+    {
+        "questionNum": "f2015-7",
+        "links": [
+            "/trad/mafy-2015-uppgift-7/"
+        ]
+    },
+    {
+        "questionNum": "f2018-1",
+        "links": [
+            "/trad/mafy-2018-uppgift-1-10/"
+        ]
+    },
+    {
+        "questionNum": "f2011-13",
+        "links": [
+            "/trad/mafy-2011-fraga-13/"
+        ]
+    },
+    {
+        "questionNum": "f2021-19",
+        "links": [
+            "/trad/mafy-2021-fraga-19/"
+        ]
+    },
+    {
+        "questionNum": "f2015-3",
+        "links": [
+            "/trad/mafy-2015-uppgift-3-4/"
+        ]
+    },
+    {
+        "questionNum": "f2018-18",
+        "links": [
+            "/trad/mafy-2018-uppgift-18-4/"
+        ]
+    },
+    {
+        "questionNum": "f2015-1",
+        "links": [
+            "/trad/mafy-2015-fraga-1-1/"
+        ]
+    },
+    {
+        "questionNum": "f2012-18",
+        "links": [
+            "/trad/mafy-2012-fraga-18/"
+        ]
+    },
+    {
+        "questionNum": "f2018-17",
+        "links": [
+            "/trad/mafy-2018-uppgift-17-3/"
+        ]
+    },
+    {
+        "questionNum": "f2011-9",
+        "links": [
+            "/trad/mafy-2011-uppgift-9-1/"
+        ]
+    },
+    {
+        "questionNum": "f2011-12",
+        "links": [
+            "/trad/mafy-2011-uppgift-12/"
+        ]
+    },
+    {
+        "questionNum": "f2011-7",
+        "links": [
+            "/trad/mafy-2011-uppgift-7-1/"
+        ]
+    },
+    {
+        "questionNum": "f2014-17",
+        "links": [
+            "/trad/mafy-2014-fraga-17/"
+        ]
+    },
+    {
+        "questionNum": "f2013-15",
+        "links": [
+            "/trad/mafy-2013-fraga-15/"
+        ]
+    },
+    {
+        "questionNum": "f2021-16",
+        "links": [
+            "/trad/mafy-2021-uppgift-16-1/"
+        ]
+    },
+    {
+        "questionNum": "f2018-7",
+        "links": [
+            "/trad/mafy-2018-uppgift-7/"
+        ]
+    },
+    {
+        "questionNum": "f2016-12",
+        "links": [
+            "/trad/mafy-2016-uppgift-12-1/"
+        ]
+    },
+    {
+        "questionNum": "f2012-3",
+        "links": [
+            "/trad/mafy-2012-uppgift-3-4/"
+        ]
+    },
+    {
+        "questionNum": "f2012-13",
+        "links": [
+            "/trad/mafy-2012-uppgift-13-1/"
+        ]
+    },
+    {
+        "questionNum": "f2016-6",
+        "links": [
+            "/trad/mafy-2016-uppgift-6-1/"
+        ]
+    },
+    {
+        "questionNum": "f2008-9",
+        "links": [
+            "/trad/mafy-2008-9/"
+        ]
+    },
+    {
+        "questionNum": "f2013-13",
+        "links": [
+            "/trad/mafy-2013-uppgift-13/"
+        ]
+    },
+    {
+        "questionNum": "f2021-4",
+        "links": [
+            "/trad/mafy-2021-uppg-4/"
+        ]
+    },
+    {
+        "questionNum": "f2007-3",
+        "links": [
+            "/trad/mafy-2007-fraga-3/"
+        ]
+    },
+    {
+        "questionNum": "f2019-15",
+        "links": [
+            "/trad/mafy-2019-uppgift-15-2/"
+        ]
+    },
+    {
+        "questionNum": "f2013-12",
+        "links": [
+            "/trad/mafy-2013-uppgift-12-1/"
+        ]
+    },
+    {
+        "questionNum": "f2019-8",
+        "links": [
+            "/trad/mafy-2019-q8/"
+        ]
+    },
+    {
+        "questionNum": "f2018-4",
+        "links": [
+            "/trad/mafy-2018-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "f2021-9",
+        "links": [
+            "/trad/mafy-2021-uppgift-9-1/"
+        ]
+    },
+    {
+        "questionNum": "f2014-20",
+        "links": [
+            "/trad/mafy-2014-uppgift-20-1/"
+        ]
+    },
+    {
+        "questionNum": "f2017-8",
+        "links": [
+            "/trad/mafy-2017-uppgift-8-2/"
+        ]
+    },
+    {
+        "questionNum": "f2018-17",
+        "links": [
+            "/trad/mafy-2018-uppgift-17-1/"
+        ]
+    },
+    {
+        "questionNum": "f2015-2",
+        "links": [
+            "/trad/mafy-2015-uppgift-2-3/"
+        ]
+    },
+    {
+        "questionNum": "f2015-2",
+        "links": [
+            "/trad/mafy-2015-uppgift-2-2/"
+        ]
+    },
+    {
+        "questionNum": "f2016-10",
+        "links": [
+            "/trad/mafy-2016-uppgift-10/"
+        ]
+    },
+    {
+        "questionNum": "f2016-20",
+        "links": [
+            "/trad/mafy-2016-uppgift-20/"
+        ]
+    },
+    {
+        "questionNum": "f2016-18",
+        "links": [
+            "/trad/mafy-2016-uppgift-18/"
+        ]
+    },
+    {
+        "questionNum": "f2016-4",
+        "links": [
+            "/trad/mafy2016-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "f2017-19",
+        "links": [
+            "/trad/mafy-2017-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "f2017-16",
+        "links": [
+            "/trad/mafy-2017-uppgift-16/"
+        ]
+    },
+    {
+        "questionNum": "f2019-18",
+        "links": [
+            "/trad/mafy-2019-uppgift-18-1/"
+        ]
+    },
+    {
+        "questionNum": "f2011-5",
+        "links": [
+            "/trad/mafy-2011-uppgift-5-proportionalitet-av-tryck-som-en-funktion-av-hojden-i-en-konisk-kropp/"
+        ]
+    },
+    {
+        "questionNum": "f2021-17",
+        "links": [
+            "/trad/mafy-2021-uppgift-17-1/"
+        ]
+    },
+    {
+        "questionNum": "f2021-19",
+        "links": [
+            "/trad/mafy-2021-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "f2010-6",
+        "links": [
+            "/trad/fysikprovet-2010-fraga-6/"
+        ]
+    },
+    {
+        "questionNum": "f2021-12",
+        "links": [
+            "/trad/mafy-2021-u-12/"
+        ]
+    },
+    {
+        "questionNum": "f2019-5",
+        "links": [
+            "/trad/mafy-2019-uppgift-5-1/"
+        ]
+    },
+    {
+        "questionNum": "f2019-15",
+        "links": [
+            "/trad/mafy-2019-uppgift-15-1/"
+        ]
+    },
+    {
+        "questionNum": "f2019-8",
+        "links": [
+            "/trad/mafy-2019-uppgift-8/"
+        ]
+    },
+    {
+        "questionNum": "f2010-18",
+        "links": [
+            "/trad/mafy-2010-uppgift-18/"
+        ]
+    },
+    {
+        "questionNum": "f2012-2",
+        "links": [
+            "/trad/mafy-2012-uppgift-2-1/"
+        ]
+    },
+    {
+        "questionNum": "f2010-7",
+        "links": [
+            "/trad/mafy-2010-uppgift-7/"
+        ]
+    },
+    {
+        "questionNum": "f2010-14",
+        "links": [
+            "/trad/mafy-2010-uppgift-14/"
+        ]
+    },
+    {
+        "questionNum": "f2008-8",
+        "links": [
+            "/trad/fysikprovet-2008-fraga-8/"
+        ]
+    },
+    {
+        "questionNum": "f2008-16",
+        "links": [
+            "/trad/mafy-2008-uppgift-16/"
+        ]
+    },
+    {
+        "questionNum": "f2007-6",
+        "links": [
+            "/trad/2007-fysikprov-uppgift-6/"
+        ]
+    },
+    {
+        "questionNum": "f2007-4",
+        "links": [
+            "/trad/2007-fysikprovet-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "f2007-19",
+        "links": [
+            "/trad/mafy-2007-uppgift-19/"
+        ]
+    },
+    {
+        "questionNum": "f2021-17",
+        "links": [
+            "/trad/mafy-2021-uppgift-17/"
+        ]
+    },
+    {
+        "questionNum": "f2013-16",
+        "links": [
+            "/trad/mafy-2013-uppgift-16-1/"
+        ]
+    },
+    {
+        "questionNum": "f2017-18",
+        "links": [
+            "/trad/2017-q18/"
+        ]
+    },
+    {
+        "questionNum": "f2017-9",
+        "links": [
+            "/trad/mafy-2017-uppgift-9/"
+        ]
+    },
+    {
+        "questionNum": "f2017-8",
+        "links": [
+            "/trad/mafy-2017-uppgift-8/"
+        ]
+    },
+    {
+        "questionNum": "f2016-11",
+        "links": [
+            "/trad/mafy-2016-uppgift-11/"
+        ]
+    },
+    {
+        "questionNum": "f2016-15",
+        "links": [
+            "/trad/mafy-2016-uppgift-15/"
+        ]
+    },
+    {
+        "questionNum": "f2016-4",
+        "links": [
+            "/trad/mafy-2016-uppgift-4/"
+        ]
+    },
+    {
+        "questionNum": "f2016-3",
+        "links": [
+            "/trad/mafy-2016-uppgift-3-1/"
+        ]
+    },
+    {
+        "questionNum": "f2018-17",
+        "links": [
+            "/trad/mafy-2018-uppgift-17/"
+        ]
+    },
+    {
+        "questionNum": "f2019-18",
+        "links": [
+            "/trad/mafy-2019-uppgift-18/"
+        ]
+    },
+    {
+        "questionNum": "f2019-5",
+        "links": [
+            "/trad/mafy-2019-uppgift-5/"
+        ]
+    },
+    {
+        "questionNum": "f2019-3",
+        "links": [
+            "/trad/mafy-2019-uppgift-3-1/"
+        ]
+    },
+    {
+        "questionNum": "f2018-18",
+        "links": [
+            "/trad/mafy-2018-uppgift-18-1/"
+        ]
+    },
+    {
+        "questionNum": "f2021-5",
+        "links": [
+            "/trad/gravitationsacceleration-planeter-i-rorelse-q5-2021/"
+        ]
+    },
+    {
+        "questionNum": "f2021-1",
+        "links": [
+            "/trad/kraftkomposant-vektorer-q1-2021/"
+        ]
+    },
+    {
+        "questionNum": "f2018-2",
+        "links": [
+            "/trad/mafy-2018-fysik-fraga-2/"
+        ]
+    },
+    {
+        "questionNum": "f2012-15",
+        "links": [
+            "/trad/2012-fraga-15/"
+        ]
+    },
+    {
+        "questionNum": "f2019-2",
+        "links": [
+            "/trad/2019-q2-tva-barn-sitter-pa-var-sin-ande-av-en-gungbrada-som-ar-i-jamvikt-vad-ar-kvoten-m1-m2/"
+        ]
+    },
+    {
+        "questionNum": "f2018-20",
+        "links": [
+            "/trad/2018-q20-ersattningsresistans/"
+        ]
+    },
+    {
+        "questionNum": "f2019-15",
+        "links": [
+            "/trad/2019-q15-lyftkraft-ballong-molekylmassa/"
+        ]
+    },
+    {
+        "questionNum": "f2018-18",
+        "links": [
+            "/trad/fysikprovet-2018-fraga-18/"
+        ]
+    },
+    {
+        "questionNum": "f2016-14",
+        "links": [
+            "/trad/2016-q14-block-i-rorelse-vektorer/"
+        ]
+    },
+    {
+        "questionNum": "f2016-11",
+        "links": [
+            "/trad/2016-q11-brytningsindex-totalreflexion/"
+        ]
+    },
+    {
+        "questionNum": "f2016-4",
+        "links": [
+            "/trad/2016-q4-kastparabel-sokt-vinkel/"
+        ]
+    },
+    {
+        "questionNum": "f2015-7",
+        "links": [
+            "/trad/2015-fraga-7/"
+        ]
+    },
+    {
+        "questionNum": "f2016-17",
+        "links": [
+            "/trad/2016-fraga-17-1/"
+        ]
+    },
+    {
+        "questionNum": "f2012-12",
+        "links": [
+            "/trad/2012-q12-omloppstid-cirkular-rorelse/"
+        ]
+    },
+    {
+        "questionNum": "f2014-11",
+        "links": [
+            "/trad/2014-q11-konvex-lins-sokt-brannvidd/"
+        ]
+    },
+    {
+        "questionNum": "f2014-10",
+        "links": [
+            "/trad/2014-q10-radie-for-elektron-i-jordens-magnetfalt/"
+        ]
+    },
+    {
+        "questionNum": "f2014-15",
+        "links": [
+            "/trad/2014-q15-samband-mellan-temperatur-och-kraft/"
+        ]
+    },
+    {
+        "questionNum": "f2012-16",
+        "links": [
+            "/trad/2012-q16-brytning-snells-lag/"
+        ]
+    },
+    {
+        "questionNum": "f2012-9",
+        "links": [
+            "/trad/2012-q9-masscentrum/"
+        ]
+    },
+    {
+        "questionNum": "f2012-14",
+        "links": [
+            "/trad/2012-q14-friktionskoefficient-lutande-plan/"
+        ]
+    },
+    {
+        "questionNum": "f2012-8",
+        "links": [
+            "/trad/2012-q8-vaglangd-ev/"
+        ]
+    },
+    {
+        "questionNum": "f2012-7",
+        "links": [
+            "/trad/2012-q7-kastrorelse-forandring-av-hojdskillnad-med-olika-begynnelse-v/"
+        ]
+    },
+    {
+        "questionNum": "f2012-6",
+        "links": [
+            "/trad/2012-q6-nod-vagor-fran-tva-kallor/"
+        ]
+    },
+    {
+        "questionNum": "f2018-13",
+        "links": [
+            "/trad/fysikprovet-2018-fraga-13/"
         ]
     }
 ]

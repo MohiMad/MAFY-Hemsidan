@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import "./Embed.css";
 import axios from 'axios';
 
+const pluggakutenLink = "https://www.pluggakuten.se/";
 
 function Embed({link}) {
     const [metaData, setMetaData] = useState({title: '', description: '', image: ''});
@@ -9,7 +10,7 @@ function Embed({link}) {
     useEffect(() => {
         const fetchMetaData = async () => {
             try {
-                const response = await axios.get(`https://api.microlink.io?url=${ encodeURIComponent(link) }`);
+                const response = await axios.get(`https://api.microlink.io?url=${ encodeURIComponent(pluggakutenLink + link) }`);
                 const data = response.data.data;
                 setMetaData({
                     title: data.title,
