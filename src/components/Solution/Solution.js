@@ -47,9 +47,9 @@ function Solution({solution, solutions, setSolutions, user, setUploadStatus}) {
 
     };
 
-    return <div className="solution-holder" style={{
+    return <div className={"solution-holder " + solution.type} style={{
         backgroundImage: `${ solution.type !== "latex" ? "url(" + solution.solution + ")" : "none" }`,
-        height: "25vh !important"
+        height: "25vh !important",
     }} data-height={solution.height}>
         <div onClick={displaySolution} className="overlay"></div>
         <span className="solution-header">{`${ solution.name }s lösning`}</span>

@@ -3,10 +3,13 @@ import "./DisplaySuggestedSolutions.css";
 import Button from "../Button/Button";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faX, faUpload} from '@fortawesome/free-solid-svg-icons';
+import {NavLink} from 'react-router-dom';
+import Latex from "react-latex";
 import Utility from "../../Utility";
 import Solution from "../Solution/Solution";
 import LoginButton from "../LoginButton/LoginButton";
-import Latex from "react-latex";
+import ExternalSolutions from "../ExternalSolutions/ExternalSolutions";
+
 
 const msg_obj = {
     0: "",
@@ -19,6 +22,7 @@ const msg_obj = {
 };
 
 const original_latex = "Din kod i $\\LaTeX$ visas här...";
+
 
 function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplaySecondayButtons}) {
     const [solutions, setSolutions] = useState(false);
@@ -150,6 +154,7 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
                 <div onClick={showModal} className="popover">
                     <div onClick={(e) => e.stopPropagation()} className="modal">
                         <FontAwesomeIcon onClick={showModal} className="x" icon={faX} />
+                        <ExternalSolutions questionNum={questions[questionNum].questionNum} />
                         <h3>Lösningsförslag från användare:</h3>
                         <div className="solutions-holder">
                             {(solutions?.solutions?.length > 0) ? (
@@ -160,38 +165,48 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
                         <hr />
                         <div className="upload-solution-divider">
                             <h3>Dela med oss din lösning!</h3>
-                            <span>{(user) ? "Ladda upp ditt lösningsförslag här. OBS: Det dröjer en bit innan bilden laddas upp!" : "Du behöver vara inloggad för att kunna ladda upp lösningar."}</span>
+                            {(user) ?
+                                (<span>Här kan du ladda upp ditt lösningsförslag. (*)</span>) :
+                                (<span>Du behöver vara inloggad för att kunna ladda upp lösningar.</span>)
+                            }
 
-                            {
-                                (user || true) ? (
-                                    <>
-                                        <div className="form-holder" onDragOver={handleDragOver} onDrop={handleDrop}>
-                                            <form action="" id='uploadForm' encType="multipart/form-data">
-                                                <label className="image-label-btn" htmlFor="sampleFile">
-                                                </label>
-                                                <input id="sampleFile" hidden onChange={(e) => handleFileInput(e.target.files)} type="file" name="sampleFile" accept="image/x-png,image/jpeg,image/png,image/jpg" />
-                                                <FontAwesomeIcon className="fa-upload-form-icon" icon={faUpload} />
-                                                <span>Dra, ladda upp eller klistra in bild här</span>
-                                            </form>
-                                        </div>
-                                        <hr />
-                                        <div className="column">
-                                        </div>
-                                        <h3>Alternativt: Ladda upp lösning i LaTeX</h3>
-                                        <div className="latex-upload-container">
-                                            <textarea ref={textareaRef} onChange={textareaContentChange} placeholder="Din kod i $\LaTeX$ visas här..." name="latex" id="latexcode">
-                                            </textarea>
-                                            <div className="latex-display">
-                                                <Latex displayMode={false}>{latexCode}</Latex>
-                                            </div>
-                                        </div>
-                                        <Button onClick={latexUpload} className="latex-upload-btn">Ladda upp LaTeX lösning</Button>
-                                    </>
-                                ) : (
-                                    <div className="login-btn-holder">
-                                        <LoginButton />
+                            {(user) ? (
+                                <>
+                                    <div className="form-holder" onDragOver={handleDragOver} onDrop={handleDrop}>
+                                        <form action="" id='uploadForm' encType="multipart/form-data">
+                                            <label className="image-label-btn" htmlFor="sampleFile">
+                                            </label>
+                                            <input id="sampleFile" hidden onChange={(e) => handleFileInput(e.target.files)} type="file" name="sampleFile" accept="image/x-png,image/jpeg,image/png,image/jpg" />
+                                            <FontAwesomeIcon className="fa-upload-form-icon" icon={faUpload} />
+                                            <span>Dra, ladda upp eller klistra in bild här</span>
+                                        </form>
                                     </div>
-                                )
+                                    <hr />
+                                    <div className="column">
+                                    </div>
+                                    <h3>Alternativt: Ladda upp lösning i LaTeX</h3>
+                                    <span>Här nedan kan du skriva din lösning i LaTeX eller vanlig text, det är upp till dig. (*)</span>
+                                    <br />
+                                    <br />
+                                    <div className="latex-upload-container">
+                                        <textarea ref={textareaRef} onChange={textareaContentChange} placeholder="Din kod i $\LaTeX$ visas här..." name="latex" id="latexcode">
+                                        </textarea>
+                                        <div className="latex-display">
+                                            <Latex displayMode={false}>{latexCode}</Latex>
+                                        </div>
+                                    </div>
+                                    <Button onClick={latexUpload} className="latex-upload-btn">Ladda upp LaTeX lösning</Button>
+                                    <br />
+                                    <span>
+                                        <b>* OBS: </b>
+                                        Genom att ladda upp denna lösning bekräftar du att du följer <NavLink className="hyperlink" to="/kontakta-oss">vår policy</NavLink> för lösningsuppladdning.
+                                    </span>
+                                </>
+                            ) : (
+                                <div className="login-btn-holder">
+                                    <LoginButton />
+                                </div>
+                            )
                             }
                         </div>
                     </div>

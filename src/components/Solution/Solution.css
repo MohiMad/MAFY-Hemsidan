@@ -88,6 +88,10 @@
     border-radius: 5px;
 }
 
+.solution-holder.expand.latex .solution-popover {
+    z-index: 999;
+}
+
 .solution-holder.expand::after {
     content: "";
     display: none;

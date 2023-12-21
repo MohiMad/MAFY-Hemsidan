@@ -1,0 +1,74 @@
+.embed-anchor {
+    cursor: pointer;
+}
+
+
+
+
+.link-embed {
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 1em;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+    display: flex;
+    gap: 1em;
+    margin: 1em auto;
+    flex-direction: column;
+    transition: all 200ms ease-in;
+
+}
+
+.link-embed:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.link-embed h3 {
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+}
+
+.desc-and-image-holder {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+}
+
+.desc-and-image-holder p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    flex: 1;
+}
+
+
+.desc-and-image-holder .image-container {
+    flex-basis: 25%;
+    /* This will be the base width of the image container */
+    height: 0;
+    padding-top: calc(25% * 1/4);
+    /* This is for a 4:3 aspect ratio: 25% width * 3/4 */
+    border-radius: 4px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .desc-and-image-holder {
+        flex-direction: column;
+    }
+
+    .desc-and-image-holder .image-container {
+        width: 100%;
+        padding-top: 25%;
+
+    }
+}
