@@ -26,7 +26,7 @@ function Embed({link}) {
     }, [link]);
 
     return (
-        <a className="embed-anchor" href={link} target="_blank" rel="noreferrer">
+        <a className="embed-anchor" href={pluggakutenLink + link} target="_blank" rel="noreferrer">
             <div className="link-embed">
                 <h3>{metaData.title}</h3>
                 <div className="desc-and-image-holder">
