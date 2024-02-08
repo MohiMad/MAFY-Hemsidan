@@ -24,26 +24,26 @@ function AnkiPage(props) {
             <p>Det är bara att <a href={ankiPCLink}>ladda ned</a> och installera Anki på din enhet och sedan importera kortlekarna med hjälpa av länkarna nedan:</p>
             <h3>Hämta Anki genom följande externa länkar</h3>
             <div className="btn-container">
-                <a href={ankiPCLink} target="_blank" rel="noreferrer" className="pc-btn btn">
+                <a href={ankiPCLink} target="_blank" rel="noopener noreferrer" className="pc-btn btn">
                     <FontAwesomeIcon icon={faDesktop} />
                     <span>Anki för PC</span>
                 </a>
-                <a href={ankiAndroidLink} target="_blank" rel="noreferrer" className="android-btn btn">
+                <a href={ankiAndroidLink} target="_blank" rel="noopener noreferrer" className="android-btn btn">
                     <FontAwesomeIcon icon={faAndroid} />
                     <span>Anki för Android</span>
                 </a>
-                <a href={ankiIOSLink} target="_blank" rel="noreferrer" className="ios-btn btn">
+                <a href={ankiIOSLink} target="_blank" rel="noopener noreferrer" className="ios-btn btn">
                     <FontAwesomeIcon icon={faAppStoreIos} />
                     <span>Anki för iOS</span>
                 </a>
             </div>
             <h3>Ladda ned Ankikortlekarna för matte- och fysikformler</h3>
             <div className="btn-container">
-                <a href={AnkiMathFlaschCardsAPKG} target="_blank" rel="noreferrer" className="pc-btn btn">
+                <a href={AnkiMathFlaschCardsAPKG} target="_blank" rel="noopener noreferrer" className="pc-btn btn">
                     <FontAwesomeIcon icon={faDownload} />
                     <span>Kortlek för matteformler</span>
                 </a>
-                <a href={AnkiPhysicsFlaschCardsAPKG} target="_blank" rel="noreferrer" className="pc-btn btn">
+                <a href={AnkiPhysicsFlaschCardsAPKG} target="_blank" rel="noopener noreferrer" className="pc-btn btn">
                     <FontAwesomeIcon icon={faDownload} />
                     <span>Kortlek för fysikformler</span>
                 </a>

@@ -26,14 +26,14 @@ function Footer() {
             </div>
             <div className="col">
                 <h3>Få hjälp</h3>
-                <a href={discordLink} target="_blank" rel="noreferrer" className="discord-btn btn">
+                <a href={discordLink} target="_blank" rel="noopener noreferrer" className="discord-btn btn">
                     <FontAwesomeIcon icon={faDiscord} />
                     <span>Vår Discord</span>
                 </a>
             </div>
             <div className="col">
                 <h3>Bidra</h3>
-                <a href={sourceCodeLink} target="_blank" rel="noreferrer" className="github-btn btn">
+                <a href={sourceCodeLink} target="_blank" rel="noopener noreferrer" className="github-btn btn">
                     <FontAwesomeIcon icon={faGithub} />
                     <span>Source Code</span>
                 </a>
