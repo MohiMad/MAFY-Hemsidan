@@ -1,50 +1,72 @@
 import React, {useEffect, useState} from 'react';
 import math from "../../assets/json/physics.json";
-import CanvasJSReact from '@canvasjs/react-charts';
-
-const CanvasJSChart = CanvasJSReact.CanvasJSChart;
-
+import {PieChart, Pie, Cell, Tooltip, Legend} from 'recharts';
 
 function PageNotFound(props) {
     const [stats, setStats] = useState([]);
 
     useEffect(() => {
+        const keywordAliases = {
+            'mekanik': ['mekanik'],
+            "kvantmekanik": [],
+            'elektromagnetism': ['elektromagnetism'],
+            'termodynamik': [],
+            'optik': ['optik', 'stråloptik'],
+            'kvantfysik': [],
+            'vågrörelse': [],
+            'relativitet': ['relativitetsteorin', 'speciell relativitetsteori'],
+            'kärnfysik': [],
+            'astronomi': ['astronomi'],
+            'partikelfysik': [],
+            'statisk elektricitet': [],
+            'akustik': []
+        };
+
+        // Inverting the keywordAliases for easy lookup
+        const aliasToGeneric = {};
+        Object.entries(keywordAliases).forEach(([generic, aliases]) => {
+            aliases.forEach(alias => {
+                aliasToGeneric[alias] = generic;
+            });
+        });
+
         const sumObj = {};
 
         for(const q of math) {
-            for(const category of q.keywords) {
-                sumObj[category] = sumObj[category] ? sumObj[category] + 1 : 1;
+            for(const keyword of q.keywords) {
+                const genericKeyword = aliasToGeneric[keyword.toLowerCase()] || keyword.toLowerCase();
+                if(genericKeyword in keywordAliases) { // Only count if it's a generic keyword
+                    sumObj[genericKeyword] = sumObj[genericKeyword] ? sumObj[genericKeyword] + 1 : 1;
+                }
             }
         }
 
-
-
-        setStats(Object.keys(sumObj).map((x) => ({label: x, y: sumObj[x]})));
-        console.log(Object.keys(sumObj).map((x) => ({x: x, y: sumObj[x]})));
+        setStats(Object.keys(sumObj).map((x) => ({name: x, value: sumObj[x]})));
     }, []);
+
+    const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8'];
 
     return (
         <div className="statistics-container">
             <h1>Statistik</h1>
-            <CanvasJSChart options={
-                {
-                    animationEnabled: true,
-                    theme: "light2", //"light1", "dark1", "dark2"
-                    title: {
-                        text: "Simple Column Chart with Index Labels"
-                    },
-                    axisY: {
-                        includeZero: true
-                    },
-                    data: [{
-                        type: "pie", //change type to bar, line, area, pie, etc
-                        //indexLabel: "{y}", //Shows y value on all Data Points
-                        indexLabelFontColor: "#5A5757",
-                        indexLabelPlacement: "outside",
-                        dataPoints: stats.filter(x => x.y >= 15)
-                    }]
-                }
-            } />
+            <PieChart width={400} height={400}>
+                <Pie
+                    data={stats}
+                    cx={200}
+                    cy={200}
+                    labelLine={false}
+                    label={({name, percent}) => `${ name } ${ (percent * 100).toFixed(0) }%`}
+                    outerRadius={80}
+                    fill="#8884d8"
+                    dataKey="value"
+                >
+                    {stats.map((entry, index) => (
+                        <Cell key={`cell-${ index }`} fill={COLORS[index % COLORS.length]} />
+                    ))}
+                </Pie>
+                <Tooltip />
+                <Legend />
+            </PieChart>
         </div>
     );
 }
