@@ -10,23 +10,6 @@ const session = require("express-session");
 const cookieParser = require("cookie-parser");
 const {deserialize} = require('./src/Session.js');
 
-const {initializeApp} = require("firebase/app");
-const {getAnalytics} = require("firebase/analytics");
-
-const firebaseConfig = {
-    apiKey: process.env.FIREBASE_apiKey,
-    authDomain: process.env.FIREBASE_authDomain,
-    projectId: process.env.FIREBASE_projectId,
-    storageBucket: process.env.FIREBASE_storageBucket,
-    messagingSenderId: process.env.FIREBASE_messagingSenderId,
-    appId: process.env.FIREBASE_appId,
-    measurementId: process.env.FIREBASE_measurementId
-};
-
-const firebaseApp = initializeApp(firebaseConfig);
-const analytics = getAnalytics(firebaseApp);
-console.log(analytics);
-
 mongoose.connect(process.env.DB_URI);
 
 app.use(cors({orgin: process.env.domain}));
