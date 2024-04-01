@@ -41,7 +41,7 @@ function Footer() {
         </div>
         <div className="copyright-notice">
             <span>© 2023 MAFY - </span>
-            <NavLink onClick={toTop} to="/användaravtal">Användaravtal</NavLink>
+            <NavLink onClick={toTop} to="/anvandaravtal">Användaravtal</NavLink>
         </div>
     </footer>;
 }

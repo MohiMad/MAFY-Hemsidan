@@ -199,7 +199,7 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
                                     <br />
                                     <span>
                                         <b>* OBS: </b>
-                                        Genom att ladda upp denna lösning bekräftar du att du följer <NavLink className="hyperlink" to="/kontakta-oss">vår policy</NavLink> för lösningsuppladdning.
+                                        Genom att ladda upp denna lösning bekräftar du att du följer <NavLink className="hyperlink" to="/anvandaravtal">vår policy</NavLink> för lösningsuppladdning.
                                     </span>
                                 </>
                             ) : (

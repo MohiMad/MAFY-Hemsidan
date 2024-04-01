@@ -72,9 +72,10 @@ function RouterController() {
           <Route path="formler" element={<FormulasSection />} />
           <Route path="anki" element={<AnkiPage />} />
           <Route path="användaravtal" element={<UserPolicyPage />} />
+          <Route path="anvandaravtal" element={<UserPolicyPage />} />
           <Route path="kontakta-oss" element={<ContactUsPage />} />
-          <Route path="statistik" element={<Statistik />} />
-          <Route path="*" element={<PageNotFound />} />
+          {/*           <Route path="statistik" element={<Statistik />} />
+ */}          <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
