@@ -6,20 +6,33 @@ import DelCQuestion from "../DelCQuestion/DelCQuestion";
 import DisplaySuggestedSolutions from "../DisplaySuggestedSolutions/DisplaySuggestedSolutions";
 
 function Question(props) {
+  // Logging to see the values
+  console.log("Question props:", props);
+
+  const question = props.questions[props.questionNum];
+
+  // Check if question exists
+  if(!question) {
+    return <div>Frågan hittades ej!</div>;
+  }
+
+  const number = Number(question.questionNum.split("-")[1]) || 31;
+
   if(props.isFysik) {
-    if(props.questionNum <= 12) return (<OptionQuestion {...props} />);
-    else if(props.questionNum !== 19) return (<AnswerQuestion {...props} />);
+    if(number <= 13) return (<OptionQuestion {...props} />);
+    else if(number !== 20) return (<AnswerQuestion {...props} />);
+    else return <DelCQuestion {...props} />;
+  } else {
+    if(number <= 20) return (<OptionQuestion {...props} />);
+    else if(number !== 31) return (<AnswerQuestion {...props} />);
     else return <DelCQuestion {...props} />;
   }
-  if(props.questionNum <= 19) return (<OptionQuestion {...props} />);
-  else if(props.questionNum !== 30) return (<AnswerQuestion {...props} />);
-  else return <DelCQuestion {...props} />;
 }
 
 function QuestionSection({user, questions, questionNum, isFysik}) {
-  const [shouldDisplaySecondayButtons, setShouldDisplaySecondayButtons] = useState(false);
+  const [shouldDisplaySecondayButtons, setShouldDisplaySecondaryButtons] = useState(false);
 
-  const props = {user, questions, questionNum, shouldDisplaySecondayButtons, setShouldDisplaySecondayButtons, isFysik};
+  const props = {user, questions, questionNum, shouldDisplaySecondayButtons, setShouldDisplaySecondaryButtons, isFysik};
 
   return (
     <div className="question-section-holder">

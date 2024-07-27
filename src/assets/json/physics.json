@@ -1,12 +1,212 @@
 [
     {
+        "questionNum": "2024-1",
+        "question": "En homogen cylinder vilar mot två glatta väggar (ingen friktion), som bildar vinklarna $\\alpha$ och $\\frac{\\pi}{2}-\\alpha$ med horisontalplanet. Vad är kvoten $\\frac{N_{2}}{N_{1}}$, där $N_{1}$ och $N_{2}$ är kontaktkrafterna på cylindern i de två kontaktpunkterna?\n\n![](https://i.imgur.com/33iQXjg.png)\n\nA. 1\n\nB. $\\tan \\alpha$\n\nC. $\\cot \\alpha$\n\nD. Kan ej avgöras\n\n",
+        "answer": "B",
+        "keywords": [
+            "mekanik",
+            "statisk jämvikt",
+            "trigonometri"
+        ]
+    },
+    {
+        "questionNum": "2024-2",
+        "question": "En rymdfarare åker från jorden med farten $0.8 c$, vänder och åker hem med samma fart. När hon återvänder har det gått 15 år på hennes klocka. Hur lång tid har det gått på jorden?\n\nA. 9 år\n\nB. 12 år\n\nC. 15 år\n\nD. 25 år\n\n",
+        "answer": "D",
+        "keywords": [
+            "relativitetsteori",
+            "tidsdilatation",
+            "rörelse"
+        ]
+    },
+    {
+        "questionNum": "2024-3",
+        "question": "En planka med massan $m$ och längden $L$ är horisontellt upplagd på två stöd. det ena (A) vid ena ändpunkten, det andra (B) på avståndet $\\frac{3 L}{8}$ från den andra ändpunkten. Plankans massa är jämnt fördelad över dess längd. Hur stor är den vertikala kraften från stödet A på plankan?\n\n![](https://i.imgur.com/jGjIGi2.png)\n\nA. $\\frac{1}{5} m g$\n\nB. $\\frac{3}{8} m g$\n\nC. $\\frac{5}{8} m g$\n\nD. $\\frac{4}{5} m g$\n\n",
+        "answer": "A",
+        "keywords": [
+            "mekanik",
+            "statisk jämvikt",
+            "momentlagar"
+        ]
+    },
+    {
+        "questionNum": "2024-4",
+        "question": "En kropp kan glida på ett plan, som bildar vinkeln $v$ med horisontalplanet. Friktionskoefficienten $\\mu$ är tillräckligt liten för att kroppen inte skall kunna ligga stilla på planet. Om kroppen släpps från vila, hur lång tid $\\tau$ tar det för den att röra sig sträckan $\\ell$ ?\n\nA. $\\tau=\\sqrt{\\frac{2 \\ell}{g(\\mu \\sin v+\\cos v)}}$\n\nB. $\\tau=\\sqrt{\\frac{2 \\ell}{g(\\mu \\sin v-\\cos v)}}$\n\nC. $\\tau=\\sqrt{\\frac{2 \\ell}{g(\\sin v+\\mu \\cos v)}}$\n\nD. $\\tau=\\sqrt{\\frac{2 \\ell}{g(\\sin v-\\mu \\cos v)}}$\n\n",
+        "answer": "D",
+        "keywords": [
+            "mekanik",
+            "dynamik",
+            "friktion"
+        ]
+    },
+    {
+        "questionNum": "2024-5",
+        "question": "Varför upplever astronauterna på den internationella rymdstationen tyngdlöshet?\n\nA. Eftersom de är såpass långt ut i rymden att de har lämnat jordens gravitationsfält.\n\nB. Eftersom det råder vacuum utanför rymdstationen.\n\nC. Eftersom rymdstationen befinner sig i fritt fall.\n\nD. Av annan anledning än de ovanstående.\n\n",
+        "answer": "C",
+        "keywords": [
+            "gravitation",
+            "fri fall",
+            "tyngdlöshet"
+        ]
+    },
+    {
+        "questionNum": "2024-6",
+        "question": "Grundenheten för tid i SI-systemet definieras så att $1 \\mathrm{~s}$ är tiden för 9192631770 perioder hos strålning motsvarande övergången mellan de två hyperfinnivåerna i grundtillståndet hos isotopen cesium 133. Hur stor är energiskillnaden mellan dessa två nivåer?\n\nA. $3.8 \\times 10^{-5} \\mathrm{eV}$\n\nB. $3.8 \\times 10^{-2} \\mathrm{eV}$\n\nC. $38 \\mathrm{eV}$\n\nD. $3.8 \\times 10^{4} \\mathrm{eV}$\n\n",
+        "answer": "A",
+        "keywords": [
+            "kärnfysik",
+            "tidsstandarder",
+            "kvantfysik"
+        ]
+    },
+    {
+        "questionNum": "2024-7",
+        "question": "En boll som väger $50 \\mathrm{~g}$ släpps från vila och faller under inverkan av gravitation och luftmotstånd. Vad är dess rörelseenergi $E_{k}$ då den fallit $10 \\mathrm{~m}$ ?\n\nA. $E_{k}=2.5 \\mathrm{~J}$\n\nB. $E_{k}=4.9 \\mathrm{~J}$\n\nC. $E_{k}=2.5 \\mathrm{~W}$\n\nD. Kan ej avgöras.\n\n",
+        "answer": "D",
+        "keywords": [
+            "mekanik",
+            "energiprincipen",
+            "luftmotstånd"
+        ]
+    },
+    {
+        "questionNum": "2024-8",
+        "question": "Vilket tal är störst?\n\nA. Antalet sandkorn i en hink sand\n\nB. Antalet stjärnor i Vintergatan\n\nC. Antalet vattenmolekyler i ett glas vatten\n\nD. Antalet människor på jorden\n\n",
+        "answer": "C",
+        "keywords": [
+            "astrofysik",
+            "skalära storlekar",
+            "antal jämförelser"
+        ]
+    },
+    {
+        "questionNum": "2024-9",
+        "question": "Om jordens radie var dubbelt så stor (med samma densitet), hur stor skulle tyngdaccelerationen vid jordytan vara?\n\nA. $\\frac{g}{4}$\n\nB. $\\frac{g}{2}$\n\nC. $g$\n\nD. $2 g$\n\n",
+        "answer": "D",
+        "keywords": [
+            "gravitation",
+            "geometriska egenskaper",
+            "jordens struktur"
+        ]
+    },
+    {
+        "questionNum": "2024-10",
+        "question": "I en idealiserad elektrisk krets parallellkopplas två motstånd med resistanserna $x R$ och $\\frac{R}{x}$, där $x$ är ett dimensionslöst tal. Över dessa motstånd läggs en spänning $U$. Vilket alternativ beskriver bäst den utvecklade effekten i kretsen som funktion av $x$ ?\n\nA. ![](https://i.imgur.com/wRKwRO8.png)\n\nB. ![](https://i.imgur.com/eugKVNm.png)\n\nC. ![](https://i.imgur.com/q3bee6w.png)\n\nD. ![](https://i.imgur.com/POOpoDt.png)\n\n",
+        "answer": "B",
+        "keywords": [
+            "elektricitet",
+            "kretsar",
+            "resistans"
+        ]
+    },
+    {
+        "questionNum": "2024-11",
+        "question": "En ljuskälla befinner sig $0.6 \\mathrm{~m}$ från en positiv lins. Den avbildas på en skärm på andra sidan om linsen, upp- och nedvänd och i halva storleken. Hur stor är linsens brännvidd?\n\nA. $0.2 \\mathrm{~m}$\n\nB. $0.3 \\mathrm{~m}$\n\nC. $0.6 \\mathrm{~m}$\n\nD. $1.2 \\mathrm{~m}$\n\n",
+        "answer": "A",
+        "keywords": [
+            "optik",
+            "linser",
+            "bildkonstruktion"
+        ]
+    },
+    {
+        "questionNum": "2024-12",
+        "question": "En partikel med massa $m$ och elektrisk laddning $q$ rör sig under inverkan av ett homogent magnetiskt fält i en cirkelrörelse med radien $R$ och konstant fart $v$. Hur stort är magnetfältet $B$ ?\n\nA. $B=\\frac{m q}{v R}$\n\nB. $B=\\frac{q v}{m R}$\n\nC. $B=\\frac{q R}{m v}$\n\nD. $B=\\frac{m v}{q R}$\n\n",
+        "answer": "D",
+        "keywords": [
+            "elektromagnetism",
+            "partikelrörelser",
+            "magnetiska fält"
+        ]
+    },
+    {
+        "questionNum": "2024-13",
+        "question": "En boll släpps från vila i ett läge vid tiden $t=0$. En annan boll ges samtidigt en horisontell hastighet i ett annat läge. Bollarna faller sedan under inverkan av tyngdkraften. Luftmotstånd försummas. Vilken av graferna kan beskriva avståndet $s$ mellan bollarna som funktion av tiden?\n\nA. ![](https://i.imgur.com/mSqy4Jb.png)\n\nB. ![](https://i.imgur.com/y4NVV6y.png)\n\nC. ![](https://i.imgur.com/JSF4xxn.png)\n\nD. ![](https://i.imgur.com/4NH4fu0.png)\n\n",
+        "answer": "A",
+        "keywords": [
+            "mekanik",
+            "rörelse",
+            "grafisk analys"
+        ]
+    },
+    {
+        "questionNum": "2024-14",
+        "question": "Två bilar, $\\mathbf{A}$ och $\\mathbf{B}$, kör på en rak väg. A rör sig med konstant hastighet $v_{\\mathbf{A}}$. Vid en viss tidpunkt befinner sig $\\mathbf{A}$ sträckan $s$ ifrån $\\mathbf{B}$ och rör sig mot $\\mathbf{B}$. B börjar då accelerera från vila med konstant acceleration $a_{\\mathbf{B}}$, åt samma håll som $\\mathbf{A}$ åker. Vad är villkoret på $s$ för att $\\mathbf{A}$ skall hinna ifatt $\\mathbf{B}$ ?\n\n",
+        "answer": "$s \\leq \\frac{v_{\\mathbf{A}}^2}{2 a_{\\mathbf{B}}}$",
+        "keywords": [
+            "mekanik",
+            "rörelse",
+            "kinematik"
+        ]
+    },
+    {
+        "questionNum": "2024-15",
+        "question": "Omloppstiden för en planet i en cirkulär bana runt solen kan skrivas $T=c R^{\\alpha} M^{\\beta} G^{\\gamma}$, där $c$ är en dimensionslös konstant, $R$ är banans radie, $M$ solens massa och $G$ Newtons gravitationskonstant. Bestäm $\\alpha, \\beta$ och $\\gamma$.\n\n",
+        "answer": "$\\alpha=\\frac{3}{2}, \\beta=-\\frac{1}{2}, \\gamma=-\\frac{1}{2}$",
+        "keywords": [
+            "astrofysik",
+            "Keplers lagar",
+            "gravitationslagen"
+        ]
+    },
+    {
+        "questionNum": "2024-16",
+        "question": "En kula med massan $m$ som har farten $u$ kolliderar elastiskt och linjärt med en kula med massan $\\xi m$ som är i vila. Vad blir den andra kulans (den med massa $\\xi m$ ) fart efter stöten, om $\\xi \\ll 1$ ? (Tillåtna storheter i svaret: alla utom $\\xi$.)\n\n",
+        "answer": "$u$",
+        "keywords": [
+            "mekanik",
+            "stötar",
+            "rörelsemängd"
+        ]
+    },
+    {
+        "questionNum": "2024-17",
+        "question": "En skiva har formen av en liksidig triangel, och har massan $m$ jämnt fördelad över sin yta. Den kan rotera (i ett vertikalplan) kring sin kontaktpunkt med golvet, men inte glida. När en sida är vertikal (enligt figuren), hur stor horisontell kraft $F$ behövs för att hålla skivan stilla?\n\n![](https://i.imgur.com/ZXNYTe6.png)\n\n",
+        "answer": "$F=\\frac{m g}{\\sqrt{3}}$",
+        "keywords": [
+            "mekanik",
+            "jämviktskrafter",
+            "statisk jämvikt"
+        ]
+    },
+    {
+        "questionNum": "2024-18",
+        "question": "En elektron accelereras från vila genom en elektrisk spänning 3 V. Hur stor blir dess fart?\n\n",
+        "answer": "$\\times 10^6 \\text{m/s}$",
+        "keywords": [
+            "elektricitet",
+            "partikelacceleration",
+            "kinematik"
+        ]
+    },
+    {
+        "questionNum": "2024-19",
+        "question": "En bägare hålls upp- och nedvänd i en skål enligt figuren, och är delvis fylld med en vätska. Lufttrycket utanför är $p$, och trycket i den luft som är innesluten i bägaren är $p^{\\prime}$. Vätskans höjd i bägaren är $h$ över vätskeytan i skålen. Vad är vätsketrycket $p_{\\mathbf{A}}$ respektive $p_{\\mathbf{B}}$ i punkterna $\\mathbf{A}$ och B i figuren?\n\n![](https://i.imgur.com/Bg6Nryz.png)\n\n",
+        "answer": "$p_{\\mathbf{A}}=p, \\quad p_{\\mathbf{B}}=\\frac{1}{2}\\left(p+p^{\\prime}\\right)$",
+        "keywords": [
+            "fluidmekanik",
+            "hydrostatiskt tryck",
+            "vätsketryck"
+        ]
+    },
+    {
+        "questionNum": "2024-20",
+        "question": "En bilbana innehåller en loop. En liten bil släpps från vila på höjden $h$ enligt figuren. Loopen har radien $a$. Friktionen är försumbar. Hur stor behöver $h$ vara för att bilen skall klara hela loopen utan att tappa kontakt med banan?\n\n![](https://i.imgur.com/jU7OcMO.png)",
+        "answer": "När bilen är längst upp i loopen behöver centrifugalkraften vara minst $m g$, dvs. $\\frac{m v^2}{a} \\geq$ $m g$. Då är bilens rörelseenergi $\\frac{1}{2} m v^2 \\geq \\frac{1}{2} m g a$. Samtidigt är dess lägesenergi (om nollnivån är i botten av loopen) $2 m g a$. Bilens totala energi är alltså $E \\geq \\frac{5}{2} m g a$. Energin från början är $m g h$, så $h \\geq \\frac{5}{2} a$.",
+        "keywords": [
+            "mekanik",
+            "energiprincipen",
+            "loopar"
+        ]
+    },
+    {
         "questionNum": "f2023-1",
         "question": "En cirkelskiva kan snurra kring sin axel. Den p\u00e5verkas av tre krafter enligt figuren. De tv\u00e5 krafterna med belopp $F$ angriper p\u00e5 skivans periferi, och kraften med belopp $G$ p\u00e5 en punkt p\u00e5 halva skivans radie. Vinkeln $v$ \u00e4r $30^{\\circ}$. Vad \u00e4r $G$, om skivan \u00e4r i j\u00e4mvikt?\n\n![](https://i.imgur.com/kuvSihV.png)\n\nA. 0\nB. $2 F$\nC. $4 F$\nD. $8 F$",
         "answer": "D",
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -15,7 +215,7 @@
         "answer": "A",
         "keywords": [
             "krafter",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "friktion"
         ]
     },
@@ -24,7 +224,7 @@
         "question": "En rymdfarare \u00e5ker fr\u00e5n jorden med farten $0.6 c$, v\u00e4nder och \u00e5ker hem med samma fart. N\u00e4r hen \u00e5terv\u00e4nder har det g\u00e5tt 10 \u00e5r p\u00e5 jorden. Hur l\u00e5ng tid har g\u00e5tt p\u00e5 rymdfararens klocka?\nA. 6 \u00e5r\nB. 8 \u00e5r\nC. 10 \u00e5r\nD. 12.5 \u00e5r",
         "answer": "B",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "tidsdilatation"
         ]
     },
@@ -33,7 +233,7 @@
         "question": "En boll kastas rakt upp\u00e5t med farten $v$ fr\u00e5n h\u00f6jden $h$ \u00f6ver marken. Luftmotst\u00e5ndet \u00e4r f\u00f6rsumbart. Hur l\u00e5ng tid $T$ tar det innan bollen landar?\nA. $T=\\frac{v}{g}\\left(1+\\sqrt{1+\\frac{2 g h}{v^{2}}}\\right)$\nB. $T=\\frac{v}{g}\\left(1+\\sqrt{1-\\frac{2 g h}{v^{2}}}\\right)$\nC. $T=\\frac{v}{g}\\left(1-\\sqrt{1+\\frac{2 g h}{v^{2}}}\\right)$\nD. $T=\\frac{v}{g}\\left(1-\\sqrt{1-\\frac{2 g h}{v^{2}}}\\right)$",
         "answer": "A",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "gravitationskraft",
             "tid"
         ]
@@ -43,8 +243,8 @@
         "question": "Hur mycket mindre \u00e4r den upplevda tyngdkraften vid jordens ekvator j\u00e4mf\u00f6rt med om jorden inte hade roterat?\nA. $0 \\%$\nB. $0.003 \\%$\nC. $0.3 \\%$\nD. $7 \\%$",
         "answer": "C",
         "keywords": [
+            "mekanik",
             "gravitationskraft",
-            "tyngdkraft",
             "rotation"
         ]
     },
@@ -83,9 +283,9 @@
         "question": "Planeten Mars radie \u00e4r ungef\u00e4r 0.53 jordradier, och dess massa \u00e4r ungef\u00e4r 0.107 g\u00e5nger jordens. Hur stor \u00e4r tyngaccelerationen p\u00e5 Mars yta?\nA. $0.20 \\mathrm{~m} / \\mathrm{s}^{2}$\nB. $0.37 \\mathrm{~m} / \\mathrm{s}^{2}$\nC. $3.7 \\mathrm{~m} / \\mathrm{s}^{2}$\nD. $7.0 \\mathrm{~m} / \\mathrm{s}^{2}$",
         "answer": "C",
         "keywords": [
+            "mekanik",
             "tyngdkraft",
-            "massa",
-            "radie"
+            "planeter"
         ]
     },
     {
@@ -104,7 +304,7 @@
         "answer": "A",
         "keywords": [
             "kollision",
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "fart"
         ]
     },
@@ -113,8 +313,8 @@
         "question": "En ljusstr\u00e5le passerar fr\u00e5n luften till ett genomskinligt material (det skuggade omr\u00e5det). Vinklarna i figuren \u00e4r $\\alpha=45.0^{\\circ}, \\beta=30.0^{\\circ}$. Vad \u00e4r brytningsindex f\u00f6r materialet?\n\n![](https://i.imgur.com/T0XtQLE.png)\n\nA. 1.22\nB. 1.41\nC. 1.50\nD. 2.00",
         "answer": "B",
         "keywords": [
+            "optik",
             "ljusbrytning",
-            "vinklar",
             "brytningsindex"
         ]
     },
@@ -123,9 +323,9 @@
         "question": "Hur stort \u00e4r trycket $20 \\mathrm{~m}$ under havsytan?\nA. $1.0 \\times 10^{5} \\mathrm{~Pa}$\nB. $1.3 \\times 10^{5} \\mathrm{~Pa}$\nC. $2.0 \\times 10^{5} \\mathrm{~Pa}$\nD. $3.0 \\times 10^{5} \\mathrm{~Pa}$",
         "answer": "D",
         "keywords": [
-            "tryck",
+            "termofysik",
             "havsytan",
-            "Pa"
+            "tryck"
         ]
     },
     {
@@ -133,7 +333,7 @@
         "question": "En bil A \u00e5ker p\u00e5 en rak v\u00e4g med den konstanta farten $10 \\mathrm{~m} / \\mathrm{s}$. En annan bil $\\mathbf{B}$ st\u00e5r stilla, men d\u00e5 den passeras av A b\u00f6rjar den accelerera med den konstanta accelerationen $4.0 \\mathrm{~m} / \\mathrm{s}^{2}$. Hur l\u00e5ngt har bilarna d\u00e4refter r\u00f6rt sig n\u00e4r $\\mathbf{A}$ blir omk\u00f6rd av $\\mathbf{B}$ ?",
         "answer": "$50 \\mathrm{~m}$",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "acceleration",
             "hastighet"
         ]
@@ -145,7 +345,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -185,7 +385,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -195,7 +395,7 @@
         "keywords": [
             "mekanik",
             "elastisk st\u00c3\u00b6t",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -214,7 +414,7 @@
         "answer": "D",
         "keywords": [
             "krafter",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "friktion"
         ]
     },
@@ -223,7 +423,7 @@
         "question": "En stav, som i sitt vilosystem har l\u00e4ngden $L$, f\u00e4rdas med farten $v=0.8 c$ i sin l\u00e4ngsriktning $(c$ \u00e4r ljushastigheten). Hur l\u00e5ng \u00e4r staven?\nA. $0.6 L$\nB. $0.8 L$\nC. $L$\nD. $1.25 L$",
         "answer": "A",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "l\u00c3\u00a4ngdkontraktion",
             "ljushastighet"
         ]
@@ -245,9 +445,9 @@
         "question": "Hur stor \u00e4r tyngdaccelerationen p\u00e5 ytan av solen?\nA. $28 g$\nB. $109 g$\nC. $3.1 \\times 10^{3} g$\nD. $3.3 \\times 10^{5} \\mathrm{~g}$",
         "answer": "A",
         "keywords": [
-            "tyngdkraft",
-            "solen",
-            "tyngdacceleration"
+            "mekanik",
+            "planeter",
+            "tyngdkraft"
         ]
     },
     {
@@ -335,7 +535,7 @@
         "question": "En bil A \u00e5ker p\u00e5 en rak v\u00e4g med den konstanta farten $20.0 \\mathrm{~m} / \\mathrm{s}$. En annan bil $\\mathbf{B}$ f\u00e4rdas p\u00e5 samma v\u00e4g med konstant fart $25.0 \\mathrm{~m} / \\mathrm{s}$. Vid ett visst tillf\u00e4lle befinner sig $\\mathbf{B} 200 \\mathrm{~m}$ bakom A. Hur l\u00e5ngt har $\\mathbf{A}$ d\u00e4refter r\u00f6rt sig n\u00e4r den blir omk\u00f6rd av $\\mathbf{B}$ ?",
         "answer": "$800 \\mathrm{~m}$",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "hastighet",
             "avst\u00c3\u00a5nd"
         ]
@@ -355,7 +555,7 @@
         "question": "En l\u00e5da med massan $m$ har kvadratisk tv\u00e4rsnitt. Massan \u00e4r j\u00e4mnt f\u00f6rdelad. L\u00e5dan \u00e4r i j\u00e4mvikt i l\u00e4get i figuren. Hur stor \u00e4r den horisontella kraften $F$ ?",
         "answer": "$\\quad 8 \\times 10^4 \\mathrm{~Pa}$",
         "keywords": [
-            "j\u00c3\u00a4mvikt",
+            "mekanik",
             "kraftmoment",
             "krafter"
         ]
@@ -365,8 +565,8 @@
         "question": "En beh\u00e5llare \u00e4r \u00f6ppen ned\u00e5t, och dess \u00f6ppning \u00e4r neds\u00e4nkt i vatten. Vattenniv\u00e5n inuti beh\u00e5llaren \u00e4r $2 \\mathrm{~m}$ h\u00f6gre \u00e4n utanf\u00f6r. Ovanf\u00f6r vattenytan inuti beh\u00e5llaren finns en innesluten luftficka. Utanf\u00f6r beh\u00e5llaren r\u00e5der normalt lufttryck. Hur stort \u00e4r lufttrycket i den inneslutna luften? Svaret skall anges i SI-enheter, med en signifikant siffra.",
         "answer": "$\\quad v=-\\frac{u}{3}, w=\\frac{2 u}{3}$",
         "keywords": [
+            "termofysik",
             "tryck",
-            "vatten",
             "lufttryck"
         ]
     },
@@ -397,7 +597,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -415,17 +615,17 @@
         "question": "En mutter har radie $r$. Den skall lossas med en skiftnyckel, vars skaft har l\u00e4ngden $d$. Om man drar (l\u00e4ngst ut) i skiftnyckeln med en kraft $F$, hur stort vridande moment ut\u00f6var skiftnyckeln p\u00e5 muttern (skiftnyckeln \u00e4r stilla)?\nA. $F \\frac{r}{d}$\nB. $F \\frac{d}{r}$\nC. $\\mathrm{Fr}$\nD. $F d$",
         "answer": "D",
         "keywords": [
-            "kraftmoment",
+            "mekanik",
             "krafter",
-            "mekanik"
+            "kraftmoment"
         ]
     },
     {
         "questionNum": "f2021-3",
-        "question": "Enligt den speciella relativitetsteorin, vad erfar en observat\u00f6r som har accelererats till en hastighet st\u00f6rre \u00e4n ljusets?\nA. Att det bildas en h\u00e4ndelsehorisont bakom hen.\nB. Att tiden g\u00e5r bakl\u00e4nges.\nC. Att tiden st\u00e5r stilla.\nD. Situationen \u00e4r om\u00f6jlig. Man kan inte accelereras till hastigheter \u00f6ver ljushastigheten.",
+        "question": "Enligt den speciella relativitetsteori, vad erfar en observat\u00f6r som har accelererats till en hastighet st\u00f6rre \u00e4n ljusets?\nA. Att det bildas en h\u00e4ndelsehorisont bakom hen.\nB. Att tiden g\u00e5r bakl\u00e4nges.\nC. Att tiden st\u00e5r stilla.\nD. Situationen \u00e4r om\u00f6jlig. Man kan inte accelereras till hastigheter \u00f6ver ljushastigheten.",
         "answer": "D",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "hastighet",
             "tidsdilatation"
         ]
@@ -465,8 +665,8 @@
         "question": "En ljusstr\u00e5le r\u00f6r sig fr\u00e5n ett material med l\u00e4gre brytningsindex till ett med h\u00f6gre brytningsindex (det skuggade omr\u00e5det). Vilken av bilderna bekriver ljusstr\u00e5lens v\u00e4g?\n\nA.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_d925e413e403477b9298g-2.jpg?height=203&width=228&top_left_y=1743&top_left_x=340)\n\nB.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_d925e413e403477b9298g-2.jpg?height=209&width=215&top_left_y=1740&top_left_x=635)\n\nC.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_d925e413e403477b9298g-2.jpg?height=211&width=249&top_left_y=1742&top_left_x=892)\n\nD.\n\n![](https://cdn.mathpix.com/cropped/2023_05_27_d925e413e403477b9298g-2.jpg?height=209&width=219&top_left_y=1740&top_left_x=1204)",
         "answer": "C",
         "keywords": [
-            "ljusbrytning",
             "optik",
+            "ljusbrytning",
             "reflektion"
         ]
     },
@@ -475,7 +675,7 @@
         "question": "Planeten Venus bana runt solen har en radie som \u00e4r ungef\u00e4r 0.723 g\u00e5nger radien f\u00f6r jordens bana. Ungef\u00e4r hur l\u00e5ng \u00e4r Venus omloppstid runt solen?\nA. 0.615 \u00e5r\nB. 0.723 \u00e5r\nC. 1.38 \u00e5r\nD. Kan ej avg\u00f6ras utan ytterligare information",
         "answer": "A",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "gravitationskraft",
             "omloppstid"
         ]
@@ -505,7 +705,7 @@
         "answer": "B",
         "keywords": [
             "kastr\u00c3\u00b6relse",
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "kinetisk energi"
         ]
     },
@@ -516,7 +716,7 @@
         "keywords": [
             "energi",
             "elektricitet",
-            "relativitetsteorin"
+            "relativitetsteori"
         ]
     },
     {
@@ -524,7 +724,7 @@
         "question": "Stj\u00e4rnorna i en dubbelstj\u00e4rna har lika stor massa $m$ och roterar runt sitt gemensamma masscentrum p\u00e5 ett avst\u00e5nd $R$ fr\u00e5n varandra. Hur f\u00f6rh\u00e5ller sig detta systems omloppstid $\\tau$ till omloppstiden $T$ f\u00f6r en stj\u00e4rna med massan $\\epsilon m$ som roterar p\u00e5 avst\u00e5ndet $R$ kring en stj\u00e4rna med massa $m / \\epsilon$, $\\epsilon<<1$ ?\nA. $\\tau<T$\nB. $\\tau=T$\nC. $\\tau>T$\nD. Kan ej avg\u00f6ras utan ytterligare information",
         "answer": "C",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "gravitationskraft",
             "omloppstid"
         ]
@@ -534,7 +734,7 @@
         "question": "En kropp r\u00f6r sig l\u00e4ngs $x$-axeln, och befinner sig vid tiden $t=0$ vid $x=x_{0}$. Sedan r\u00f6r den sig fram till tiden $t=T$ med en hastighet som ges av $v=v_{0} \\frac{x}{x_{0}}$. Vad \u00e4r $x$-koordinaten f\u00f6r kroppens l\u00e4ge vid tiden $t=T$ ?",
         "answer": "$\\quad x(T)=x_0 e^{\\frac{v_0 T}{x_0}}$",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "hastighet",
             "kinetisk energi"
         ]
@@ -605,7 +805,7 @@
         "answer": "B",
         "keywords": [
             "krafter",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "horisontell komponent"
         ]
     },
@@ -614,7 +814,7 @@
         "question": "Tv\u00e5 barn (Barn 1 och Barn 2) sitter p\u00e5 var sin \u00e4nde av en gungbr\u00e4da, som \u00e4r i j\u00e4mvikt. Gungbr\u00e4dans l\u00e4ngd \u00e4r $\\ell$ och Barn 1 sitter p\u00e5 avst\u00e5ndet $x \\ell$ fr\u00e5n gungbr\u00e4dans upph\u00e4ngningspunkt. Vad \u00e4r kvoten $m_{1} / m_{2}$, d\u00e4r $m_{i}, i=1,2$, \u00e4r vikten f\u00f6r Barn $i$ ?\nA. $x$\nB. $1-x$\nC. $\\frac{x}{1-x}$\nD. $\\frac{1-x}{x}$",
         "answer": "D",
         "keywords": [
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "vikt",
             "gungbr\u00c3\u00a4da"
         ]
@@ -624,7 +824,7 @@
         "question": "Vid vilket fart \u00e4r en massiv partikels r\u00f6relseenergi $1 / 4$ av dess energi i vila?\nA. $\\frac{c}{\\sqrt{2}}$\nB. $\\frac{c}{2}$\nC. $\\frac{3 c}{5}$\nD. Det beror p\u00e5 vilken sorts partikel det r\u00f6r sig om",
         "answer": "C",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "r\u00c3\u00b6relseenergi",
             "energi i vila"
         ]
@@ -634,9 +834,9 @@
         "question": "En kropp med massan $m$ \u00e4r upph\u00e4ngd i en vertikal fj\u00e4der, vars andra \u00e4nde sitter fast i taket. Den utf\u00f6r vertikala sv\u00e4ngningar runt sitt j\u00e4mviktsl\u00e4ge med amplituden $a$. Hur stor \u00e4r den maximala kraften i fj\u00e4dern?\nA. $m g$\nB. $m a$\nC. $m g a$\nD. Kan ej avg\u00f6ras utan ytterligare information ",
         "answer": "D",
         "keywords": [
-            "fj\u00c3\u00a4der",
+            "mekanik",
             "kraftmoment",
-            "j\u00c3\u00a4mvikt"
+            "fjäder"
         ]
     },
     {
@@ -719,9 +919,9 @@
         "question": "Man brukar s\u00e4ga att m\u00e5nen roterar runt jorden, och det st\u00e4mmer ungef\u00e4rligt eftersom jorden \u00e4r mycket tyngre \u00e4n m\u00e5nen. Ett mer precist p\u00e5st\u00e5ende \u00e4r att m\u00e5nen och jorden roterar runt sitt gemensamma masscentrum. Vad ligger detta?\nA. Inne i jorden\nB. Mellan jorden och m\u00e5nen, n\u00e4rmare jorden \u00e4n m\u00e5nen\nC. Mellan jorden och m\u00e5nen, n\u00e4rmare m\u00e5nen \u00e4n jorden\nD. Inne i m\u00e5nen ",
         "answer": "A",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "gravitationskraft",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -731,7 +931,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -739,9 +939,9 @@
         "question": "Hur stor volym beh\u00f6ver en ballong fylld med helium ha f\u00f6r att kunna lyfta 1 ton? (Helium har atommassa $4 \\mathrm{u}$, luft kan betraktas som en gas med molekylmassa c:a 29 u.)",
         "answer": "$10^3 \\mathrm{~m}^3$",
         "keywords": [
-            "tryck",
+            "termofysik",
             "arkimedes princip",
-            "densitet"
+            "tryck"
         ]
     },
     {
@@ -803,7 +1003,7 @@
         "question": "En sten kastas fr\u00e5n markh\u00f6jd rakt upp\u00e5t med farten $v$. Efter hur l\u00e5ng tid landar den, om luftmotst\u00e5ndet \u00e4r f\u00f6rsumbart?\nA. $\\frac{2 v}{g}$\nB. $\\frac{2 v^{2}}{g}$\nC. $\\frac{v^{2}}{2 g}$\nD. $0.2 v \\mathrm{~s}$",
         "answer": "A",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "kinetisk energi",
             "gravitationskraft"
         ]
@@ -823,7 +1023,7 @@
         "question": "Tv\u00e5 asteroider kolliderar i rymden. Vilket av p\u00e5st\u00e5endena st\u00e4mmer alltid med vad som h\u00e4nder under kollisionen?\n\nA. R\u00f6relseenergin \u00e4r densamma f\u00f6re och efter kollisionen.\n\nB. R\u00f6relsem\u00e4ngden efter kollisionen \u00e4r mindre \u00e4n f\u00f6re kollisionen.\n\nC. R\u00f6relseenergin \u00e4r st\u00f6rre efter kollisionen \u00e4n f\u00f6re kollisionen.\n\nD. R\u00f6relsem\u00e4ngden \u00e4r densamma f\u00f6re och efter kollisionen.",
         "answer": "D",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "kollision",
             "energi"
         ]
@@ -843,7 +1043,7 @@
         "question": "Bilden, som \u00e4r h\u00e4mtad fr\u00e5n wikipedia, visar f\u00f6renklat principen f\u00f6r en s.k. gravitationsslunga. En rymdfarkost kan utnyttja en planet till att \u00f6ka sin fart. Detta har anv\u00e4nts m\u00e5nga g\u00e5nger, t.ex. med Voyagersonderna, som vid sina passager n\u00e4ra solsystemets gasj\u00e4ttar \u00f6kade sina hastigheter s\u00e5 att de kunde l\u00e4mna solsystemet. Av bilden kan det tyckas att processen skulle strida mot energiprincipen. Vilket av p\u00e5st\u00e5enden \u00e4r korrekt? (Detaljerna i bilden, t.ex. banans form, skall inte tolkas bokstavligt.)\n\nA. Planetens hastighet minskar en aning. R\u00f6relseenergi \u00f6verf\u00f6rs fr\u00e5n planeten till farkosten.\n\nB. Processen \u00e4r om\u00f6jlig d\u00e5 den strider mot principen om energins bevarande.\n\nC. Energin beh\u00f6ver inte bevaras i denna typ av processer, s\u00e5 l\u00e4nge som r\u00f6relsem\u00e4ngden \u00e4r bevarad.\n\nD. Inget av p\u00e5st\u00e5endena $\\mathrm{A}, \\mathrm{B}$ eller $\\mathrm{C}$.",
         "answer": "A",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "energiprincipen",
             "gravitationsslunga"
         ]
@@ -902,7 +1102,7 @@
         "question": "En klassisk paradox i speciell relativitetsteori \u00e4r den s.k. \"stavhopparparadoxen\". En m\u00e4nniska (\"stavhopparen\") som b\u00e4r en horisontell stav springer in i en lada. Staven \u00e4r l\u00e4ngre \u00e4n ladan, s\u00e5 den skall inte f\u00e5 plats. Men staven f\u00f6rkortas p\u00e5 grund av l\u00e4ngdkontraktionen, s\u00e5 om stavhopparen springer tillr\u00e4ckligt fort kommer staven att rymmas i ladan. Vilket av p\u00e5st\u00e5endena \u00e4r riktigt?\n\nA. L\u00e4ngdkontraktionen \u00e4r en optisk illusion, och staven f\u00e5r lika litet plats i r\u00f6relse som i vila.\n\nB. Fr\u00e5n stavhopparens perspektiv kan hela staven inte rymmas samtidigt i ladan, men fr\u00e5n ladans perspektiv kan den det.\n\nC. Staven l\u00e4ngdkontraheras visserligen, men ladan l\u00e4ngdkontraheras lika mycket, s\u00e5 staven f\u00e5r fortfarande inte plats.\n\nD. Inget av p\u00e5st\u00e5endena A, B eller C. ",
         "answer": "B",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "l\u00c3\u00a4ngdkontraktion",
             "paradox"
         ]
@@ -932,7 +1132,7 @@
         "keywords": [
             "acceleration",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -960,9 +1160,9 @@
         "question": "En partikel r\u00f6r sig med konstant fart u p\u00e5 en cirkul\u00e4r bana. Periodtiden f\u00f6r r\u00f6relsen \u00e4r $\\tau$. Vad \u00e4r beloppet av partikelns medelacceleration fr\u00e5n tiden $t=0$ till tiden $t=\\frac{3}{2} \\tau$ ?",
         "answer": "$\\frac{4 u}{3\\tau}$",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "acceleration",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -1012,7 +1212,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -1087,10 +1287,10 @@
     },
     {
         "questionNum": "f2017-10",
-        "question": "Ang\u00e5ende den s\u00e5 kallade tvillingparadoxen: Enligt den speciella relativitetsteorin uppst\u00e5r tidsdilatation, s\u00e5 att en klocka som r\u00f6r sig med farten $v$ \"g\u00e5r l\u00e5ngsammare\" \u00e4n en klocka i vila. Detta kan uttryckas som $\\Delta \\tau=\\sqrt{1-\\frac{v^{2}}{c^{2}}} \\Delta t$, d\u00e4r $\\Delta \\tau$ \u00e4r tiden f\u00f6r klockan i r\u00f6relse och $\\Delta t$ f\u00f6r den i vila (i h\u00e4ndelser som \u00e4r samtidiga f\u00f6r klockan i vila).\n\nDet p\u00e5st\u00e5s ibland att detta leder till att en tvilling i ett tvillingpar som f\u00f6retar sig en l\u00e5ng rymdresa med h\u00f6g hastighet och sedan \u00e5terv\u00e4nder till jorden vid \u00e5terkomsten skulle vara yngre \u00e4n sin tvilling som stannat hemma. Vilket av p\u00e5st\u00e5endena ang\u00e5ende \"tvillingparadoxen\" \u00e4r riktigt?\n\nA. Det st\u00e4mmer att tvillingen som rest \u00e4r yngre.\n\nB. Eftersom tidsdilatationen \u00e4r \u00f6msesidig, s\u00e5 kan man lika g\u00e4rna argumentera f\u00f6r att den tvilling som stannar p\u00e5 jorden \u00e4r yngre. Detta \u00e4r en inkonsistens hos speciell relativitetsteori.\n\nC. Om man tar h\u00e4nsyn till vad som h\u00e4nder n\u00e4r den rymdresande tvillingen v\u00e4nder f\u00f6r att resa tillbaka, finner man att de i slut\u00e4ndan \u00e4r lika gamla n\u00e4r hen kommer \u00e5ter.\n\nD. Inget av ovanst\u00e5ende alternativ.",
+        "question": "Ang\u00e5ende den s\u00e5 kallade tvillingparadoxen: Enligt den speciella relativitetsteori uppst\u00e5r tidsdilatation, s\u00e5 att en klocka som r\u00f6r sig med farten $v$ \"g\u00e5r l\u00e5ngsammare\" \u00e4n en klocka i vila. Detta kan uttryckas som $\\Delta \\tau=\\sqrt{1-\\frac{v^{2}}{c^{2}}} \\Delta t$, d\u00e4r $\\Delta \\tau$ \u00e4r tiden f\u00f6r klockan i r\u00f6relse och $\\Delta t$ f\u00f6r den i vila (i h\u00e4ndelser som \u00e4r samtidiga f\u00f6r klockan i vila).\n\nDet p\u00e5st\u00e5s ibland att detta leder till att en tvilling i ett tvillingpar som f\u00f6retar sig en l\u00e5ng rymdresa med h\u00f6g hastighet och sedan \u00e5terv\u00e4nder till jorden vid \u00e5terkomsten skulle vara yngre \u00e4n sin tvilling som stannat hemma. Vilket av p\u00e5st\u00e5endena ang\u00e5ende \"tvillingparadoxen\" \u00e4r riktigt?\n\nA. Det st\u00e4mmer att tvillingen som rest \u00e4r yngre.\n\nB. Eftersom tidsdilatationen \u00e4r \u00f6msesidig, s\u00e5 kan man lika g\u00e4rna argumentera f\u00f6r att den tvilling som stannar p\u00e5 jorden \u00e4r yngre. Detta \u00e4r en inkonsistens hos speciell relativitetsteori.\n\nC. Om man tar h\u00e4nsyn till vad som h\u00e4nder n\u00e4r den rymdresande tvillingen v\u00e4nder f\u00f6r att resa tillbaka, finner man att de i slut\u00e4ndan \u00e4r lika gamla n\u00e4r hen kommer \u00e5ter.\n\nD. Inget av ovanst\u00e5ende alternativ.",
         "answer": "A",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "tidsdilatation",
             "tvillingparadoxen"
         ]
@@ -1108,8 +1308,8 @@
         "question": "Tryck anges ibland i den litet f\u00f6r\u00e5ldrade enheten millimeter kvicksilver ( $\\mathrm{mmHg})$, det tryck som i jordgravitationen ges av en kvicksilverpelare med h\u00f6jden $1 \\mathrm{~mm}$. Kvicksilver har densiteten $13.6 \\times 10^{3} \\mathrm{~kg} / \\mathrm{m}^{3}$. Vad \u00e4r $1 \\mathrm{mmHg}$ i SI-enheter?\nA. $0.133 \\mathrm{~Pa}$\nB. $133 \\mathrm{~Pa}$\nC. $133 \\mathrm{kPa}$\nD. $133 \\mathrm{MPa}$",
         "answer": "B",
         "keywords": [
+            "termofysik",
             "tryck",
-            "enheter",
             "millimeter kvicksilver"
         ]
     },
@@ -1150,7 +1350,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -1158,7 +1358,7 @@
         "question": "En punktpartikel r\u00f6r sig i rummet s\u00e5 att dess l\u00e4gesvektor ges av\n\n$$\n(x(t), y(t), z(t))=\\left(f\\left(\\frac{t}{\\tau}\\right), g\\left(\\frac{2 t}{\\tau}\\right), h\\left(\\frac{3 t}{\\tau}\\right)\\right)\n$$\n\nd\u00e4r $f, g$ och $h$ \u00e4r tre periodiska funktioner med period 1, och $\\tau$ \u00e4r en konstant. Vad \u00e4r medelv\u00e4rdet av hastighetsvektorn fr\u00e5n tiden $t_{0}$ till tiden $t_{0}+\\tau$ ?",
         "answer": "0",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "hastighet",
             "medelv\u00c3\u00a4rde"
         ]
@@ -1210,7 +1410,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -1228,7 +1428,7 @@
         "question": "En boll sl\u00e4pps fr\u00e5n vila, och faller d\u00e4refter under inverkan av gravitationen (luftmotst\u00e5ndet \u00e4r f\u00f6rsumbart). Samtidigt som den f\u00f6rsta bollen sl\u00e4pps kastas en annan boll med farten $v_{0}$ fr\u00e5n en punkt som befinner sig p\u00e5 ett horisontellt avst\u00e5nd av $10 \\mathrm{~m}$ fr\u00e5n den f\u00f6rsta bollen, och 5 m nedanf\u00f6r (se figuren). Vilken vinkel $\\theta$ skall den andra bollens utg\u00e5ngshastighet bilda med vertikalen f\u00f6r att den andra bollen skall tr\u00e4ffa den f\u00f6rsta?\nA. $\\theta=45^{\\circ}$\nB. $\\theta=60^{\\circ}$\nC. $\\theta=90^{\\circ}$\nD. Det beror p\u00e5 $v_{0}$.\n\nimg",
         "answer": "B",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "kinetisk energi",
             "kastr\u00c3\u00b6relse"
         ]
@@ -1284,8 +1484,8 @@
         "question": "Vilket av f\u00f6ljande p\u00e5st\u00e5enden f\u00f6ljer fr\u00e5n den ideala gaslagen (ibland kallad \"allm\u00e4nna gaslagen\")?\n\nA. Om volymen f\u00f6r en viss m\u00e4ngd av en gas halveras, m\u00e5ste trycket f\u00f6rdubblas.\n\nB. Om temperaturen i en viss m\u00e4ngd gas med konstant volym f\u00f6rdubblas, m\u00e5ste trycket f\u00f6rdubblas.\n\nC. Om temperaturen i en viss m\u00e4ngd gas med konstant volym f\u00f6rdubblas, m\u00e5ste trycket halveras.\n\nD. Inget av alternativen $\\mathrm{A}, \\mathrm{B}$ eller $\\mathrm{C}$.",
         "answer": "B",
         "keywords": [
+            "termofysik",
             "tryck",
-            "volym",
             "temperatur"
         ]
     },
@@ -1304,9 +1504,9 @@
         "question": "Diamant har brytningsindex 2.42. En ljusstr\u00e5le f\u00e4rdas inne i en diamant och tr\u00e4ffar en gr\u00e4nsyta mot luft. Vilket av alternativen beskriver det villkor vinkeln $\\alpha\\left(0<\\alpha \\leq 90^{\\circ}\\right)$ i figuren skall uppfylla f\u00f6r att totalreflektion skall uppst\u00e5?\nA. $\\sin \\alpha<0.413$\nB. $\\sin \\alpha>0.413$\nC. $\\cos \\alpha<0.413$\nD. $\\cos \\alpha>0.413$\n\n![](https://cdn.mathpix.com/cropped/2023_05_28_852faaab70080932c2ddg-3.jpg?height=431&width=951&top_left_y=1835&top_left_x=378)",
         "answer": "D",
         "keywords": [
+            "optik",
             "ljusbrytning",
-            "totalreflektion",
-            "brytningsindex"
+            "totalreflektion"
         ]
     },
     {
@@ -1315,7 +1515,7 @@
         "answer": "C",
         "keywords": [
             "ljusintensitet",
-            "astronomi"
+            "astrofysik"
         ]
     },
     {
@@ -1323,7 +1523,7 @@
         "question": "Om man antar att avst\u00e5ndet mellan Vintergatan och Andromedagalaxen \u00e4r typiskt f\u00f6r n\u00e4rmsta granngalaxer, vilken uppskattning av antalet galaxer i det synliga universum skulle det leda till?\nA. $10^{11}$\nB. $10^{23}$\nC. $10^{35}$\nD. $\\infty$",
         "answer": "A",
         "keywords": [
-            "astronomi",
+            "astrofysik",
             "Hubbles lag"
         ]
     },
@@ -1362,17 +1562,17 @@
         "question": "En massa r\u00f6r sig l\u00e4ngs $x$-axeln under p\u00e5verkan av en fj\u00e4derkraft, s\u00e5 att dess l\u00e4ge som funktion av tiden ges av $x(t)=A \\cos (\\omega t+\\alpha)$, d\u00e4r $A, \\omega$ och $\\alpha$ \u00e4r konstanter. Vad blir $\\sqrt{<v^{2}>}$, dvs. roten ur tidsmedelv\u00e4rdet av hastigheten i kvadrat, under ett helt antal perioder? ",
         "answer": "$\\quad \\sqrt{<v^2>}=\\frac{1}{\\sqrt{2}} A \\omega$",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "fj\u00c3\u00a4der",
             "hastighet"
         ]
     },
     {
         "questionNum": "f2016-18",
-        "question": "Albert Einstein formulerade flera av sina tankeexperiment kring den speciella relativitetsteorin i termer av t\u00e5g, som t\u00e4nktes r\u00f6ra sig med relativistiska hastigheter.\n\nEtt t\u00e5g \u00e4r, n\u00e4r det st\u00e5r stilla vid en j\u00e4rnv\u00e4gsstation, precis lika l\u00e5ngt som en perrong vid stationen. Denna l\u00e4ngd betecknas $\\ell$. Vi betecknar \u00e4ndpunkterna p\u00e5 perrongen $\\mathbf{A}$ och $\\mathbf{B}$ enligt figuren, och t\u00e5gets fr\u00e4mre och bakre \u00e4ndar $\\mathbf{A}^{\\prime}$ resp. B'. L\u00e5t nu ist\u00e4llet t\u00e5get r\u00f6ra sig fram\u00e5t och passera perrongen med farten $\\frac{4}{5} c$, d\u00e4r $c$ \u00e4r ljushastigheten. Ber\u00e4kna tidsskillnaden $\\Delta \\tau$, definierad som den tid som f\u00f6rflyter i t\u00e5gets inertialsystem fr\u00e5n det att $\\mathbf{A}^{\\prime}$ passerar $\\mathbf{B}$ till det att $\\mathbf{B}^{\\prime}$ passerar (Svaret skall uttryckas i termer av $\\ell$ och $c$.)\n\nimg",
+        "question": "Albert Einstein formulerade flera av sina tankeexperiment kring den speciella relativitetsteori i termer av t\u00e5g, som t\u00e4nktes r\u00f6ra sig med relativistiska hastigheter.\n\nEtt t\u00e5g \u00e4r, n\u00e4r det st\u00e5r stilla vid en j\u00e4rnv\u00e4gsstation, precis lika l\u00e5ngt som en perrong vid stationen. Denna l\u00e4ngd betecknas $\\ell$. Vi betecknar \u00e4ndpunkterna p\u00e5 perrongen $\\mathbf{A}$ och $\\mathbf{B}$ enligt figuren, och t\u00e5gets fr\u00e4mre och bakre \u00e4ndar $\\mathbf{A}^{\\prime}$ resp. B'. L\u00e5t nu ist\u00e4llet t\u00e5get r\u00f6ra sig fram\u00e5t och passera perrongen med farten $\\frac{4}{5} c$, d\u00e4r $c$ \u00e4r ljushastigheten. Ber\u00e4kna tidsskillnaden $\\Delta \\tau$, definierad som den tid som f\u00f6rflyter i t\u00e5gets inertialsystem fr\u00e5n det att $\\mathbf{A}^{\\prime}$ passerar $\\mathbf{B}$ till det att $\\mathbf{B}^{\\prime}$ passerar (Svaret skall uttryckas i termer av $\\ell$ och $c$.)\n\nimg",
         "answer": "$\\quad \\Delta \\tau=\\frac{2 \\ell}{c}$",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "t\u00c3\u00a5g",
             "tidsskillnad"
         ]
@@ -1383,7 +1583,7 @@
         "answer": "$\\quad d \\leq \\frac{11}{12} a$",
         "keywords": [
             "mekanik",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "krafter"
         ]
     },
@@ -1393,7 +1593,7 @@
         "answer": "En kortfattad l\u014dsning:\nEn l\u0101mplig strategi kan vara att behandla st\u014dten i den tunga kroppens vilosystem, och sedan \u014dvers\u0101tta till det system problemet \u0101r formulerat i.\n\nI den tunga kroppens vilosystem kommer bollen med farten $u+v$ \u00e0t h\u00f6ger. Den mycket tunga kroppen p\u00e2verkas inte alls, utan ligger fortsatt stilla, medan bollen studsar enligt figuren nedan. Infalls- och reflektionsvinklarna blir lika; b\u00e5da \u0101r $\\alpha$. Bollen har farten $u+v$ \u00e4ven efter studsen. Dess horisontalkomponent \u00e4r $(u+v) \\cos 2 \\alpha$ \u00e4t v\u00e4nster och dess vertikalkomponent $(u+v) \\sin 2 \\alpha$ upp\u00e2t.\n\nNu kan vi \u00f6vers\u00e4tta tillbaka till det ursprungliga systemet. D\u0101r har bollen efter st\u00f6ten en hastighet med horisontalkomponent $u+(u+v) \\cos 2 \\alpha$ \u00e2t v\u00e4nster, och vertikalkomponent $(u+v) \\sin 2 \\alpha$ upp\u00e2t. Vinkeln $\\beta$ best\u00e4ms av kvoten av dessa:\n\nimg\n\n$$\n\\tan \\beta=\\frac{(u+v) \\sin 2 \\alpha}{u+(u+v) \\cos 2 \\alpha}=\\frac{\\sin 2 \\alpha}{\\frac{u}{u+v}+\\cos 2 \\alpha} .\n$$\nN\u00e5gra kontroller \u00e4r p\u00e5 sin plats:\nOm $u<<v$ blir $\\tan \\beta \\approx \\tan 2 \\alpha(\\beta \\approx 2 \\alpha)$.\nOm $\\alpha=0$ blir $\\tan \\beta=0(\\beta=0)$.\n$\\operatorname{Om} \\alpha=\\frac{\\pi}{2}$ \u00e4r $\\tan \\beta=0(\\beta=\\pi)$.\n(En sv\u00e5rare kontroll: Om $u>>v$, s\u00e5 blir $\\tan \\beta \\approx \\frac{\\sin 2 \\alpha}{1+\\cos 2 \\alpha}=\\tan \\alpha$, och $\\beta \\approx \\alpha$.)",
         "keywords": [
             "elastisk st\u00c3\u00b6t",
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "vinkel"
         ]
     },
@@ -1404,7 +1604,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -1413,7 +1613,7 @@
         "answer": "A",
         "keywords": [
             "krafter",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "mekanik"
         ]
     },
@@ -1524,7 +1724,7 @@
         "answer": "B",
         "keywords": [
             "uppskattning",
-            "astronomi"
+            "astrofysik"
         ]
     },
     {
@@ -1542,8 +1742,8 @@
         "question": "Luften i en varmluftsballong har v\u00e4rmts till $100^{\\circ} \\mathrm{C}$, och har samma tryck som den omgivande luften. Ballongen \u00e4r ungef\u00e4r sf\u00e4risk, med en radie p\u00e5 $10 \\mathrm{~m}$. Hur stor vikt (inklusive ballongen och dess korg) kan ballongen lyfta? Svaret kan avrundas till n\u00e4rmsta tiopotens.",
         "answer": "$10^3 \\mathrm{~kg}$",
         "keywords": [
+            "termofysik",
             "tryck",
-            "volym",
             "temperatur"
         ]
     },
@@ -1582,7 +1782,7 @@
         "question": "En boll kastas vid tiden $t=t_{0}$ vertikalt upp\u00e5t med farten $u$. Luftmotst\u00e5ndet kan f\u00f6rsummas.\n\ni) Hur stor \u00e4r bollens medelhastighet, till storlek och riktning, fr\u00e5n tiden $t_{0}$ tills dess att bollen n\u00e5r sin h\u00f6gsta punkt?\n\nii) Hur stor \u00e4r bollens medelhastighet, till storlek och riktning, fr\u00e5n tiden $t_{0}$ tills dess att bollen kommer tillbaka till den h\u00f6jd den kastades fr\u00e5n?",
         "answer": "i) $\\mathrm{u} / 2$, upp\u00e5t\nii) 0",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "hastighet",
             "kinetisk energi"
         ]
@@ -1592,7 +1792,7 @@
         "question": "En boll kastas med utg\u00e5ngsfarten $v_{0}$ fr\u00e5n markh\u00f6jd. Marken lutar med en vinkel $\\alpha$ j\u00e4mf\u00f6rt med horisontalplanet. At vilket h\u00e5ll skall bollen kastas f\u00f6r att\n\ni) den skall vara s\u00e5 l\u00e4nge som m\u00f6jligt i luften?\n\nii) den skall landa s\u00e5 l\u00e5ngt som m\u00f6jligt fr\u00e5n utg\u00e5ngspunkten?\n\nLuftmotst\u00e5ndet kan f\u00f6rsummas.\n",
         "answer": "En kortfattad l\u00f6sning:\nL\u00e2t $x$ vara horisontell koordinat, som \u00f6kar ned\u00e1t $\\mathrm{i}$ backen, och $y$ vertikal koordinat, och l\u00e1t bollen starta fr\u00e5n origo. Backen beskrivs av $y=-x \\tan \\alpha$.\n\nOm bollen kastas med en vinkel $\\beta$ mot vertikalen (nedalt i backens riktning), har den utg\u00e5ngshastigheten $\\left(v_0 \\sin \\beta, v_0 \\cos \\beta\\right)$, och dess bana blir\n$$\n\\begin{aligned}\n& x(t)=v_0 t \\sin \\beta, \\\\\n& y(t)=v_0 t \\cos \\beta-\\frac{1}{2} g t^2 .\n\\end{aligned}\n$$\nVar och n\u00e4r bollen landar f\u00e5s genom att se efter n\u00e4r denna parabel sk\u00e4r linjen som beskriver backen (f\u00f6r $t>0$ ). Direkt ins\u00e4ttning ger vid handen att tiden f\u00f6r nedslaget \u00e4r\n$$\nt=\\frac{2 v_0}{g}(\\cos \\beta+\\tan \\alpha \\sin \\beta)\n$$\noch att $x$-koordinaten d\u00e5 \u00e4r\n$$\nx=\\frac{2 v_0^2}{g} \\sin \\beta(\\cos \\beta+\\tan \\alpha \\sin \\beta) .\n$$\nOm tiden i luften skall maximeras, f\u00e5s (efter derivering, och kontroll att det \u00e4r ett maximum) $-\\sin \\beta+\\tan \\alpha \\cos \\beta=0$, dvs. $\\tan \\beta=\\tan \\alpha$. Tiden i luften maximeras d\u00e5 $\\beta=\\alpha$, dvs. d\u00e2 bollen kastas vinkelr\u00e4tt mot marken.\nOm str\u00e4ckan skall maximeras f\u0103s\n$$\n\\begin{aligned}\n0 & =\\sin \\beta(-\\sin \\beta+\\tan \\alpha \\cos \\beta)+\\cos \\beta(\\cos \\beta+\\tan \\alpha \\sin \\beta) \\\\\n& =\\cos 2 \\beta+\\tan \\alpha \\sin 2 \\beta .\n\\end{aligned}\n$$\nStr\u00e4ckan maximeras d\u00e1 $\\cot 2 \\beta=-\\tan \\alpha$, dvs. d\u00e5 $\\beta=\\frac{\\pi}{4}+\\frac{\\alpha}{2}$. Detta \u00e4r riktningen mittemellan vertikalen och backens riktning (ned\u00e5t).\nKontroll: D\u1ea3 $\\alpha=0$ maximeras tiden d\u00e2 man kastar rakt upp, och str\u00e4ckan d\u1ea3 $\\beta=\\frac{\\pi}{4}$.",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "kinetisk energi",
             "vinkel"
         ]
@@ -1604,7 +1804,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -1613,7 +1813,7 @@
         "answer": "A",
         "keywords": [
             "mekanik",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -1631,7 +1831,7 @@
         "question": "Ett barn gungar p\u00e5 en gunga, och har en boll i handen. N\u00e4r gungan \u00e4r vid sin h\u00f6gsta punkt sl\u00e4pper barnet bollen (utan att kasta iv\u00e4g den). Vilket av alternativen A, B, C och D beskriver b\u00e4st bollens bana?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-2.jpg?height=371&width=622&top_left_y=951&top_left_x=500)\n\nA. A\nB. B\nC. C\nD. D",
         "answer": "D",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "gravitationskraft",
             "bana"
         ]
@@ -1680,8 +1880,8 @@
         "question": "En homogen cirkul\u00e4r cylindrisk kropp st\u00e5r p\u00e5 ett plant underlag. L\u00e5t $d$ beteckna det vertikala avst\u00e5ndet fr\u00e5n cylinderns toppyta till en t\u00e4nkt horisontell cirkelyta $S_{d}$ som sk\u00e4r kroppen. Hur beror trycket $p(d)$ p\u00e5 ytan $S_{d}$ av avst\u00e5ndet $d$ ? (Man f\u00e5r anta att den vertikala kraften f\u00f6rdelar sig j\u00e4mnt \u00f6ver ytan.)\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-4.jpg?height=277&width=343&top_left_y=895&top_left_x=959)\nA. $p(d)$ \u00e4r oberoende av $d$.\nB. $p(d)$ \u00e4r proportionellt $\\operatorname{mot} d$.\nC. $p(d)$ \u00e4r proportionellt mot $d^{2}$.\nD. $p(d)$ \u00e4r proportionellt $\\operatorname{mot} d^{3}$.",
         "answer": "B",
         "keywords": [
+            "termofysik",
             "tryck",
-            "avst\u00c3\u00a5nd",
             "cirkul\u00c3\u00a4r cylindrisk kropp"
         ]
     },
@@ -1720,7 +1920,7 @@
         "question": "Enligt den sida p\u00e5 wikipedia som beskriver partikelacceleratorn LHC (Large Hadron Collider) accelereras protoner till en energi av $7 \\mathrm{TeV} \\approx 1.12 \\mu \\mathrm{J}$. Det anges ocks\u00e5 att protonerna d\u00e5 har en fart p\u00e5 ungef\u00e4r 0.999999991c. P\u00e5 CERN:s egen websida har det \u00e5 andra sidan uppgivits att protonerna f\u00e5r en fart p\u00e5 $0.9999 c$. Vilken fart har en proton med en energi p\u00e5 7 TeV?\nA. $0.9 c$\nB. $0.9999 c$\nC. $0.999999991 c$\nD. $0.9999999999991 c$",
         "answer": "C",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "fysik",
             "hastighet"
         ]
@@ -1730,7 +1930,7 @@
         "question": "Ett cykelhjul rullar utan att glida, och cykeln har hastigheten $v$ som visas i figuren. Rita in hastigheterna relativt marken f\u00f6r punkterna $\\mathrm{A}, \\mathrm{B}$ och $\\mathrm{C}$ p\u00e5 hjulets periferi.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_29d140b644009df15827g-5.jpg?height=765&width=1016&top_left_y=1014&top_left_x=380)",
         "answer": "![](https://i.imgur.com/i1jNeXc.png)",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "hastighet",
             "kinetisk energi"
         ]
@@ -1751,7 +1951,7 @@
         "answer": "$\\sqrt{\\frac{h c}{G}}$",
         "keywords": [
             "massa-energiekvivalensen",
-            "relativitetsteorin",
+            "relativitetsteori",
             "Plancks konstant"
         ]
     },
@@ -1800,7 +2000,7 @@
         "question": "En kropp p\u00e5verkas av de tre krafter som visas i v\u00e4nstra figuren. Vilken kraft i den h\u00f6gra bilden beh\u00f6ver l\u00e4ggas till f\u00f6r att j\u00e4mvikt skall uppn\u00e5s?\n![](https://i.imgur.com/GnLmIdk.png)\nA. A\nB. B\nC. C\nD. D",
         "answer": "A",
         "keywords": [
-            "j\u00c3\u00a4mvikt",
+            "mekanik",
             "krafter",
             "kraftmoment"
         ]
@@ -1811,7 +2011,7 @@
         "answer": "C",
         "keywords": [
             "mekanik",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "tyngdpunkt"
         ]
     },
@@ -1842,7 +2042,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -1850,9 +2050,9 @@
         "question": "En d\u00f6rr \u00e4r f\u00f6rsedd med en st\u00e4ngningsanordning som dels ger ett \u00e5terf\u00f6rande vridmoment som \u00e4r proportionellt mot d\u00f6rrens \u00f6ppningsvinkel, dels ett bromsande vridmoment som \u00e4r proportionellt mot d\u00f6rrens vinkelhastighet. D\u00f6rrens sl\u00e4pps fr\u00e5n vila i ett \u00f6ppet l\u00e4ge. Vilka av graferna nedan kan beskriva d\u00f6rrens utslagsvinkel (vertikal axel) som funktion av tiden (horisontell axel)? (Flera alternativ kan vara m\u00f6jliga, dock minst ett.)\n\nA. ![](https://i.imgur.com/qShIQ0Q.png)\nB. ![](https://i.imgur.com/fGMXNox.png)\nC. ![](https://i.imgur.com/xEFi7jE.png)\nD. ![](https://i.imgur.com/gdWkFsJ.png)",
         "answer": "A,B,C",
         "keywords": [
-            "kraftmoment",
-            "j\u00c3\u00a4mvikt",
-            "hastighet"
+            "mekanik",
+            "jämvikt",
+            "kraftmoment"
         ]
     },
     {
@@ -1860,7 +2060,7 @@
         "question": "En cirkul\u00e4r skiva roterar motsols med en vinkelhastighet som \u00f6kar linj\u00e4rt med tiden, $\\omega=\\alpha t$. Vilken av bilderna kan illustrera accelerationen f\u00f6r tv\u00e5 punkter p\u00e5 skivan vid en viss tidpunkt?\n\nA.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-3.jpg?height=289&width=300&top_left_y=1920&top_left_x=341)\n\nB.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-3.jpg?height=285&width=283&top_left_y=1925&top_left_x=721)\n\nC.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-3.jpg?height=283&width=288&top_left_y=1926&top_left_x=1067)\n\nD.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-3.jpg?height=283&width=266&top_left_y=1926&top_left_x=1452)",
         "answer": "C",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "acceleration",
             "kinetisk energi"
         ]
@@ -1881,7 +2081,7 @@
         "answer": "B",
         "keywords": [
             "mekanik",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "krafter"
         ]
     },
@@ -1909,7 +2109,7 @@
         "question": "M\u00e5nga kometer med l\u00e5nga omloppstider, t.ex. kometen Hale-Bopp, som var synlig fr\u00e5n jorden 1995, h\u00e4rr\u00f6r fr\u00e5n det s.k. Oort-molnet, i solsystemets utkanter. L\u00e5t oss antaga att en komet \u00e4r ungef\u00e4rligen i vila d\u00e5 den befinner sig i Oort-molnet, 0.05 ljus\u00e5r fr\u00e5n solen. Vilken ungef\u00e4rlig fart har den d\u00e5 den \u00e4r n\u00e4ra jorden?\nA. c:a $0.4 \\mathrm{~km} / \\mathrm{s}$\nB. c:a $40 \\mathrm{~km} / \\mathrm{s}$\nC. c:a $4000 \\mathrm{~km} / \\mathrm{s}$\nD. Kan ej avg\u00f6ras",
         "answer": "B",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "hastighet",
             "avst\u00c3\u00a5nd"
         ]
@@ -1969,7 +2169,7 @@
         "question": "En rymdfarkost med vilol\u00e4ngden $100 \\mathrm{~m}$ f\u00e4rdas med farten $0.60 \\mathrm{c}$ genom ett h\u00e5l $\\mathrm{i}$ en asteroid. Asteroidens diameter, dvs. h\u00e5lets l\u00e4ngd, \u00e4r ocks\u00e5 $100 \\mathrm{~m}$. F\u00f6r en observat\u00f6r i vila p\u00e5 asteroiden, hur l\u00e5ngt in i asteroiden befinner sig rymdskeppets bakre \u00e4nde exakt samtidigt som den fr\u00e4mre \u00e4nden kommer ut p\u00e5 asteroidens andra sida?",
         "answer": "20m",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "l\u00c3\u00a4ngdkontraktion",
             "tidsdilatation"
         ]
@@ -1979,7 +2179,7 @@
         "question": "Grafen nedan visar hastigheten $v(x)$ som funktion av $x$-koordinaten f\u00f6r en partikel som r\u00f6r sig l\u00e4ngs en linje. Funktionen \u00e4r $v(x)=k / x$, d\u00e4r $k$ \u00e4r en konstant med v\u00e4rdet $k=0.25 \\mathrm{~m}^{2} / \\mathrm{s}$. Hur l\u00e5ng tid tar det f\u00f6r partikeln att komma fr\u00e5n $x=1.0 \\mathrm{~m}$ till $x=2.0 \\mathrm{~m}$ ? \n\n![](https://cdn.mathpix.com/cropped/2023_05_29_ad48ed6df308cc34f4d7g-7.jpg?height=574&width=919&top_left_y=433&top_left_x=363)",
         "answer": "6.0s",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "hastighet",
             "tid"
         ]
@@ -1991,7 +2191,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2001,7 +2201,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2011,7 +2211,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2019,8 +2219,8 @@
         "question": "I ett experiment skall ett arbete uppm\u00e4tas. Man har avgjort att de enda viktiga storheterna som m\u00f6jligen kan p\u00e5verka resultatet \u00e4r ett vridande moment $M$, en tid $T$ och en vinkel $v$. Om experimentet upprepas med samma $M$ och $T$, men dubbelt s\u00e5 stort v\u00e4rde p\u00e5 $v$, hur stort blir det uppm\u00e4tta arbete j\u00e4mf\u00f6rt med det i det ursprungliga experimentet?\nA. H\u00e4lften s\u00e5 stort.\nB. Lika stort.\nC. Dubbelt s\u00e5 stort\nD. Kan ej avg\u00f6ras utan ytterligare information.",
         "answer": "D",
         "keywords": [
+            "mekanik",
             "kraftmoment",
-            "tid",
             "vinkel"
         ]
     },
@@ -2029,8 +2229,8 @@
         "question": "I ett experiment skall ett arbete uppm\u00e4tas. Man har avgjort att de enda viktiga storheterna som m\u00f6jligen kan p\u00e5verka resultatet \u00e4r ett vridande moment $M$, en tid $T$ och en vinkel $v$. Om experimentet upprepas med samma $T$ och $v$, men dubbelt s\u00e5 stort v\u00e4rde p\u00e5 $M$, hur stort blir det uppm\u00e4tta arbete j\u00e4mf\u00f6rt med det i det ursprungliga experimentet?\nA. H\u00e4lften s\u00e5 stort.\nB. Lika stort.\nC. Dubbelt s\u00e5 stort\nD. Kan ej avg\u00f6ras utan ytterligare information.",
         "answer": "C",
         "keywords": [
-            "kraftmoment",
-            "j\u00c3\u00a4mvikt",
+            "mekanik",
+            "jämvikt",
             "arbete"
         ]
     },
@@ -2081,7 +2281,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2108,7 +2308,7 @@
         "question": "Jupiters avst\u00e5nd till solen \u00e4r drygt fem g\u00e5nger s\u00e5 stort som jordens. Hur l\u00e5ng \u00e4r Jupiters omloppstid runt solen (ett \"Jupiter\u00e5r\")?\nA. c:a 0.2 \u00e5r\nB. c:a 5 \u00e5r\nC. c:a 12 \u00e5r\nD. Kan ej avg\u00f6ras utan ytterligare information ",
         "answer": "C",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "omloppstid",
             "solen"
         ]
@@ -2128,7 +2328,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2137,7 +2337,7 @@
         "answer": "$74 \\mathrm{kN}$ resp. $88 \\mathrm{kN}$. (\u00e4ven $75 \\mathrm{kN}$ och $90 \\mathrm{kN}$, eller $750 \\mathrm{~N}$ och $900 \\mathrm{~N}$ accepteras.)",
         "keywords": [
             "krafter",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "mekanik"
         ]
     },
@@ -2146,8 +2346,8 @@
         "question": "En person st\u00e5r vid kanten av en sj\u00f6, med \u00f6gonen p\u00e5 2.0 meters h\u00f6jd \u00f6ver vattenytan, och tittar ned i sj\u00f6n. P\u00e5 bottnen, som vi f\u00f6r enkelhets skull t\u00e4nker oss som helt plan p\u00e5 2.0 meters djup, ser hon en kr\u00e4fta, n\u00e4r hon tittar ned med en vinkel $45^{\\circ}$. Kr\u00e4ftans skenbara horisontella avst\u00e5nd fr\u00e5n personen \u00e4r d\u00e5 uppenbarligen $4.0 \\mathrm{~m}$, dvs. detta \u00e4r det horisontella avst\u00e5ndet till den punkt d\u00e4r f\u00f6rl\u00e4ngningen av den ljusstr\u00e5le som n\u00e5r personens \u00f6gon sk\u00e4r bottnen. Hur l\u00e5ngt \u00e4r det verkliga horisontella avst\u00e5ndet mellan personen och kr\u00e4ftan? Observera att den verkliga str\u00e5lg\u00e5ngen inte \u00e4r utritad, och att det \u00e4r kr\u00e4ftans skenbara l\u00e4ge, inte dess verkliga som \u00e4r markerat i figuren. (Vattnets brytningsindex \u00e4r c:a 4/3. Svar som avviker med h\u00f6gst 2 dm fr\u00e5n det korrekta svaret accepteras.)\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_5c6c5b9ed71651531df4g-6.jpg?height=528&width=1062&top_left_y=884&top_left_x=311)",
         "answer": "$3  m$",
         "keywords": [
+            "optik",
             "ljusbrytning",
-            "avst\u00c3\u00a5nd",
             "vinkel"
         ]
     },
@@ -2158,7 +2358,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2198,7 +2398,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2207,7 +2407,7 @@
         "answer": "A",
         "keywords": [
             "mass-energiekvivalensen",
-            "relativitetsteorin",
+            "relativitetsteori",
             "Plancks konstant"
         ]
     },
@@ -2276,7 +2476,7 @@
         "question": "Ang\u00e5ende \"tvillingparadoxen\" i speciell relativitetsteori. Ena halvan av ett tvillingpar f\u00f6retar en l\u00e5ng rymdresa i h\u00f6g hastighet, som f\u00f6r henne till en fj\u00e4rran planet och tillbaka, medan hennes syster stannar p\u00e5 jorden. Hur f\u00f6rh\u00e5ller sig de tv\u00e5 tvillingarnas \u00e5ldrar d\u00e5 de \u00e5terf\u00f6renas?\n\nA. Den rymdresande tvillingen \u00e4r \u00e4ldre \u00e4n den som stannat hemma.\n\nB. Den rymdresande tvillingen \u00e4r yngre \u00e4n den som stannat hemma.\n\nC. De \u00e4r lika gamla.\n\nD. Mer information kr\u00e4vs f\u00f6r att svara p\u00e5 fr\u00e5gan.",
         "answer": "B",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "tvillingparadoxen",
             "\u00c3\u00a5ldersskillnad"
         ]
@@ -2297,7 +2497,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2326,7 +2526,7 @@
         "answer": "$\\quad F_2<F_1<F_3$",
         "keywords": [
             "krafter",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "rep"
         ]
     },
@@ -2366,7 +2566,7 @@
         "question": "(H\u00e4mtat fr\u00e5n studentskrivning 2008 i Finland.) Det europeiska satellitbaserade positionssystemet Galileos f\u00f6rsta provsatellit (massa $600 \\mathrm{~kg}$ ) kretsar kring jorden i en cirkelbana, vars radie \u00e4r $23200 \\mathrm{~km}$. Hur stor \u00e4r satellitens fart? (Svaret kan anges med en signifikant siffra.)",
         "answer": "$4 \\mathrm{~km} / \\mathrm{s}$",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "centripetalkraft",
             "hastighet"
         ]
@@ -2386,7 +2586,7 @@
         "question": "En boll kastas med utg\u00e5ngsfarten $20 \\mathrm{~m} / \\mathrm{s}$ fr\u00e5n markniv\u00e5n. Utg\u00e5ngshastigheten bildar vinkeln $60^{\\circ}$ med horisontalen. Om bollen kastas i en uppf\u00f6rsbacke, s\u00e5 att markniv\u00e5n i den riktning bollen kastas bildar vinkeln $30^{\\circ}$ med horisontalen, hur l\u00e5ngt bort landar bollen, m\u00e4tt l\u00e4ngs marken? Luftmotst\u00e5ndet kan f\u00f6rsummas.\n",
         "answer": "F\u00f6rloppet kan \u00e5sk\u00e5deligg\u00f6ras som i figuren:\n\nimg\n\nVinklarna $\\alpha$ och $\\beta$ \u00e4r enligt uppgiftstexten $\\pi / 6$ resp. $\\pi / 3$. Det kan vara f\u00f6rdelaktigt att inte s\u00e4tta in v\u00e4rdena f\u00f6rr\u00e4n i slutresultatet; det ger m\u00f6jlighet att kontrollera rimlighet i beroendet av dem (detta kr\u00e4vs inte f\u00f6r full po\u00e4ng). Den s\u00f6kta storheten \u00e4r $s$, l\u00e4ngden av den del av linjen som ligger mellan origo och dess sk\u00e4rningspunkt med parabeln.\nEkvationen f\u00f6r marken (linjen) \u00e4r\n$$\ny=x \\tan \\alpha\n$$\nMan kan ocks\u00e5 beskriva str\u00e4ckan l\u00e4ngs marken (n\u00e4r bollen landat) som $s=\\frac{x}{\\cos \\alpha}$. Bollens r\u00f6relse beskrivs av\n$$\n\\begin{aligned}\n& x=v_0 t \\cos \\beta, \\\\\n& y=v_0 t \\sin \\beta-\\frac{1}{2} g t^2 .\n\\end{aligned}\n$$\nD\u00e5 bollen landar g\u00e4ller b\u00e5de ekvationen f\u00f6r marken och f\u00f6r bollens bana, och man f\u00e5r:\n$$\nv_0 t \\sin \\beta-\\frac{1}{2} g t^2=v_0 t \\tan \\alpha \\cos \\beta\n$$\nL\u00f6sningarna till denna kvadratiska ekvation \u00e4r\n$$\n\\begin{aligned}\nt_0 & =0, \\\\\nt_1 & =\\frac{2 v_0}{g} \\cos \\beta(\\tan \\beta-\\tan \\alpha) .\n\\end{aligned}\n$$\nDen f\u00f6rsta l\u00f6sningen svarar mot utg\u00e5ngsl\u00e4get. Den andra ger\n$$\nx_1=x\\left(t_1\\right)=\\frac{2 v_0^2}{g} \\cos ^2 \\beta(\\tan \\beta-\\tan \\alpha) .\n$$",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "kinetisk energi",
             "kastr\u00c3\u00b6relse"
         ]
@@ -2397,7 +2597,7 @@
         "answer": "E",
         "keywords": [
             "mekanik",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "krafter"
         ]
     },
@@ -2526,7 +2726,7 @@
         "question": "En boll kastas fr\u00e5n markniv\u00e5 med en hastighet som bildar vinkeln $45^{\\circ}$ med vertikalen, och landar en str\u00e4cka $L$ fr\u00e5n utg\u00e5ngspunkten. Marken \u00e4r helt horisontell, och luftmotst\u00e5ndet \u00e4r f\u00f6rsumbart litet. Hur stor var bollens utg\u00e5ngsfart?",
         "answer": "$\\sqrt{g L}$",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "hastighet",
             "kast",
             "vinkel"
@@ -2547,7 +2747,7 @@
         "question": "Man skall utf\u00f6ra ett fysikaliskt experiment, precis vilket l\u00e5ter vi vara osagt, men det \u00e4r en fart som i slut\u00e4ndan skall m\u00e4tas. Det bed\u00f6ms att de enda relevanta storheterna som kan p\u00e5verka m\u00e4tresultatet \u00e4r massan hos en kropp, $m$, storleken av en kraft, $F_{0}$, och l\u00e4ngden av ett tidsintervall, $\\tau$. Ange, under dessa f\u00f6ruts\u00e4ttningar, m\u00e4tresultatet uttryckt i de relevanta storheterna, s\u00e5n\u00e4r som p\u00e5 en dimensionsl\u00f6s multiplikativ faktor.",
         "answer": "$F_0 \\tau / m$",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "tid",
             "kraft"
         ]
@@ -2578,9 +2778,9 @@
         "question": "En ljusstr\u00e5le r\u00f6r sig i ett medium (plexiglas) med brytningsindex 1.5 och n\u00e5r gr\u00e4nsytan mot luft. Skissera de reflekterade och transmitterade str\u00e5larna f\u00f6r de olika infallsvinklarna i figuren! \n\nimg",
         "answer": "![](https://i.imgur.com/iNoWGU0.png)",
         "keywords": [
-            "ljusbrytning",
+            "optik",
             "reflektion",
-            "optik"
+            "ljusbrytning"
         ]
     },
     {
@@ -2590,7 +2790,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2600,7 +2800,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2640,7 +2840,7 @@
         "question": "En boll A sl\u00e4pps fr\u00e5n vila fr\u00e5n en h\u00f6jd $2.0 \\mathrm{~m}$ \u00f6ver golvet. Samtidigt som bollen A sl\u00e4pps skjuts en annan boll B iv\u00e4g med utg\u00e5ngsfarten $v_{0}$ fr\u00e5n det l\u00e4ge som visas i figuren. Vilken vinkel $\\alpha$ skall utg\u00e5ngshastigheten f\u00f6r boll $\\mathrm{B}$ bilda mot golvet f\u00f6r att boll $\\mathrm{A}$ och boll $\\mathrm{B}$ skall kollidera? Luftmotst\u00e5ndet \u00e4r f\u00f6rsumbart i sammanhanget.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-2.jpg?height=505&width=596&top_left_y=1501&top_left_x=1027)\nA. $60^{\\circ}$\nB. $45^{\\circ}$\nC. $30^{\\circ}$\nD. Det beror p\u00e5 hur stor $v_{0}$ \u00e4r.",
         "answer": "B",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "kollision",
             "vinkel"
         ]
@@ -2672,7 +2872,7 @@
         "keywords": [
             "mekanik",
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -2721,7 +2921,7 @@
         "question": "P\u00e5 forskningsanl\u00e4ggningen CERN utanf\u00f6r Gen\u00e8ve skall senare i \u00e5r den nya partikelacceleratorn LHC (Large Hadron Collider) startas. Bilden nedan \u00e4r ett klipp fr\u00e5n CERN:s websida. I andra stycket (\"The fastest racetrack in the world...\") anges till vilken fart protonerna accelereras, och vilken deras energi d\u00e5 \u00e4r. Siffran $7 \\mathrm{TeV}$ \u00e4r r\u00e4tt (den anger energin per proton). St\u00e4mmer uppgiften om farten, $v \\approx 0.9999 c$ (med detta antal signifikanta siffror)?\n![](https://i.imgur.com/qneeb6Y.png)\nA. Nej, farten \u00e4r l\u00e4gre \u00e4n $0.9999 c$.\nB. Ja.\nC. Nej, farten \u00e4r h\u00f6gre \u00e4n $0.9999 c$. ",
         "answer": "C",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "hastighet",
             "c"
         ]
@@ -2731,6 +2931,7 @@
         "question": "En pendel, best\u00e5ende av en kula som h\u00e4nger i ett l\u00e4tt sn\u00f6re, sv\u00e4nger fram och tillbaka under p\u00e5verkan av tyngdkraften (luftmotst\u00e5ndet kan f\u00f6rsummas). Rita ut de krafter som verkar p\u00e5 kulan i l\u00e4gena A och B, d\u00e4r kulan i A \u00e4r p\u00e5 v\u00e4g \u00e5t h\u00f6ger, och B \u00e4r kulans h\u00f6gra v\u00e4ndl\u00e4ge. F\u00f6rh\u00e5llandena mellan krafternas belopp beh\u00f6ver inte framg\u00e5.\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_73cb7aa1ff59b3dd8222g-6.jpg?height=482&width=305&top_left_y=730&top_left_x=904)",
         "answer": "![](https://i.imgur.com/nmP5H5T.png)",
         "keywords": [
+            "mekanik",
             "tyngdkraft",
             "sp\u00c3\u00a4nning"
         ]
@@ -2801,7 +3002,7 @@
         "answer": "B",
         "keywords": [
             "krafter",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "friktionskraft"
         ]
     },
@@ -2810,9 +3011,9 @@
         "question": "En d\u00f6rrst\u00e4ngare ut\u00f6var ett moment $M=20 \\mathrm{Nm}$ med avseende p\u00e5 en axel genom d\u00f6rrens g\u00e5ngj\u00e4rn. Bilden visar d\u00f6rren sedd uppifr\u00e5n. Hur stor beh\u00f6ver kraften $F$ vara f\u00f6r att h\u00e5lla d\u00f6rren stilla?\n![](https://i.imgur.com/g0r457A.png)\nA. $24 \\mathrm{~N}$\nB. $28 \\mathrm{~N}$\nC. $33 \\mathrm{~N}$\nD. $47 \\mathrm{~N}$",
         "answer": "D",
         "keywords": [
-            "kraftmoment",
-            "j\u00c3\u00a4mvikt",
-            "krafter"
+            "mekanik",
+            "jämvikt",
+            "kraftmoment"
         ]
     },
     {
@@ -2830,7 +3031,7 @@
         "question": "Ett barn gungar p\u00e5 en gunga, och har en boll i handen. N\u00e4r gungan \u00e4r vid sin h\u00f6gsta punkt sl\u00e4pper barnet bollen (utan att kasta iv\u00e4g den). Vilket av alternativen A, B, C, D och E beskriver b\u00e4st bollens bana?\n\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-2.jpg?height=377&width=622&top_left_y=1830&top_left_x=500)\nA. A\nB. B\nC. C\nD. D\nE. E",
         "answer": "D",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "gravitationskraft",
             "bana"
         ]
@@ -2840,7 +3041,7 @@
         "question": "Tv\u00e5 klot skjuts upp samtidigt fr\u00e5n jordytan med samma fart, det ena (klot X) med vinkeln $40^{\\circ}$ mot vertikalen, det andra (klot Y) med vinkeln $60^{\\circ}$. Vilket klot som landar f\u00f6rst (dvs. efter kortast tid)? Vilket klot landar l\u00e4ngst fr\u00e5n utskjutningspunkten? Luftmotst\u00e5ndet \u00e4r \n\nf\u00f6rsumbart. Vilket av f\u00f6ljande p\u00e5st\u00e5enden \u00e4r korrekt?\nA. Klot X landar f\u00f6rst och n\u00e5r l\u00e4ngst.\nB. Klot Y landar f\u00f6rst och n\u00e5r l\u00e4ngst.\nC. Klot X landar f\u00f6rst, klot Y n\u00e5r l\u00e4ngst.\nD. Klot Y landar f\u00f6rst, klot X n\u00e5r l\u00e4ngst.",
         "answer": "D",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "kinetisk energi",
             "vinkel"
         ]
@@ -2878,7 +3079,7 @@
         "question": "I Svenska Dagbladet kunde man den 22 mars i \u00e5r l\u00e4sa nedanst\u00e5ende notis. Om bumerangen skulle kastas, inte inne i rymdstationen, utan ute i rymden, vad skulle d\u00e5 h\u00e4nda?\nA. Den skulle fara iv\u00e4g och sedan \u00e5terv\u00e4nda till utg\u00e5ngspunkten.\nB. Den skulle fara iv\u00e4g i en rak linje.\nC. Den skulle sv\u00e4nga, fast mindre \u00e4n inne i rymdstationen.\nD. Den skulle inte r\u00f6ra sig alls. \n\nimg",
         "answer": "B",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "kastr\u00c3\u00b6relse",
             "rymdstation"
         ]
@@ -2917,7 +3118,7 @@
         "question": "Myoner (partiklar med liknande egenskaper som elektroner fast tyngre, massan \u00e4r $m \\approx 105.7$ $\\mathrm{MeV} / \\mathrm{c}^{2}$ ) bildas n\u00e4r kosmisk str\u00e5lning tr\u00e4ffar den \u00f6vre atmosf\u00e4ren. Antag att myonerna bildas p\u00e5 h\u00f6jden $15 \\mathrm{~km}$. Halveringstiden f\u00f6r myoner \u00e4r $T_{1 / 2} \\approx 2.2 \\mu \\mathrm{s}$. Hur h\u00f6g energi skall en myon minst ha f\u00f6r att den skall hinna vertikalt ned till jordytan p\u00e5 tiden $T_{1 / 2}$ ?\nA. $0.11 \\mathrm{GeV}$\nB. $0.21 \\mathrm{GeV}$\nC. $2.4 \\mathrm{GeV}$\nD. Den kan inte hinna ned.",
         "answer": "C",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "halveringstid",
             "energi"
         ]
@@ -2937,8 +3138,8 @@
         "question": "Ett r\u00f6r, vars \u00f6vre \u00e4nde \u00e4r f\u00f6rsluten, h\u00e5lls delvis neds\u00e4nkt i vatten, s\u00e5 att vattenytan inne $\\mathrm{i}$ r\u00f6ret \u00e4r i samma niv\u00e5 som utanf\u00f6r, enligt den v\u00e4nstra figuren. R\u00f6ret lyfts sedan till l\u00e4get i den h\u00f6gra figuren. Hur stort \u00e4r d\u00e5 lufttrycket inne i r\u00f6ret? (L\u00e4ngder f\u00f6rutom de angivna \u00e4r inte n\u00f6dv\u00e4ndigtvis i skala, och kan inte l\u00e4sas av ur figurerna. Temperaturen hos den inst\u00e4ngda luften kan \u00e4ndras under processen.)\n![](https://cdn.mathpix.com/cropped/2023_05_29_c332a4d86114f7bb5ac8g-7.jpg?height=832&width=1324&top_left_y=1400&top_left_x=364)",
         "answer": "$92 \\mathrm{kPa}$",
         "keywords": [
+            "termofysik",
             "tryck",
-            "vatten",
             "luft"
         ]
     },
@@ -2947,7 +3148,7 @@
         "question": "En kropp med massan $m$ faller i atmosf\u00e4ren under inverkan av tyngdkraften, och p\u00e5verkas ocks\u00e5 av en luftmotst\u00e5ndskraft. Antag att luftmotst\u00e5ndskraften \u00e4r proportionell mot farten $v$ i kvadrat, enligt uttrycket $\\left|F_{\\text {luft }}\\right|=\\frac{1}{2} C \\varrho A v^{2}$, d\u00e4r $A$ \u00e4r kroppens tv\u00e4rsnittsarea, $\\varrho$ \u00e4r luftens densitet och $C$ \u00e4r en dimensionl\u00f6s formfaktor som beror p\u00e5 kroppens geometri (detta brukar vara en bra approximation f\u00f6r relativt stora hastigheter). N\u00e4r kroppen faller kommer den gradvis att n\u00e4rma sig gr\u00e4nshastigheten $v_{\\text {limit }}=\\sqrt{\\frac{2 m g}{C \\varrho A}}$. Med hj\u00e4lp av de ing\u00e5ende parametrarna kan man bilda en str\u00e4cka (som t.ex. kan tolkas som den l\u00e4ngdskala p\u00e5 vilken hastigheten n\u00e4rmar sig gr\u00e4nshastigheten exponentiellt). Hur stor \u00e4r denna str\u00e4cka? Den exakta numeriska konstanten som multiplicerar kombinationen av parametrar efterfr\u00e5gas ej.",
         "answer": "$m /(C \\varrho A)$ (\u00e4ven $m /(\\varrho A)$ godk\u00e4nns)",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "luftmotst\u00c3\u00a5nd",
             "gr\u00c3\u00a4nshastighet"
         ]
@@ -2957,7 +3158,7 @@
         "question": "En person cyklar $1000 \\mathrm{~m}$ med hastigheten $15.0 \\mathrm{~km} / \\mathrm{h}$, och sedan $1000 \\mathrm{~m}$ med hastigheten 30.0 $\\mathrm{km} / \\mathrm{h}$. Hur stor blir medelhastigheten?",
         "answer": "$0 \\mathrm{~km} / \\mathrm{h}$",
         "keywords": [
-            "r\u00c3\u00b6relsem\u00c3\u00a4ngd",
+            "rörelsemängd",
             "hastighet",
             "medelhastighet"
         ]
@@ -2998,7 +3199,7 @@
         "answer": "B",
         "keywords": [
             "krafter",
-            "j\u00c3\u00a4mvikt"
+            "jämvikt"
         ]
     },
     {
@@ -3007,7 +3208,7 @@
         "answer": "D",
         "keywords": [
             "mekanik",
-            "j\u00c3\u00a4mvikt",
+            "jämvikt",
             "krafter"
         ]
     },
@@ -3115,7 +3316,7 @@
         "question": "Samtidigt som du \u00e4ter din morgonsm\u00f6rg\u00e5s sitter en varelse i Andromedagalaxen och g\u00f6r detsamma. Vi kallar de tv\u00e5 frukostarna f\u00f6r h\u00e4ndelse X (p\u00e5 jorden) och h\u00e4ndelse Y (i Andromedagalaxen). Med \"samtidigt\" menas samtidigt i ditt referenssystem. Om vi ist\u00e4llet beskriver de tv\u00e5 h\u00e4ndelserna i ett annat referenssystem, det som h\u00f6r till en rymdfarare som med mycket h\u00f6g hastighet \u00e4r p\u00e5 v\u00e4g fr\u00e5n Andromedagalaxen mot jorden, vilket av f\u00f6ljande p\u00e5st\u00e5enden \u00e4r korrekt?\n\nA. H\u00e4ndelse X och h\u00e4ndelse Y \u00e4r samtidiga\n\nB. H\u00e4ndelse $X$ \u00e4ger rum f\u00f6re h\u00e4ndelse $Y$\n\nC. H\u00e4ndelse Y \u00e4ger rum f\u00f6re h\u00e4ndelse $\\mathrm{X}$\n\nD. Fr\u00e5gan \u00e4r inte v\u00e4ldefinierad, eftersom man inte kan definiera samtidighet f\u00f6r h\u00e4ndelser som inte intr\u00e4ffar p\u00e5 samma plats i rummet.",
         "answer": "B",
         "keywords": [
-            "relativitetsteorin",
+            "relativitetsteori",
             "samtidighet",
             "referenssystem"
         ]

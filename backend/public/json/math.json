@@ -1,5 +1,314 @@
 [
     {
+        "questionNum": "2024-1",
+        "question": "Talen $a$ och $b$ är reella. Givet att $x=(a+b \\sqrt{3})^{3}-(a-b \\sqrt{3})^{3}$, så gäller att $x$ är lika med\n(a) $2 a b(3 a+b)$;\n(b) $6 b \\sqrt{3}\\left(a^{2}+b^{2}\\right)$\n(c) $2 b\\left(3 a^{2}+b^{2}\\right)$;\n(d) inget av (a)-(c).\n\n",
+        "answer": "b",
+        "keywords": [
+            "binomiska uttryck",
+            "komplexa tal",
+            "polynom"
+        ]
+    },
+    {
+        "questionNum": "2024-2",
+        "question": "Om $a$ och $b$ är reella tal så är villkoret \"minst ett av talen a och $b$ är skilt från 0 \" ekvivalent med\n(a) $a b \\neq 0 ;$\n(b) $a^{2}+b^{2} \\neq 0$\n(c) $\\frac{a}{b}+\\frac{b}{a} \\neq 0$;\n(d) inget av (a)-(c).\n\n",
+        "answer": "b",
+        "keywords": [
+            "mängdteori",
+            "olikheter",
+            "logiska uttryck"
+        ]
+    },
+    {
+        "questionNum": "2024-3",
+        "question": "Om $x$ är ett reellt tal och $\\sqrt{x^{2}+2 x+1}-\\sqrt{x^{2}-2 x+1}=-2$, så gäller\n(a) $x \\geq 1$;\n(b) $-1 \\leq x \\leq 1$\n(c) $x \\leq-1$;\n(d) inget av (a)-(c).\n\n",
+        "answer": "c",
+        "keywords": [
+            "reella ötter",
+            "olikheter"
+        ]
+    },
+    {
+        "questionNum": "2024-4",
+        "question": "Olikheten $\\left(\\frac{1}{2}\\right)^{x}<4$ är ekvivalent med olikheten\n(a) $x<0$;\n(b) $x<2$;\n(c) $x<-2$;\n(d) inget av (a)-(c).\n\n",
+        "answer": "d",
+        "keywords": [
+            "olikheter",
+            "exponentialfunktioner",
+            "logaritmer"
+        ]
+    },
+    {
+        "questionNum": "2024-5",
+        "question": "Alla lösningar till olikheten $\\frac{x}{2 x-1} \\geq \\frac{1}{x}$ ges av\n(a) alla negativa $x$ samt alla $x \\geq 1$;\n(b) alla reella $x$;\n(c) alla negativa $x$ samt alla $x>\\frac{1}{2}$;\n(d) inget av (a)-(c).\n\n",
+        "answer": "c",
+        "keywords": [
+            "olikheter",
+            "rationella uttryck",
+            "algebraiska omskrivningar"
+        ]
+    },
+    {
+        "questionNum": "2024-6",
+        "question": "Om $x \\boxplus y=|x|-|| x+y|-| y||$ för alla reella tal $x$ och $y$, så gäller för alla reella $x$ och $y$ att\n(a) $x \\boxplus y=y \\boxplus x ;$\n(b) $(2 x) \\boxplus(-x)=2 x$;\n(c) $x \\boxplus y \\geq 0$;\n(d) inget av (a)-(c) gäller generellt.\n\n",
+        "answer": "c",
+        "keywords": [
+            "absolutbelopp",
+            "algebraiska strukturer",
+            "olikheter"
+        ]
+    },
+    {
+        "questionNum": "2024-7",
+        "question": "Antalet heltalslösningar till olikheten $b x+17-2 x^{2}>0$, där $b$ är ett reellt tal, är\n(a) 0 ;\n(b) ändligt, skilt från 0 ;\n(c) oändligt;\n(d) kan ej avgöras.\n\n",
+        "answer": "b",
+        "keywords": [
+            "olikheter",
+            "polynom",
+            "antalsbestämning"
+        ]
+    },
+    {
+        "questionNum": "2024-8",
+        "question": "Givet är ekvationen $a z^{2}+b z+c=0$, där $a b c \\neq 0$. Två av de tre koefficienterna $a, b, c$ är reella och en är icke-reell. Då kan man dra slutsatsen att ekvationen inte är ekvivalent med någon ekvation $A z^{2}+B z+C=0$, där\n\n(a) alla tre koefficienterna är reella;\n\n(b) alla tre koefficienterna är icke-reella;\n\n(c) en koefficient är reell och två av koefficienterna är icke-reella;\n\n(d) inget av (a)-(c), den kan vara ekvivalent med ekvationer av alla tre typerna.\n\n",
+        "answer": "a",
+        "keywords": [
+            "polynom",
+            "komplexa tal",
+            "algebraisk ekvivalens"
+        ]
+    },
+    {
+        "questionNum": "2024-9",
+        "question": "Givet är ekvationen $a z^{2}+b z+c=0$, där $a b c \\neq 0$. Två av de tre koefficienterna $a, b, c$ är reella och en är icke-reell. Då kan man dra slutsatsen att\n\n(a) en av ekvationens lösningar är reell och den andra icke-reell;\n\n(b) minst en av ekvationens lösningar är icke-reell;\n\n(c) minst en av ekvationens lösningar är reell;\n\n(d) inget av (a)-(c).\n\n",
+        "answer": "b",
+        "keywords": [
+            "polynom",
+            "komplexa tal",
+            "lösningsstruktur"
+        ]
+    },
+    {
+        "questionNum": "2024-10",
+        "question": "Priset för en förpackning av en viss produkt har ökat med $10 \\%$, medan innehållets vikt har minskat med $10 \\%$. Kilopriset för produkten har då ökat med\n(a) mindre än $20 \\%$;\n(b) exakt $20 \\%$;\n(c) mer än $20 \\%$;\n(d) det går inte att avgöra.\n\n",
+        "answer": "c",
+        "keywords": [
+            "ekonomi",
+            "procent",
+            "proportioner"
+        ]
+    },
+    {
+        "questionNum": "2024-11",
+        "question": "Antalet reella lösningar till ekvationen $9 e^{2 x}+a e^{x}-1=0$ för $a>0$ är\n(a) 1 ;\n(b) 2 ;\n(c) kan ej avgöras;\n(d) inget av $(a)-(c)$.\n\n",
+        "answer": "a",
+        "keywords": [
+            "potenser",
+            "polynom",
+            "lösningsantal"
+        ]
+    },
+    {
+        "questionNum": "2024-12",
+        "question": "För alla positiva reella tal $x$ och $y$ gäller att\n(a) $\\ln x+\\ln y=\\ln x \\cdot \\ln y$;\n(b) $\\ln x+\\ln y=\\ln (x+y)$;\n(c) $\\ln x+\\ln y=\\ln (x y)$;\n(d) inget av (a)-(c) gäller generellt.\n\n",
+        "answer": "c",
+        "keywords": [
+            "logaritmer",
+            "logaritmiska lagar",
+            "multiplikationsteori"
+        ]
+    },
+    {
+        "questionNum": "2024-13",
+        "question": "För alla positiva reella tal $x$ och $p$ gäller att\n(a) $p \\ln x=\\ln x^{p}$\n(b) $p \\ln x=(\\ln x)^{p}$;\n(c) $p \\ln x=\\ln \\left(x+e^{p}\\right)$\n(d) inget av (a)-(c) gäller generellt.\n\n",
+        "answer": "a",
+        "keywords": [
+            "logaritmer",
+            "potenser",
+            "logaritmiska identiteter"
+        ]
+    },
+    {
+        "questionNum": "2024-14",
+        "question": "Om $\\sin \\alpha>0$ och $\\tan \\alpha=p$, så gäller att $\\cos \\alpha$ är lika med\n(a) $\\frac{p}{\\sqrt{1+p^{2}}}$\n(b) $\\frac{|p|}{\\sqrt{1+p^{2}}}$\n(c) $\\frac{1}{\\sqrt{1+p^{2}}}$\n(d) inget av (a)-(c) gäller generellt.\n\n",
+        "answer": "d",
+        "keywords": [
+            "trigonometri",
+            "sinus och cosinus",
+            "olikheter"
+        ]
+    },
+    {
+        "questionNum": "2024-15",
+        "question": "Om $\\cos \\alpha>0$ och $\\tan \\alpha=p$, så gäller att $\\sin \\alpha$ är lika med\n(a) $\\frac{p}{\\sqrt{1+p^{2}}}$\n(b) $\\frac{|p|}{\\sqrt{1+p^{2}}}$\n(c) $\\frac{1}{\\sqrt{1+p^{2}}}$\n(d) inget av (a)-(c) gäller generellt.\n\n",
+        "answer": "a",
+        "keywords": [
+            "trigonometri",
+            "sinus och cosinus",
+            "geometriska relationer"
+        ]
+    },
+    {
+        "questionNum": "2024-16",
+        "question": "Om $\\alpha \\in[0,2 \\pi]$, så gäller\n(a) $\\sin \\frac{\\alpha}{2}=\\sqrt{\\frac{1+\\cos \\alpha}{2}}$;\n(b) $\\sin \\frac{\\alpha}{2}=\\sqrt{\\frac{1-\\cos \\alpha}{2}}$;\n(c) $\\sin \\frac{\\alpha}{2}=\\sqrt{\\frac{1-\\sin \\alpha}{2}}$;\n(d) ingen av formlerna gäller generellt.\n\n",
+        "answer": "b",
+        "keywords": [
+            "trigonometri",
+            "halvvinkelsatsen",
+            "trigonometriska funktioner"
+        ]
+    },
+    {
+        "questionNum": "2024-17",
+        "question": "Ekvationen $x^{2}+b x+c=0$, där koefficienterna $b$ och $c$ är reella tal, har lösningarna $x_{1,2}=\\frac{-b \\pm \\sqrt{23}}{2}$. Man kan då dra slutsatsen att\n(a) både $b$ och $c$ är heltal;\n(b) minst ett av talen $b$ och $c$ inte är ett heltal;\n(c) varken $b$ eller $c$ är heltal;\n(d) inget av (a)-(c).\n\n",
+        "answer": "b",
+        "keywords": [
+            "polynom",
+            "diskriminant",
+            "algebraiska lösningar"
+        ]
+    },
+    {
+        "questionNum": "2024-18",
+        "question": "En triangel har sidlängderna $\\sqrt{11}, \\sqrt{39}, \\sqrt{92}$ längdenheter. Den minsta vinkeln i triangeln är då\n(a) $30^{\\circ}$;\n(b) skild från $30^{\\circ}$;\n(c) det går inte att avgöra;\n(d) det finns ingen sådan triangel.\n\n",
+        "answer": "d",
+        "keywords": [
+            "geometri",
+            "olikheter",
+            "triangels olikhet"
+        ]
+    },
+    {
+        "questionNum": "2024-19",
+        "question": "En triangel har sidlängderna $\\sqrt{13}, \\sqrt{41}, \\sqrt{52}$ längdenheter. Den minsta vinkeln $\\mathrm{i}$ triangeln är då\n(a) $30^{\\circ}$;\n(b) skild från $30^{\\circ}$;\n(c) det går inte att avgöra;\n(d) det finns ingen sådan triangel.\n\n",
+        "answer": "b",
+        "keywords": [
+            "geometri",
+            "triangelolikheter",
+            "minsta vinkel"
+        ]
+    },
+    {
+        "questionNum": "2024-20",
+        "question": "Givet är en tetraeder $A B C D$, sådan att $|A B|=|A C|=|A D|=\\sqrt{2}$ längdenheter, och de tre plana vinklarna vid hörnet $A$ är räta. Tetraederns höjd från hörnet $A$ mot sidan $B C D$ har i samma längdenheter längden\n(a) $\\frac{\\sqrt{6}}{2}$;\n(b) annat tal;\n(c) det går inte att avgöra;\n(d) det finns ingen sådan tetraeder.\n\n",
+        "answer": "b",
+        "keywords": [
+            "geometri",
+            "tetraeder",
+            "rumslig geometri"
+        ]
+    },
+    {
+        "questionNum": "2024-21",
+        "question": "Beräkna\n\n $$\\frac{\\frac{4}{7}-\\frac{3}{2}}{\\frac{2}{5}+\\frac{1}{4}}$$ \n\nAnge svaret på formen $\\frac{p}{q}$, där $p, q$ är heltal och bråket $\\frac{p}{q}$ är maximalt förkortat.\n\n",
+        "answer": "$-\\frac{10}{7}$",
+        "keywords": [
+            "aritmetik",
+            "bråkräkning",
+            "förenkling"
+        ]
+    },
+    {
+        "questionNum": "2024-22",
+        "question": "Bestäm alla reella tal $a$, för vilka ekvationen $x^{2}-2 a x+\\left(a^{2}+2\\right)=0$ har två icke-reella lösningar som befinner sig på avstånd 5 från talet 0 . Ange det minsta talet $a$ med den egenskapen.\n\n",
+        "answer": "$-\\sqrt{2} 3$",
+        "keywords": [
+            "polynom",
+            "icke-reella lösningar",
+            "diskriminantanalys"
+        ]
+    },
+    {
+        "questionNum": "2024-23",
+        "question": "Givet funktionen $f(x)=\\ln \\frac{1-x^{2}}{1+x^{2}}$, beräkna $f^{\\prime}(x)$ och ange $f^{\\prime}\\left(-\\frac{1}{2}\\right)$.\n\n",
+        "answer": "$\\frac{32}{15}$",
+        "keywords": [
+            "derivator",
+            "logaritmiska funktioner",
+            "funktionsanalys"
+        ]
+    },
+    {
+        "questionNum": "2024-24",
+        "question": "Beräkna $\\int_{0}^{2}\\left(e^{-2 x}-\\frac{2}{3-x}+\\cos \\frac{x}{3}\\right) d x$.\n\n",
+        "answer": "$-\\frac{1}{2} e^{-4}+\\frac{1}{2}-2 \\ln 3+3 \\sin \\frac{2}{3}$;",
+        "keywords": [
+            "integraler",
+            "exponentialfunktioner",
+            "trigonometri"
+        ]
+    },
+    {
+        "questionNum": "2024-25",
+        "question": "En geometrisk talföljd har kvoten $q$. Bestäm de värden $q$ kan ha givet att det andra elementet i följden är 1 och summan av de fyra första elementen i följden är 4. Ange summan av dessa värden.\n\n",
+        "answer": "$-1$;",
+        "keywords": [
+            "geometrisk talföljd",
+            "serier",
+            "algebraisk summa"
+        ]
+    },
+    {
+        "questionNum": "2024-26",
+        "question": "Lös ekvationen\n\n $$\\frac{1+\\tan ^{2} x}{1-\\tan ^{2} x}=4 \\sin 2 x$$ \n\nAnge summan av de två minsta positiva lösningarna.\n\n",
+        "answer": "$\\frac{\\pi}{4}$",
+        "keywords": [
+            "trigonometri",
+            "olikheter",
+            "trigonometriska ekvationer"
+        ]
+    },
+    {
+        "questionNum": "2024-27",
+        "question": "Lös olikheten\n\n$$(2 x-3)^{3}(x+7)^{7}(x+5)^{4}<0$$\n\nAnge summan av olikhetens heltalslösningar.\n\n",
+        "answer": "-15;",
+        "keywords": [
+            "olikheter",
+            "polynom",
+            "algebraiska faktorer"
+        ]
+    },
+    {
+        "questionNum": "2024-28",
+        "question": "I triangeln $A B C$ gäller att $|A B|=7$ l.e., $|A C|=|B C|=6$ l.e. Beräkna och ange längden av höjden från hörnet $A$ mot sidan $B C$.\n\n",
+        "answer": "$\\frac{7 \\sqrt{95}}{12}$ l.e.;",
+        "keywords": [
+            "geometri",
+            "höjd i triangel",
+            "pythagoras sats"
+        ]
+    },
+    {
+        "questionNum": "2024-29",
+        "question": "Två cirklar tangerar den räta linjen $t$ och ligger på samma sida om den. Den ena cirkeln har medelpunkt $O_{1}$ och radie $R$, den andra har medelpunkt $O_{2}$ och radie $r$, där $r<R$. Avståndet mellan de två medelpunkterna är $\\left|O_{1} O_{2}\\right|=d>R+r$. Linjen $t$ skär linjen som binder samman cirklarnas medelpunkter i punkten $P$. Beräkna och ange avståndet $\\left|P O_{2}\\right|$. (Alla längder och avstånd mäts i samma längdenhet.)\n\n",
+        "answer": "$\\frac{r d}{R-r}$ l.e.;",
+        "keywords": [
+            "geometri",
+            "cirkelgeometri",
+            "linjära avstånd"
+        ]
+    },
+    {
+        "questionNum": "2024-30",
+        "question": "Romben $A B C D$ har sidlängd $a$ (längdenheter). Summan av dess diagonallängder är $|A C|+|B D|=2 d$ (längdenheter). Beräkna och ange rombens area.\n\n",
+        "answer": "$d^2-a^2$ a.e..",
+        "keywords": [
+            "geometri",
+            "romb",
+            "area beräkning"
+        ]
+    },
+    {
+        "questionNum": "2024-C",
+        "question": "Ge fullständig lösning till uppgiften nedan. (max 5p)\n\nLös olikheten\n\n$$\\sqrt{4 x-3-x^{2}}-\\sqrt{7 x-10-x^{2}} \\geq 1$$\n",
+        "answer": "Vi börjar med att bestämma definitionsmängden för vänsterledet. Det krävs att uttrycken under båda rottecknen är icke-negativa. Vi behöver lösa olikheterna $4 x-3-x^2 \\geq 0$ samt $7 x-10-x^2 \\geq 0$. Vi har$$4 x-3-x^2=-(x-1)(x-3) \\geq 0, \\text { vilket är ekvivalent med } 1 \\leq x \\leq 3,$$och$$7 x-10-x^2=-(x-2)(x-5) \\geq 0, \\text { vilket är ekvivalent med } 2 \\leq x \\leq 5 .$$Definitionsmängden för vänsterledet är alltså mängden av alla $x$ som uppfyller $2 \\leq x \\leq 3$.För att efter kvadrering få en olikhet ekvivalent med den vi har behöver vi säkerställa att båda leden har samma tecken. Vi flyttar därför först över den andra roten till högerledet$$\\sqrt{4 x-3-x^2} \\geq 1+\\sqrt{7 x-10-x^2}(\\geq 0),$$och kvadrerar därefter$$4 x-3-x^2 \\geq 1+7 x-10-x^2+2 \\sqrt{7 x-10-x^2} .$$Den olikheten är ekvivalent med den givna. Vi flyttar över till vänsterledet alla termer utom den som innehåller ett rottecken och får$$6-3 x \\geq 2 \\sqrt{7 x-10-x^2} .$$Efersom det nya högerledet är icke-negativt måste eventuella lösningar uppfylla $6-3 x \\geq 0$, det vill säga $x \\leq 2$. Eftersom lösningarna dessutom måste tillhöra definitionsmängden får vi att det enda tal som kan komma ifråga som lösning är $x=2$. Vi kontrollerar om det är en lösning genom att sätta in $x=2 \\mathrm{i}$ den ursprungliga olikheten$$\\sqrt{8-3-4}-\\sqrt{14-10-4}=\\sqrt{1}-\\sqrt{0}=1,$$det vill säga $x=2$ är en lösning.Den givna olikheten har alltså en enda lösning och den är $x=2$.",
+        "keywords": [
+            "olikheter",
+            "rötter",
+            "intervallanalys"
+        ]
+    },
+    {
         "questionNum": "2023-1",
         "question": "Talen $a$ och $b$ \u00e4r reella och s\u00e5dana att $|a| \\neq|b|$ och $a^{2}+b^{2}>0$. Givet att $x=\\frac{\\left(a^{2}+b^{2}\\right)\\left(a^{16}-b^{16}\\right)}{\\left(a^{2}-b^{2}\\right)\\left(a^{4}+b^{4}\\right)}$, s\u00e5 g\u00e4ller att $x$ \u00e4r lika med\n(a) $a^{4}+b^{4}$\n(b) $\\left(a^{2}+b^{2}\\right)^{2}\\left(a^{8}+b^{8}\\right)$\n(c) $\\left(a^{2}+b^{2}\\right)^{2}$\n(d) inget av (a)-(c)\n\n",
         "answer": "b",
@@ -15,7 +324,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -25,7 +334,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "trigonometri"
         ]
     },
@@ -104,7 +413,7 @@
         "question": "F\u00f6r alla positiva reella tal $x, y$ g\u00e4ller att\n(a) $\\ln x \\cdot \\ln y=\\ln x+\\ln y$\n(b) $\\ln (x+y)=\\ln x+\\ln y$\n(c) $\\ln (x+y)=\\ln x \\cdot \\ln y$\n(d) inget av (a)-(c) g\u00e4ller generellt. \n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner"
+            "logaritmer"
         ]
     },
     {
@@ -112,7 +421,7 @@
         "question": "F\u00f6r alla positiva reella tal $x$ och $p$ g\u00e4ller att\n(a) $(\\ln x)^{p}=p \\ln x$\n(b) $\\ln p x=p \\ln x$\n(c) $\\ln p x=(\\ln x)^{p}$\n(d) inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "potenser",
             "derivator"
         ]
@@ -153,8 +462,8 @@
         "question": "En geometrisk summa \u00e4r lika med 215. Den f\u00f6rsta termen \u00e4r 5 och den sista \u00e4r 320. Antalet termer i summan \u00e4r\n(a) 5 \n(b) 7\n(c) annat tal\n(d) en s\u00e5dan geometrisk summa finns inte.\n\n",
         "answer": "b",
         "keywords": [
-            "talf\u00c3\u00b6ljder",
-            "geometrisk talf\u00c3\u00b6ljd",
+            "geometrisk talföljd",
+            "talföljder",
             "geometrisk summa"
         ]
     },
@@ -173,7 +482,7 @@
         "question": "Triangeln $A B C$ har sidl\u00e4ngder som uppfyller $|A B|^{2}>|B C|^{2}+|C A|^{2}$. D\u00e5 g\u00e4ller att\n(a) vinkeln vid h\u00f6rnet $C$ \u00e4r spetsig\n(b) vinkeln vid h\u00f6rnet $C$ \u00e4r trubbig\n(c) det g\u00e5r inte att avg\u00f6ra\n(d) det finns ingen s\u00e5dan triangel.\n\n",
         "answer": "b",
         "keywords": [
-            "randvinklar",
+            "geometri",
             "Pythagoras sats",
             "triangelsatserna"
         ]
@@ -183,8 +492,8 @@
         "question": "Triangeln $A B C$ har sidl\u00e4ngder som uppfyller $|A B|>|B C|+|C A|$. D\u00e5 g\u00e4ller att\n(a) vinkeln vid h\u00f6rnet $C$ \u00e4r spetsig\n(b) vinkeln vid h\u00f6rnet $C$ \u00e4r trubbig\n(c) det g\u00e5r inte att avg\u00f6ra\n(d) det finns ingen s\u00e5dan triangel.\n\n",
         "answer": "d",
         "keywords": [
+            "geometri",
             "trekant",
-            "sidl\u00c3\u00a4ngder",
             "vinklar"
         ]
     },
@@ -222,7 +531,7 @@
         "answer": "$-\\frac{1}{6}$",
         "keywords": [
             "funktioner",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "derivator"
         ]
     },
@@ -249,7 +558,7 @@
         "question": "Best\u00e4m alla reella tal, f\u00f6r vilka funktionen\n$$f(x)=\\ln \\left(\\frac{1}{x}-\\frac{1}{x-4}\\right)$$\n\u00e4r definierad. Ange det st\u00f6rsta heltalet i funktionens definitionsm\u00e4ngd.\n\n",
         "answer": "3",
         "keywords": [
-            "Logaritmfunktioner",
+            "Logaritmer",
             "definitionssamband",
             "reella tal"
         ]
@@ -260,7 +569,7 @@
         "answer": "$\\left(\\log _2 3\\right)^2$",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "exponentiella funktioner"
         ]
     },
@@ -270,7 +579,7 @@
         "answer": "9",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -310,7 +619,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -320,7 +629,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -330,7 +639,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "triangelsatserna"
         ]
     },
@@ -408,7 +717,7 @@
         "question": "Summan $S=1+\\frac{1}{2}+\\frac{1}{4}+\\cdots+\\frac{1}{2^{2022}}$ \u00e4r lika med\n(a) $2\\left(2^{2022}-1\\right)$\n(b) $\\frac{2^{2022}-1}{2}$\n(c) $\\frac{2^{2022}-1}{2^{2021}}$\n(d) inget av (a)-(c)\n\n",
         "answer": "d",
         "keywords": [
-            "geometrisk talf\u00c3\u00b6ljd",
+            "geometrisk talföljd",
             "geometrisk summa"
         ]
     },
@@ -418,7 +727,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -427,7 +736,7 @@
         "question": "F\u00f6r alla positiva reella tal $x, y$ g\u00e4ller att\n(a) $\\ln (x+y)=\\ln x+\\ln y$\n(b) $\\ln x y=\\ln x \\cdot \\ln y$\n(c) $\\ln (x+y)=\\ln x \\cdot \\ln y$\n(d) inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "multiplikationsregeln",
             "additiv regel"
         ]
@@ -488,7 +797,7 @@
         "question": "Tv\u00e5 av h\u00f6jderna $\\mathrm{i}$ en triangel sk\u00e4r inte varandra och den spetsiga vinkeln mellan deras f\u00f6rl\u00e4ngningar \u00e4r $45^{\\circ}$. D\u00e5 g\u00e4ller att\n(a) en av triangelns vinklar \u00e4r $45^{\\circ}$\n(b) en av triangelns vinklar \u00e4r 135\u00b0\n(c) det g\u00e5r inte att avg\u00f6ra\n(d) det finns ingen s\u00e5dan triangel.\n\n",
         "answer": "c",
         "keywords": [
-            "h\u00c3\u00b6jder",
+            "geometri",
             "vinklar",
             "triangel"
         ]
@@ -498,7 +807,6 @@
         "question": "De fyra punkterna $A, B, C$ och $D$ \u00e4r olika och ligger i rummet s\u00e5 att trianglarna $A B C, B C D, C A D$ och $A B D$ alla \u00e4r liksidiga (det vill s\u00e4ga $A B C D$ \u00e4r en regelbunden tetraeder). Vinkeln mellan de tv\u00e5 planen som trianglarna $A B C$ och $A B D$ ligger i \u00e4r\n(a) mindre \u00e4n $60^{\\circ}$\n(b) lika med $60^{\\circ}$\n(c) st\u00f6rre \u00e4n $60^{\\circ}$\n(d) det g\u00e5r inte att avg\u00f6ra. \n\n",
         "answer": "c",
         "keywords": [
-            "trekantsgeometri",
             "geometri",
             "vinklar"
         ]
@@ -546,7 +854,7 @@
         "question": "Best\u00e4m och ange det minsta heltalet, f\u00f6r vilket funktionen\n$$f(x)=\\log _{x}\\left(2^{x}-1\\right)$$\n\u00e4r definierad.\n\n",
         "answer": "2",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "definitionssamband",
             "exponentiering"
         ]
@@ -556,7 +864,7 @@
         "question": "L\u00f6s ekvationen\n$$\\ln \\left(e^{x}+1\\right)-\\ln \\left(e^{x}-1\\right)=x .$$\nAnge summan av ekvationens l\u00f6sningar.\n\n",
         "answer": "$\\ln (1+\\sqrt{2})$",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "ekvationer",
             "l\u00c3\u00b6sningar"
         ]
@@ -576,7 +884,7 @@
         "question": "Best\u00e4m och ange den minsta vinkeln $\\mathrm{i}$ en triangel som har sidl\u00e4ngder $1, \\sqrt{3}$ och 2 (l\u00e4ngdenheter).\n\n",
         "answer": "$30^{\\circ}$",
         "keywords": [
-            "triangelsatserna",
+            "geometri",
             "randvinklar",
             "pythagoras sats"
         ]
@@ -586,8 +894,8 @@
         "question": "Fyrh\u00f6rningen $A B C D$ \u00e4r ett parallelltrapets, d\u00e4r $A B \\| C D$. Diagonalerna $A C$ och $B D$ sk\u00e4r varandra i punkten $O$. Om $|A B|=10,|C D|=5$ och $|B D|=8$ l\u00e4ngdenheter, ber\u00e4kna och ange l\u00e4ngden av str\u00e4ckan $D O$.\n\n",
         "answer": "$\\frac{8}{3}$ l.e",
         "keywords": [
+            "geometri",
             "parallelltrapets",
-            "diagonal",
             "l\u00c3\u00a4ngd"
         ]
     },
@@ -607,7 +915,7 @@
         "answer": "Kvadratroten ur ett tal $a$ \u00e4r per definition det icke-negativa tal vars kvadrat \u00e4r lika med $a$. Ur definitionen f\u00f6ljer att $a \\geq 0$ och $\\sqrt{a} \\geq 0$.F\u00f6r att de tre kvadratr\u00f6ttern a som f\u00f6rekommer ska vara definierade kr\u00e4vs att $x-1 \\geq 0, x+1 \\geq 0, x \\geq 0$. F\u00f6r at ingen av n \u00e4mnarna ska vara lika med noll kr\u00e4vs att $x \\neq 1, x \\neq-1, x \\neq 0$. Definitionsm\u00e4ngden best\u0103r allts\u0103 av all a $x$ sad an a att $x>1$.Eftersom $0<\\sqrt{x-1}<\\sqrt{x+1}$ har vi att $\\frac{1}{\\sqrt{x-1}}-\\frac{1}{\\sqrt{x+1}}>0$ f\u00f6r alla $x$ i definitionsm\u00e4ngden. H\u00f6gerledet \u00e4r ocksa positivt f\u00f6r all a till \u0103tna $x$. Det betyder att vi kan kvadrera och vara s\u00e4kra paa att vi efter kvadrering f\u00e4r en olikhet ekvivalent med den givna. Kvadrering ger olikheten$$\\left(\\frac{1}{\\sqrt{x-1}}-\\frac{1}{\\sqrt{x+1}}\\right)^2=\\left(\\frac{\\sqrt{x+1}-\\sqrt{x-1}}{\\sqrt{x^2-1}}\\right)^2=\\frac{2 x-2 \\sqrt{x^2-1}}{x^2-1}>\\frac{2}{x} .$$Eftersom $x^2-1>0$ och $x>0$ kan vi f\u00f6rl\u00e4nga med bad a n \u00e4mn arn a och be$\\mathrm{h}$ \u00e5lla olikhetstecknet, vilket (efter f\u00f6rkortning med $2>0$ ) ger den ekvivalenta olikheten$$x\\left(x-\\sqrt{x^2-1}\\right)>x^2-1 .$$Enkel omskrivning leder till$$1>x \\sqrt{x^2-1} .$$Aterigen \u00e4r b\u1ea3da leden positiva, sa att kvadrering leder till den ekvivalenta olikheten$$x^4-x^2-1<0 .$$S\u00e4tt $t=x^2$. Andragradsfunktionen $f(t)=t^2-t-1$ antar negativa v\u00e4rden mellan sina nollst\u00e4llen, som \u00e4r $\\frac{1 \\pm \\sqrt{5}}{2}$. Eftersom $t=x^2>1$ kommer olikheten att g\u00e4lla f\u00f6r$$1<x^2<\\frac{1+\\sqrt{5}}{2}$$och eftersom $x>1$ f\u00e4r vi att den givna olikheten \u00e4r $\\mathrm{san} \\mathrm{n}$ om och endast om$$1<x<\\sqrt{\\frac{1+\\sqrt{5}}{2}}$$",
         "keywords": [
             "olikheter",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadrerar",
             "gemensam n\u00c3\u00a4mnare"
         ]
@@ -618,7 +926,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "rationella uttryck"
         ]
     },
@@ -668,7 +976,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -707,8 +1015,8 @@
         "question": "En kund k\u00f6per en vara med $15 \\%$ rabatt. Det visar sig att priset reducerats med 60 kronor. Kunden f\u00e5r d\u00e5 betala\n(a) $340 \\mathrm{kr}$\n(b) $400 \\mathrm{kr}$\n(c) $460 \\mathrm{kr}$\n(d) inget av (a)-(c)\n\n",
         "answer": "a",
         "keywords": [
+            "ekonomi",
             "rabatt",
-            "prisreduktion",
             "betalning"
         ]
     },
@@ -736,7 +1044,7 @@
         "answer": "b",
         "keywords": [
             "exponentialfunktion",
-            "logaritmfunktioner",
+            "logaritmer",
             "produktomvandlingar",
             "summaomvandlingar"
         ]
@@ -746,7 +1054,7 @@
         "question": "F\u00f6r alla $x, y>0$ g\u00e4ller att\n(a) $\\ln x \\cdot \\ln y=\\ln (x+y)$\n(b) $\\ln (x y)=\\ln x \\cdot \\ln y$\n(c) $\\ln (x+y)-\\ln x=\\ln y$\n(d) inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "ekvationer",
             "trigonometriska funktioner"
         ]
@@ -785,7 +1093,7 @@
         "question": "Polynomet $P(x)=x^{173}-5 x^{157}+\\cdots+4 x+12=0$ har koefficienter som \u00e4r heltal. Talet $a$ kan inte vara l\u00f6sning till ekvationen $P(x)=0$, oavsett koefficienterna som inte syns, f\u00f6r\n(a) $a=2$\n(b) $a=-3$\n(c) $a=5$\n(d) inget av (a)-(c)\n\n",
         "answer": "c",
         "keywords": [
-            "Polynomekvationer"
+            "ekvationer"
         ]
     },
     {
@@ -793,7 +1101,7 @@
         "question": "Den minsta vinkeln i en triangel \u00e4r $60^{\\circ}$. D\u00e5 g\u00e4ller att\n(a) triangeln \u00e4r r\u00e4tvinklig\n(b) triangeln \u00e4r likbent\n(c) det g\u00e5r inte att avg\u00f6ra\n(d) det finns ingen s\u00e5dan triangel.\n\n",
         "answer": "b",
         "keywords": [
-            "triangelsatserna",
+            "geometri",
             "randvinklar",
             "likformighet"
         ]
@@ -853,7 +1161,7 @@
         "question": "Best\u00e4m och ange det st\u00f6rsta heltalet, f\u00f6r vilket funktionen\n$$f(x)=\\ln \\left(\\frac{2}{3}-3^{x}\\right)$$\n\u00e4r definierad.\n\n",
         "answer": "$-1$",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "exponentiation",
             "definitionsm\u00c3\u00a4ngd"
         ]
@@ -913,7 +1221,7 @@
         "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan.(max $5 \\mathrm{p}).\\space$\n\nL\u00f6s ekvationen\n$$\\sqrt{x+\\sqrt{x^{2}-1}}=2-\\sqrt{x}$$",
         "answer": "Kvadratroten ur ett tal $a$ \u00e4r per definition det icke-negativa tal vars kvadrat \u00e4r lika med $a$. Ur definitionen f\u00f6ljer att $a \\geq 0$ och $\\sqrt{a} \\geq 0$.Den givna ekvationens h\u00f6gerled \u00e4r allts \u00e5 definierat f\u00f6r$$x \\geq 0$$F\u00f6r att v\u00e4nsterledet ska vara definierat kr\u00e4vs att$$x^2-1 \\geq 0 \\quad \\text { och } \\quad x+\\sqrt{x^2-1} \\geq 0 .$$I och med att $\\sqrt{x^2-1} \\geq 0$ kommer b\u00e5da leden att vara definierade f\u00f6r alla $x$ som uppfyller $x^2-1 \\geq 0 \\Leftrightarrow|x| \\geq 1$, och $x \\geq 0$, det vill s\u00e4ga definitionsm\u00e4ngden best\u00e5r av alla $x$ som uppfyller$$x \\geq 1$$F\u00f6r $x \\geq 1$ g\u00e4ller att $\\sqrt{x} \\geq 1$, s\u00e5 att$$2-\\sqrt{x} \\leq 1$$med likhet om och endast om $x=1$. Samtidigt har vi att f\u00f6r $x \\geq 1$ g\u00e4ller $x+\\sqrt{x^2-1} \\geq x \\geq 1$, s\u00e5 att$$\\sqrt{x+\\sqrt{x^2-1}} \\geq 1$$\u00e4ven $h$ \u00e4r med likhet om och endast om $x=1$. Uttrycken i v\u00e4nsterledet och $\\mathrm{i}$ h\u00f6gerledet kan allts\u00e5 endast vara lika med varandra om b\u00e5da \u00e4r lika med 1 , vilket intr\u00e4ffar exakt d\u00e5 $x=1$.",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "potenser",
             "ekvationer"
         ]
@@ -924,7 +1232,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "rationella uttryck"
         ]
     },
@@ -944,7 +1252,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -1013,7 +1321,7 @@
         "question": "Antalet (reella) heltalsl\u00f6sningar till olikheten $\\sqrt{x^{2}-1}<\\sqrt{3}$ \u00e4r\n(a) 0 \n(b) 2 \n(c) 4\n(d) inget av (a)-(c)\n\n",
         "answer": "b",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "olikheter",
             "kvadratkomplettering"
         ]
@@ -1023,7 +1331,7 @@
         "question": "Antalet (reella) heltalsl\u00f6sningar till olikheten $\\sqrt{x^{2}-1}<x-1$ \u00e4r\n(a) 0 \n(b) 2 \n(c) 4\n(d) inget av (a)-(c)\n\n",
         "answer": "a",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "olikheter",
             "heltalsl\u00c3\u00b6sningar"
         ]
@@ -1033,7 +1341,7 @@
         "question": "F\u00f6r alla positiva reella tal $x, y$ g\u00e4ller att\n(a) $\\frac{1}{\\sqrt{x+y}}<\\frac{1}{\\sqrt{x}+\\sqrt{y}}$\n(b) $\\frac{1}{\\sqrt{x+y}}=\\frac{1}{\\sqrt{x}+\\sqrt{y}}$\n(c) $\\frac{1}{\\sqrt{x+y}}>\\frac{1}{\\sqrt{x}+\\sqrt{y}}$\n(d) inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "c",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "olikheter",
             "triangelsatserna"
         ]
@@ -1043,7 +1351,7 @@
         "question": "F\u00f6r alla $x, y>0$ g\u00e4ller att\n(a) $\\ln x+\\ln y=\\ln (x+y)$\n(b) $\\ln \\left(x^{y}\\right)=\\ln y \\cdot \\ln x$\n(c) $\\ln (x y)-\\ln x=\\ln y$\n(d) inget av (a)-(c) g\u00e4ller generellt. \n\n",
         "answer": "c",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "logaritmlagar",
             "potenser"
         ]
@@ -1053,7 +1361,7 @@
         "question": "F\u00f6r alla $b>0$ och $a>0, a \\neq 1$, g\u00e4ller att\n(a) $\\ln b=\\frac{\\log _{a} b}{\\log _{a} e}$\n(b) $\\ln b=\\frac{\\log _{a} e}{\\log _{a} b}$\n(c) $\\ln b=\\log _{a} b \\cdot \\log _{a} e$\n(d) inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "a",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "naturliga logaritmen",
             "basbyte"
         ]
@@ -1161,7 +1469,7 @@
         "question": "L\u00f6s ekvationen\n$$\\ln (x+1)-\\ln (x-1)=\\ln x$$\nAnge ekvationens minsta l\u00f6sning.\n\n",
         "answer": "$1+\\sqrt{2}$",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "ekvationer",
             "l\u00c3\u00b6sning"
         ]
@@ -1182,7 +1490,7 @@
         "answer": "0",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -1211,8 +1519,8 @@
         "question": "Triangeln $A B C$ \u00e4r likbent, med $A C=B C$. Vinkeln vid h\u00f6rnet $C$ \u00e4r $30^{\\circ}$. Triangelns area \u00e4r $S$ areaenheter. Ber\u00e4kna och ange triangelns omkrets, uttryckt i termer av $S$. \n\n",
         "answer": "$2 \\sqrt{S}(2+\\sqrt{2-\\sqrt{3}})$ (l.e.).",
         "keywords": [
+            "geometri",
             "trekant",
-            "likbent",
             "area"
         ]
     },
@@ -1242,7 +1550,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "komplexa tal"
         ]
     },
@@ -1252,7 +1560,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "trigonometri"
         ]
     },
@@ -1281,7 +1589,7 @@
         "question": "Om $x \\boxplus y=\\ln \\left(x^{2}+1\\right)+\\ln \\left(y^{4}+1\\right)$ f\u00f6r alla reella tal $x$ och $y$, s\u00e5 g\u00e4ller f\u00f6r alla reella $x$ och $y$ att\n(a) $x \\boxplus y=y \\boxplus x$\n(b) $x \\boxplus y \\geq \\ln 2$\n(c) $x \\boxplus y>0$\n(d) inget av (a)-(c) g\u00e4ller f\u00f6r alla reella tal $x$ och $y$.\n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "summaomvandlingar",
             "olikheter"
         ]
@@ -1291,6 +1599,7 @@
         "question": "Tv\u00e5 av ett r\u00e4tblocks kantl\u00e4ngder \u00f6kar med $10 \\%$ vardera, medan den tredje kantl\u00e4ngden minskar med 20\\%. R\u00e4tblockets volym har d\u00e5\n(a) \u00f6kat\n(b) f\u00f6rblivit of\u00f6r\u00e4ndrad\n(c) minskat\n(d) kan ej avg\u00f6ras.\n\n",
         "answer": "c",
         "keywords": [
+            "geometri",
             "volym",
             "r\u00c3\u00a4tblock"
         ]
@@ -1331,7 +1640,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "formeln f\u00c3\u00b6r halva vinkeln"
         ]
     },
@@ -1340,7 +1649,7 @@
         "question": "F\u00f6r alla $x, y>0$ g\u00e4ller att\n(a) $\\ln x \\cdot \\ln y=\\ln (x+y)$\n(b) $\\ln x-\\ln y=\\frac{\\ln x}{\\ln y}$\n(c) $\\ln (x y)=\\ln x \\cdot \\ln y$\n(d) inget av (a)-(c) g\u00e4ller generellt. \n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner"
+            "logaritmer"
         ]
     },
     {
@@ -1370,7 +1679,7 @@
         "keywords": [
             "Polynom",
             "kvadratkomplettering",
-            "r\u00c3\u00b6tter"
+            "rötter"
         ]
     },
     {
@@ -1399,7 +1708,7 @@
         "answer": "b",
         "keywords": [
             "Trigonometri",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "rationella uttryck"
         ]
     },
@@ -1449,7 +1758,7 @@
         "answer": "$ \\frac{3}{16}$",
         "keywords": [
             "derivator",
-            "logaritmfunktioner",
+            "logaritmer",
             "p-q formeln"
         ]
     },
@@ -1479,7 +1788,7 @@
         "answer": "1 ",
         "keywords": [
             "absolutbelopp",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "olikheter"
         ]
     },
@@ -1508,9 +1817,9 @@
         "question": "Fyrh\u00f6rningen $A B C D$ \u00e4r s\u00e5dan att sidan $A B$ \u00e4r parallell med sidan $C D$. Punkterna $M$ och $N$ \u00e4r mittpunkter p\u00e5 sidorna $A D$ och $B C$, respektive. Givet att $|A B|=a,|C D|=b$ (l\u00e4ngdenheter), d\u00e4r $a>b$, best\u00e4m och ange l\u00e4ngden av str\u00e4ckan $M N$.\n\n",
         "answer": "$\\frac{a+b}{2}$ (l.e.)",
         "keywords": [
-            "parallell",
+            "geometri",
             "mittpunkter",
-            "l\u00c3\u00a4ngd"
+            "parallell"
         ]
     },
     {
@@ -1518,9 +1827,9 @@
         "question": "Cirklarna $k_{1}$ och $k_{2}$, med radier $R$ och $r$, tangerar varandra. Linjen $l$ tangerar cirklarna i punkterna $T_{1}$ och $T_{2}$, respektive, d\u00e4r $T_{1} \\neq T_{2}$. Best\u00e4m och ange l\u00e4ngden av str\u00e4ckan $T_{1} T_{2}$ (alla l\u00e4ngder anges i samma l\u00e4ngdenhet). \n\nC.Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan.(max 5p). \n\nGivet att $a \\geq 0$, finn alla reella l\u00f6sningar till ekvationen\n$$x^{2}+|x-a|-|x+a|=0 .$$",
         "answer": "$2 \\sqrt{R r}$ (l.e.).",
         "keywords": [
+            "trigonometri",
             "cirkeltangenter",
-            "radier",
-            "l\u00c3\u00a4ngd"
+            "radier"
         ]
     },
     {
@@ -1539,7 +1848,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -1549,7 +1858,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "addition",
             "subtraktion"
         ]
@@ -1560,7 +1869,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -1619,7 +1928,7 @@
         "question": "En geometrisk summa \u00e4r lika med 192. Dess tv\u00e5 f\u00f6rsta termer \u00e4r 3 och -6 . Antalet termer i summan \u00e4r\n(a) 6\n(b) 7 \n(c) annat tal\n(d) en s\u00e5dan geometrisk summa finns inte.\n\n",
         "answer": "d",
         "keywords": [
-            "geometrisk talf\u00c3\u00b6ljd",
+            "geometrisk talföljd",
             "talf\u00c3\u00b6ljder",
             "summaomvandlingar"
         ]
@@ -1649,7 +1958,7 @@
         "question": "F\u00f6r alla $x, y>0$ g\u00e4ller att\n(a) $\\ln x+\\ln y=\\ln (x+y)$\n(b) $\\ln x+\\ln y=\\ln (x y)$\n(c) $\\ln (x+y)=\\ln x \\cdot \\ln y$\n(d) inget av (a)-(c) g\u00e4ller generellt. \n\n",
         "answer": "b",
         "keywords": [
-            "logaritmfunktioner"
+            "logaritmer"
         ]
     },
     {
@@ -1677,7 +1986,7 @@
         "question": "Om $\\alpha, \\beta, \\gamma$ \u00e4r vinklarna i en triangel och $\\alpha>\\frac{\\beta+\\gamma}{2}$, s\u00e5 f\u00f6ljer att\n(a) $\\alpha$ \u00e4r trubbig\n(b) $\\alpha$ \u00e4r den st\u00f6rsta vinkeln i triangeln\n(c) $\\alpha>60^{\\circ}$\n(d) inget av (a)-(c)\n\n",
         "answer": "c",
         "keywords": [
-            "triangelsatserna",
+            "geometri",
             "randvinklar",
             "trigonometri"
         ]
@@ -1688,7 +1997,7 @@
         "answer": "a",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "rationella uttryck"
         ]
     },
@@ -1698,7 +2007,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "komplexa tal"
         ]
     },
@@ -1707,7 +2016,7 @@
         "question": "Anna och Gun ber\u00e4knar volymen av en cylinder. Annas svar \u00e4r $\\ln (\\sqrt{2}+1)$, medan Gun f\u00e5r svaret $\\ln (\\sqrt{2}-1)$. D\u00e5 g\u00e4ller\n\n(a) Det kan vara s\u00e5 att b\u00e5da har r\u00e4tt svar.\n\n(b) Det \u00e4r helt s\u00e4kert s\u00e5 att Anna har fel svar.\n\n(c) Det \u00e4r helt s\u00e4kert s\u00e5 att Gun har fel svar.\n\n(d) Inget av (a)-(c) beh\u00f6ver g\u00e4lla.\n\n",
         "answer": "c",
         "keywords": [
-            "Logaritmfunktioner"
+            "Logaritmer"
         ]
     },
     {
@@ -1715,7 +2024,7 @@
         "question": "Anna och Gun ber\u00e4knar volymen av en cylinder. Annas svar \u00e4r $\\ln (\\sqrt{2}+1)$, medan Gun f\u00e5r svaret $-\\ln (\\sqrt{2}-1)$. D\u00e5 g\u00e4ller\n\n(a) Det kan vara s\u00e5 att b\u00e5da har r\u00e4tt svar.\n\n(b) Det \u00e4r helt s\u00e4kert s\u00e5 att Anna har fel svar.\n\n(c) Det \u00e4r helt s\u00e4kert s\u00e5 att Gun har fel svar.\n\n(d) Inget av (a)-(c) beh\u00f6ver g\u00e4lla.\n\n",
         "answer": "a",
         "keywords": [
-            "Logaritmfunktioner",
+            "Logaritmer",
             "Exponentialfunktioner",
             "Algebraiska uttryck"
         ]
@@ -1784,7 +2093,7 @@
         "question": "L\u00f6s ekvationen $\\sqrt{2 a^{2}-x^{2}}=2-x$, d\u00e4r $a \\geq 0$. Ange det st\u00f6rsta $a$-v\u00e4rdet, f\u00f6r vilket ekvationen har tv\u00e5 olika reella l\u00f6sningar.\n\n",
         "answer": "$\\sqrt{2}$",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "ekvationer"
         ]
     },
@@ -1813,7 +2122,7 @@
         "question": "Romben $A B C D$ har sidl\u00e4ngd $a$ l.e. $(A B=B C=C D=D A=a)$. Vinkeln vid h\u00f6rnet $B$ i triangeln $A B D$ \u00e4r $\\varphi$. Best\u00e4m de tv\u00e5 diagonalernas l\u00e4ngder, och ange deras summa.\n\n",
         "answer": "$2 a(\\cos \\varphi+\\sin \\varphi)$ (l.e.)",
         "keywords": [
-            "diagonal",
+            "geometri",
             "l\u00c3\u00a4ngd",
             "summa"
         ]
@@ -1853,7 +2162,7 @@
         "question": "Om $x=\\sqrt{2-\\sqrt{3}}-\\sqrt{2+\\sqrt{3}}$, s\u00e5 \u00e4r $x$ lika med\n(a) $\\sqrt{2}$\n(b) $\\sqrt{3}$\n(c) 2 \n(d) annat svar.\n\n",
         "answer": "d",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "subtraktion",
             "uttryck"
         ]
@@ -1894,7 +2203,7 @@
         "answer": "a",
         "keywords": [
             "potenser",
-            "logaritmfunktioner",
+            "logaritmer",
             "derivator"
         ]
     },
@@ -1943,7 +2252,7 @@
         "question": "Om $x, y>0$, s\u00e5 g\u00e4ller att\n(a) $\\ln \\frac{x}{y}=\\ln x-\\ln y$\n(b) $\\ln (x+y)=\\ln x \\cdot \\ln y$\n(c) $\\ln (x y)=\\ln x \\cdot \\ln y$\n(d) inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "a",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "kvotregeln",
             "subtraktionsregeln"
         ]
@@ -1953,7 +2262,7 @@
         "question": "Antalet reella l\u00f6sningar till ekvationen $\\ln \\left(\\ln \\left(2^{2 x}-2^{x}+1\\right)\\right)=0$ \u00e4r\n(a) 0 \n(b) 1 \n(c) 2 \n(d) inget av (a)-(c)\n\n",
         "answer": "b",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "exponenter",
             "ekvationer"
         ]
@@ -1983,7 +2292,7 @@
         "question": "Om $\\alpha, \\beta, \\gamma$ \u00e4r vinklarna i en triangel och $\\alpha>\\beta+\\gamma$, s\u00e5 g\u00e4ller att\n(a) $\\alpha$ \u00e4r inte spetsig\n(b) $\\alpha$ \u00e4r inte trubbig\n(c) kan ej avg\u00f6ras\n(d) det finns ingen s\u00e5dan triangel.\n\n",
         "answer": "a",
         "keywords": [
-            "triangelsatserna",
+            "geometri",
             "randvinklar",
             "likformighet"
         ]
@@ -2032,8 +2341,8 @@
         "question": "En parallellogram har sidl\u00e4ngderna $a, b$, och diagonall\u00e4ngderna $d_{1}, d_{2}$, d\u00e4r $a \\geq b, d_{1} \\geq d_{2}$. D\u00e5 g\u00e4ller\n(a) $d_{1}^{2}+d_{2}^{2}=2\\left(a^{2}+b^{2}\\right)$\n(b) $d_{1} d_{2}=2 a b$\n(c) $d_{1}^{2}-d_{2}^{2}=2\\left(a^{2}-b^{2}\\right)$\n(d) $2\\left(a d_{1}+b d_{2}\\right)=\\left(d_{1}+d_{2}\\right)(a+b)$. \n\n",
         "answer": "a",
         "keywords": [
+            "geometri",
             "parallelogram",
-            "diagonall\u00c3\u00a4ngder",
             "sidl\u00c3\u00a4ngder"
         ]
     },
@@ -2060,7 +2369,7 @@
         "answer": "$-1$",
         "keywords": [
             "derivator",
-            "logaritmfunktioner",
+            "logaritmer",
             "p-q formeln"
         ]
     },
@@ -2080,7 +2389,7 @@
         "answer": "5",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "p-q formeln"
         ]
     },
@@ -2091,7 +2400,7 @@
         "keywords": [
             "potenser",
             "exponentiell ekvation",
-            "logaritmfunktioner"
+            "logaritmer"
         ]
     },
     {
@@ -2139,7 +2448,7 @@
         "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}).\\space$\n\nL\u00f6s olikheten\n$$\\sqrt{2 x-1}-1 \\geq \\sqrt{x}$$",
         "answer": "F\u00f6r att de tv\u00e2 rotuttrycken ska vara definierade kr\u00e4vs att $2 x-1 \\geq 0$, och $x \\geq 0$, vilket betyder att definitionsm\u00e4ngden ges av alla $x$ s\u00e5dana att $x \\geq \\frac{1}{2}$. F\u00f6r dessa $x$ \u00e4r den givna olikheten ekvivalent med olikheten$$\\sqrt{2 x-1} \\geq \\sqrt{x}+1 \\text {. }$$I den \u00e4r b\u00e5de v\u00e4nsterledet och h\u00f6gerledet icke-negativa, vilket betyder att vi kan kvadrera och f\u00e5 en olikhet, ekvivalent med den givna (det vill s\u00e4ga, det finns ingen risk att f\u1ea3 s\u1ea3 kallade falska r\u00f6tter). Kvadrering ger olikheten$$2 x-1 \\geq x+2 \\sqrt{x}+1,$$som i sin tur \u00e4r ekvivalent med$$x-2 \\geq 2 \\sqrt{x} .$$H\u00f6gerledet h\u00e4r \u00e4r alltid icke-negativt, vilket betyder att v\u00e4nsterledet ocks\u00e2 m\u00e5ste vara det, s\u00e5 att alla l\u00f6sningar m\u00e5ste uppfylla $x \\geq 2$. Notera att s\u00e5dana $x$ tillh\u00f6r definitionsm\u00e4ngden, eftersom $2>\\frac{1}{2}$. F\u00f6r $x \\geq 2$ kan vi \u00e5terigen kvadrera och vara s\u00e4kra p\u00e3 att f\u00e3 en olikhet, ekvivalent med den givna$$x^2-4 x+4 \\geq 4 x$$eller$$x^2-8 x+4 \\geq 0 \\text {. }$$Nollst\u00e4llena till andragradsfunktionen i v\u00e4nsterledet \u00e4r $4-2 \\sqrt{3}$ och $4+2 \\sqrt{3}$. V\u00e4nsterledet kan d\u0101 faktoriseras, och olikheten ovan antar formen$$(x-(4-2 \\sqrt{3}))(x-(4+2 \\sqrt{3})) \\geq 0,$$som \u00e4r sann om och endast om b\u00e5da faktorerna har samma tecken eller n\u00e5gon av dem \u00e4r lika med 0 , vilket intr\u00e4ffar f\u00f6r $x \\leq 4-2 \\sqrt{3}$, och f\u00f6r $x \\geq$ $4+2 \\sqrt{3}$. Men, den senaste olikheten var endast ekvivalent med den givna under f\u00f6ruts\u00e4ttningen att $x \\geq 2$. Eftersom $4-2 \\sqrt{3}<2$, och $4+2 \\sqrt{3}>2$, f\u0103r vi att l\u00f6sningarna till den givna olikheten \u00e4r alla $x$ som uppfyller $x \\geq 4+2 \\sqrt{3}$.",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "olikheter"
         ]
     },
@@ -2149,7 +2458,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "rationella uttryck"
         ]
     },
@@ -2158,7 +2467,7 @@
         "question": "$\\operatorname{Om} x=\\sqrt{3+2 \\sqrt{2}}+\\sqrt{3-2 \\sqrt{2}}$, s\u00e5 \u00e4r $x$ lika med\n(a) $2 \\sqrt{2}$\n(b) $2 \\sqrt{3}$\n(c) 2 \n(d) annat svar.\n\n",
         "answer": "a",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "addition",
             "konjugat"
         ]
@@ -2169,7 +2478,7 @@
         "answer": "a",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -2208,7 +2517,7 @@
         "question": "Om din inkomst \u00f6kar med $10 \\%$ och priserna f\u00f6rblir of\u00f6r\u00e4ndrade, s\u00e5 har din k\u00f6pkraft \u00f6kat med\n(a) mindre \u00e4n $10 \\%$\n(b) $10 \\%$\n(c) mer \u00e4n $10 \\%$\n(d) kan ej avg\u00f6ras.\n\n",
         "answer": "b",
         "keywords": [
-            "Ekonomi",
+            "ekonomi",
             "Procent",
             "K\u00c3\u00b6pkraft"
         ]
@@ -2218,7 +2527,6 @@
         "question": "Om priserna sjunker med $10 \\%$ och din inkomst f\u00f6rblir of\u00f6r\u00e4ndrad, s\u00e5 har din k\u00f6pkraft \u00f6kat med\n(a) mindre \u00e4n $10 \\%$\n(b) $10 \\%$\n(c) mer \u00e4n $10 \\%$\n(d) kan ej avg\u00f6ras.\n\n",
         "answer": "c",
         "keywords": [
-            "Inflation",
             "ekonomi",
             "procent"
         ]
@@ -2248,7 +2556,7 @@
         "question": "Om $a, b>0$, s\u00e5 g\u00e4ller att\n(a) $\\ln \\frac{a}{b}=\\frac{\\ln a}{\\ln b}$\n(b) $\\ln (a b)=\\ln a \\cdot \\ln b$\n(c) $\\ln (a+b)=\\ln a+\\ln b$\n(d) inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "kvotregeln",
             "br\u00c3\u00a5kregeln"
         ]
@@ -2258,7 +2566,7 @@
         "question": "Funktionen $f(x)=\\frac{1}{\\ln \\left(\\ln \\left(x^{2}-1\\right)\\right)}$ har en definitionsm\u00e4ngd som best\u00e5r av alla reella $x$ s\u00e5dana att\n(a) $|x|>0$\n(b) $|x|>1$\n(c) $|x|>\\sqrt{2}$\n(d) inget av (a)-(c). \n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "absolutbelopp",
             "definitionsm\u00c3\u00a4ngd"
         ]
@@ -2318,7 +2626,7 @@
         "question": "Den kortaste h\u00f6jden i en triangel med sidl\u00e4ngder 5,12 och 13 l\u00e4ngdenheter har l\u00e4ngden (i l\u00e4ngdenheter)\n(a) $\\frac{30}{13}$\n(b) $\\frac{60}{13}$\n(c) annat tal\n(d) det finns ingen s\u00e5dan triangel.\n\n",
         "answer": "b",
         "keywords": [
-            "h\u00c3\u00b6jder",
+            "triangelsatserna",
             "triangel",
             "sidl\u00c3\u00a4ngder"
         ]
@@ -2328,8 +2636,8 @@
         "question": "Vi betraktar relationerna parallellitet och ortogonalitet mellan olika r\u00e4ta linjer i ett plan, och anv\u00e4nder f\u00f6ljande beteckningar: $l \\| m$ betecknar $l$ paralell med $m  l \\perp m$ betecknar $l$ vinkelr\u00e4t (ortogonal) mot $m$. D\u00e5 g\u00e4ller\n(a) $\\operatorname{Om} l \\| m$ och $m \\| n$, s\u00e5 $l \\| n$.\n(b) $\\mathrm{Om} l \\perp m$ och $m \\perp n$, s\u00e5 $l \\| n$.\n(c) $\\mathrm{Om} l \\| m$ och $m \\perp n$, s\u00e5 $l \\perp n$.\n(d) Inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "c",
         "keywords": [
+            "geometri",
             "parallellitet",
-            "ortogonalitet",
             "r\u00c3\u00a4ta linjer"
         ]
     },
@@ -2388,7 +2696,7 @@
         "question": "L\u00f6s olikheten\n$$\\sqrt{2-\\frac{1}{x}}<\\frac{1}{\\sqrt{x}} .$$\nAnge olikhetens minsta l\u00f6sning.\n\n",
         "answer": "$\\frac{1}{2}$",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "rationella uttryck",
             "olikheter"
         ]
@@ -2398,7 +2706,7 @@
         "question": "L\u00f6s ekvationen\n$$2 \\ln \\left(e^{x}-1\\right)=\\ln 2+\\ln \\left(e^{x}+3\\right)$$\nAnge ekvationens st\u00f6rsta l\u00f6sning.\n\n",
         "answer": "$ \\ln 5$",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "ekvationer",
             "l\u00c3\u00b6sning"
         ]
@@ -2468,7 +2776,7 @@
         "question": "$\\mathrm{Om} x=\\frac{\\sqrt{7}-\\sqrt{5}}{\\sqrt{7}+\\sqrt{5}}$, s\u00e5 \u00e4r $x$ lika med\n(a) $\\frac{6+\\sqrt{35}}{6}$\n(b) $\\frac{6-\\sqrt{35}}{12}$\n(c) $\\frac{6-\\sqrt{35}}{6}$\n(d) annat svar.\n\n",
         "answer": "d",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "rationella uttryck",
             "ekvationer"
         ]
@@ -2479,7 +2787,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "negativa exponenter"
         ]
     },
@@ -2558,7 +2866,7 @@
         "question": "Om $a, b>0$, s\u00e5 g\u00e4ller att\n(a) $\\ln \\frac{a}{b}=\\ln a-\\ln b$\n(b) $\\ln (a b)=\\ln a \\cdot \\ln b$\n(c) $\\ln (a+b)=\\ln a \\cdot \\ln b$\n(d) inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "a",
         "keywords": [
-            "logaritmfunktioner"
+            "logaritmer"
         ]
     },
     {
@@ -2566,8 +2874,8 @@
         "question": "Om $a>0$, s\u00e5 g\u00e4ller att $\\ln \\frac{a \\sqrt{a^{2}+a+1}}{a+1}$ \u00e4r lika med\n(a) $\\frac{\\ln a \\cdot \\ln \\left(a^{2}+a+1\\right)}{2 \\ln (a+1)}$\n(b) $\\frac{\\ln a \\cdot \\sqrt{\\ln \\left(a^{2}+a+1\\right)}}{\\ln (a+1)}$\n(c) $\\frac{2 \\ln a+\\ln \\left(a^{2}+a+1\\right)}{2 \\ln (a+1)}$\n(d) inget av (a)-(c) g\u00e4ller generellt. \n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
-            "r\u00c3\u00b6tter",
+            "logaritmer",
+            "rötter",
             "exponentialfunktion"
         ]
     },
@@ -2626,7 +2934,7 @@
         "question": "I en triangel med sidl\u00e4ngderna 5,7 och 9 l\u00e4ngdenheter \u00e4r den st\u00f6rsta vinkeln\n(a) spetsig\n(b) r\u00e4t\n(c) trubbig\n(d) det finns ingen s\u00e5dan triangel.\n\n",
         "answer": "c",
         "keywords": [
-            "triangelsatserna",
+            "geometri",
             "randvinklar",
             "pythagoras sats"
         ]
@@ -2707,7 +3015,7 @@
         "answer": "Det finns inga reella l\u00f6sningar.",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -2716,7 +3024,7 @@
         "question": "L\u00f6s ekvationen\n$$\\log _{x}(3-x)=\\log _{x^{2}}\\left(8-3 x-x^{2}\\right)$$\nAnge den st\u00f6rsta (reella) l\u00f6sningen.\n\n",
         "answer": "$ \\frac{1}{2}$",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "ekvationer",
             "l\u00c3\u00b6sning"
         ]
@@ -2767,7 +3075,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -2777,7 +3085,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -2787,7 +3095,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratrot"
         ]
     },
@@ -2797,7 +3105,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "algebraiska uttryck"
         ]
     },
@@ -2827,7 +3135,7 @@
         "answer": "a",
         "keywords": [
             "kvadratkomplettering",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "polynom"
         ]
     },
@@ -2837,7 +3145,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "polynom"
         ]
     },
@@ -2856,7 +3164,7 @@
         "question": "Om $a, b>0$, s\u00e5 g\u00e4ller att\n(a) $\\ln (a+b)=\\ln a \\cdot \\ln b$\n(b) $\\ln (a b)=\\ln a \\cdot \\ln b$\n(c) $\\ln \\frac{a}{b}=\\ln a-\\ln b$\n(d) inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "c",
         "keywords": [
-            "logaritmfunktioner",
+            "potenser",
             "potensfunktioner",
             "division"
         ]
@@ -2917,7 +3225,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "trigonometri"
         ]
     },
@@ -2946,7 +3254,7 @@
         "question": "En viktig sats i analysen lyder: Om en funktion \u00e4r deriverbar $i$ en punkt, s\u00e5 \u00e4r funktionen kontinuerlig i denna punkt. Av satsen f\u00f6ljer att\n\n(a) Om $f$ \u00e4r kontinuerlig i $a$, s\u00e5 \u00e4r $f$ deriverbar i $a$.\n\n(b) Om $f$ inte \u00e4r kontinuerlig i $a$, s\u00e5 \u00e4r $f$ inte deriverbar i $a$.\n\n(c) $\\mathrm{Om} f$ \u00e4r deriverbar i $a$, s\u00e5 \u00e4r $f^{\\prime}$ kontinuerlig i $a$.\n\n(d) Ingen av slutsatserna (a)-(c) f\u00f6ljer av satsen.\n\n",
         "answer": "b",
         "keywords": [
-            "deriverbar",
+            "derivator",
             "kontinuerlig",
             "funktion"
         ]
@@ -2987,7 +3295,7 @@
         "answer": "$ \\frac{3}{10}$",
         "keywords": [
             "derivator",
-            "logaritmfunktioner"
+            "logaritmer"
         ]
     },
     {
@@ -3016,7 +3324,7 @@
         "answer": "1",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "ekvationer"
         ]
     },
@@ -3045,7 +3353,7 @@
         "question": "Givet \u00e4r triangeln $A B C$. Vinkeln vid $C$ \u00e4r $60^{\\circ}$, och sidan $A C$ har l\u00e4ngden 2 l\u00e4ngdenheter. Best\u00e4m och ange den minsta l\u00e4ngden sidan $A B$ kan ha.\n\n",
         "answer": "$ \\sqrt{3}$",
         "keywords": [
-            "triangelsatserna",
+            "geometri",
             "pythagoras sats",
             "randvinklar"
         ]
@@ -3076,7 +3384,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "rationella uttryck"
         ]
     },
@@ -3086,7 +3394,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -3096,7 +3404,7 @@
         "answer": "a",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "absolutbelopp"
         ]
     },
@@ -3105,7 +3413,7 @@
         "question": "Om $b$ \u00e4r ett reellt tal, $a=\\sqrt{b^{2}}$, och $x>a$, s\u00e5 g\u00e4ller att $\\sqrt{x+a}-\\sqrt{x-a}$ \u00e4r lika med\n(a) $\\sqrt{x+b}-\\sqrt{x-b}$\n(b) $2 \\sqrt{a}$\n(c) $|\\sqrt{x+b}-\\sqrt{x-b}|$\n(d) annat svar. \n\n",
         "answer": "c",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "absolutbelopp",
             "algebraiska uttryck"
         ]
@@ -3126,7 +3434,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "trigonometri"
         ]
     },
@@ -3165,7 +3473,7 @@
         "question": "Om $a>b>1$, s\u00e5 g\u00e4ller att\n(a) $\\ln \\left(a^{2}+b\\right)=2 \\ln a+\\ln b$\n(b) $\\ln \\left(a^{2}-b\\right)=\\frac{2 \\ln a}{\\ln b}$\n(c) $\\ln \\left(a^{2}-b\\right)=2 \\ln \\frac{a}{b}$\n(d) inget av (a)-(c) g\u00e4ller generellt.\n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "potenser",
             "subtraktion"
         ]
@@ -3185,7 +3493,7 @@
         "question": "Ekvationen $e^{6 x}-e^{3 x}-6=0$ har\n(a) tv\u00e5 reella l\u00f6sningar\n(b) en reell l\u00f6sning\n(c) ingen reell l\u00f6sning\n(d) annat svar.\n\n",
         "answer": "b",
         "keywords": [
-            "potensfunktioner",
+            "potenser",
             "ekvationer",
             "reell l\u00c3\u00b6sning"
         ]
@@ -3305,7 +3613,7 @@
         "question": "Ber\u00e4kna $\\int_{0}^{\\frac{\\pi}{8}}\\left(x^{2}+e^{-3 x}-\\cos 4 x+\\sin 2 x\\right) d x$.\n\n",
         "answer": "$ \\frac{\\pi^3}{1536}+\\frac{7}{12}-\\frac{\\sqrt{2}}{4}-\\frac{1}{3} e^{-\\frac{3 \\pi}{8}}$",
         "keywords": [
-            "integral",
+            "integraler",
             "primitiva funktioner",
             "intervall"
         ]
@@ -3315,7 +3623,7 @@
         "question": "L\u00f6s ekvationen $\\ln \\frac{x^{2}+3 x+2}{x-1}=\\ln (2 x+1)$. Ange den minsta (reella) l\u00f6sningen.\n\n",
         "answer": "$ 2+\\sqrt{7}$",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "ekvationer",
             "l\u00c3\u00b6sning"
         ]
@@ -3375,8 +3683,8 @@
         "question": "Ge fullst\u00e4ndig l\u00f6sning till uppgiften nedan. (max $5 \\mathrm{p}).\\space$\n\nI en parallellogram med sidl\u00e4ngder $a$ och $b, 0<b<a$, har de tv\u00e5 diagonalerna l\u00e4ngderna $b$ och $2 b$. Ber\u00e4kna f\u00f6rh\u00e5llandet $\\frac{a}{b}$.\n",
         "answer": "C. L\u00f6sning I: L\u00e5t $A B C D$ vara den givna parallellogrammen, med $|A B|=$ $|C D|=a,|B C|=|D A|=b,|B D|=b$, och $|A C|=2 b$. Dra $D P$ och $C Q$ vinkelr\u00e4tt mot linjen $A B$, d\u00e4r $P$ och $Q$ ligger p\u00e5 linjen $A B$. Triangeln $A B D$ \u00e4r likbent och $D P$ \u00e4r h\u00f6jd mot basen i den, vilket betyder att $|A P|=|B P|=\\frac{a}{2}$. Trianglarna $A P D$ och $B Q C$ \u00e4r kongruenta (likformiga med proportionalitetskonstant 1), eftersom de har lika vinklar och ett par motsvarande sidor lika (hypotenusorna). Det f\u00f6ljer att $|B Q|=|A P|=\\frac{a}{2}$, och $|D P|=|C Q|$. Pythagoras sats f\u00f6r de tv\u00e5 r\u00e4tvinkliga trianglarna $B Q C$ och $A Q C$ ger nu$$b^2-\\left(\\frac{a}{2}\\right)^2=|C Q|^2=(2 b)^2-\\left(\\frac{3 a}{2}\\right)^2$$s\u00e5 att $2 a^2=3 b^2$, och $\\frac{a}{b}=\\sqrt{\\frac{3}{2}}=\\frac{\\sqrt{6}}{2}$.L\u00f6sning II: Vi anv\u00e4nder samma beteckningar som ovan. Inf\u00f6r \u00e4ven beteckningarna $\\angle A D B=\\varphi, \\angle D A B=\\alpha$. Triangeln $A B D$ \u00e4r likbent, allts\u00e5 \u00e4r dess basvinklar lika, $\\angle A B D=\\angle D A B=\\alpha$. Dessutom \u00e4r $\\angle B D C=\\angle A B D$, som alternatvinklar vid parallella linjer. Vi har $\\varphi=180^{\\circ}-2 \\alpha$. Cosinussatsen f\u00f6r trianglarna $A B D$ och $A C D$ ger$$\\begin{aligned}b^2 & =a^2+b^2-2 a b \\cos \\alpha  \\4 b^2 & =a^2+b^2-2 a b \\cos (\\alpha+\\varphi)=a^2+b^2-2 a b \\cos \\left(180^{\\circ}-\\alpha\\right)= \\& =a^2+b^2+2 a b \\cos \\alpha,\\end{aligned}$$s\u00e5 att $2 a b \\cos \\alpha=a^2=3 b^2-a^2$, och vi f\u00e5r igen $\\frac{a}{b}=\\sqrt{\\frac{3}{2}}=\\frac{\\sqrt{6}}{2}$.",
         "keywords": [
-            "Geometri",
-            "Pythagoras sats",
+            "geometri",
+            "pythagoras sats",
             "talf\u00c3\u00b6ljder"
         ]
     },
@@ -3396,7 +3704,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -3475,7 +3783,7 @@
         "question": "F\u00f6r alla reella tal $x \\neq 0$ g\u00e4ller att\n(a) $\\ln |x|+\\frac{1}{\\ln |x|}=0$\n(b) $\\ln \\left|\\frac{1}{x}\\right|+\\ln |x|=0$\n(c) $\\ln x^{2}+2 \\ln (-x)=0$\n(d) inget av (a)-(c)\n\n",
         "answer": "b",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "absolutbelopp",
             "negativa tal"
         ]
@@ -3485,7 +3793,7 @@
         "question": "Om det reella talet $a$ uppfyller $a=\\ln (\\sqrt{2}-1)-\\ln \\frac{1}{\\sqrt{2}+1}$, s\u00e5 g\u00e4ller att\n(a) $a<0$\n(b) $a=0$\n(c) $a>0$\n(d) det finns inget s\u00e5dant reellt tal.\n\n",
         "answer": "b",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "subtraktion",
             "negativa tal"
         ]
@@ -3527,7 +3835,7 @@
         "answer": "a",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -3537,7 +3845,7 @@
         "answer": "b",
         "keywords": [
             "ekvationer",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "reella l\u00c3\u00b6sningar"
         ]
     },
@@ -3564,7 +3872,7 @@
         "question": "Pythagoras sats lyder: I en r\u00e4tvinklig triangel \u00e4r summan av kvadraterna p\u00e5 kateterna lika med kvadraten p\u00e5 hypotenusan. Av Pythagoras sats f\u00f6ljer att\n\n(a) Givet tre positiva tal $a, b, c$ finns en r\u00e4tvinklig triangel med just dessa tre tal som sidl\u00e4ngder.\n\n(b) En triangel med sidl\u00e4ngder 3, 4,5 \u00e4r r\u00e4tvinklig.\n\n(c) Det finns ingen r\u00e4tvinklig triangel med sidl\u00e4ngder 5, 10, 11.\n\n(d) Ingen av slutsatserna (a)-(c) f\u00f6ljer av Pythagoras sats.\n\n",
         "answer": "c",
         "keywords": [
-            "Pythagoras sats",
+            "pythagoras sats",
             "triangel",
             "sidl\u00c3\u00a4ngder"
         ]
@@ -3695,7 +4003,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -3715,7 +4023,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -3782,7 +4090,7 @@
         "question": "F\u00f6r alla positiva tal $x$ g\u00e4ller att\n(a) $\\ln \\frac{1}{x}=\\frac{1}{\\ln x}$\n(b) $\\ln \\frac{1}{x}=1-\\ln x$\n(c) $\\ln \\frac{1}{x}=\\ln (-x)$\n(d) inget av (a)-(c)\n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "invers",
             "egenskaper"
         ]
@@ -3793,7 +4101,7 @@
         "answer": "a",
         "keywords": [
             "exponentialfunktion",
-            "logaritmfunktioner",
+            "logaritmer",
             "ekvationer"
         ]
     },
@@ -3863,7 +4171,7 @@
         "question": "En rektangel har diagonall\u00e4ngd 8 l\u00e4ngdenheter. Om rektangelns omkrets \u00e4r 24 l.e., s\u00e5 \u00e4r dess area\n(a) 32 areaenheter\n(b) 40 areaenheter\n(c) annat tal\n(d) det finns ingen s\u00e5dan rektangel.\n\n",
         "answer": "d",
         "keywords": [
-            "Rektangel",
+            "geometri",
             "omkrets",
             "area"
         ]
@@ -3873,7 +4181,7 @@
         "question": "H\u00f6jden mot basen i en likbent triangel \u00e4r 7 l\u00e4ngdenheter l\u00e5ng. Om triangelns omkrets \u00e4r $18+8 \\sqrt{2}$ l.e., s\u00e5 \u00e4r dess area\n(a) $56 \\sqrt{2}$ areaenheter\n(b) $28 \\sqrt{2}$ areaenheter\n(c) annat tal\n(d) det finns ingen s\u00e5dan triangel.\n\n",
         "answer": "b",
         "keywords": [
-            "h\u00c3\u00b6jder",
+            "geometri",
             "triangel",
             "area"
         ]
@@ -3934,7 +4242,7 @@
         "answer": "$ \\frac{13 \\pi^2}{9}$",
         "keywords": [
             "trigonometri",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "ekvationer"
         ]
     },
@@ -3983,9 +4291,9 @@
         "question": "Fyrh\u00f6rningen $A B C D$ \u00e4r en parallellogram, i vilken diagonalen $B D$ \u00e4r lika l\u00e5ng som sidan $A B$. Punkten $F$ p\u00e5 sidan $C D$ \u00e4r s\u00e5dan att $|B F|=|B C|=$ $|F D|$. Best\u00e4m parallellogrammens vinklar och ange vinkel $\\angle A B C$. \n\n",
         "answer": "$ \\frac{3 \\pi}{5}$",
         "keywords": [
-            "parallellogram",
+            "geometri",
             "diagonal",
-            "vinklar"
+            "parallellogram"
         ]
     },
     {
@@ -3994,7 +4302,7 @@
         "answer": "Rotuttrycket i v\u00e4nsterledet (v.l.) \u00e4r definierat f\u014dr $x \\geq-\\frac{1}{15}$. Uttrycket under rottecknet i h\u00f4gerledet (h.l.) kan skrivas om som $(x-3)^2$, och \u00e4r s\u1ea3ledes ickenegativt f\u014dr alla reella $x$. Kvadrering av en ekvation ger en ekvation ekvivalent med den givna f\u014drutsatt att v.l. och h.l. har samma tecken. Vi flyttar d\u00e4rf\u014dr \u014dver tv\u0103an fr\u1ea3n v.ll. till h.l.$$\\sqrt{15 x+1}=2+\\sqrt{x^2-6 x+9}$$Eftersom $\\sqrt{a^2}=|a|$ f\u014dr alla reella $a$, f\u0103r vi f\u014dr $x \\geq-\\frac{1}{15}$, efter kvadrering och en viss f\u014drenkling, den ekvivalenta ekvationen$$(x-3)^2+4|x-3|-15 x+3=0 .$$Vi kan inf\u014dra en ny variabel, $t=x-3$, vilket, f\u00f4r $t \\geq-\\frac{1}{15}-3=-\\frac{46}{15}$, ger en ekvation med $t$ som obekant, ekvivalent med den givna ekvationen med $x$ som obekant$$t^2+4|t|-15 t-42=0$$F\u014dr $t \\geq 0\\left(>-\\frac{46}{15}\\right)$ far vi$$t^2-11 t-42=0$$som har l\u014dsningarna$$t_1=\\frac{11-\\sqrt{121+168}}{2}=-3, \\quad t_2=\\frac{11+\\sqrt{121+168}}{2}=14 .$$Av dessa uppfyller endast $t_2$ kravet $t \\geq 0$.F\u014dr $0>t \\geq-\\frac{46}{15}$ far vi$$t^2-19 t-42=0$$som har l\u014dsningarna$$t_3=\\frac{19-\\sqrt{361+168}}{2}=\\frac{19-23}{2}=-2, \\quad t_4=\\frac{19+\\sqrt{529}}{2}=\\frac{19+23}{2}=21 .$$Av dessa u ppfyller endast $t_3$ kravet $0>t \\geq-\\frac{46}{15}$.F\u014dr den ursprungliga ekvationen f\u00e2r vi de tv\u0103 l\u014dsningarna $x=14+3=17$, och $x=-2+3=1$",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -4004,7 +4312,7 @@
         "answer": "b",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -4082,7 +4390,7 @@
         "question": "Om $x>y>0$, s\u00e5 g\u00e4ller att\n(a) $\\ln (x-y)=\\ln x-\\ln y$\n(b) $\\ln \\left(x^{2}-y^{2}\\right)=\\ln (x+y)+\\ln (x-y)$\n(c) $\\ln \\frac{x}{y}=1-\\ln \\frac{y}{x}$\n(d) inget av (a)-(c).\n\n",
         "answer": "b",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "subtraktion",
             "kvadratkomplettering"
         ]
@@ -4092,7 +4400,7 @@
         "question": "Om $\\ln a+\\ln b+\\ln c=0$, s\u00e5 g\u00e4ller att\n(a) $a b c=0$\n(b) $a+b+c=1$\n(c) $a+b+c=0$\n(d) inget av (a)-(c).\n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "ekvationer",
             "algebraiska uttryck"
         ]
@@ -4133,7 +4441,7 @@
         "answer": "c",
         "keywords": [
             "absolutbelopp",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "subtraktion"
         ]
     },
@@ -4142,7 +4450,7 @@
         "question": "Talet $\\sqrt{6+2 \\sqrt{5}}-\\sqrt{6-2 \\sqrt{5}}$ \u00e4r lika med\n(a) 2\n(b) $2 \\sqrt{3}$\n(c) $2 \\sqrt[4]{5}$\n(d) annat svar.\n\n",
         "answer": "a",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "subtraktion",
             "uttryck"
         ]
@@ -4172,7 +4480,7 @@
         "question": "Om $A B C$ \u00e4r en triangel med sidl\u00e4ngder $a, b, c$, d\u00e4r $a \\leq b \\leq c$, och om $R$ \u00e4r radien till cirkeln som g\u00e5r genom punkterna $A, B, C$, s\u00e5 g\u00e4ller olikheten\n(a) $R \\geq \\frac{c}{2}$\n(b) $R \\leq \\frac{c}{2}$\n(c) $R \\neq \\frac{c}{2}$\n(d) ingen av olikheterna (a)-(c) g\u00e4ller f\u00f6r alla trianglar.\n\n",
         "answer": "a",
         "keywords": [
-            "triangelsatserna",
+            "geometri",
             "pythagoras sats",
             "randvinklar"
         ]
@@ -4182,8 +4490,8 @@
         "question": "En kub med kantl\u00e4ngd $a$ sk\u00e4rs av ett plan som inneh\u00e5ller tv\u00e5 parallella kanter i kuben, men som inte inneh\u00e5ller n\u00e5gon av kubens sidoytor. Kuben sk\u00e4r av planet en figur med area\n(a) $a^{2}$\n(b) $a^{2} \\sqrt{2}$\n(c) $2 a^{2}$\n(d) annat svar.\n\n",
         "answer": "b",
         "keywords": [
+            "geometri",
             "kub",
-            "plan",
             "area"
         ]
     },
@@ -4223,7 +4531,7 @@
         "answer": "$\\frac{2 \\sqrt{2}}{3}$",
         "keywords": [
             "derivator",
-            "logaritmfunktioner",
+            "logaritmer",
             "kedjeregeln"
         ]
     },
@@ -4243,7 +4551,7 @@
         "answer": "$1+\\sqrt{2}$",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -4313,7 +4621,7 @@
         "answer": "a",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "algebraiska uttryck"
         ]
     },
@@ -4323,7 +4631,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering"
         ]
     },
@@ -4333,7 +4641,7 @@
         "answer": "d",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "formeln f\u00c3\u00b6r halva vinkeln"
         ]
     },
@@ -4372,7 +4680,7 @@
         "question": "Om $\\ln a=3$ och $\\ln b=-1$, s\u00e5 \u00e4r $a$ lika med\n(a) $b^{3}$\n(b) $b \\ln 3$\n(c) $b^{-3}$\n(d) annat svar.\n\n",
         "answer": "c",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "exponentialsfunktioner",
             "ekvationer"
         ]
@@ -4382,7 +4690,7 @@
         "question": "Om $x>0$ och $y>0$, s\u00e5 g\u00e4ller att\n(a) $\\ln \\left(x^{y}\\right)=x \\ln y$\n(b) $\\ln \\left(x^{y}\\right)=y \\ln x$\n(c) $\\ln \\left(x^{y}\\right)=\\ln x \\ln y$\n(d) inget av (a)-(c).\n\n",
         "answer": "b",
         "keywords": [
-            "logaritmfunktioner",
+            "potenser",
             "potensfunktioner",
             "exponenter"
         ]
@@ -4472,7 +4780,7 @@
         "question": "Om funktionen $f(x)$ \u00e4r deriverbar f\u00f6r alla $x$, s\u00e5 \u00e4r $f^{\\prime}(1)$\n\n(a) en funktion av $x$\n\n(b) tangenten till $f$ :s graf i punkten $(1, f(1))$\n\n(c) vinkeln mellan positiva $x$-axeln och tangenten till $f$ :s graf i $(1, f(1))$\n\n(d) inget av (a)-(c).\n\n",
         "answer": "d",
         "keywords": [
-            "deriveringsregler",
+            "derivator",
             "derivatans koppling till v\u00c3\u00a4xande/avtagande",
             "lokala/globala extrema"
         ]
@@ -4482,7 +4790,7 @@
         "question": "Om $f(x)=\\ln \\left(x^{2}-1\\right)$, d\u00e4r $\\ln$ \u00e4r den reella naturliga logaritmen, s\u00e5 g\u00e4ller\n(a) $f^{\\prime}(0)>0$\n(b) $f^{\\prime}(0)=0$\n(c) $f^{\\prime}(0)<0$\n(d) inget av (a)-(c).\n\n",
         "answer": "d",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "derivator",
             "derivationsregler"
         ]
@@ -4542,8 +4850,8 @@
         "question": "Ber\u00e4kna $\\int_{0}^{1}\\left(2 x^{3}-3 x^{2}+e^{3 x}-e^{2 x}\\right) d x$.\n\n",
         "answer": "$\\frac{1}{6}\\left(2 e^3-3 e^2-2\\right)$",
         "keywords": [
-            "primitiva funktioner",
-            "integraler"
+            "integraler",
+            "primitiva funktioner"
         ]
     },
     {
@@ -4561,7 +4869,7 @@
         "question": "Om $t=\\cos x$, uttryck $\\cos 3 x$ som ett polynom av $t$ och ange summan av polynomets alla koefficienter.\n\n",
         "answer": "1",
         "keywords": [
-            "trigonometriska funktioner",
+            "trigonometri",
             "potenser",
             "derivator"
         ]
@@ -4601,7 +4909,7 @@
         "question": "Ange den minsta l\u00f6sningen till ekvationen $\\sqrt{4+x \\sqrt{2 x^{2}-17}}=x+2$. \n\n",
         "answer": "11",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "kvadratkomplettering",
             "algebraiska uttryck"
         ]
@@ -4621,7 +4929,7 @@
         "question": "Om $a=\\sqrt{2}, b=1$ och $c=\\frac{a^{2}-b^{2}}{a+b}$, s\u00e5\n(a) $c=\\frac{1}{3}$\n(b) $c=\\frac{1}{\\sqrt{3}}$\n(c) $c=2$\n(d) annat svar.\n\n",
         "answer": "d",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "p-q formeln",
             "rationella uttryck"
         ]
@@ -4631,7 +4939,7 @@
         "question": "Om $a=\\sqrt{3}, b=\\sqrt{2}$ och $c=\\frac{a-b}{a+b}$, s\u00e5\n(a) $c=\\frac{1}{5}$\n(b) $c=\\frac{1}{\\sqrt{5}}$\n(c) $c=1$\n(d) annat svar.\n\n",
         "answer": "d",
         "keywords": [
-            "r\u00c3\u00b6tter",
+            "rötter",
             "subtraktion",
             "division"
         ]
@@ -4652,7 +4960,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter",
+            "rötter",
             "sammansatta funktioner"
         ]
     },
@@ -4662,7 +4970,7 @@
         "answer": "c",
         "keywords": [
             "potenser",
-            "r\u00c3\u00b6tter"
+            "rötter"
         ]
     },
     {
@@ -4680,7 +4988,7 @@
         "question": "Om man f\u00f6rst f\u00e5r en l\u00f6ne\u00f6kning p\u00e5 10\\% och sedan en l\u00f6nes\u00e4nkning p\u00e5 10\\%, s\u00e5 har man som resultat\n(a) samma l\u00f6n som man hade fr\u00e5n b\u00f6rjan\n(b) l\u00e4gre l\u00f6n \u00e4n man hade fr\u00e5n b\u00f6rjan\n(c) h\u00f6gre l\u00f6n \u00e4n man hade fr\u00e5n b\u00f6rjan\n(d) g\u00e5r ej att avg\u00f6ra.\n\n",
         "answer": "b",
         "keywords": [
-            "procentr\u00c3\u00a4kning",
+            "procent",
             "ekvationer",
             "grundl\u00c3\u00a4ggande algebra"
         ]
@@ -4700,7 +5008,7 @@
         "question": "Om $\\ln a=\\pi$, s\u00e5 \u00e4r $a$\n(a) $e^{\\pi}$\n(b) $\\pi^{e}$\n(c) $\\pi e$\n(d) annat svar.\n\n",
         "answer": "a",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "exponentialfunktion"
         ]
     },
@@ -4709,7 +5017,7 @@
         "question": "Om $\\ln 24=a$ och $\\ln 8=b$, s\u00e5 \u00e4r $a$ lika med\n(a) $b+\\ln 3$\n(b) $b \\ln 3$\n(c) $\\ln (3 b)$\n(d) annat svar.\n\n",
         "answer": "a",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "ekvationer",
             "subtraktion"
         ]
@@ -4719,7 +5027,7 @@
         "question": "Om $x>0$ och $y>0$, s\u00e5 g\u00e4ller att\n(a) $\\ln (x y)=\\ln (-x y)$\n(b) $\\ln (x y)=\\ln (x+y)$\n(c) $\\ln (x y)=\\ln ((-x)(-y))$\n(d) inget av (a)-(c).\n\n",
         "answer": "c",
         "keywords": [
-            "logaritmfunktioner",
+            "logaritmer",
             "produktregeln",
             "negativa tal"
         ]
@@ -4739,7 +5047,7 @@
         "question": "Om $\\sin \\alpha=\\frac{1}{4}$ och $\\frac{\\pi}{2}<\\alpha<\\pi$, s\u00e5 \u00e4r $\\cos \\alpha$ lika med\n(a) $\\frac{\\sqrt{15}}{4}$\n(b) $-\\frac{\\sqrt{15}}{4}$\n(c) $\\pm \\frac{\\sqrt{15}}{4}$\n(d) annat svar. \n\n",
         "answer": "b",
         "keywords": [
-            "trigonometriska formler",
+            "trigonometri",
             "negativa vinklar",
             "enhetscirkeln"
         ]
@@ -4749,7 +5057,7 @@
         "question": "Antalet l\u00f6sningar till ekvationen $\\cos x=\\cos 2 x$ f\u00f6r $0 \\leq x \\leq \\pi$ \u00e4r\n(a) 0 \n(b) 1 \n(c) 2 \n(d) annat svar.\n\n",
         "answer": "c",
         "keywords": [
-            "trigonometriska funktioner",
+            "trigonometri",
             "trigonometriska formler",
             "definitionssamband"
         ]
@@ -4759,7 +5067,7 @@
         "question": "F\u00f6r alla reella $x, y$ g\u00e4ller att $\\sin x \\cos y=$\n(a) $\\frac{1}{2}(\\sin (x+y)-\\sin (x-y))$\n(b) $\\frac{1}{2}(\\sin (x-y)-\\sin (x+y))$\n(c) $\\frac{1}{2}(\\sin (x+y)+\\sin (x-y))$\n(d) inget av (a)-(c) g\u00e4ller f\u00f6r alla reella $x, y$.\n\n",
         "answer": "c",
         "keywords": [
-            "trigonometriska formler",
+            "trigonometri",
             "additionsformler",
             "subtraktionsformler",
             "samfunktionsidentiteter"
@@ -4770,7 +5078,7 @@
         "question": "F\u00f6r alla reella $x$ g\u00e4ller att\n(a) $\\cos x=\\sqrt{1+\\sin ^{2} x}$\n(b) $\\cos x=\\sqrt{1-\\sin ^{2} x}$\n(c) $\\cos x=\\sqrt{\\sin ^{2} x-1}$\n(d) inget av (a)-(c) g\u00e4ller f\u00f6r alla reella $x$.\n\n",
         "answer": "d",
         "keywords": [
-            "trigonometriska formler"
+            "trigonometri"
         ]
     },
     {
@@ -4797,8 +5105,8 @@
         "question": "Det minsta talet $x$ s\u00e5dant att $x(x+1)<0$ \u00e4r\n(a) 0\n(b) -1\n(c) annat tal\n(d) det finns inget minsta s\u00e5dant tal.\n\n",
         "answer": "d",
         "keywords": [
-            "talf\u00c3\u00b6ljder",
             "olikheter",
+            "talf\u00c3\u00b6ljder",
             "definitionssamband"
         ]
     },
@@ -4815,7 +5123,7 @@
     {
         "questionNum": "2007-21",
         "question": "Ber\u00e4kna\n$$\\frac{\\frac{4}{5}+\\frac{1}{6}}{2-\\frac{7}{10}}$$\n",
-        "answer": ". $\\frac{29}{39}$",
+        "answer": "$\\frac{29}{39}$",
         "keywords": [
             "rationella uttryck",
             "br\u00c3\u00a5ktal",
@@ -4825,7 +5133,7 @@
     {
         "questionNum": "2007-22",
         "question": "Ange den st\u00f6rsta l\u00f6sningen till ekvationen $2 x^{2}+9 x+3=0$.\n\n",
-        "answer": ". $\\frac{-9+\\sqrt{57}}{4}$",
+        "answer": "$\\frac{-9+\\sqrt{57}}{4}$",
         "keywords": [
             "kvadratkomplettering",
             "polynom",
@@ -4835,7 +5143,7 @@
     {
         "questionNum": "2007-23",
         "question": "Givet funktionen $f(x)=e^{\\sin x}$, ange $f^{\\prime}(0)$.\n\n",
-        "answer": ". 1",
+        "answer": "1",
         "keywords": [
             "derivator",
             "deriveringsregler",
@@ -4845,17 +5153,16 @@
     {
         "questionNum": "2007-24",
         "question": "Ber\u00e4kna $\\int_{0}^{\\frac{\\pi}{2}}(\\sin x-\\cos 2 x) d x$\n\n",
-        "answer": ". 1",
+        "answer": "1",
         "keywords": [
-            "derivator",
-            "primitiva funktioner",
-            "integraler"
+            "integraler",
+            "primitiva funktioner"
         ]
     },
     {
         "questionNum": "2007-25",
         "question": "Ange det minsta reella tal $x$ f\u00f6r vilket $9^{x}-5 \\cdot 3^{x}+6=0$.\n\n",
-        "answer": ". $\\log _3 2\\left(=\\frac{\\ln 2}{\\ln 3}\\right)$",
+        "answer": "$\\log _3 2\\left(=\\frac{\\ln 2}{\\ln 3}\\right)$",
         "keywords": [
             "potenser",
             "ekvationer",
@@ -4865,7 +5172,7 @@
     {
         "questionNum": "2007-26",
         "question": "Best\u00e4m summan av l\u00f6sningarna till ekvationen\n$$(x-1)\\left(x+\\frac{1}{2}\\right)\\left(x-\\frac{1}{3}\\right)\\left(x+\\frac{1}{4}\\right)=0$$\n",
-        "answer": ". $\\frac{7}{12}$",
+        "answer": "$\\frac{7}{12}$",
         "keywords": [
             "talf\u00c3\u00b6ljder",
             "produktomvandlingar",
@@ -4876,7 +5183,7 @@
     {
         "questionNum": "2007-27",
         "question": "Givet funktionen $f(x)=x-a x^{2}-1$, d\u00e4r $a>0$, best\u00e4m (den positiva reella parametern) $a$ s\u00e5 att funktionens st\u00f6rsta v\u00e4rde blir 3 .\n\n",
-        "answer": ". $\\frac{1}{16}$",
+        "answer": "$\\frac{1}{16}$",
         "keywords": [
             "derivator",
             "lokala/globala extrema",
@@ -4886,7 +5193,7 @@
     {
         "questionNum": "2007-28",
         "question": "I en triangel har tv\u00e5 av sidorna l\u00e4ngden 1 l.e., medan en av vinklarna \u00e4r lika med summan av de tv\u00e5 \u00e5terst\u00e5ende vinklarna. Best\u00e4m triangelns area.\n\n",
-        "answer": ". $\\frac{1}{2}$",
+        "answer": "$\\frac{1}{2}$",
         "keywords": [
             "geometri",
             "triangelsatserna",
@@ -4896,7 +5203,7 @@
     {
         "questionNum": "2007-29",
         "question": "Diagonalerna i en romb har l\u00e4ngderna $\\sqrt{2}$ och $\\sqrt{3}$. Best\u00e4m rombens sidl\u00e4ngd.\n\n",
-        "answer": ". $\\frac{\\sqrt{5}}{2}$",
+        "answer": "$\\frac{\\sqrt{5}}{2}$",
         "keywords": [
             "geometri",
             "pythagoras sats",
@@ -4910,7 +5217,7 @@
         "keywords": [
             "absolutbelopp",
             "ekvationer",
-            "r\u00c3\u00b6tter"
+            "rötter"
         ]
     },
     {

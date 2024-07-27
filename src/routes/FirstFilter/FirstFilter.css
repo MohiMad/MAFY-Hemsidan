@@ -1,0 +1,95 @@
+.main-divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    margin: 3em 0;
+    margin-bottom: 7em;
+}
+
+.filterers-div {
+    display: flex;
+    gap: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterers-div a {
+    cursor: pointer;
+    width: 30vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-grey);
+    border-radius: 50px;
+    transition: .5s;
+    box-shadow: -1px 7px 31px -11px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 7px 31px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 7px 31px -11px rgba(0, 0, 0, 0.75);
+}
+
+.filterers-div a:hover,
+.filterers-div a:focus {
+    transform: scale(1.025);
+}
+
+.filterers-div a span {
+    margin-bottom: 2em;
+    font-weight: 500;
+    font-size: large;
+}
+
+.filterers-div a .img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.year .img {
+    background: url("../../assets/img/year.png");
+}
+
+.math .img {
+    background: url("../../assets/img/matematik.png");
+}
+
+.fysik .img {
+    background: url("../../assets/img/fysik.png");
+}
+
+/* Media query for devices with a width less than or equal to 1024px (iPad width) */
+@media (max-width: 1024px) {
+    .filterers-div {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .filterers-div a {
+        width: 80vw;
+        height: auto;
+    }
+
+    .filterers-div a .img {
+        width: 100%;
+        height: auto;
+        background-size: contain;
+        min-height: 10em;
+        /* Ensure a minimum height for the image */
+    }
+}
+
+/* Media query for smaller devices to scale down images */
+@media (max-width: 768px) {
+    .filterers-div a {
+        width: 90vw;
+    }
+
+    .filterers-div a .img {
+        min-height: 8em;
+        /* Adjust minimum height for smaller screens */
+    }
+}

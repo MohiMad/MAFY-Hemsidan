@@ -15,7 +15,7 @@ function FormulasSection() {
     };
 
     return (
-        <section id="formulas">
+        <section className="animate" id="formulas">
             <h2>Få tillgång till våra formelsamlingar!</h2>
             <div className="img-and-p-divider">
                 <div className="formulas-holder">

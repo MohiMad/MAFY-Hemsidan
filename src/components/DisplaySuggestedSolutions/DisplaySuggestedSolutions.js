@@ -33,9 +33,16 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
 
     useEffect(() => {
         async function fetchSolutions() {
-            const solutionsResponse = await Utility.get(`/api/solutions/${ questions[questionNum]?.questionNum }`);
-            if(!solutionsResponse || solutionsResponse.code === 404) return setSolutions(false);
-            setSolutions(solutionsResponse);
+            try {
+                const response = await Utility.get(`/api/solutions/${ questions[questionNum]?.questionNum }`);
+                if(!response || response.code === 404) {
+                    setSolutions(false);
+                    return;
+                }
+                setSolutions(response);
+            } catch(error) {
+                console.error('Error fetching solutions:', error);
+            }
         }
 
         fetchSolutions();
@@ -61,15 +68,19 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
                 body: formData
             });
 
-            if(res.ok) {
+            const contentType = res.headers.get("content-type");
+            if(res.ok && contentType && contentType.includes("application/json")) {
                 const updatedSolutions = await res.json();
                 setSolutions(updatedSolutions);
                 setUploadStatus(1);
                 setTimeout(() => setUploadStatus(0), 3000);
             } else {
-                throw new Error(msg_obj["2"]);
+                const text = await res.text();
+                console.error('Non-JSON response:', text);
+                throw new Error('Upload failed');
             }
         } catch(error) {
+            console.error('Error uploading file:', error);
             setUploadStatus(2);
         }
     }, [questionNum, questions]);
@@ -116,6 +127,7 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
         if(latexCode.toString() === original_latex || latexCode.toString().length < 20) {
             setUploadStatus(6);
             setTimeout(() => setUploadStatus(0), 3000);
+            return;
         }
 
         setUploadStatus(3);
@@ -128,16 +140,20 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
                 body: formData
             });
 
-            if(res.ok) {
+            const contentType = res.headers.get("content-type");
+            if(res.ok && contentType && contentType.includes("application/json")) {
                 const updatedSolutions = await res.json();
                 setSolutions(updatedSolutions);
                 setUploadStatus(1);
                 setLatexCode(original_latex);
                 setTimeout(() => setUploadStatus(0), 3000);
             } else {
-                throw new Error(msg_obj["2"]);
+                const text = await res.text();
+                console.error('Non-JSON response:', text);
+                throw new Error('Upload failed');
             }
         } catch(error) {
+            console.error('Error uploading LaTeX:', error);
             setUploadStatus(2);
         }
     };

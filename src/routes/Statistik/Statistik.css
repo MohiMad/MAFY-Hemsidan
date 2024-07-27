@@ -1,0 +1,98 @@
+.statistics-container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.statistics-container p {
+    margin: 0 10%;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+.PieChart-responsive {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.PieChart-responsive>svg *:focus {
+    outline: none;
+    border: none;
+}
+
+.math-physics-div {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.math,
+.physics {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-divider {
+    display: flex;
+    gap: 2em;
+    margin: 3em 0;
+}
+
+@media (max-width: 800px) {
+    .math-physics-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .math,
+    .physics {
+        width: 90%;
+    }
+
+    .PieChart-responsive {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 584px) {
+    .statistics-container p {
+        margin: 0 5%;
+    }
+
+    .btn-divider {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .math,
+    .physics {
+        width: 100%;
+    }
+
+    .PieChart-responsive {
+        width: 100%;
+        height: 300px;
+        /* Adjust height to ensure it fits well on smaller screens */
+    }
+
+    .recharts-default-legend {
+        font-size: 10px;
+        /* Adjust font size for better readability on smaller screens */
+    }
+}

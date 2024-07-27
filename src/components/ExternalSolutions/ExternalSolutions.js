@@ -7,8 +7,6 @@ import externalSolutions from "../../assets/json/externalSolutions.json";
 function ExternalSolutions({questionNum}) {
     const externalSolution = externalSolutions.find(x => x.questionNum === questionNum);
 
-    console.log(questionNum, externalSolution);
-
     return (
         <>
             {

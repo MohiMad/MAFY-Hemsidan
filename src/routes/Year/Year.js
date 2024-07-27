@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
 import {useParams, useNavigate} from "react-router-dom";
 import Utility from "../../Utility";
-import QuestionPage from "../../components/QuestionPage/QuestionPage";
+import YearQuestionPage from "../../components/QuestionPages/YearQuestionPage";
 
-function MatematikYear({user, isFysik}) {
+function Year({user, isFysik}) {
   const {year, qNum} = useParams();
   const navigate = useNavigate();
 
@@ -22,7 +22,7 @@ function MatematikYear({user, isFysik}) {
     }
   }, [year, navigate, qNum, isFysik]);
 
-  return <QuestionPage user={user} isFysik={isFysik} year={year} />;
+  return <YearQuestionPage user={user} isFysik={isFysik} year={year} />;
 }
 
-export default MatematikYear;
+export default Year;

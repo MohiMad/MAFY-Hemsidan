@@ -1,10 +1,14 @@
 import React from 'react';
+import "./ContactUsPage.css";
 
 function ContactUsPage(props) {
     return (
-        <h1 style={{textAlign: "center"}}>
-            Kontakta utvecklaren på Discord: __mohi__ (ID: 665315899661746206)
-        </h1>
+        <div className="contact-div">
+            <h1>Kontakt</h1>
+            <p>Du kan höra av dig till utvecklaren via Discord om du har några frågor eller förslag:</p>
+            <p>Användarnamn: __mohi__</p>
+            <p>ID: 665315899661746206</p>
+        </div>
     );
 }
 

@@ -6,7 +6,7 @@ import "./QuestionPage.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faAngleLeft} from '@fortawesome/free-solid-svg-icons';
 
-function QuestionPage({user, year, isFysik}) {
+function YearQuestionPage({user, year, isFysik}) {
   const [questions, setQuestions] = useState(Utility.getYearQuestions(year, isFysik));
   const qContainerRef = useRef();
 
@@ -51,4 +51,4 @@ function QuestionPage({user, year, isFysik}) {
   );
 }
 
-export default QuestionPage;
+export default YearQuestionPage;

@@ -4,17 +4,17 @@ import {useNavigate} from "react-router-dom";
 import FormattedLatex from "../FormattedLatex";
 
 
-function DelCQuestion({questions, questionNum, setShouldDisplaySecondayButtons, isFysik}) {
+function DelCQuestion({questions, questionNum, setShouldDisplaySecondaryButtons, isFysik}) {
     const navigate = useNavigate();
     const [isClicked, setIsClicked] = useState(false);
 
     const btnClicked = () => {
         if(isClicked) {
-            navigate(`/${ isFysik ? "fysik" : "matematik" }/år`);
+            navigate(`/${ isFysik ? "fysik" : "matematik" }/`);
             return;
         }
 
-        setShouldDisplaySecondayButtons(true);
+        setShouldDisplaySecondaryButtons(true);
         setIsClicked((x) => !x);
     };
 

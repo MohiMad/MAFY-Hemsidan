@@ -7,7 +7,7 @@ import NextQuestionButton from "../NextQuestionButton";
 import FormattedLatex from "../FormattedLatex";
 
 
-function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons, isFysik}) {
+function OptionQuestion({questions, questionNum, setShouldDisplaySecondaryButtons, isFysik}) {
   const location = useLocation();
   const [selected, setSelected] = useState("");
   const [isAnswered, setIsAnswered] = useState(false);
@@ -33,7 +33,7 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons
     const allCheckboxes = document.querySelectorAll(".option input");
     setSelected("");
     setIsAnswered(false);
-    setShouldDisplaySecondayButtons(false);
+    setShouldDisplaySecondaryButtons(false);
     allCheckboxes.forEach((checkbox) => {
       checkbox.checked = false;
       checkbox.parentElement.classList.remove("chosen");
@@ -42,7 +42,7 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons
     });
   };
 
-  useEffect(resetAll, [location, setShouldDisplaySecondayButtons]);
+  useEffect(resetAll, [location, setShouldDisplaySecondaryButtons]);
 
   const optionClicked = (e) => {
     const allCheckboxes = document.querySelectorAll(".option input");
@@ -93,7 +93,7 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons
     }
 
     setIsAnswered(true);
-    setShouldDisplaySecondayButtons(true);
+    setShouldDisplaySecondaryButtons(true);
   };
 
   return (
@@ -125,7 +125,7 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondayButtons
           );
         })}
       </div>
-      {isAnswered ? (<NextQuestionButton />) : (
+      {isAnswered ? (<NextQuestionButton questions={questions} questionNum={questionNum} />) : (
         <Button className="check-answer-btn" onClick={(e) => checkAnswerBtnClicked(e)}>
           Svara
         </Button>

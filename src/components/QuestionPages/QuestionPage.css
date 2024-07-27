@@ -21,9 +21,15 @@
   border-top: 1px solid black;
 }
 
-.questions-list a:last-child {
+/* 
+Kommenterad selector:
+  Ger dubbell border på sista frågan då den kombineras med upper border för footer
+  ger en border till sista fråga ifall antal frågor är för få
+*/
+
+/* .questions-list a:last-child { 
   border-bottom: none !important;
-}
+} */
 
 .questions-container .questions-list a {
   all: unset;

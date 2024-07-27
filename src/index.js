@@ -4,16 +4,17 @@ import "./index.css";
 import App from "./App";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import LandingPage from "./routes/LandingPage/LandingPage";
-import MatematikFilter from "./routes/MatematikFilter/MatematikFilter";
+import FirstFilter from "./routes/FirstFilter/FirstFilter";
 import PageNotFound from "./routes/PageNotFound";
-import MatematikFilterYear from "./routes/MatematikFilterYear/MatematikFilterYear";
-import MatematikYear from "./routes/MatematikYear/MatematikYear";
-import FysikFilterYear from "./routes/FysikFilterYear/FysikFilterYear";
+import FilterYears from "./routes/FilterYears/FilterYears";
+import Year from "./routes/Year/Year";
 import Utility from "./Utility";
 import FormulasSection from "./components/FormulasSection/FormulasSection";
 import AnkiPage from "./routes/AnkiPage/AnkiPage";
 import UserPolicyPage from "./routes/UserPolicyPage/UserPolicyPage";
 import ContactUsPage from "./routes/ContactUsPage/ContactUsPage";
+import FilterTopics from "./routes/FilterTopics/FilterTopics";
+import Topic from "./routes/Topic/Topic";
 // eslint-disable-next-line no-unused-vars
 import Statistik from "./routes/Statistik/Statistik";
 
@@ -37,34 +38,54 @@ function RouterController() {
         <Route path="/" element={<App {...exportedValues} />}>
           <Route index element={<LandingPage {...exportedValues} />} />
           <Route path="matematik">
-            <Route index element={<MatematikFilter {...exportedValues} />} />
+            <Route index element={<FirstFilter {...exportedValues} isMath={true} />} />
 
             <Route path="år">
               <Route
                 index
-                element={<MatematikFilterYear {...exportedValues} />}
+                element={<FilterYears {...exportedValues} />}
               />
               <Route path=":year">
-                <Route index element={<MatematikYear isFysik={false} {...exportedValues} />} />
+                <Route index element={<Year isFysik={false} {...exportedValues} />} />
                 <Route
                   path=":qNum"
-                  element={<MatematikYear isFysik={false} {...exportedValues} />}
+                  element={<Year isFysik={false} {...exportedValues} />}
+                />
+              </Route>
+            </Route>
+            <Route path="ämne">
+              <Route index element={<FilterTopics {...exportedValues} isMath={true} />} />
+              <Route path=":topic">
+                <Route index element={<Topic isFysik={false} {...exportedValues} />} />
+                <Route
+                  path=":qNum"
+                  element={<Topic isFysik={false} {...exportedValues} />}
                 />
               </Route>
             </Route>
           </Route>
           <Route path="fysik">
-            {/* <Route index element={<FysikFilter {...exportedValues} />} /> */}
+            <Route index element={<FirstFilter {...exportedValues} isMath={false} />} />
             <Route path="år">
               <Route
                 index
-                element={<FysikFilterYear {...exportedValues} />}
+                element={<FilterYears {...exportedValues} />}
               />
               <Route path=":year">
-                <Route index element={<MatematikYear isFysik={true} {...exportedValues} />} />
+                <Route index element={<Year isFysik={true} {...exportedValues} />} />
                 <Route
                   path=":qNum"
-                  element={<MatematikYear isFysik={true} {...exportedValues} />}
+                  element={<Year isFysik={true} {...exportedValues} />}
+                />
+              </Route>
+            </Route>
+            <Route path="ämne">
+              <Route index element={<FilterTopics {...exportedValues} isMath={false} />} />
+              <Route path=":topic">
+                <Route index element={<Topic isFysik={true} {...exportedValues} />} />
+                <Route
+                  path=":qNum"
+                  element={<Topic isFysik={true} {...exportedValues} />}
                 />
               </Route>
             </Route>
@@ -74,8 +95,8 @@ function RouterController() {
           <Route path="användaravtal" element={<UserPolicyPage />} />
           <Route path="anvandaravtal" element={<UserPolicyPage />} />
           <Route path="kontakta-oss" element={<ContactUsPage />} />
-          {/*           <Route path="statistik" element={<Statistik />} />
- */}          <Route path="*" element={<PageNotFound />} />
+          <Route path="statistik" element={<Statistik />} />
+          <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>

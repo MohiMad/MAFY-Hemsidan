@@ -133,6 +133,74 @@ async function getUsersForSolutions(solutionDoc) {
     return solutionDoc;
 }
 
+function getNumberedKeywords(questions, isGetAnnat = false) {
+    try {
+        const keywordCounts = new Map();
+
+        questions.forEach(question => {
+            if(keywordCounts.has(question.keywords[0].toLowerCase())) {
+                keywordCounts.set(question.keywords[0].toLowerCase(), keywordCounts.get(question.keywords[0].toLowerCase()) + 1);
+            } else {
+                keywordCounts.set(question.keywords[0].toLowerCase(), 1);
+            }
+        });
+
+        function findRelatedKeyword(keyword, map) {
+            const root = keyword.split(' ')[0];
+            for(let [key] of map.entries()) {
+                if(key.includes(root) && keyword !== key) {
+                    return key;
+                }
+            }
+            return null;
+        }
+
+        const threshold = 5;
+        const groupedKeywords = new Map();
+        const others = [];
+
+        keywordCounts.forEach((count, keyword) => {
+            if(count >= threshold) {
+                groupedKeywords.set(keyword, count);
+            } else {
+                const related = findRelatedKeyword(keyword, groupedKeywords);
+                if(related) {
+                    groupedKeywords.set(related, groupedKeywords.get(related) + count);
+                } else {
+                    others.push(keyword.toLowerCase());
+                }
+            }
+        });
+
+        if(others.length > 0) {
+            groupedKeywords.set('annat', others.reduce((sum, keyword) => sum + keywordCounts.get(keyword), 0));
+        }
+
+        return isGetAnnat ? others : groupedKeywords;
+
+    } catch(parseError) {
+        console.error("An error occurred while parsing JSON data:", parseError);
+    }
+
+}
+
+async function getMergedTopicQuestions(data, user, topic) {
+    let topicQuestions;
+
+    if(topic === "annat") {
+        topicQuestions = data.filter((x) => getNumberedKeywords(data, true).includes(x.keywords[0].toLowerCase()));
+    } else {
+        topicQuestions = data.filter(x => x.keywords[0].toLowerCase() == topic.toLowerCase());
+    }
+
+    if(!topicQuestions) {
+        return;
+    }
+
+    return await mergeData(topicQuestions, user);
+
+}
+
 
 module.exports.STATUS_CODES = STATUS_CODES;
 module.exports.DISCORD_API_ROUTES = DISCORD_API_ROUTES;
@@ -147,3 +215,4 @@ module.exports.return404Status = return404Status;
 module.exports.correctQuestionNumberFormat = correctQuestionNumberFormat;
 module.exports.sendMsg = sendMsg;
 module.exports.getUsersForSolutions = getUsersForSolutions;
+module.exports.getMergedTopicQuestions = getMergedTopicQuestions;

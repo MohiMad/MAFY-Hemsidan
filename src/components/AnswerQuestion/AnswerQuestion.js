@@ -7,7 +7,7 @@ import Utility from "../../Utility";
 import FormattedLatex from "../FormattedLatex";
 
 
-function AnswerQuestion({questions, questionNum, setShouldDisplaySecondayButtons}) {
+function AnswerQuestion({questions, questionNum, setShouldDisplaySecondaryButtons}) {
   const location = useLocation();
   const [isCorrect, setIsCorrect] = useState("");
   const answerInputRef = useRef();
@@ -17,10 +17,10 @@ function AnswerQuestion({questions, questionNum, setShouldDisplaySecondayButtons
     answerInputRef.current.classList.remove("wrong");
     answerInputRef.current.value = "";
     setIsCorrect("");
-    setShouldDisplaySecondayButtons(false);
+    setShouldDisplaySecondaryButtons(false);
   };
 
-  useEffect(resetAll, [location, setShouldDisplaySecondayButtons]);
+  useEffect(resetAll, [location, setShouldDisplaySecondaryButtons]);
 
   const checkAnswerBtnClicked = async () => {
     const questionAnchor = document.querySelector(`.questions-list a.active`);
@@ -55,7 +55,7 @@ function AnswerQuestion({questions, questionNum, setShouldDisplaySecondayButtons
 
     setIsCorrect(isUserAnswerCorrect ? true : "correct");
     questions[questionNum].isCorrect = isUserAnswerCorrect;
-    setShouldDisplaySecondayButtons(true);
+    setShouldDisplaySecondaryButtons(true);
     await Utility.setQuestionCorrectness(questions[questionNum].questionNum, isUserAnswerCorrect);
   };
 
@@ -87,7 +87,7 @@ function AnswerQuestion({questions, questionNum, setShouldDisplaySecondayButtons
           Svar
         </Button>
       ) : (isCorrect || isCorrect === "correct") ? (
-        (<NextQuestionButton />)
+        (<NextQuestionButton questions={questions} questionNum={questionNum} />)
       ) :
         (
           <>

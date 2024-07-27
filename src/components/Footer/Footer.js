@@ -4,14 +4,11 @@ import Logo from "../Logo/Logo";
 import {NavLink} from "react-router-dom";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faDiscord, faGithub} from '@fortawesome/free-brands-svg-icons';
+import Utility from "../../Utility";
 
 function Footer() {
     const discordLink = "https://discord.com/invite/tYFFJKuKAW";
     const sourceCodeLink = "https://github.com/MohiMad/MAFY-Hemsidan";
-
-    const toTop = () => {
-        window.scrollTo({left: 0, top: 0, behavior: 'smooth'});
-    };
 
     return <footer id="footer">
         <div className="equal-divider">
@@ -20,9 +17,11 @@ function Footer() {
             </div>
             <div className="col locations">
                 <h3>Vart vill du gå?</h3>
-                <NavLink onClick={toTop} to="/matematik/år">Plugga matte</NavLink>
-                <NavLink onClick={toTop} to="/fysik/år">Plugga fysik</NavLink>
-                <NavLink onClick={toTop} to="/formler">Våra formelsamlingar</NavLink>
+                <NavLink onClick={Utility.toTop} to="/matematik">Plugga matte</NavLink>
+                <NavLink onClick={Utility.toTop} to="/fysik">Plugga fysik</NavLink>
+                <NavLink onClick={Utility.toTop} to="/formler">Våra formelsamlingar</NavLink>
+                <NavLink onClick={Utility.toTop} to="/statistik">Statistik för uppgifter</NavLink>
+                <NavLink onClick={Utility.toTop} to="/kontakta-oss">Kontakt</NavLink>
             </div>
             <div className="col">
                 <h3>Få hjälp</h3>
@@ -40,8 +39,8 @@ function Footer() {
             </div>
         </div>
         <div className="copyright-notice">
-            <span>© 2023 MAFY - </span>
-            <NavLink onClick={toTop} to="/anvandaravtal">Användaravtal</NavLink>
+            <span>2023 MAFY - </span>
+            <NavLink onClick={Utility.toTop} to="/anvandaravtal">Användaravtal</NavLink>
         </div>
     </footer>;
 }

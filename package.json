@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^12.8.3",
     "axios": "^1.4.0",
     "babel-preset-env": "^1.7.0",
+    "caniuse-lite": "^1.0.30001643",
     "concurrently": "^6.4.0",
     "cookie-parser": "^1.4.6",
     "cookie-session": "^2.0.0",

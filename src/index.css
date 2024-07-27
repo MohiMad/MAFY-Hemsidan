@@ -47,6 +47,40 @@ body {
   color: #fff;
 }
 
+/* Keyframes for the popup animation */
+@keyframes popup {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Applying the animation to elements with the class 'animate' */
+.animate {
+  animation-name: popup;
+  /* Name of the animation */
+  animation-duration: 0.5s;
+  /* Duration of the animation */
+  animation-timing-function: ease-out;
+  /* Timing function */
+  animation-fill-mode: forwards;
+  /* Makes the element hold the last keyframe after the animation completes */
+  animation-delay: 0.3s;
+  /* Delay before the animation starts */
+}
+
+/* Ensuring elements are initially invisible before animation starts */
+.animate {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+
 .correct {
   background: var(--color-green) !important;
 }
