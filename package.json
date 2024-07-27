@@ -48,7 +48,7 @@
     "start-client": "react-scripts --openssl-legacy-provider start",
     "start-all": "npm run build && (cd backend && node .)",
     "start": "cd backend && node index.js",
-    "build": "ESLINT_NO_DEV_ERRORS=true react-scripts --openssl-legacy-provider build",
+    "build": "ESLINT_NO_DEV_ERRORS=true react-scripts build",
     "start-server": "cd backend && node .",
     "test": "jest --coverage",
     "test-watch": "jest --watchAll",
