@@ -9,7 +9,7 @@ function NextQuestionButton({questions, questionNum}) {
     const nextQuestionNum = questions[questionNum + 1]?.questionNum || 0;
 
     const nextQuestionBtn = () => {
-        if(questionNum == questions.length - 1) {
+        if(questionNum === questions.length - 1) {
             navigate("/");
             return Utility.toTop(window);
         }
