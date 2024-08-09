@@ -1,6 +1,8 @@
 const url = require("url");
 const CryptoJS = require("crypto-js");
 const User = require("../models/User.model.js");
+const math = require("../public/json/math.json");
+const physics = require("../public/json/physics.json");
 
 const STATUS_CODES = {
     NOT_FOUND: {
@@ -107,7 +109,7 @@ function return404Status(res) {
 }
 
 function correctQuestionNumberFormat(qNum) {
-    return /^f?20(23|22|21|19|18|17|16|15|14|13|12|11|10|09|08|07)-([1-9]|[1-2][0-9]|30|C)$/i.test(qNum);
+    return /^f?20(24|23|22|21|19|18|17|16|15|14|13|12|11|10|09|08|07)-([1-9]|[1-2][0-9]|30|C)$/i.test(qNum);
 }
 
 function sendMsg(res, msg, code) {
@@ -201,6 +203,20 @@ async function getMergedTopicQuestions(data, user, topic) {
 
 }
 
+function getStaticSolution(questionNum) {
+    const data = questionNum.toLowerCase().startsWith("f") ? physics : math;
+
+    const solution = data.find(x => x.questionNum === questionNum.toLowerCase())?.solution;
+
+    const staticSolutionObject = {
+        name: "ChatGPT",
+        solution: solution,
+        type: "latex"
+    };
+
+    return solution ? staticSolutionObject : null;
+}
+
 
 module.exports.STATUS_CODES = STATUS_CODES;
 module.exports.DISCORD_API_ROUTES = DISCORD_API_ROUTES;
@@ -216,3 +232,4 @@ module.exports.correctQuestionNumberFormat = correctQuestionNumberFormat;
 module.exports.sendMsg = sendMsg;
 module.exports.getUsersForSolutions = getUsersForSolutions;
 module.exports.getMergedTopicQuestions = getMergedTopicQuestions;
+module.exports.getStaticSolution = getStaticSolution;

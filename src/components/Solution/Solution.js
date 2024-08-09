@@ -42,7 +42,7 @@ function Solution({solution, solutions, setSolutions, user, setUploadStatus}) {
         if(e.target.parentElement.classList.contains("expand")) {
             setTimeout(() => {
                 e.target.parentElement.scrollIntoView({behavior: "smooth", block: "start"});
-            }, 300); // Adjust time as needed for CSS transitions
+            }, 300);
         }
 
     };
@@ -52,7 +52,7 @@ function Solution({solution, solutions, setSolutions, user, setUploadStatus}) {
         height: "25vh !important",
     }} data-height={solution.height}>
         <div onClick={displaySolution} className="overlay"></div>
-        <span className="solution-header">{`${ solution.name }s lösning`}</span>
+        <span className="solution-header">{`Lösning av ${ solution.name }`}</span>
         <div className="solution-popover">
             {solution.type === "latex" && (
                 <Latex>{solution.solution}</Latex>
