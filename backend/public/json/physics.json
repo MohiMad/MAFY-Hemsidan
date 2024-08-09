@@ -1,6 +1,6 @@
 [
     {
-        "questionNum": "2024-1",
+        "questionNum": "f2024-1",
         "question": "En homogen cylinder vilar mot två glatta väggar (ingen friktion), som bildar vinklarna $\\alpha$ och $\\frac{\\pi}{2}-\\alpha$ med horisontalplanet. Vad är kvoten $\\frac{N_{2}}{N_{1}}$, där $N_{1}$ och $N_{2}$ är kontaktkrafterna på cylindern i de två kontaktpunkterna?\n\n![](https://i.imgur.com/33iQXjg.png)\n\nA. 1\n\nB. $\\tan \\alpha$\n\nC. $\\cot \\alpha$\n\nD. Kan ej avgöras\n\n",
         "answer": "B",
         "keywords": [
@@ -10,7 +10,7 @@
         ]
     },
     {
-        "questionNum": "2024-2",
+        "questionNum": "f2024-2",
         "question": "En rymdfarare åker från jorden med farten $0.8 c$, vänder och åker hem med samma fart. När hon återvänder har det gått 15 år på hennes klocka. Hur lång tid har det gått på jorden?\n\nA. 9 år\n\nB. 12 år\n\nC. 15 år\n\nD. 25 år\n\n",
         "answer": "D",
         "keywords": [
@@ -20,7 +20,7 @@
         ]
     },
     {
-        "questionNum": "2024-3",
+        "questionNum": "f2024-3",
         "question": "En planka med massan $m$ och längden $L$ är horisontellt upplagd på två stöd. det ena (A) vid ena ändpunkten, det andra (B) på avståndet $\\frac{3 L}{8}$ från den andra ändpunkten. Plankans massa är jämnt fördelad över dess längd. Hur stor är den vertikala kraften från stödet A på plankan?\n\n![](https://i.imgur.com/jGjIGi2.png)\n\nA. $\\frac{1}{5} m g$\n\nB. $\\frac{3}{8} m g$\n\nC. $\\frac{5}{8} m g$\n\nD. $\\frac{4}{5} m g$\n\n",
         "answer": "A",
         "keywords": [
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "questionNum": "2024-4",
+        "questionNum": "f2024-4",
         "question": "En kropp kan glida på ett plan, som bildar vinkeln $v$ med horisontalplanet. Friktionskoefficienten $\\mu$ är tillräckligt liten för att kroppen inte skall kunna ligga stilla på planet. Om kroppen släpps från vila, hur lång tid $\\tau$ tar det för den att röra sig sträckan $\\ell$ ?\n\nA. $\\tau=\\sqrt{\\frac{2 \\ell}{g(\\mu \\sin v+\\cos v)}}$\n\nB. $\\tau=\\sqrt{\\frac{2 \\ell}{g(\\mu \\sin v-\\cos v)}}$\n\nC. $\\tau=\\sqrt{\\frac{2 \\ell}{g(\\sin v+\\mu \\cos v)}}$\n\nD. $\\tau=\\sqrt{\\frac{2 \\ell}{g(\\sin v-\\mu \\cos v)}}$\n\n",
         "answer": "D",
         "keywords": [
@@ -40,7 +40,7 @@
         ]
     },
     {
-        "questionNum": "2024-5",
+        "questionNum": "f2024-5",
         "question": "Varför upplever astronauterna på den internationella rymdstationen tyngdlöshet?\n\nA. Eftersom de är såpass långt ut i rymden att de har lämnat jordens gravitationsfält.\n\nB. Eftersom det råder vacuum utanför rymdstationen.\n\nC. Eftersom rymdstationen befinner sig i fritt fall.\n\nD. Av annan anledning än de ovanstående.\n\n",
         "answer": "C",
         "keywords": [
@@ -50,7 +50,7 @@
         ]
     },
     {
-        "questionNum": "2024-6",
+        "questionNum": "f2024-6",
         "question": "Grundenheten för tid i SI-systemet definieras så att $1 \\mathrm{~s}$ är tiden för 9192631770 perioder hos strålning motsvarande övergången mellan de två hyperfinnivåerna i grundtillståndet hos isotopen cesium 133. Hur stor är energiskillnaden mellan dessa två nivåer?\n\nA. $3.8 \\times 10^{-5} \\mathrm{eV}$\n\nB. $3.8 \\times 10^{-2} \\mathrm{eV}$\n\nC. $38 \\mathrm{eV}$\n\nD. $3.8 \\times 10^{4} \\mathrm{eV}$\n\n",
         "answer": "A",
         "keywords": [
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "questionNum": "2024-7",
+        "questionNum": "f2024-7",
         "question": "En boll som väger $50 \\mathrm{~g}$ släpps från vila och faller under inverkan av gravitation och luftmotstånd. Vad är dess rörelseenergi $E_{k}$ då den fallit $10 \\mathrm{~m}$ ?\n\nA. $E_{k}=2.5 \\mathrm{~J}$\n\nB. $E_{k}=4.9 \\mathrm{~J}$\n\nC. $E_{k}=2.5 \\mathrm{~W}$\n\nD. Kan ej avgöras.\n\n",
         "answer": "D",
         "keywords": [
@@ -70,7 +70,7 @@
         ]
     },
     {
-        "questionNum": "2024-8",
+        "questionNum": "f2024-8",
         "question": "Vilket tal är störst?\n\nA. Antalet sandkorn i en hink sand\n\nB. Antalet stjärnor i Vintergatan\n\nC. Antalet vattenmolekyler i ett glas vatten\n\nD. Antalet människor på jorden\n\n",
         "answer": "C",
         "keywords": [
@@ -80,7 +80,7 @@
         ]
     },
     {
-        "questionNum": "2024-9",
+        "questionNum": "f2024-9",
         "question": "Om jordens radie var dubbelt så stor (med samma densitet), hur stor skulle tyngdaccelerationen vid jordytan vara?\n\nA. $\\frac{g}{4}$\n\nB. $\\frac{g}{2}$\n\nC. $g$\n\nD. $2 g$\n\n",
         "answer": "D",
         "keywords": [
@@ -90,7 +90,7 @@
         ]
     },
     {
-        "questionNum": "2024-10",
+        "questionNum": "f2024-10",
         "question": "I en idealiserad elektrisk krets parallellkopplas två motstånd med resistanserna $x R$ och $\\frac{R}{x}$, där $x$ är ett dimensionslöst tal. Över dessa motstånd läggs en spänning $U$. Vilket alternativ beskriver bäst den utvecklade effekten i kretsen som funktion av $x$ ?\n\nA. ![](https://i.imgur.com/wRKwRO8.png)\n\nB. ![](https://i.imgur.com/eugKVNm.png)\n\nC. ![](https://i.imgur.com/q3bee6w.png)\n\nD. ![](https://i.imgur.com/POOpoDt.png)\n\n",
         "answer": "B",
         "keywords": [
@@ -100,7 +100,7 @@
         ]
     },
     {
-        "questionNum": "2024-11",
+        "questionNum": "f2024-11",
         "question": "En ljuskälla befinner sig $0.6 \\mathrm{~m}$ från en positiv lins. Den avbildas på en skärm på andra sidan om linsen, upp- och nedvänd och i halva storleken. Hur stor är linsens brännvidd?\n\nA. $0.2 \\mathrm{~m}$\n\nB. $0.3 \\mathrm{~m}$\n\nC. $0.6 \\mathrm{~m}$\n\nD. $1.2 \\mathrm{~m}$\n\n",
         "answer": "A",
         "keywords": [
@@ -110,7 +110,7 @@
         ]
     },
     {
-        "questionNum": "2024-12",
+        "questionNum": "f2024-12",
         "question": "En partikel med massa $m$ och elektrisk laddning $q$ rör sig under inverkan av ett homogent magnetiskt fält i en cirkelrörelse med radien $R$ och konstant fart $v$. Hur stort är magnetfältet $B$ ?\n\nA. $B=\\frac{m q}{v R}$\n\nB. $B=\\frac{q v}{m R}$\n\nC. $B=\\frac{q R}{m v}$\n\nD. $B=\\frac{m v}{q R}$\n\n",
         "answer": "D",
         "keywords": [
@@ -120,7 +120,7 @@
         ]
     },
     {
-        "questionNum": "2024-13",
+        "questionNum": "f2024-13",
         "question": "En boll släpps från vila i ett läge vid tiden $t=0$. En annan boll ges samtidigt en horisontell hastighet i ett annat läge. Bollarna faller sedan under inverkan av tyngdkraften. Luftmotstånd försummas. Vilken av graferna kan beskriva avståndet $s$ mellan bollarna som funktion av tiden?\n\nA. ![](https://i.imgur.com/mSqy4Jb.png)\n\nB. ![](https://i.imgur.com/y4NVV6y.png)\n\nC. ![](https://i.imgur.com/JSF4xxn.png)\n\nD. ![](https://i.imgur.com/4NH4fu0.png)\n\n",
         "answer": "A",
         "keywords": [
@@ -130,7 +130,7 @@
         ]
     },
     {
-        "questionNum": "2024-14",
+        "questionNum": "f2024-14",
         "question": "Två bilar, $\\mathbf{A}$ och $\\mathbf{B}$, kör på en rak väg. A rör sig med konstant hastighet $v_{\\mathbf{A}}$. Vid en viss tidpunkt befinner sig $\\mathbf{A}$ sträckan $s$ ifrån $\\mathbf{B}$ och rör sig mot $\\mathbf{B}$. B börjar då accelerera från vila med konstant acceleration $a_{\\mathbf{B}}$, åt samma håll som $\\mathbf{A}$ åker. Vad är villkoret på $s$ för att $\\mathbf{A}$ skall hinna ifatt $\\mathbf{B}$ ?\n\n",
         "answer": "$s \\leq \\frac{v_{\\mathbf{A}}^2}{2 a_{\\mathbf{B}}}$",
         "keywords": [
@@ -140,7 +140,7 @@
         ]
     },
     {
-        "questionNum": "2024-15",
+        "questionNum": "f2024-15",
         "question": "Omloppstiden för en planet i en cirkulär bana runt solen kan skrivas $T=c R^{\\alpha} M^{\\beta} G^{\\gamma}$, där $c$ är en dimensionslös konstant, $R$ är banans radie, $M$ solens massa och $G$ Newtons gravitationskonstant. Bestäm $\\alpha, \\beta$ och $\\gamma$.\n\n",
         "answer": "$\\alpha=\\frac{3}{2}, \\beta=-\\frac{1}{2}, \\gamma=-\\frac{1}{2}$",
         "keywords": [
@@ -150,7 +150,7 @@
         ]
     },
     {
-        "questionNum": "2024-16",
+        "questionNum": "f2024-16",
         "question": "En kula med massan $m$ som har farten $u$ kolliderar elastiskt och linjärt med en kula med massan $\\xi m$ som är i vila. Vad blir den andra kulans (den med massa $\\xi m$ ) fart efter stöten, om $\\xi \\ll 1$ ? (Tillåtna storheter i svaret: alla utom $\\xi$.)\n\n",
         "answer": "$u$",
         "keywords": [
@@ -160,7 +160,7 @@
         ]
     },
     {
-        "questionNum": "2024-17",
+        "questionNum": "f2024-17",
         "question": "En skiva har formen av en liksidig triangel, och har massan $m$ jämnt fördelad över sin yta. Den kan rotera (i ett vertikalplan) kring sin kontaktpunkt med golvet, men inte glida. När en sida är vertikal (enligt figuren), hur stor horisontell kraft $F$ behövs för att hålla skivan stilla?\n\n![](https://i.imgur.com/ZXNYTe6.png)\n\n",
         "answer": "$F=\\frac{m g}{\\sqrt{3}}$",
         "keywords": [
@@ -170,7 +170,7 @@
         ]
     },
     {
-        "questionNum": "2024-18",
+        "questionNum": "f2024-18",
         "question": "En elektron accelereras från vila genom en elektrisk spänning 3 V. Hur stor blir dess fart?\n\n",
         "answer": "$\\times 10^6 \\text{m/s}$",
         "keywords": [
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "questionNum": "2024-19",
+        "questionNum": "f2024-19",
         "question": "En bägare hålls upp- och nedvänd i en skål enligt figuren, och är delvis fylld med en vätska. Lufttrycket utanför är $p$, och trycket i den luft som är innesluten i bägaren är $p^{\\prime}$. Vätskans höjd i bägaren är $h$ över vätskeytan i skålen. Vad är vätsketrycket $p_{\\mathbf{A}}$ respektive $p_{\\mathbf{B}}$ i punkterna $\\mathbf{A}$ och B i figuren?\n\n![](https://i.imgur.com/Bg6Nryz.png)\n\n",
         "answer": "$p_{\\mathbf{A}}=p, \\quad p_{\\mathbf{B}}=\\frac{1}{2}\\left(p+p^{\\prime}\\right)$",
         "keywords": [
@@ -190,7 +190,7 @@
         ]
     },
     {
-        "questionNum": "2024-20",
+        "questionNum": "f2024-20",
         "question": "En bilbana innehåller en loop. En liten bil släpps från vila på höjden $h$ enligt figuren. Loopen har radien $a$. Friktionen är försumbar. Hur stor behöver $h$ vara för att bilen skall klara hela loopen utan att tappa kontakt med banan?\n\n![](https://i.imgur.com/jU7OcMO.png)",
         "answer": "När bilen är längst upp i loopen behöver centrifugalkraften vara minst $m g$, dvs. $\\frac{m v^2}{a} \\geq$ $m g$. Då är bilens rörelseenergi $\\frac{1}{2} m v^2 \\geq \\frac{1}{2} m g a$. Samtidigt är dess lägesenergi (om nollnivån är i botten av loopen) $2 m g a$. Bilens totala energi är alltså $E \\geq \\frac{5}{2} m g a$. Energin från början är $m g h$, så $h \\geq \\frac{5}{2} a$.",
         "keywords": [
