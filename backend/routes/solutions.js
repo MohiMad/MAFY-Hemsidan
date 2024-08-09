@@ -13,11 +13,11 @@ router.get("/:questionNum", async (req, res) => {
     if(!questionSolutionDoc) return sendMsg(res, "No solutions found.", 404);
 
     const resSolutionsDoc = await getUsersForSolutions(questionSolutionDoc);
-    const staticSolution = getStaticSolution(questionNum);
+    /* const staticSolution = getStaticSolution(questionNum);
 
     if(staticSolution) {
         resSolutionsDoc.solutions = [staticSolution, ...resSolutionsDoc.solutions];
-    }
+    } */
 
     res.json(resSolutionsDoc);
 });

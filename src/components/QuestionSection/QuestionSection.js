@@ -6,12 +6,9 @@ import DelCQuestion from "../DelCQuestion/DelCQuestion";
 import DisplaySuggestedSolutions from "../DisplaySuggestedSolutions/DisplaySuggestedSolutions";
 
 function Question(props) {
-  // Logging to see the values
-  console.log("Question props:", props);
 
   const question = props.questions[props.questionNum];
 
-  // Check if question exists
   if(!question) {
     return <div>Frågan hittades ej!</div>;
   }
