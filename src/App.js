@@ -8,7 +8,17 @@ function App({user}) {
   const location = useLocation();
 
   useEffect(() => {
-    const titleAndPathName = decodeURIComponent(location.pathname)
+    // A malformed escape sequence in the URL made decodeURIComponent throw,
+    // which took the whole page down instead of just showing the raw path.
+    let pathname;
+
+    try {
+      pathname = decodeURIComponent(location.pathname);
+    } catch(e) {
+      pathname = location.pathname;
+    }
+
+    const titleAndPathName = pathname
       .split(/\//g)
       .map(x => x.charAt(0).toUpperCase() + x.slice(1))
       .join(" / ");

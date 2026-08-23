@@ -40,7 +40,10 @@ module.exports = {
             const currentTime = new Date();
 
             if(session.expiresAt < currentTime) {
-                await session.delete({}).catch(e => console.log(e));
+                // session.delete({}) is not a document method in Mongoose 7 (and a
+                // document delete takes no filter), so expired sessions were never
+                // removed — the throw was swallowed by the catch below.
+                await Session.deleteOne({sessionID: sessionId}).catch(e => console.log(e));
             } else {
                 const data = JSON.parse(session.data);
                 req.user = data;

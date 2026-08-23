@@ -174,7 +174,7 @@ function DisplaySuggestedSolutions({user, questions, questionNum, shouldDisplayS
                         <h3>Lösningsförslag från användare:</h3>
                         <div className="solutions-holder">
                             {(solutions?.solutions?.length > 0) ? (
-                                solutions.solutions.map(solution => (<Solution user={user} solutions={solutions} setSolutions={setSolutions} solution={solution} setUploadStatus={setUploadStatus} />)
+                                solutions.solutions.map(solution => (<Solution key={solution.solutionID} user={user} solutions={solutions} setSolutions={setSolutions} solution={solution} setUploadStatus={setUploadStatus} />)
                                 )
                             ) : (<span>Tyvärr... Här fanns det inga lösningsförslag.</span>)}
                         </div>

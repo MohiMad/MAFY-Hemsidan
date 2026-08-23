@@ -3,11 +3,13 @@ const router = express.Router();
 const {sendMsg, getUser, correctQuestionNumberFormat, getUsersForSolutions} = require("../../src/Utility");
 const imgur = require("imgur");
 const fs = require("fs");
+const os = require("os");
+const path = require("path");
 const Solution = require("../../models/Solution.model");
 
 router.post("/solution/image/:questionNum", async (req, res) => {
-    if(!req.files) return sendMsg(res, "Inga filer hittades.", 400);
-    if(!req.params.questionNum || !correctQuestionNumberFormat(req.params.questionNum)) return sendMsg(res, 400, "Frågan du försöker ladda upp lösningen till hittades ej.");
+    if(!req.files || !req.files.sampleFile) return sendMsg(res, "Inga filer hittades.", 400);
+    if(!req.params.questionNum || !correctQuestionNumberFormat(req.params.questionNum)) return sendMsg(res, "Frågan du försöker ladda upp lösningen till hittades ej.", 400);
 
     const questionNum = req.params.questionNum;
 
@@ -16,55 +18,72 @@ router.post("/solution/image/:questionNum", async (req, res) => {
     if(!user) return sendMsg(res, "Du måste logga in för att kunna ladda upp lösningar.", 400);
 
     const sampleFile = req.files.sampleFile;
-    const uploadPath = __dirname + '/' + sampleFile.name;
+    // The uploaded filename is not used for the path: two people uploading
+    // "solution.png" at the same time overwrote each other's temp file, and the
+    // second unlink then failed.
+    const uploadPath = path.join(os.tmpdir(), `mafy-${ user.ID }-${ Date.now() }${ path.extname(sampleFile.name) }`);
 
-    if(!new RegExp("image/*", "i").test(sampleFile.mimetype)) return sendMsg(res, "Filen måste vara en bild.", 400);
+    if(!/^image\//i.test(sampleFile.mimetype)) return sendMsg(res, "Filen måste vara en bild.", 400);
 
     sampleFile.mv(uploadPath, async function (err) {
         if(err) {
             return res.status(500).send(err);
         }
 
-        const urlObject = await imgur.uploadFile(uploadPath).catch(e => console.log("uhoh", e));
-        fs.unlinkSync(uploadPath);
-        const solutions = await Solution.findOne({questionNum: questionNum.toUpperCase()});
+        try {
+            const urlObject = await imgur.uploadFile(uploadPath).catch(e => void console.log("imgur upload failed", e));
 
-        const userSolutionObj = {
-            ID: user.ID,
-            solutionID: urlObject?.data?.id || urlObject.id,
-            uploadedAt: Date.now(),
-            solution: urlObject?.data?.link || urlObject.link,
-            type: urlObject?.data?.type || urlObject.type,
-            deletehash: urlObject?.data?.deletehash || urlObject.deletehash,
-            width: urlObject?.data?.width || urlObject.width,
-            height: urlObject?.data?.height || urlObject.height,
-        };
+            // Without this the handler threw on urlObject.id and never answered,
+            // leaving the client waiting forever.
+            if(!urlObject) {
+                return sendMsg(res, "Lösningen gick inte att ladda upp. Försök igen.", 502);
+            }
 
-        let solutionsDoc;
+            const image = urlObject.data || urlObject;
+            const solutions = await Solution.findOne({questionNum: questionNum.toUpperCase()});
 
-        if(!solutions) {
-            const newSolutionsDoc = new Solution({
-                questionNum: questionNum.toUpperCase(),
-                solutions: [userSolutionObj]
-            });
+            const userSolutionObj = {
+                ID: user.ID,
+                solutionID: image.id,
+                uploadedAt: Date.now(),
+                solution: image.link,
+                type: image.type,
+                deletehash: image.deletehash,
+                width: image.width,
+                height: image.height,
+            };
 
-            await newSolutionsDoc.save().catch(err => console.log(err));
-            solutionsDoc = newSolutionsDoc;
-        } else {
-            solutions.solutions = [...solutions.solutions, userSolutionObj];
-            await solutions.save().catch(err => console.log(err));
-            solutionsDoc = solutions;
+            let solutionsDoc;
+
+            if(!solutions) {
+                const newSolutionsDoc = new Solution({
+                    questionNum: questionNum.toUpperCase(),
+                    solutions: [userSolutionObj]
+                });
+
+                await newSolutionsDoc.save();
+                solutionsDoc = newSolutionsDoc;
+            } else {
+                solutions.solutions = [...solutions.solutions, userSolutionObj];
+                await solutions.save();
+                solutionsDoc = solutions;
+            }
+
+            const resSolutionsDoc = await getUsersForSolutions(solutionsDoc);
+
+            res.json(resSolutionsDoc);
+        } catch(e) {
+            console.log(e);
+            sendMsg(res, "Lösningen gick inte att ladda upp. Försök igen.", 500);
+        } finally {
+            fs.promises.unlink(uploadPath).catch(() => void (0));
         }
-
-        const resSolutionsDoc = await getUsersForSolutions(solutionsDoc);
-
-        res.json(resSolutionsDoc);
     });
 });
 
 router.post("/solution/latex/:questionNum", async (req, res) => {
-    if(!req.body.latex) return sendMsg(res, "Ingen latex-kod hittades.", 400);
-    if(!req.params.questionNum || !correctQuestionNumberFormat(req.params.questionNum)) return sendMsg(res, 400, "Frågan du försöker ladda upp lösningen till hittades ej.");
+    if(!req.body || !req.body.latex) return sendMsg(res, "Ingen latex-kod hittades.", 400);
+    if(!req.params.questionNum || !correctQuestionNumberFormat(req.params.questionNum)) return sendMsg(res, "Frågan du försöker ladda upp lösningen till hittades ej.", 400);
 
     const questionNum = req.params.questionNum;
 

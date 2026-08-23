@@ -1,19 +1,22 @@
 import React from "react";
 import Latex from "react-latex";
-import Utility from "../Utility";
 
 function FormattedLatex({children}) {
-    const formattedLatexExp = children
+    const text = String(children ?? "");
+
+    const formattedLatexExp = text
         .replace(/\$\$.*?\$\$/g, "\n$&\n")
         .replace(/!\[\]\(.*?\)/ig, "")
         .split(/\n/g);
 
-    const image = children.match(/!\[\]\(.*?\)/);
+    const image = text.match(/!\[\]\(.*?\)/);
 
     return (
         <>
             {formattedLatexExp.map((x, i) => (
-                <React.Fragment key={Utility.uniqueKey(x.toString() + i)}>
+                // The key must be stable across renders; a timestamp-based key
+                // remounted every line (and the KaTeX render) on each render.
+                <React.Fragment key={i}>
                     <Latex trust={true} strict={false} displayMode={false}>{x}</Latex>
                     <br />
                 </React.Fragment>

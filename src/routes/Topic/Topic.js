@@ -8,11 +8,14 @@ function Topic({user, isFysik}) {
     const navigate = useNavigate();
 
     useEffect(() => {
-        // if the year param is not 2023-2007 (excluding 2020), go to not found
-        const keywords = Array.from(Utility.getNumberedKeywords(!isFysik).keys()).map(x => x.toLowerCase());
+        // if the topic is not one of the grouped keywords, go to not found
+        const numberedKeywords = Utility.getNumberedKeywords(!isFysik);
+        const keywords = numberedKeywords ? Array.from(numberedKeywords.keys()).map(x => x.toLowerCase()) : [];
         const topicQuestions = Utility.getTopicQuestions(topic, isFysik);
 
-        if(!keywords.includes(topic.toLowerCase())) {
+        // topicQuestions[0] was read without checking that the topic has any
+        // questions, which threw instead of showing the not-found page.
+        if(!keywords.includes(topic.toLowerCase()) || !topicQuestions.length) {
             return navigate("/notfound");
         }
 

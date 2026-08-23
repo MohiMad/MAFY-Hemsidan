@@ -1,20 +1,16 @@
 const express = require("express");
 const router = express.Router();
 const physics = require("../../public/json/physics.json");
-const {STATUS_CODES, mergeData} = require("../../src/Utility");
+const {STATUS_CODES, mergeData, getYearQuestions} = require("../../src/Utility");
 
 router.get("/:year", async (req, res) => {
-    const year = Number(req.params.year);
-    let bounds = [(2022 - year) * 20, (2022 - year) * 20 + 20];
+    const questions = getYearQuestions(physics, req.params.year);
 
-    if(year === 2020 || year < 2007 || year > 2024 || isNaN(year)) {
+    if(!questions.length) {
         return res.json(STATUS_CODES.NOT_FOUND);
     }
-    else if(year > 2020) {
-        bounds = [(2024 - year) * 20, (2024 - year) * 20 + 20];
-    }
 
-    const yearQuestions = await mergeData(physics.slice(bounds[0], bounds[1]), req.user);
+    const yearQuestions = await mergeData(questions, req.user);
 
     res.json(yearQuestions);
 });

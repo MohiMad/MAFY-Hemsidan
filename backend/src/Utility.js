@@ -91,6 +91,10 @@ async function mergeData(data, user) {
     if(user) {
         const userData = await getUser(user.ID);
 
+        // A session pointing at a deleted user made this throw on userData.correct,
+        // turning every question request into a 500.
+        if(!userData) return data;
+
         return data.map(q => {
             const qNum = q.questionNum.toUpperCase();
             if(userData.correct.includes(qNum) || userData.wrong.includes(qNum)) {
@@ -108,8 +112,18 @@ function return404Status(res) {
     return res.json(STATUS_CODES.NOT_FOUND);
 }
 
+// Picks the questions belonging to a year by matching the questionNum itself
+// ("2019-12", "f2019-12") instead of slicing the array at a computed offset.
+// The data has no 2020 exam, so any index arithmetic that assumes one block per
+// year silently returns the neighbouring year's questions.
+function getYearQuestions(data, year) {
+    if(!/^\d{4}$/.test(String(year))) return [];
+
+    return data.filter(q => q.questionNum.replace(/^f/i, "").split("-")[0] === String(year));
+}
+
 function correctQuestionNumberFormat(qNum) {
-    return /^f?20(24|23|22|21|19|18|17|16|15|14|13|12|11|10|09|08|07)-([1-9]|[1-2][0-9]|30|C)$/i.test(qNum);
+    return /^f?20(26|25|24|23|22|21|19|18|17|16|15|14|13|12|11|10|09|08|07)-([1-9]|[1-2][0-9]|30|C)$/i.test(qNum);
 }
 
 function sendMsg(res, msg, code) {
@@ -135,67 +149,20 @@ async function getUsersForSolutions(solutionDoc) {
     return solutionDoc;
 }
 
-function getNumberedKeywords(questions, isGetAnnat = false) {
-    try {
-        const keywordCounts = new Map();
+// The topic a question is filed under. Untagged questions (keywords: []) have none.
+function firstKeyword(question) {
+    const keyword = question.keywords?.[0];
 
-        questions.forEach(question => {
-            if(keywordCounts.has(question.keywords[0].toLowerCase())) {
-                keywordCounts.set(question.keywords[0].toLowerCase(), keywordCounts.get(question.keywords[0].toLowerCase()) + 1);
-            } else {
-                keywordCounts.set(question.keywords[0].toLowerCase(), 1);
-            }
-        });
-
-        function findRelatedKeyword(keyword, map) {
-            const root = keyword.split(' ')[0];
-            for(let [key] of map.entries()) {
-                if(key.includes(root) && keyword !== key) {
-                    return key;
-                }
-            }
-            return null;
-        }
-
-        const threshold = 5;
-        const groupedKeywords = new Map();
-        const others = [];
-
-        keywordCounts.forEach((count, keyword) => {
-            if(count >= threshold) {
-                groupedKeywords.set(keyword, count);
-            } else {
-                const related = findRelatedKeyword(keyword, groupedKeywords);
-                if(related) {
-                    groupedKeywords.set(related, groupedKeywords.get(related) + count);
-                } else {
-                    others.push(keyword.toLowerCase());
-                }
-            }
-        });
-
-        if(others.length > 0) {
-            groupedKeywords.set('annat', others.reduce((sum, keyword) => sum + keywordCounts.get(keyword), 0));
-        }
-
-        return isGetAnnat ? others : groupedKeywords;
-
-    } catch(parseError) {
-        console.error("An error occurred while parsing JSON data:", parseError);
-    }
-
+    return keyword ? keyword.toLowerCase() : null;
 }
 
 async function getMergedTopicQuestions(data, user, topic) {
-    let topicQuestions;
+    // keywords[0] is drawn from a curated set of broad categories, so a topic is just
+    // that category. The keyword-grouping heuristic and its "annat" catch-all are gone.
+    const topicQuestions = data.filter(x => firstKeyword(x) === topic.toLowerCase());
 
-    if(topic === "annat") {
-        topicQuestions = data.filter((x) => getNumberedKeywords(data, true).includes(x.keywords[0].toLowerCase()));
-    } else {
-        topicQuestions = data.filter(x => x.keywords[0].toLowerCase() == topic.toLowerCase());
-    }
-
-    if(!topicQuestions) {
+    // An empty array is truthy, so an unknown topic returned 200 with [] instead of a 404.
+    if(!topicQuestions.length) {
         return;
     }
 
@@ -206,7 +173,8 @@ async function getMergedTopicQuestions(data, user, topic) {
 function getStaticSolution(questionNum) {
     const data = questionNum.toLowerCase().startsWith("f") ? physics : math;
 
-    const solution = data.find(x => x.questionNum === questionNum.toLowerCase())?.solution;
+    // Del C ids are stored as "2024-C", so lowercasing the whole id never matched them.
+    const solution = data.find(x => x.questionNum.toLowerCase() === questionNum.toLowerCase())?.solution;
 
     const staticSolutionObject = {
         name: "ChatGPT",
@@ -228,6 +196,7 @@ module.exports.updateUser = updateUser;
 module.exports.createUser = createUser;
 module.exports.mergeData = mergeData;
 module.exports.return404Status = return404Status;
+module.exports.getYearQuestions = getYearQuestions;
 module.exports.correctQuestionNumberFormat = correctQuestionNumberFormat;
 module.exports.sendMsg = sendMsg;
 module.exports.getUsersForSolutions = getUsersForSolutions;

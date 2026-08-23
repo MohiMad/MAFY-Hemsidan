@@ -1,20 +1,16 @@
 const express = require("express");
 const router = express.Router();
 const math = require("../../public/json/math.json");
-const {STATUS_CODES, mergeData} = require("../../src/Utility");
+const {STATUS_CODES, mergeData, getYearQuestions} = require("../../src/Utility");
 
 router.get("/:year", async (req, res) => {
-    const year = Number(req.params.year);
-    let bounds = [(2022 - year) * 31, (2022 - year) * 31 + 31];
+    const questions = getYearQuestions(math, req.params.year);
 
-    if(year === 2020 || year < 2007 || year > 2024 || isNaN(year)) {
+    if(!questions.length) {
         return res.json(STATUS_CODES.NOT_FOUND);
     }
-    else if(year > 2020) {
-        bounds = [(2024 - year) * 31, (2024 - year) * 31 + 31];
-    }
 
-    const yearQuestions = await mergeData(math.slice(bounds[0], bounds[1]), req.user);
+    const yearQuestions = await mergeData(questions, req.user);
 
     res.json(yearQuestions);
 });

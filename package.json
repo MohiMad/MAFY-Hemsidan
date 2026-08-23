@@ -73,15 +73,49 @@
     ]
   },
   "jest": {
+    "testEnvironment": "node",
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js",
-      "testEnvironment": "jsdom"
-    }
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    },
+    "transform": {
+      "\\.jsx?$": [
+        "babel-jest",
+        {
+          "babelrc": false,
+          "configFile": false,
+          "presets": [
+            [
+              "@babel/preset-env",
+              {
+                "targets": {
+                  "node": "current"
+                }
+              }
+            ],
+            "@babel/preset-react"
+          ]
+        }
+      ]
+    },
+    "collectCoverageFrom": [
+      "src/Utility.js",
+      "backend/src/Utility.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/build/"
+    ]
   },
   "devDependencies": {
+    "@babel/core": "^7.24.0",
     "@babel/plugin-proposal-private-property-in-object": "",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "babel-jest": "^29.7.0",
     "dotenv-cli": "^7.2.1",
-    "nodemon": "^3.0.1"
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.4"
   }
 }

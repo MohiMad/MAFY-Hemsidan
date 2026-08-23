@@ -1,21 +1,25 @@
 import React from "react";
 import "./FilterYears.css";
-import {NavLink} from "react-router-dom";
+import {NavLink, useLocation} from "react-router-dom";
+import Utility from "../../Utility";
 
 
 
 function FilterYears() {
+    // The list used to be generated from a hard-coded 2000-2024 range with the
+    // years that were never held filtered out by index, so a new exam was not
+    // reachable until that range was widened. It now follows the question data.
+    const isFysik = useLocation().pathname.startsWith("/fysik");
+    const years = Utility.getAvailableYears(isFysik);
 
     return (
         <div className="flex-container">
             <h1>Välj år...</h1>
             <div className="years-container">
                 {
-                    [...new Array(25).keys()].reverse().map((x) => {
-                        const year = x < 10 ? `200${ x }` : `20${ x }`;
-                        if(x < 7 || x === 20) return void (0);
-                        return <NavLink key={year} className="year-nav-link" to={`./${ year }/1`}>{year}</NavLink>;
-                    })
+                    years.map((year) => (
+                        <NavLink key={year} className="year-nav-link" to={`./${ year }/1`}>{year}</NavLink>
+                    ))
                 }
             </div>
         </div>);

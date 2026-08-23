@@ -25,16 +25,18 @@ function AnswerQuestion({questions, questionNum, setShouldDisplaySecondaryButton
   const checkAnswerBtnClicked = async () => {
     const questionAnchor = document.querySelector(`.questions-list a.active`);
 
-    const isAnswerCorrect = answerInputRef.current.value === questions[questionNum].answer;
+    // Several stored answers carry trailing whitespace ("3 "), which made an
+    // otherwise correct answer compare as wrong.
+    const isAnswerCorrect = answerInputRef.current.value.trim() === String(questions[questionNum].answer).trim();
 
     if(isAnswerCorrect) {
       answerInputRef.current.classList.add("correct");
-      questionAnchor.classList.add("correct");
-      questionAnchor.classList.remove("wrong");
+      questionAnchor?.classList.add("correct");
+      questionAnchor?.classList.remove("wrong");
     } else if(answerInputRef.current.value !== "") {
       answerInputRef.current.classList.add("wrong");
-      questionAnchor.classList.add("wrong");
-      questionAnchor.classList.remove("correct");
+      questionAnchor?.classList.add("wrong");
+      questionAnchor?.classList.remove("correct");
     }
 
     setIsCorrect(isAnswerCorrect);
@@ -47,19 +49,17 @@ function AnswerQuestion({questions, questionNum, setShouldDisplaySecondaryButton
 
     answerInputRef.current.classList.remove("correct");
     answerInputRef.current.classList.remove("wrong");
-    questionAnchor.classList.remove("correct");
-    questionAnchor.classList.remove("wrong");
+    questionAnchor?.classList.remove("correct");
+    questionAnchor?.classList.remove("wrong");
 
     answerInputRef.current.classList.add(isUserAnswerCorrect ? "correct" : "wrong");
-    questionAnchor.classList.add(isUserAnswerCorrect ? "correct" : "wrong");
+    questionAnchor?.classList.add(isUserAnswerCorrect ? "correct" : "wrong");
 
     setIsCorrect(isUserAnswerCorrect ? true : "correct");
     questions[questionNum].isCorrect = isUserAnswerCorrect;
     setShouldDisplaySecondaryButtons(true);
     await Utility.setQuestionCorrectness(questions[questionNum].questionNum, isUserAnswerCorrect);
   };
-
-  console.log(questions[questionNum].answer);
 
   return (
     <>

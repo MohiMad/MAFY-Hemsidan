@@ -14,19 +14,13 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondaryButton
   const questionAndOptions = questions[questionNum]?.question?.split(isFysik ? /\n\w\.\s/g : /\n\(\w\) /g);
 
   const setToCorrect = (correctOptionOrOptions) => {
-    // if the option length is bigger than one char then its a multi-correct question
-    if(correctOptionOrOptions.length > 1) {
-      const correctOptions = correctOptionOrOptions.toLowerCase().split(",");
-      correctOptions.forEach(option => {
-        const correctOption = document.getElementById(`(${ option })`);
-        correctOption.classList.add("correct");
-      });
-      return;
-    }
+    // An answer can name several options ("A,B,C") and can carry a trailing note
+    // ("d, rätt ges även för 9a"), so only real option letters are highlighted.
+    Utility.parseCorrectOptions(correctOptionOrOptions).forEach(option => {
+      const correctOption = document.getElementById(`(${ option })`);
 
-    const correctOption = document.getElementById(`(${ correctOptionOrOptions.toLowerCase() })`);
-
-    correctOption.classList.add("correct");
+      if(correctOption) correctOption.classList.add("correct");
+    });
   };
 
   const resetAll = () => {
@@ -63,33 +57,36 @@ function OptionQuestion({questions, questionNum, setShouldDisplaySecondaryButton
     const questionAnchor = document.querySelector(`.questions-list a.active`);
 
     if(chosenOption) {
-      const isCorrect = questions[questionNum].answer.toLowerCase().includes(selected[1]);
+      // Compare against the parsed option letters. A substring search on the raw
+      // answer matched any letter appearing in an explanatory note, which marked
+      // wrong options as correct.
+      const isCorrect = Utility.parseCorrectOptions(questions[questionNum].answer).includes(selected[1]);
 
       questions[questionNum].isCorrect = isCorrect;
 
       if(isCorrect) {
         setToCorrect(questions[questionNum].answer);
-        questionAnchor.classList.add("correct");
-        questionAnchor.classList.remove("wrong");
+        questionAnchor?.classList.add("correct");
+        questionAnchor?.classList.remove("wrong");
       } else {
         chosenOption.classList.add("wrong");
-        setToCorrect(questions[questionNum].answer.toLowerCase());
-        questionAnchor.classList.add("wrong");
-        questionAnchor.classList.remove("correct");
+        setToCorrect(questions[questionNum].answer);
+        questionAnchor?.classList.add("wrong");
+        questionAnchor?.classList.remove("correct");
       }
 
       await Utility.setQuestionCorrectness(questions[questionNum].questionNum, isCorrect);
     } else {
       const options = document.querySelectorAll(".option");
 
-      setToCorrect(questions[questionNum].answer.toLowerCase());
+      setToCorrect(questions[questionNum].answer);
       options.forEach((x) =>
         x.classList.contains("correct") ? null : x.classList.add("wrong")
       );
       questions[questionNum].isCorrect = false;
       await Utility.setQuestionCorrectness(questions[questionNum].questionNum, false);
-      questionAnchor.classList.remove("correct");
-      questionAnchor.classList.add("wrong");
+      questionAnchor?.classList.remove("correct");
+      questionAnchor?.classList.add("wrong");
     }
 
     setIsAnswered(true);

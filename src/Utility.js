@@ -27,23 +27,56 @@ async function postData(url = "", data) {
 }
 
 
+const OPTION_CHARACTERS = ["a", "b", "c", "d", "e", "f", "g", "h"];
+
+// The topic a question is filed under. Untagged questions (keywords: []) have none.
+function firstKeyword(question) {
+  const keyword = question.keywords?.[0];
+
+  return keyword ? keyword.toLowerCase() : null;
+}
+
 const Utility = {
   REGEX: {
-    ALL_MATEMATIK_YEARS: /^(20(24|23|22|21|19|18|17|16|15|14|13|12|11|10|09|08|07))$/,
+    ALL_MATEMATIK_YEARS: /^(20(26|25|24|23|22|21|19|18|17|16|15|14|13|12|11|10|09|08|07))$/,
     MATEMATIK_QUESTION: /(\b([1-9]|1\d|2[0-9]|30)\b)|c/i,
   },
+  // Match on the year part of the questionNum ("2019-12" / "f2019-12") rather
+  // than a substring search, so a year can never pull in another year's questions.
   getYearQuestions(year, isFysik) {
-    return (isFysik ? physics : math).filter((x) => x.questionNum.includes(year));
+    if(!/^\d{4}$/.test(String(year))) return [];
+
+    return (isFysik ? physics : math).filter((x) => x.questionNum.replace(/^f/i, "").split("-")[0] === String(year));
+  },
+  // The years that actually have questions, newest first. Derived from the data so
+  // adding an exam does not also mean editing a hard-coded year range.
+  getAvailableYears(isFysik) {
+    const years = (isFysik ? physics : math).map((x) => x.questionNum.replace(/^f/i, "").split("-")[0]);
+
+    return [...new Set(years)].sort((a, b) => Number(b) - Number(a));
   },
   getTopicQuestions(topic, isFysik) {
-    if(topic === "annat") return (isFysik ? physics : math).filter((x) => this.getNumberedKeywords(!isFysik, true).includes(x.keywords[0].toLowerCase()));
-    return (isFysik ? physics : math).filter((x) => x.keywords[0].toLowerCase() === topic.toLowerCase());
+    // keywords[0] is one of a curated set of broad categories, so a topic is just
+    // that category. There is no longer an "annat" catch-all to expand.
+    return (isFysik ? physics : math).filter((x) => firstKeyword(x) === topic.toLowerCase());
   },
   getQuestionCharacterBasedOnNumber(number) {
-    return `(${ ["a", "b", "c", "d", "e", "f", "g", "h"][number] })`;
+    return `(${ OPTION_CHARACTERS[number] })`;
   },
   getIndexOfOptionBasedOnCharacter(c) {
-    return ["a", "b", "c", "d", "e", "f", "g", "h"].indexOf(c) || null;
+    const index = OPTION_CHARACTERS.indexOf(String(c).toLowerCase());
+
+    return index === -1 ? null : index;
+  },
+  // Turns an answer field into the option letters it actually refers to.
+  // "b" -> ["b"], "A,B,C" -> ["a","b","c"], and prose such as
+  // "d, rätt ges även för 9a" -> ["d"] (the trailing note is not an option).
+  parseCorrectOptions(answer) {
+    return String(answer ?? "")
+      .toLowerCase()
+      .split(",")
+      .map((part) => part.trim())
+      .filter((part) => OPTION_CHARACTERS.includes(part));
   },
   uniqueKey(pre) {
     return `${ pre }_${ new Date().getTime() }`;
@@ -66,7 +99,10 @@ const Utility = {
       if(res.ok) {
         const yearData = await res.json();
 
-        if(!yearData || yearData.code === 400) return;
+        // These endpoints answer with a {code, msg} object on failure. Only a list
+        // of questions is usable here; anything else was previously rendered as
+        // the question list and crashed on .map().
+        if(!Array.isArray(yearData)) return;
 
         return yearData;
       }
@@ -78,11 +114,11 @@ const Utility = {
     try {
       const res = await fetch(`/api/${ isFysik ? "physics" : "math" }/topic/${ topic }`);
       if(res.ok) {
-        const yearData = await res.json();
+        const topicData = await res.json();
 
-        if(!yearData || yearData.code === 400) return;
+        if(!Array.isArray(topicData)) return;
 
-        return yearData;
+        return topicData;
       }
     } catch(e) {
       return;
@@ -107,56 +143,25 @@ const Utility = {
     document.title = title;
   },
   postData,
-  getNumberedKeywords(isMath = false, isGetAnnat = false) {
-    try {
-      const questions = isMath ? math : physics;
-      const keywordCounts = new Map();
+  // Counts the questions per broad category, largest first — the piechart slices.
+  //
+  // keywords[0] is now drawn from a curated set of ~12 broad categories, so this is
+  // a plain tally. It used to merge any keyword with fewer than five questions into
+  // whichever category shared its first word, and dump the rest into "annat" — with
+  // the old free-form tags that made "annat" the largest fysik slice at 27.6%.
+  getNumberedKeywords(isMath = false) {
+    const questions = isMath ? math : physics;
+    const counts = new Map();
 
-      questions.forEach(question => {
-        if(keywordCounts.has(question.keywords[0].toLowerCase())) {
-          keywordCounts.set(question.keywords[0].toLowerCase(), keywordCounts.get(question.keywords[0].toLowerCase()) + 1);
-        } else {
-          keywordCounts.set(question.keywords[0].toLowerCase(), 1);
-        }
-      });
+    questions.forEach(question => {
+      // Untagged questions (keywords: []) are not counted under any category.
+      const keyword = firstKeyword(question);
+      if(!keyword) return;
 
-      function findRelatedKeyword(keyword, map) {
-        const root = keyword.split(' ')[0];
-        for(let [key] of map.entries()) {
-          if(key.includes(root) && keyword !== key) {
-            return key;
-          }
-        }
-        return null;
-      }
+      counts.set(keyword, (counts.get(keyword) || 0) + 1);
+    });
 
-      const threshold = 5;
-      const groupedKeywords = new Map();
-      const others = [];
-
-      keywordCounts.forEach((count, keyword) => {
-        if(count >= threshold) {
-          groupedKeywords.set(keyword, count);
-        } else {
-          const related = findRelatedKeyword(keyword, groupedKeywords);
-          if(related) {
-            groupedKeywords.set(related, groupedKeywords.get(related) + count);
-          } else {
-            others.push(keyword.toLowerCase());
-          }
-        }
-      });
-
-      if(others.length > 0) {
-        groupedKeywords.set('annat', others.reduce((sum, keyword) => sum + keywordCounts.get(keyword), 0));
-      }
-
-      return isGetAnnat ? others : groupedKeywords;
-
-    } catch(parseError) {
-      console.error("An error occurred while parsing JSON data:", parseError);
-    }
-
+    return new Map([...counts.entries()].sort((a, b) => b[1] - a[1]));
   },
   getRandomDarkColor: () => {
     const lum = -0.5; // Luminosity factor; adjust for darker or lighter

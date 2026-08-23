@@ -39,11 +39,24 @@ router.post("/correctmany", async (req, res) => {
 
     if(!user || !unparsedArr) return return404Status(res);
 
-    const correctsOrWrongs = JSON.parse(unparsedArr);
+    // An unguarded JSON.parse threw for malformed input, which left the request
+    // without a response instead of reporting the bad payload.
+    let correctsOrWrongs;
 
+    try {
+        correctsOrWrongs = JSON.parse(unparsedArr);
+    } catch(e) {
+        return sendMsg(res, "Invalid payload.", 400);
+    }
 
-    for(const {isCorrect, questionNum} of correctsOrWrongs) {
-        setCorrect(isCorrect, questionNum, user);
+    if(!Array.isArray(correctsOrWrongs)) return sendMsg(res, "Invalid payload.", 400);
+
+    for(const entry of correctsOrWrongs) {
+        // The single-question endpoint validates the question id; this one did not,
+        // so arbitrary strings could be written to the user's correct/wrong lists.
+        if(!entry || !entry.questionNum || !correctQuestionNumberFormat(entry.questionNum)) continue;
+
+        setCorrect(entry.isCorrect, entry.questionNum, user);
     }
 
     await user.save().catch(err => console.log(err));
